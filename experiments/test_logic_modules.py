@@ -6,6 +6,20 @@ from logic_modules import cut, evaluate, expand, live_library, schedule, signatu
 
 
 class LogicModuleTests(unittest.TestCase):
+    def test_global_accept_monotonic_and_equivalent(self):
+        from global_accept import fit
+        from logic_modules import workload, rewrite, description
+        train=workload(211,'selection',3,2)
+        lib, stages, history, trials=fit(train,'global_accept',211)
+        self.assertTrue(all(h['after']<=h['before'] for h in history))
+        compiled=train
+        for lookup in stages:
+            compiled=[rewrite(p,lookup,lib,'functional') for p in compiled]
+        self.assertEqual(description(compiled,lib),history[-1]['after'])
+        inputs={f'x{i}': ((np.arange(32)>>i)&1).astype(bool) for i in range(5)}
+        for a,b in zip(train,compiled):
+            np.testing.assert_array_equal(evaluate(a,inputs,{}),evaluate(b,inputs,lib))
+
     def test_equivalence_is_functional_not_syntactic(self):
         a = ('XOR', 'p0', 'p1')
         b = ('AND', ('OR', 'p0', 'p1'), ('NOT', ('AND', 'p0', 'p1')))

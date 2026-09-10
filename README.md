@@ -6,6 +6,8 @@
 - [検証・改訂実験計画](docs/STAR-Bit-validation.md)
 - [CPU予備実験の実測結果](docs/STAR-Bit-pilot-results.md)
 - [Logic PE・モジュール発見の実測結果](docs/STAR-Bit-logic-modules-results.md)
+- [E003：全体コストによるModule採用](docs/STAR-Bit-E003-global-accept.md)
+- [継続研究ログと次の実験](docs/RESEARCH-LOG.md)
 
 English: Research on whether routing and structure can compensate for low-bit weights. The current implementation is an exploratory CPU MLP pilot, not a Transformer or full BitNet implementation.
 
