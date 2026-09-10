@@ -1,0 +1,74 @@
+"""Generate the measured tables for the logic-module pilot."""
+import json
+from pathlib import Path
+
+from pilot import summary
+
+
+def main():
+    r = json.loads(Path('results/logic_modules/results.json').read_text())
+    lines = ['# Logic PE・モジュール発見：予備実験結果', '', '実行日：2026-09-10。', '',
+             '**記述の圧縮と階層的再利用は確認したが、機能的な統合の優位性、実ゲート削減、概念の自律獲得は確認できていない。**', '',
+             'ユーザー提示の会話を受け、回路ソースからの発見・モジュール化・再利用・展開・未使用定義除去と、16/32/64 PEでの時間再利用を実装した。DDL​GNの勾配学習や学習Routerを使う実験ではない。', '',
+             'English: Circuit descriptions became smaller and reusable modules formed, but functional merging did not outperform syntactic mining. Expanded gate counts were unchanged. This compiler-level pilot does not demonstrate autonomous concept learning or hardware speedups.', '',
+             '简体中文：电路描述得到压缩并形成可复用模块，但功能合并未优于结构合并，展开后的门数也未减少。这是编译层面的预实验，不能证明自主概念学习或硬件加速。', '',
+             '## 条件と実装範囲', '',
+             '- 16シード × 2問題族 × 3発見方式＝96条件。シードは回路生成とランダム候補順序を変える。ニューラルネットの訓練run数ではない。',
+             '- numeric：carryを含むbit単位の厳密加算。selection：多段の条件選択。生成器だけが機能を知り、発見器には機能名・taskラベルを渡さない。',
+             '- 発見用は幅3の12回路、評価用は幅5の8回路。加算では各出力bitを個別の式として扱う。発見スコアの再利用数は独立タスク数ではなく出力式数。',
+             '- 評価回路の11入力について2,048通りを全列挙。元回路・モジュール呼び出し・再展開回路・PE状態シミュレータの出力一致を検査。',
+             '- 評価回路のソースはrewriteに利用する。未知回路のコンパイルへの転用であり、未知問題を入出力例だけから解くOOD学習ではない。',
+             '- 2演算階層のcutを列挙し、境界を最大4入力の仮引数に変える。全真理値表で機能を比較する。入力ポート順の全置換や大域的回路同値性までは探索しない。',
+             '- syntax：仮引数化した同じ構造を統合。functional：同じarity・真理値表を統合。random：functionalと同じ候補集合から順序を無作為化して選択。ランダムRouterではない。',
+             '- 圧縮利得の代理値＝出現数×(部分式演算数−1)−定義演算数。正の利得・2出力式以上への出現を条件に、各round最大8個、3round採用。',
+             '- Module IDはM000等。COMPARE/ADD/SELECTというマクロは発見器に与えない。ただし元回路自体は人が設計した問題生成器から来る。',
+             '- 階層数を直接指定せず既存Moduleを含む候補も採用。ただし3round上限なので無制限の階層成長は試していない。', '',
+             '## 主結果：記述とゲート数', '',
+             'symbolは演算子1個またはModule呼出し1個を1と数え、全ライブラリの定義コストを加える。端子・アドレス・配線のbit数を含まない代理指標。treeは重複展開した式、DAGは同じ演算・同じオペランドを共有した回路。', '',
+             '| 問題族 | 方式 | 元tree平均 | 記述平均 | 記述分散 | 記述95% CI | 元DAG平均 | 再展開DAG平均 |',
+             '| --- | --- | ---: | ---: | ---: | --- | ---: | ---: |']
+    for a in r['aggregates']:
+        m=a['metrics']; d=m['description_symbols']
+        lines.append(f"| {a['task']} | {a['condition']} | {m['raw_tree_gates']['mean']:.3f} | {d['mean']:.3f} | {d['variance']:.3f} | [{d['ci95'][0]:.3f}, {d['ci95'][1]:.3f}] | {m['original_dag_gates']['mean']:.3f} | {m['expanded_dag_gates']['mean']:.3f} |")
+    lines += ['', 'functionalの平均記述削減は加算560→287（48.75%）、選択392.8125→207.0625（平均値同士の比で47.29%）。しかしDAGゲート数は全条件で元のまま。名前の共有と物理回路の削減は同じではない。', '',
+              '## 方式間の対応差', '',
+              'baseline記述量−functional記述量。正ならfunctionalが小さい。シード単位の対応差、全65,536通りの両側符号反転検定、4比較のHolm補正。CIは点ごとのt区間。固定された人工問題族における回路変動の統計であり、一般タスクの母集団推論ではない。', '',
+              '| 問題族 | baseline | 平均差 | 差の分散 | 95% CI | 生p | Holm p |',
+              '| --- | --- | ---: | ---: | --- | ---: | ---: |']
+    for a in r['comparisons']:
+        lines.append(f"| {a['task']} | {a['baseline']} | {a['mean']:.4f} | {a['variance']:.4f} | [{a['ci95'][0]:.4f}, {a['ci95'][1]:.4f}] | {a['p_signflip_two_sided']:.6f} | {a['p_holm']:.6f} |")
+    lines += ['', 'この探索範囲ではsyntaxとfunctionalの最終記述量が全seedで一致した。選択ではrandomの平均記述が小さかったが補正後有意ではない。局所頻度のgreedyスコアが全体圧縮量を最適化するとは限らない。加算は候補順の違いでも変動がなく、この生成器だけでは方法間の差を評価しにくい。', '',
+              '## 再利用可能PE＋State：機能検証と面積・時間の代理値', '',
+              '各PEは1cycleにAND/OR/XOR/NOTの1演算を実行する。cycle開始時の状態を読み、終了時に結果を書き込む。選択は依存関係に基づく決定的list schedulingで、学習Routerではない。', '',
+              '| 問題族（functional） | PE数 | cycle平均 | cycle分散 | primitive実行数平均 | 保存中間bit上限平均 |',
+              '| --- | ---: | ---: | ---: | ---: | ---: |']
+    for task in ('numeric','selection'):
+        rows=[x for x in r['records'] if x['task']==task and x['condition']=='functional']
+        for i,pe in enumerate((16,32,64)):
+            c=summary([x['schedules'][i]['cycles'] for x in rows])
+            ops=summary([x['schedules'][i]['primitive_operations'] for x in rows])
+            state=summary([x['schedules'][i]['state_bits_upper_bound'] for x in rows])
+            lines.append(f"| {task} | {pe} | {c['mean']:.3f} | {c['variance']:.3f} | {ops['mean']:.3f} | {state['mean']:.3f} |")
+    lines += ['', '全96条件×3 PE設定で全入力の出力一致を確認。PE数を減らしても演算数は不変で、cycleと保存状態が必要になる。PE内のmux・設定bit・配線・入出力・メモリアクセス費用は未計測。無制限帯域・十分な状態容量・全primitive同一遅延という理想化であり、FPGA面積・実クロック・消費電力を示さない。', '',
+              '## 形成・階層・分解', '',
+              '| 問題族（functional） | Module数平均 | 評価で使用する定義数平均 | 最大階層平均 | LUT真理値bit総数平均 |',
+              '| --- | ---: | ---: | ---: | ---: |']
+    for a in r['aggregates']:
+        if a['condition']!='functional':continue
+        m=a['metrics']
+        lines.append(f"| {a['task']} | {m['modules']['mean']:.3f} | {m['used_modules']['mean']:.3f} | {m['max_module_level']['mean']:.3f} | {m['lut_truth_bits']['mean']:.3f} |")
+    lines += ['', '真理値表によるModule実行とprimitiveへの完全展開の一致を検査済み。分布を単純XORへ切り替えると、呼ばれなくなった全Module定義を依存関係追跡で除去できた。ただしこれは未使用定義のgarbage collectionと明示的inliningであり、学習による忘却・再獲得や近似剪定ではない。', '',
+              'LUT真理値bit数は入出力アドレス・命令・状態を除く。1個の4入力LUTを1個の2入力ゲートと同じ面積とは扱わない。ライブラリ全体の保持コストは主指標に含め、未使用定義を除いた値はJSONのamortized_symbolsとして別保存する。', '',
+              '## 次の実験に残す論点', '',
+              '- 同じ機能の異なる構造をもっと多く含む独立した生成器を事前固定し、cut幅・深さ・ポート置換を検証する。今回の結果に合わせて有利な回路だけを採用しない。',
+              '- 候補間の重なりと定義保持コストを含むMDL型選択を、頻度スコア・同数random候補と比較する。',
+              '- 入出力例から学習したDLGNのcheckpointを対象に同じ抽出を適用し、元のsoft/hard精度と圧縮後の精度を測る。ここからが学習由来の回路発見の検証。',
+              '- Logic PE＋学習Router＋Stateは固定／ランダム経路と比較し、初回からのload-balancing、多seed、同一ラン→別seedのExpert交換を維持する。',
+              '- 近似剪定・三値hybrid・cacheは一つずつ追加。誤差許容、memory bytes、hit率、全ゲート演算回数、状態容量、Router費用を別記する。', '',
+              '## 再現と記録', '', '```bash', 'python3 experiments/logic_modules.py', 'python3 experiments/report_logic_modules.py', "python3 -m unittest discover -s experiments -p 'test_*.py'", '```', '',
+              '[生結果・各seedのModule定義・履歴](../results/logic_modules/results.json)。標準出力先は再実行で上書き。依存関係は既存のexperiments/requirements.txt。', '',
+              f"実行ソースSHA-256：`{r['source_sha256']}`。", '']
+    Path('docs/STAR-Bit-logic-modules-results.md').write_text('\n'.join(lines))
+
+
+if __name__ == '__main__':main()
