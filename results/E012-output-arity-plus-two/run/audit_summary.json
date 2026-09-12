@@ -1,0 +1,85 @@
+{
+  "verified_witnesses": 22,
+  "statistics": {
+    "random_add2": {
+      "sat": 9,
+      "unknown": 0,
+      "mean": 0.07849702380952381,
+      "variance": 0.007290338010204081,
+      "ci95": [
+        0.03720238095238095,
+        0.12016369047619047
+      ]
+    },
+    "influence_add2": {
+      "sat": 13,
+      "unknown": 0,
+      "mean": 0.1130952380952381,
+      "variance": 0.007426303854875285,
+      "ci95": [
+        0.07142857142857142,
+        0.15476190476190477
+      ]
+    },
+    "difference": {
+      "mean": 0.03459821428571429,
+      "variance": 0.003846460459183673,
+      "ci95": [
+        0.008928571428571428,
+        0.06699218749999959
+      ]
+    }
+  },
+  "tests": [
+    {
+      "label": "all",
+      "n": 108,
+      "random": 9,
+      "influence": 13,
+      "random_only": 0,
+      "influence_only": 4,
+      "p": 0.125,
+      "holm_p": 0.625
+    },
+    {
+      "label": "numeric/gate2",
+      "n": 40,
+      "random": 5,
+      "influence": 8,
+      "random_only": 0,
+      "influence_only": 3,
+      "p": 0.25,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/lut4",
+      "n": 1,
+      "random": 0,
+      "influence": 1,
+      "random_only": 0,
+      "influence_only": 1,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/gate2",
+      "n": 64,
+      "random": 1,
+      "influence": 1,
+      "random_only": 0,
+      "influence_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/lut4",
+      "n": 3,
+      "random": 3,
+      "influence": 3,
+      "random_only": 0,
+      "influence_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ]
+}

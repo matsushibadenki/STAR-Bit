@@ -1,0 +1,252 @@
+[
+  {
+    "task": "parity",
+    "gates": 1,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.07103724999979022
+  },
+  {
+    "task": "parity",
+    "gates": 2,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.11515079200034961
+  },
+  {
+    "task": "parity",
+    "gates": 3,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.1976610419987992
+  },
+  {
+    "task": "parity",
+    "gates": 4,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.6317773749997286
+  },
+  {
+    "task": "parity",
+    "gates": 5,
+    "status": "sat",
+    "reason_unknown": null,
+    "verified": true,
+    "genome": {
+      "layers": [],
+      "output": 4,
+      "sequential": [
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          6,
+          8,
+          6
+        ],
+        [
+          7,
+          9,
+          6
+        ]
+      ]
+    },
+    "seconds": 0.4142978330000915
+  },
+  {
+    "task": "comparator",
+    "gates": 1,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.057133291998979985
+  },
+  {
+    "task": "comparator",
+    "gates": 2,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.11456466700110468
+  },
+  {
+    "task": "comparator",
+    "gates": 3,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.19807445800142887
+  },
+  {
+    "task": "comparator",
+    "gates": 4,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.7983715840000514
+  },
+  {
+    "task": "comparator",
+    "gates": 5,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.284566959000585
+  },
+  {
+    "task": "comparator",
+    "gates": 6,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.365321749999566
+  },
+  {
+    "task": "comparator",
+    "gates": 7,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.501798375000362
+  },
+  {
+    "task": "comparator",
+    "gates": 8,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.51736983400042
+  },
+  {
+    "task": "comparator",
+    "gates": 9,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.624711666998337
+  },
+  {
+    "task": "comparator",
+    "gates": 10,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.704530832999808
+  },
+  {
+    "task": "mux",
+    "gates": 1,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.058773458998985006
+  },
+  {
+    "task": "mux",
+    "gates": 2,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.11597000000074331
+  },
+  {
+    "task": "mux",
+    "gates": 3,
+    "status": "sat",
+    "reason_unknown": null,
+    "verified": true,
+    "genome": {
+      "layers": [],
+      "output": 2,
+      "sequential": [
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          6,
+          7,
+          11
+        ]
+      ]
+    },
+    "seconds": 0.20821712500037393
+  },
+  {
+    "task": "carry",
+    "gates": 1,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.05635716699907789
+  },
+  {
+    "task": "carry",
+    "gates": 2,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.11677912500090315
+  },
+  {
+    "task": "carry",
+    "gates": 3,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.21085554199999024
+  },
+  {
+    "task": "carry",
+    "gates": 4,
+    "status": "unsat",
+    "reason_unknown": null,
+    "seconds": 0.8371685839993006
+  },
+  {
+    "task": "carry",
+    "gates": 5,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.294446332998632
+  },
+  {
+    "task": "carry",
+    "gates": 6,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.356399792000957
+  },
+  {
+    "task": "carry",
+    "gates": 7,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.440723416000765
+  },
+  {
+    "task": "carry",
+    "gates": 8,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.517553749999934
+  },
+  {
+    "task": "carry",
+    "gates": 9,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.602207832998829
+  },
+  {
+    "task": "carry",
+    "gates": 10,
+    "status": "unknown",
+    "reason_unknown": "timeout",
+    "seconds": 10.7013809580003
+  }
+]

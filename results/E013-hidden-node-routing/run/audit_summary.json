@@ -1,0 +1,85 @@
+{
+  "verified_witnesses": 8,
+  "statistics": {
+    "layer1_select": {
+      "sat": 4,
+      "unknown": 0,
+      "mean": 0.03571428571428571,
+      "variance": 0.004081632653061224,
+      "ci95": [
+        0.008928571428571428,
+        0.0625
+      ]
+    },
+    "all_hidden_select": {
+      "sat": 4,
+      "unknown": 0,
+      "mean": 0.03571428571428571,
+      "variance": 0.004081632653061224,
+      "ci95": [
+        0.008928571428571428,
+        0.07142857142857142
+      ]
+    },
+    "difference": {
+      "mean": 0.0,
+      "variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "tests": [
+    {
+      "label": "all",
+      "n": 108,
+      "layer1": 4,
+      "all_hidden": 4,
+      "layer1_only": 0,
+      "all_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/gate2",
+      "n": 40,
+      "layer1": 4,
+      "all_hidden": 4,
+      "layer1_only": 0,
+      "all_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/lut4",
+      "n": 1,
+      "layer1": 0,
+      "all_hidden": 0,
+      "layer1_only": 0,
+      "all_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/gate2",
+      "n": 64,
+      "layer1": 0,
+      "all_hidden": 0,
+      "layer1_only": 0,
+      "all_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/lut4",
+      "n": 3,
+      "layer1": 0,
+      "all_hidden": 0,
+      "layer1_only": 0,
+      "all_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ]
+}

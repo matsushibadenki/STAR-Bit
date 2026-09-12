@@ -1,0 +1,3026 @@
+[
+  {
+    "task": "numeric",
+    "seed": 40,
+    "condition": "fixed_hash",
+    "train_indices": [
+      31,
+      12,
+      30,
+      16,
+      15,
+      49,
+      21,
+      25,
+      50,
+      59,
+      24,
+      60,
+      34,
+      33,
+      19,
+      41,
+      39,
+      51,
+      10,
+      0,
+      7,
+      18,
+      13,
+      27,
+      17,
+      43,
+      14,
+      36,
+      37,
+      35,
+      40,
+      29
+    ],
+    "test_indices": [
+      9,
+      62,
+      23,
+      52,
+      63,
+      61,
+      53,
+      5,
+      3,
+      22,
+      44,
+      26,
+      45,
+      6,
+      58,
+      47,
+      57,
+      1,
+      32,
+      20,
+      4,
+      55,
+      8,
+      42,
+      48,
+      11,
+      28,
+      46,
+      2,
+      56,
+      54,
+      38
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.9921875
+        },
+        "test": {
+          "exact": 0.75,
+          "bit_accuracy": 0.875
+        },
+        "full": {
+          "exact": 0.859375,
+          "bit_accuracy": 0.93359375
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.9921875
+        },
+        "test": {
+          "exact": 0.75,
+          "bit_accuracy": 0.875
+        },
+        "full": {
+          "exact": 0.859375,
+          "bit_accuracy": 0.93359375
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6630708575248718,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.9999880194664001,
+        "table_softness": 0.5903905630111694
+      },
+      {
+        "step": 200,
+        "task_loss": 0.025921329855918884,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.06059057638049126,
+        "table_softness": 0.029413670301437378
+      },
+      {
+        "step": 400,
+        "task_loss": 0.015377429313957691,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.044948019087314606,
+        "table_softness": 0.0027455859817564487
+      },
+      {
+        "step": 600,
+        "task_loss": 0.014921719208359718,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.044174280017614365,
+        "table_softness": 5.947025056229904e-05
+      },
+      {
+        "step": 799,
+        "task_loss": 0.014948494732379913,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.04319572448730469,
+        "table_softness": 7.446276126081564e-13
+      }
+    ],
+    "checkpoint": "numeric-40-fixed_hash.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 40,
+    "condition": "learned_balanced",
+    "train_indices": [
+      31,
+      12,
+      30,
+      16,
+      15,
+      49,
+      21,
+      25,
+      50,
+      59,
+      24,
+      60,
+      34,
+      33,
+      19,
+      41,
+      39,
+      51,
+      10,
+      0,
+      7,
+      18,
+      13,
+      27,
+      17,
+      43,
+      14,
+      36,
+      37,
+      35,
+      40,
+      29
+    ],
+    "test_indices": [
+      9,
+      62,
+      23,
+      52,
+      63,
+      61,
+      53,
+      5,
+      3,
+      22,
+      44,
+      26,
+      45,
+      6,
+      58,
+      47,
+      57,
+      1,
+      32,
+      20,
+      4,
+      55,
+      8,
+      42,
+      48,
+      11,
+      28,
+      46,
+      2,
+      56,
+      54,
+      38
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.2500000298023224
+        ],
+        "utilization_test": [
+          0.3009788990020752,
+          0.33501923084259033,
+          0.1973196119070053,
+          0.16668221354484558
+        ],
+        "utilization_full": [
+          0.2754894495010376,
+          0.29250961542129517,
+          0.22365978360176086,
+          0.20834113657474518
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.28125,
+          0.21875
+        ],
+        "utilization_test": [
+          0.375,
+          0.375,
+          0.1875,
+          0.0625
+        ],
+        "utilization_full": [
+          0.3125,
+          0.3125,
+          0.234375,
+          0.140625
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6652425527572632,
+        "balance_loss": 0.0002429485321044922,
+        "schedule_entropy": 0.9999880194664001,
+        "table_softness": 0.5903905630111694
+      },
+      {
+        "step": 200,
+        "task_loss": 0.007726067677140236,
+        "balance_loss": 0.00035119056701660156,
+        "schedule_entropy": 0.018590664491057396,
+        "table_softness": 0.01099345088005066
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0002622067404445261,
+        "balance_loss": 7.152557373046875e-07,
+        "schedule_entropy": 0.0007563327089883387,
+        "table_softness": 0.00077084731310606
+      },
+      {
+        "step": 600,
+        "task_loss": 1.0980556908180006e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 2.8897597985633183e-06,
+        "table_softness": 5.656139364873525e-06
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0063287163575296e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 1.4620106100169291e-18,
+        "table_softness": 9.014161304970552e-20
+      }
+    ],
+    "checkpoint": "numeric-40-learned_balanced.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 40,
+    "condition": "fixed_hash",
+    "train_indices": [
+      63,
+      37,
+      22,
+      44,
+      6,
+      32,
+      33,
+      60,
+      49,
+      16,
+      14,
+      43,
+      1,
+      59,
+      61,
+      25,
+      31,
+      34,
+      52,
+      57,
+      50,
+      36,
+      41,
+      11,
+      30,
+      29,
+      5,
+      13,
+      53,
+      39,
+      47,
+      21
+    ],
+    "test_indices": [
+      56,
+      10,
+      40,
+      58,
+      3,
+      2,
+      23,
+      54,
+      15,
+      28,
+      4,
+      8,
+      7,
+      9,
+      26,
+      42,
+      24,
+      18,
+      45,
+      48,
+      35,
+      38,
+      27,
+      46,
+      17,
+      20,
+      0,
+      19,
+      51,
+      55,
+      62,
+      12
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.6875,
+          "bit_accuracy": 0.9140625
+        },
+        "full": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.95703125
+        },
+        "utilization_train": [
+          0.21875,
+          0.21875,
+          0.21875,
+          0.34375
+        ],
+        "utilization_test": [
+          0.28125,
+          0.28125,
+          0.28125,
+          0.15625
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          184,
+          18,
+          289,
+          380
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.6875,
+          "bit_accuracy": 0.9140625
+        },
+        "full": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.95703125
+        },
+        "utilization_train": [
+          0.21875,
+          0.21875,
+          0.21875,
+          0.34375
+        ],
+        "utilization_test": [
+          0.28125,
+          0.28125,
+          0.28125,
+          0.15625
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          184,
+          18,
+          289,
+          380
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6644277572631836,
+        "balance_loss": 0.046875,
+        "schedule_entropy": 0.9999921917915344,
+        "table_softness": 0.5966718792915344
+      },
+      {
+        "step": 200,
+        "task_loss": 0.0162187572568655,
+        "balance_loss": 0.046875,
+        "schedule_entropy": 0.255569189786911,
+        "table_softness": 0.0314423143863678
+      },
+      {
+        "step": 400,
+        "task_loss": 0.00044172423076815903,
+        "balance_loss": 0.046875,
+        "schedule_entropy": 0.028529174625873566,
+        "table_softness": 0.003455291735008359
+      },
+      {
+        "step": 600,
+        "task_loss": 2.4703972485440318e-06,
+        "balance_loss": 0.046875,
+        "schedule_entropy": 0.0004049933049827814,
+        "table_softness": 0.00014036223001312464
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0072624263557373e-06,
+        "balance_loss": 0.046875,
+        "schedule_entropy": 2.209182316248448e-11,
+        "table_softness": 1.003603968345022e-18
+      }
+    ],
+    "checkpoint": "selection-40-fixed_hash.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 40,
+    "condition": "learned_balanced",
+    "train_indices": [
+      63,
+      37,
+      22,
+      44,
+      6,
+      32,
+      33,
+      60,
+      49,
+      16,
+      14,
+      43,
+      1,
+      59,
+      61,
+      25,
+      31,
+      34,
+      52,
+      57,
+      50,
+      36,
+      41,
+      11,
+      30,
+      29,
+      5,
+      13,
+      53,
+      39,
+      47,
+      21
+    ],
+    "test_indices": [
+      56,
+      10,
+      40,
+      58,
+      3,
+      2,
+      23,
+      54,
+      15,
+      28,
+      4,
+      8,
+      7,
+      9,
+      26,
+      42,
+      24,
+      18,
+      45,
+      48,
+      35,
+      38,
+      27,
+      46,
+      17,
+      20,
+      0,
+      19,
+      51,
+      55,
+      62,
+      12
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.24968361854553223,
+          0.2496180683374405,
+          0.25013458728790283,
+          0.25056374073028564
+        ],
+        "utilization_test": [
+          0.13285008072853088,
+          0.10450905561447144,
+          0.44930386543273926,
+          0.3133370280265808
+        ],
+        "utilization_full": [
+          0.19126686453819275,
+          0.17706358432769775,
+          0.34971922636032104,
+          0.2819504141807556
+        ],
+        "selected_schedules": [
+          364,
+          443,
+          395,
+          380
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.3125,
+          0.25,
+          0.21875,
+          0.21875
+        ],
+        "utilization_test": [
+          0.09375,
+          0.125,
+          0.46875,
+          0.3125
+        ],
+        "utilization_full": [
+          0.203125,
+          0.1875,
+          0.34375,
+          0.265625
+        ],
+        "selected_schedules": [
+          364,
+          443,
+          395,
+          380
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6666017770767212,
+        "balance_loss": 2.6464462280273438e-05,
+        "schedule_entropy": 0.9999921917915344,
+        "table_softness": 0.5966718792915344
+      },
+      {
+        "step": 200,
+        "task_loss": 0.009720120579004288,
+        "balance_loss": 0.002228975296020508,
+        "schedule_entropy": 0.48377904295921326,
+        "table_softness": 0.010593809187412262
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0003690388984978199,
+        "balance_loss": 2.1457672119140625e-05,
+        "schedule_entropy": 0.009516426362097263,
+        "table_softness": 0.0007402768242172897
+      },
+      {
+        "step": 600,
+        "task_loss": 4.951334994984791e-05,
+        "balance_loss": 6.198883056640625e-06,
+        "schedule_entropy": 4.9896814743988216e-05,
+        "table_softness": 4.534385425358778e-06
+      },
+      {
+        "step": 799,
+        "task_loss": 3.2833690056577325e-05,
+        "balance_loss": 2.384185791015625e-06,
+        "schedule_entropy": 3.041002864155812e-15,
+        "table_softness": 5.348371996936178e-19
+      }
+    ],
+    "checkpoint": "selection-40-learned_balanced.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 41,
+    "condition": "fixed_hash",
+    "train_indices": [
+      27,
+      9,
+      51,
+      30,
+      28,
+      41,
+      46,
+      2,
+      5,
+      4,
+      29,
+      36,
+      59,
+      6,
+      3,
+      1,
+      54,
+      24,
+      0,
+      7,
+      62,
+      40,
+      43,
+      8,
+      47,
+      53,
+      10,
+      15,
+      18,
+      56,
+      57,
+      37
+    ],
+    "test_indices": [
+      17,
+      21,
+      50,
+      13,
+      11,
+      32,
+      58,
+      44,
+      22,
+      16,
+      25,
+      63,
+      34,
+      23,
+      33,
+      12,
+      35,
+      60,
+      26,
+      48,
+      49,
+      52,
+      42,
+      19,
+      20,
+      31,
+      61,
+      39,
+      14,
+      45,
+      38,
+      55
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.6875,
+          "bit_accuracy": 0.890625
+        },
+        "full": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.9453125
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.6875,
+          "bit_accuracy": 0.890625
+        },
+        "full": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.9453125
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6537569761276245,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.9999850988388062,
+        "table_softness": 0.6007524728775024
+      },
+      {
+        "step": 200,
+        "task_loss": 0.009056217037141323,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.016976019367575645,
+        "table_softness": 0.05123244971036911
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0003930059901904315,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.0007131632301025093,
+        "table_softness": 0.014452427625656128
+      },
+      {
+        "step": 600,
+        "task_loss": 2.0868276351393433e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 1.6829433207021793e-06,
+        "table_softness": 0.0010308513883501291
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0059137593998457e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 1.5301842899382266e-20,
+        "table_softness": 5.9190403689513005e-09
+      }
+    ],
+    "checkpoint": "numeric-41-fixed_hash.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 41,
+    "condition": "learned_balanced",
+    "train_indices": [
+      27,
+      9,
+      51,
+      30,
+      28,
+      41,
+      46,
+      2,
+      5,
+      4,
+      29,
+      36,
+      59,
+      6,
+      3,
+      1,
+      54,
+      24,
+      0,
+      7,
+      62,
+      40,
+      43,
+      8,
+      47,
+      53,
+      10,
+      15,
+      18,
+      56,
+      57,
+      37
+    ],
+    "test_indices": [
+      17,
+      21,
+      50,
+      13,
+      11,
+      32,
+      58,
+      44,
+      22,
+      16,
+      25,
+      63,
+      34,
+      23,
+      33,
+      12,
+      35,
+      60,
+      26,
+      48,
+      49,
+      52,
+      42,
+      19,
+      20,
+      31,
+      61,
+      39,
+      14,
+      45,
+      38,
+      55
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.2523818016052246,
+          0.2522575259208679,
+          0.24320432543754578,
+          0.2521563470363617
+        ],
+        "utilization_test": [
+          0.19508440792560577,
+          0.5380274057388306,
+          0.020804982632398605,
+          0.24608325958251953
+        ],
+        "utilization_full": [
+          0.2237331122159958,
+          0.39514240622520447,
+          0.13200463354587555,
+          0.2491198033094406
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          5,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.21875,
+          0.25,
+          0.28125
+        ],
+        "utilization_test": [
+          0.1875,
+          0.5625,
+          0.03125,
+          0.21875
+        ],
+        "utilization_full": [
+          0.21875,
+          0.390625,
+          0.140625,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          5,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6525406241416931,
+        "balance_loss": 0.00014066696166992188,
+        "schedule_entropy": 0.9999850988388062,
+        "table_softness": 0.6007524728775024
+      },
+      {
+        "step": 200,
+        "task_loss": 0.007886949926614761,
+        "balance_loss": 0.002650737762451172,
+        "schedule_entropy": 0.036493562161922455,
+        "table_softness": 0.03059854544699192
+      },
+      {
+        "step": 400,
+        "task_loss": 0.00043724459828808904,
+        "balance_loss": 0.0009338855743408203,
+        "schedule_entropy": 0.0014668932417407632,
+        "table_softness": 0.007462312467396259
+      },
+      {
+        "step": 600,
+        "task_loss": 8.582167356507853e-05,
+        "balance_loss": 0.0004448890686035156,
+        "schedule_entropy": 1.0515510439290665e-05,
+        "table_softness": 0.00024650964769534767
+      },
+      {
+        "step": 799,
+        "task_loss": 5.324468656908721e-05,
+        "balance_loss": 0.0002472400665283203,
+        "schedule_entropy": 6.40403097889656e-17,
+        "table_softness": 7.382109788907354e-13
+      }
+    ],
+    "checkpoint": "numeric-41-learned_balanced.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 41,
+    "condition": "fixed_hash",
+    "train_indices": [
+      51,
+      11,
+      1,
+      3,
+      50,
+      46,
+      6,
+      18,
+      37,
+      33,
+      5,
+      43,
+      9,
+      62,
+      58,
+      57,
+      35,
+      25,
+      26,
+      23,
+      7,
+      61,
+      19,
+      54,
+      41,
+      12,
+      40,
+      36,
+      63,
+      0,
+      59,
+      8
+    ],
+    "test_indices": [
+      27,
+      17,
+      48,
+      2,
+      14,
+      47,
+      10,
+      42,
+      31,
+      4,
+      56,
+      38,
+      13,
+      20,
+      21,
+      22,
+      32,
+      52,
+      49,
+      45,
+      55,
+      34,
+      60,
+      29,
+      30,
+      28,
+      53,
+      24,
+      15,
+      16,
+      39,
+      44
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.21875,
+          "bit_accuracy": 0.6171875
+        },
+        "full": {
+          "exact": 0.609375,
+          "bit_accuracy": 0.80859375
+        },
+        "utilization_train": [
+          0.15625,
+          0.25,
+          0.1875,
+          0.40625
+        ],
+        "utilization_test": [
+          0.34375,
+          0.25,
+          0.3125,
+          0.09375
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          156,
+          289,
+          493,
+          380
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.21875,
+          "bit_accuracy": 0.6171875
+        },
+        "full": {
+          "exact": 0.609375,
+          "bit_accuracy": 0.80859375
+        },
+        "utilization_train": [
+          0.15625,
+          0.25,
+          0.1875,
+          0.40625
+        ],
+        "utilization_test": [
+          0.34375,
+          0.25,
+          0.3125,
+          0.09375
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          156,
+          289,
+          493,
+          380
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6841533780097961,
+        "balance_loss": 0.1484375,
+        "schedule_entropy": 0.9999921321868896,
+        "table_softness": 0.5968388915061951
+      },
+      {
+        "step": 200,
+        "task_loss": 0.012681598775088787,
+        "balance_loss": 0.1484375,
+        "schedule_entropy": 0.24705909192562103,
+        "table_softness": 0.053635913878679276
+      },
+      {
+        "step": 400,
+        "task_loss": 0.00046779983676970005,
+        "balance_loss": 0.1484375,
+        "schedule_entropy": 0.021048007532954216,
+        "table_softness": 0.013641427271068096
+      },
+      {
+        "step": 600,
+        "task_loss": 1.7540860426379368e-06,
+        "balance_loss": 0.1484375,
+        "schedule_entropy": 0.0003793445648625493,
+        "table_softness": 0.0012281435774639249
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0061212378786877e-06,
+        "balance_loss": 0.1484375,
+        "schedule_entropy": 3.7881493081259876e-11,
+        "table_softness": 1.389039283594684e-07
+      }
+    ],
+    "checkpoint": "selection-41-fixed_hash.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 41,
+    "condition": "learned_balanced",
+    "train_indices": [
+      51,
+      11,
+      1,
+      3,
+      50,
+      46,
+      6,
+      18,
+      37,
+      33,
+      5,
+      43,
+      9,
+      62,
+      58,
+      57,
+      35,
+      25,
+      26,
+      23,
+      7,
+      61,
+      19,
+      54,
+      41,
+      12,
+      40,
+      36,
+      63,
+      0,
+      59,
+      8
+    ],
+    "test_indices": [
+      27,
+      17,
+      48,
+      2,
+      14,
+      47,
+      10,
+      42,
+      31,
+      4,
+      56,
+      38,
+      13,
+      20,
+      21,
+      22,
+      32,
+      52,
+      49,
+      45,
+      55,
+      34,
+      60,
+      29,
+      30,
+      28,
+      53,
+      24,
+      15,
+      16,
+      39,
+      44
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.9375,
+          "bit_accuracy": 0.96875
+        },
+        "full": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.984375
+        },
+        "utilization_train": [
+          0.2583695650100708,
+          0.24288854002952576,
+          0.25644057989120483,
+          0.24230130016803741
+        ],
+        "utilization_test": [
+          0.13328303396701813,
+          0.0660378485918045,
+          0.2665401101112366,
+          0.5341389775276184
+        ],
+        "utilization_full": [
+          0.19582633674144745,
+          0.15446318686008453,
+          0.2614903450012207,
+          0.3882201313972473
+        ],
+        "selected_schedules": [
+          60,
+          16,
+          184,
+          111
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.9375,
+          "bit_accuracy": 0.96875
+        },
+        "full": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.984375
+        },
+        "utilization_train": [
+          0.25,
+          0.21875,
+          0.25,
+          0.28125
+        ],
+        "utilization_test": [
+          0.125,
+          0.03125,
+          0.25,
+          0.59375
+        ],
+        "utilization_full": [
+          0.1875,
+          0.125,
+          0.25,
+          0.4375
+        ],
+        "selected_schedules": [
+          60,
+          16,
+          184,
+          111
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6845324039459229,
+        "balance_loss": 0.00011646747589111328,
+        "schedule_entropy": 0.9999921321868896,
+        "table_softness": 0.5968388915061951
+      },
+      {
+        "step": 200,
+        "task_loss": 0.011824632063508034,
+        "balance_loss": 0.01801300048828125,
+        "schedule_entropy": 0.39980578422546387,
+        "table_softness": 0.03442736342549324
+      },
+      {
+        "step": 400,
+        "task_loss": 0.001201109029352665,
+        "balance_loss": 0.010469913482666016,
+        "schedule_entropy": 0.005693082697689533,
+        "table_softness": 0.004778591450303793
+      },
+      {
+        "step": 600,
+        "task_loss": 0.0005212115938775241,
+        "balance_loss": 0.003931164741516113,
+        "schedule_entropy": 1.3218618732935283e-05,
+        "table_softness": 0.00016747786139603704
+      },
+      {
+        "step": 799,
+        "task_loss": 0.00031012832187116146,
+        "balance_loss": 0.0008894205093383789,
+        "schedule_entropy": 1.4033300409952386e-16,
+        "table_softness": 4.608395609562166e-11
+      }
+    ],
+    "checkpoint": "selection-41-learned_balanced.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 42,
+    "condition": "fixed_hash",
+    "train_indices": [
+      29,
+      42,
+      18,
+      24,
+      7,
+      17,
+      27,
+      54,
+      63,
+      44,
+      46,
+      5,
+      61,
+      25,
+      32,
+      21,
+      60,
+      20,
+      56,
+      50,
+      55,
+      58,
+      51,
+      4,
+      26,
+      15,
+      59,
+      23,
+      28,
+      40,
+      9,
+      37
+    ],
+    "test_indices": [
+      31,
+      39,
+      16,
+      3,
+      34,
+      30,
+      10,
+      48,
+      57,
+      6,
+      38,
+      11,
+      52,
+      41,
+      22,
+      19,
+      35,
+      0,
+      47,
+      49,
+      45,
+      12,
+      53,
+      43,
+      14,
+      62,
+      2,
+      36,
+      33,
+      1,
+      13,
+      8
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6458637714385986,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.9999873042106628,
+        "table_softness": 0.5909329652786255
+      },
+      {
+        "step": 200,
+        "task_loss": 0.008768465369939804,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.020848285406827927,
+        "table_softness": 0.011686805635690689
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0003304230922367424,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.0010726044420152903,
+        "table_softness": 0.000694954942446202
+      },
+      {
+        "step": 600,
+        "task_loss": 1.2984595514353714e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 5.627467999147484e-06,
+        "table_softness": 3.730511480171117e-06
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0067436733152135e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 5.487817691010061e-18,
+        "table_softness": 1.5075934057980352e-19
+      }
+    ],
+    "checkpoint": "numeric-42-fixed_hash.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 42,
+    "condition": "learned_balanced",
+    "train_indices": [
+      29,
+      42,
+      18,
+      24,
+      7,
+      17,
+      27,
+      54,
+      63,
+      44,
+      46,
+      5,
+      61,
+      25,
+      32,
+      21,
+      60,
+      20,
+      56,
+      50,
+      55,
+      58,
+      51,
+      4,
+      26,
+      15,
+      59,
+      23,
+      28,
+      40,
+      9,
+      37
+    ],
+    "test_indices": [
+      31,
+      39,
+      16,
+      3,
+      34,
+      30,
+      10,
+      48,
+      57,
+      6,
+      38,
+      11,
+      52,
+      41,
+      22,
+      19,
+      35,
+      0,
+      47,
+      49,
+      45,
+      12,
+      53,
+      43,
+      14,
+      62,
+      2,
+      36,
+      33,
+      1,
+      13,
+      8
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.2500000298023224,
+          0.25
+        ],
+        "utilization_test": [
+          0.2759092152118683,
+          0.340484082698822,
+          0.2186310589313507,
+          0.16497567296028137
+        ],
+        "utilization_full": [
+          0.26295459270477295,
+          0.295242041349411,
+          0.23431554436683655,
+          0.20748785138130188
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.21875,
+          0.25,
+          0.28125
+        ],
+        "utilization_test": [
+          0.28125,
+          0.3125,
+          0.25,
+          0.15625
+        ],
+        "utilization_full": [
+          0.265625,
+          0.265625,
+          0.25,
+          0.21875
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6441916227340698,
+        "balance_loss": 0.00017321109771728516,
+        "schedule_entropy": 0.9999873042106628,
+        "table_softness": 0.5909329652786255
+      },
+      {
+        "step": 200,
+        "task_loss": 0.007353019434958696,
+        "balance_loss": 1.33514404296875e-05,
+        "schedule_entropy": 0.015730058774352074,
+        "table_softness": 0.008268478326499462
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0002523274742998183,
+        "balance_loss": -5.960464477539063e-08,
+        "schedule_entropy": 0.0005953432992100716,
+        "table_softness": 0.00047630228800699115
+      },
+      {
+        "step": 600,
+        "task_loss": 1.02443618743564e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 1.0332108786315075e-06,
+        "table_softness": 1.9795829757640604e-06
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0067436733152135e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 5.343811727600953e-21,
+        "table_softness": 1.3245864484248975e-20
+      }
+    ],
+    "checkpoint": "numeric-42-learned_balanced.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 42,
+    "condition": "fixed_hash",
+    "train_indices": [
+      63,
+      7,
+      51,
+      25,
+      22,
+      59,
+      40,
+      20,
+      3,
+      21,
+      24,
+      15,
+      38,
+      1,
+      62,
+      11,
+      26,
+      60,
+      28,
+      33,
+      42,
+      18,
+      54,
+      37,
+      16,
+      45,
+      50,
+      2,
+      34,
+      53,
+      35,
+      39
+    ],
+    "test_indices": [
+      14,
+      8,
+      19,
+      27,
+      6,
+      61,
+      0,
+      17,
+      32,
+      57,
+      9,
+      56,
+      55,
+      49,
+      29,
+      10,
+      5,
+      13,
+      41,
+      4,
+      12,
+      30,
+      23,
+      46,
+      52,
+      31,
+      44,
+      48,
+      58,
+      43,
+      36,
+      47
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.6875,
+          "bit_accuracy": 0.8984375
+        },
+        "full": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.94921875
+        },
+        "utilization_train": [
+          0.1875,
+          0.28125,
+          0.3125,
+          0.21875
+        ],
+        "utilization_test": [
+          0.3125,
+          0.21875,
+          0.1875,
+          0.28125
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          109,
+          18,
+          289,
+          231
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.6875,
+          "bit_accuracy": 0.8984375
+        },
+        "full": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.94921875
+        },
+        "utilization_train": [
+          0.1875,
+          0.28125,
+          0.3125,
+          0.21875
+        ],
+        "utilization_test": [
+          0.3125,
+          0.21875,
+          0.1875,
+          0.28125
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          109,
+          18,
+          289,
+          231
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6813132762908936,
+        "balance_loss": 0.0390625,
+        "schedule_entropy": 0.9999918937683105,
+        "table_softness": 0.595252275466919
+      },
+      {
+        "step": 200,
+        "task_loss": 0.011712726205587387,
+        "balance_loss": 0.0390625,
+        "schedule_entropy": 0.21512186527252197,
+        "table_softness": 0.0327952615916729
+      },
+      {
+        "step": 400,
+        "task_loss": 0.00041569635504856706,
+        "balance_loss": 0.0390625,
+        "schedule_entropy": 0.052668530493974686,
+        "table_softness": 0.005773101467639208
+      },
+      {
+        "step": 600,
+        "task_loss": 1.3519436379283434e-06,
+        "balance_loss": 0.0390625,
+        "schedule_entropy": 0.0005281646153889596,
+        "table_softness": 0.0003678719513118267
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0064325124403695e-06,
+        "balance_loss": 0.0390625,
+        "schedule_entropy": 2.8540298596668734e-11,
+        "table_softness": 5.130758484739317e-09
+      }
+    ],
+    "checkpoint": "selection-42-fixed_hash.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 42,
+    "condition": "learned_balanced",
+    "train_indices": [
+      63,
+      7,
+      51,
+      25,
+      22,
+      59,
+      40,
+      20,
+      3,
+      21,
+      24,
+      15,
+      38,
+      1,
+      62,
+      11,
+      26,
+      60,
+      28,
+      33,
+      42,
+      18,
+      54,
+      37,
+      16,
+      45,
+      50,
+      2,
+      34,
+      53,
+      35,
+      39
+    ],
+    "test_indices": [
+      14,
+      8,
+      19,
+      27,
+      6,
+      61,
+      0,
+      17,
+      32,
+      57,
+      9,
+      56,
+      55,
+      49,
+      29,
+      10,
+      5,
+      13,
+      41,
+      4,
+      12,
+      30,
+      23,
+      46,
+      52,
+      31,
+      44,
+      48,
+      58,
+      43,
+      36,
+      47
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.2502210736274719,
+          0.24942174553871155,
+          0.25013408064842224,
+          0.2502230703830719
+        ],
+        "utilization_test": [
+          0.22062966227531433,
+          0.3122209906578064,
+          0.23430658876895905,
+          0.23284277319908142
+        ],
+        "utilization_full": [
+          0.23542539775371552,
+          0.2808213531970978,
+          0.24222035706043243,
+          0.24153292179107666
+        ],
+        "selected_schedules": [
+          18,
+          257,
+          395,
+          109
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.25,
+          0.28125,
+          0.25,
+          0.21875
+        ],
+        "utilization_test": [
+          0.21875,
+          0.3125,
+          0.25,
+          0.21875
+        ],
+        "utilization_full": [
+          0.234375,
+          0.296875,
+          0.25,
+          0.21875
+        ],
+        "selected_schedules": [
+          18,
+          257,
+          395,
+          109
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.679877758026123,
+        "balance_loss": 9.393692016601562e-05,
+        "schedule_entropy": 0.9999918937683105,
+        "table_softness": 0.595252275466919
+      },
+      {
+        "step": 200,
+        "task_loss": 0.010439705103635788,
+        "balance_loss": 0.00014030933380126953,
+        "schedule_entropy": 0.48198428750038147,
+        "table_softness": 0.013105836696922779
+      },
+      {
+        "step": 400,
+        "task_loss": 0.00042308232514187694,
+        "balance_loss": 2.2411346435546875e-05,
+        "schedule_entropy": 0.040857527405023575,
+        "table_softness": 0.0009764663991518319
+      },
+      {
+        "step": 600,
+        "task_loss": 5.237842196947895e-05,
+        "balance_loss": 5.125999450683594e-06,
+        "schedule_entropy": 6.36635668342933e-05,
+        "table_softness": 7.776826350891497e-06
+      },
+      {
+        "step": 799,
+        "task_loss": 3.239931902498938e-05,
+        "balance_loss": 1.9073486328125e-06,
+        "schedule_entropy": 6.4006544408710085e-15,
+        "table_softness": 2.6606158937240035e-18
+      }
+    ],
+    "checkpoint": "selection-42-learned_balanced.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 43,
+    "condition": "fixed_hash",
+    "train_indices": [
+      63,
+      37,
+      12,
+      1,
+      41,
+      58,
+      5,
+      35,
+      50,
+      33,
+      14,
+      26,
+      62,
+      22,
+      2,
+      48,
+      13,
+      42,
+      51,
+      24,
+      18,
+      59,
+      6,
+      55,
+      16,
+      36,
+      39,
+      45,
+      8,
+      21,
+      28,
+      43
+    ],
+    "test_indices": [
+      29,
+      49,
+      23,
+      38,
+      56,
+      7,
+      30,
+      61,
+      31,
+      44,
+      10,
+      19,
+      57,
+      34,
+      40,
+      11,
+      0,
+      27,
+      60,
+      47,
+      20,
+      9,
+      46,
+      17,
+      53,
+      4,
+      25,
+      52,
+      15,
+      54,
+      32,
+      3
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.9375,
+          "bit_accuracy": 0.9765625
+        },
+        "full": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.98828125
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.9375,
+          "bit_accuracy": 0.9765625
+        },
+        "full": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.98828125
+        },
+        "utilization_train": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6670613288879395,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.9999862909317017,
+        "table_softness": 0.5966215133666992
+      },
+      {
+        "step": 200,
+        "task_loss": 0.009958269074559212,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.017206866294145584,
+        "table_softness": 0.026042651385068893
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0003947577497456223,
+        "balance_loss": 0.0,
+        "schedule_entropy": 0.0006919960724189878,
+        "table_softness": 0.0027964890468865633
+      },
+      {
+        "step": 600,
+        "task_loss": 1.8054888641927391e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 1.6888611753529403e-06,
+        "table_softness": 7.79402325861156e-05
+      },
+      {
+        "step": 799,
+        "task_loss": 1.0066399909192114e-06,
+        "balance_loss": 0.0,
+        "schedule_entropy": 7.984971554604711e-20,
+        "table_softness": 3.600130636127356e-16
+      }
+    ],
+    "checkpoint": "numeric-43-fixed_hash.pt"
+  },
+  {
+    "task": "numeric",
+    "seed": 43,
+    "condition": "learned_balanced",
+    "train_indices": [
+      63,
+      37,
+      12,
+      1,
+      41,
+      58,
+      5,
+      35,
+      50,
+      33,
+      14,
+      26,
+      62,
+      22,
+      2,
+      48,
+      13,
+      42,
+      51,
+      24,
+      18,
+      59,
+      6,
+      55,
+      16,
+      36,
+      39,
+      45,
+      8,
+      21,
+      28,
+      43
+    ],
+    "test_indices": [
+      29,
+      49,
+      23,
+      38,
+      56,
+      7,
+      30,
+      61,
+      31,
+      44,
+      10,
+      19,
+      57,
+      34,
+      40,
+      11,
+      0,
+      27,
+      60,
+      47,
+      20,
+      9,
+      46,
+      17,
+      53,
+      4,
+      25,
+      52,
+      15,
+      54,
+      32,
+      3
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.90625
+        },
+        "full": {
+          "exact": 0.921875,
+          "bit_accuracy": 0.953125
+        },
+        "utilization_train": [
+          0.2501465082168579,
+          0.24974632263183594,
+          0.24997255206108093,
+          0.25013458728790283
+        ],
+        "utilization_test": [
+          0.2123241424560547,
+          0.25187912583351135,
+          0.28212395310401917,
+          0.2536727786064148
+        ],
+        "utilization_full": [
+          0.2312353402376175,
+          0.25081270933151245,
+          0.26604825258255005,
+          0.2519036829471588
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.84375,
+          "bit_accuracy": 0.90625
+        },
+        "full": {
+          "exact": 0.921875,
+          "bit_accuracy": 0.953125
+        },
+        "utilization_train": [
+          0.25,
+          0.28125,
+          0.21875,
+          0.25
+        ],
+        "utilization_test": [
+          0.21875,
+          0.28125,
+          0.28125,
+          0.21875
+        ],
+        "utilization_full": [
+          0.234375,
+          0.28125,
+          0.25,
+          0.234375
+        ],
+        "selected_schedules": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6646525859832764,
+        "balance_loss": 0.0001385211944580078,
+        "schedule_entropy": 0.9999862909317017,
+        "table_softness": 0.5966215133666992
+      },
+      {
+        "step": 200,
+        "task_loss": 0.007245240267366171,
+        "balance_loss": 5.364418029785156e-05,
+        "schedule_entropy": 0.015042350627481937,
+        "table_softness": 0.020324381068348885
+      },
+      {
+        "step": 400,
+        "task_loss": 0.000288684677798301,
+        "balance_loss": 6.318092346191406e-06,
+        "schedule_entropy": 0.0005447854637168348,
+        "table_softness": 0.0023643295280635357
+      },
+      {
+        "step": 600,
+        "task_loss": 1.9161034288117662e-05,
+        "balance_loss": 1.1920928955078125e-06,
+        "schedule_entropy": 6.428402912206366e-07,
+        "table_softness": 6.65811967337504e-05
+      },
+      {
+        "step": 799,
+        "task_loss": 1.1547015674295835e-05,
+        "balance_loss": 4.76837158203125e-07,
+        "schedule_entropy": 8.245800221384399e-23,
+        "table_softness": 2.078536344776727e-12
+      }
+    ],
+    "checkpoint": "numeric-43-learned_balanced.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 43,
+    "condition": "fixed_hash",
+    "train_indices": [
+      3,
+      49,
+      47,
+      5,
+      8,
+      62,
+      35,
+      39,
+      40,
+      45,
+      20,
+      33,
+      57,
+      17,
+      0,
+      52,
+      51,
+      53,
+      15,
+      11,
+      44,
+      38,
+      1,
+      50,
+      24,
+      55,
+      12,
+      48,
+      46,
+      56,
+      6,
+      27
+    ],
+    "test_indices": [
+      37,
+      21,
+      61,
+      36,
+      59,
+      4,
+      9,
+      41,
+      28,
+      58,
+      16,
+      23,
+      22,
+      2,
+      19,
+      63,
+      34,
+      7,
+      26,
+      43,
+      13,
+      10,
+      25,
+      42,
+      54,
+      32,
+      30,
+      18,
+      14,
+      29,
+      60,
+      31
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 0.53125,
+          "bit_accuracy": 0.8359375
+        },
+        "full": {
+          "exact": 0.765625,
+          "bit_accuracy": 0.91796875
+        },
+        "utilization_train": [
+          0.28125,
+          0.21875,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.21875,
+          0.28125,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          289,
+          291,
+          289,
+          18
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 0.96875,
+          "bit_accuracy": 0.9921875
+        },
+        "test": {
+          "exact": 0.53125,
+          "bit_accuracy": 0.8359375
+        },
+        "full": {
+          "exact": 0.75,
+          "bit_accuracy": 0.9140625
+        },
+        "utilization_train": [
+          0.28125,
+          0.21875,
+          0.25,
+          0.25
+        ],
+        "utilization_test": [
+          0.21875,
+          0.28125,
+          0.25,
+          0.25
+        ],
+        "utilization_full": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "selected_schedules": [
+          289,
+          291,
+          289,
+          18
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6845189332962036,
+        "balance_loss": 0.0078125,
+        "schedule_entropy": 0.9999915361404419,
+        "table_softness": 0.5960378050804138
+      },
+      {
+        "step": 200,
+        "task_loss": 0.02984454296529293,
+        "balance_loss": 0.0078125,
+        "schedule_entropy": 0.14341074228286743,
+        "table_softness": 0.0589728057384491
+      },
+      {
+        "step": 400,
+        "task_loss": 0.008194992318749428,
+        "balance_loss": 0.0078125,
+        "schedule_entropy": 0.04637826979160309,
+        "table_softness": 0.01752367615699768
+      },
+      {
+        "step": 600,
+        "task_loss": 0.00746442936360836,
+        "balance_loss": 0.0078125,
+        "schedule_entropy": 0.00046429061330854893,
+        "table_softness": 0.006214860826730728
+      },
+      {
+        "step": 799,
+        "task_loss": 0.0074620237573981285,
+        "balance_loss": 0.0078125,
+        "schedule_entropy": 5.5298803730563506e-11,
+        "table_softness": 0.005059080198407173
+      }
+    ],
+    "checkpoint": "selection-43-fixed_hash.pt"
+  },
+  {
+    "task": "selection",
+    "seed": 43,
+    "condition": "learned_balanced",
+    "train_indices": [
+      3,
+      49,
+      47,
+      5,
+      8,
+      62,
+      35,
+      39,
+      40,
+      45,
+      20,
+      33,
+      57,
+      17,
+      0,
+      52,
+      51,
+      53,
+      15,
+      11,
+      44,
+      38,
+      1,
+      50,
+      24,
+      55,
+      12,
+      48,
+      46,
+      56,
+      6,
+      27
+    ],
+    "test_indices": [
+      37,
+      21,
+      61,
+      36,
+      59,
+      4,
+      9,
+      41,
+      28,
+      58,
+      16,
+      23,
+      22,
+      2,
+      19,
+      63,
+      34,
+      7,
+      26,
+      43,
+      13,
+      10,
+      25,
+      42,
+      54,
+      32,
+      30,
+      18,
+      14,
+      29,
+      60,
+      31
+    ],
+    "evaluation": {
+      "soft": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.2503122389316559,
+          0.24891076982021332,
+          0.24986732006072998,
+          0.2509096562862396
+        ],
+        "utilization_test": [
+          0.2605156898498535,
+          0.18426430225372314,
+          0.3244296610355377,
+          0.23079034686088562
+        ],
+        "utilization_full": [
+          0.2554139494895935,
+          0.21658757328987122,
+          0.28714847564697266,
+          0.24085001647472382
+        ],
+        "selected_schedules": [
+          18,
+          278,
+          50,
+          199
+        ]
+      },
+      "hard": {
+        "train": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "test": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "full": {
+          "exact": 1.0,
+          "bit_accuracy": 1.0
+        },
+        "utilization_train": [
+          0.21875,
+          0.25,
+          0.28125,
+          0.25
+        ],
+        "utilization_test": [
+          0.25,
+          0.1875,
+          0.34375,
+          0.21875
+        ],
+        "utilization_full": [
+          0.234375,
+          0.21875,
+          0.3125,
+          0.234375
+        ],
+        "selected_schedules": [
+          18,
+          278,
+          50,
+          199
+        ]
+      }
+    },
+    "curve": [
+      {
+        "step": 0,
+        "task_loss": 0.6832811832427979,
+        "balance_loss": 9.369850158691406e-05,
+        "schedule_entropy": 0.9999915361404419,
+        "table_softness": 0.5960378050804138
+      },
+      {
+        "step": 200,
+        "task_loss": 0.010219555348157883,
+        "balance_loss": 0.007743477821350098,
+        "schedule_entropy": 0.3805590867996216,
+        "table_softness": 0.034387748688459396
+      },
+      {
+        "step": 400,
+        "task_loss": 0.0008298627799376845,
+        "balance_loss": 0.0005955696105957031,
+        "schedule_entropy": 0.0040041436441242695,
+        "table_softness": 0.005383297801017761
+      },
+      {
+        "step": 600,
+        "task_loss": 0.00023500648967456073,
+        "balance_loss": 2.2649765014648438e-05,
+        "schedule_entropy": 2.656959622981958e-05,
+        "table_softness": 0.00023317740124184638
+      },
+      {
+        "step": 799,
+        "task_loss": 0.00014482600090559572,
+        "balance_loss": 8.58306884765625e-06,
+        "schedule_entropy": 3.6014538604096447e-16,
+        "table_softness": 6.80008882536498e-10
+      }
+    ],
+    "checkpoint": "selection-43-learned_balanced.pt"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "verified_witnesses": 4,
+  "statistics": {
+    "random_add": {
+      "sat": 2,
+      "unknown": 1,
+      "mean": 0.017857142857142856,
+      "variance": 0.002380952380952381,
+      "ci95": [
+        0.0,
+        0.04464285714285714
+      ]
+    },
+    "influence_add": {
+      "sat": 2,
+      "unknown": 3,
+      "mean": 0.016741071428571428,
+      "variance": 0.0021032631802721086,
+      "ci95": [
+        0.0,
+        0.04241071428571429
+      ]
+    },
+    "difference": {
+      "mean": -0.001116071428571428,
+      "variance": 0.0051219706632653055,
+      "ci95": [
+        -0.03571428571428571,
+        0.033482142857142856
+      ]
+    }
+  },
+  "tests": [
+    {
+      "label": "all",
+      "n": 108,
+      "random": 2,
+      "influence": 2,
+      "left_only": 2,
+      "right_only": 2,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/gate2",
+      "n": 40,
+      "random": 0,
+      "influence": 2,
+      "left_only": 0,
+      "right_only": 2,
+      "p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/lut4",
+      "n": 1,
+      "random": 1,
+      "influence": 0,
+      "left_only": 1,
+      "right_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/gate2",
+      "n": 64,
+      "random": 0,
+      "influence": 0,
+      "left_only": 0,
+      "right_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/lut4",
+      "n": 3,
+      "random": 1,
+      "influence": 0,
+      "left_only": 1,
+      "right_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ]
+}

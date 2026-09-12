@@ -1,0 +1,1283 @@
+{
+  "records": [
+    {
+      "seed": 1220,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 322656,
+      "equivalent_function_merges": 1060838,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 10
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 155120,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 126674,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 12318,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        }
+      ],
+      "elapsed_seconds": 2.3826985000014247
+    },
+    {
+      "seed": 1220,
+      "condition": "affine_scaffold",
+      "exact_targets": 2,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        },
+        "parity": {
+          "round": 3,
+          "signature": "7608434000728254870",
+          "primitives": 5,
+          "routing_bits": 32,
+          "depth": 3,
+          "uses_affine_intermediate": true,
+          "expression": [
+            "lut",
+            7608434000728254870,
+            6,
+            [
+              "lut",
+              72056498804490495,
+              9,
+              [
+                "input",
+                3
+              ],
+              [
+                "lut",
+                281474976645120,
+                6,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              7595718147998050665,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                4340410370284600380,
+                6,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  2
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 480381,
+      "equivalent_function_merges": 2080889,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 114
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 112190,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 118968,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 90714,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 76534,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 68981,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        }
+      ],
+      "elapsed_seconds": 4.243347666000773
+    },
+    {
+      "seed": 1221,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 322656,
+      "equivalent_function_merges": 1060838,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 10
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 155120,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 126674,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 12318,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        }
+      ],
+      "elapsed_seconds": 2.685659000000669
+    },
+    {
+      "seed": 1221,
+      "condition": "affine_scaffold",
+      "exact_targets": 2,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        },
+        "parity": {
+          "round": 3,
+          "signature": "7608434000728254870",
+          "primitives": 5,
+          "routing_bits": 32,
+          "depth": 3,
+          "uses_affine_intermediate": true,
+          "expression": [
+            "lut",
+            7608434000728254870,
+            6,
+            [
+              "lut",
+              72056498804490495,
+              9,
+              [
+                "input",
+                3
+              ],
+              [
+                "lut",
+                281474976645120,
+                6,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              7595718147998050665,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                4340410370284600380,
+                6,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  2
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 485322,
+      "equivalent_function_merges": 2089868,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 114
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 116378,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 113984,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 87606,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 77035,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 77325,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        }
+      ],
+      "elapsed_seconds": 3.556582332999824
+    },
+    {
+      "seed": 1222,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 322656,
+      "equivalent_function_merges": 1060838,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 10
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 155120,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 126674,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 12318,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        }
+      ],
+      "elapsed_seconds": 2.1598962919997575
+    },
+    {
+      "seed": 1222,
+      "condition": "affine_scaffold",
+      "exact_targets": 2,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        },
+        "parity": {
+          "round": 3,
+          "signature": "7608434000728254870",
+          "primitives": 5,
+          "routing_bits": 32,
+          "depth": 3,
+          "uses_affine_intermediate": true,
+          "expression": [
+            "lut",
+            7608434000728254870,
+            6,
+            [
+              "lut",
+              72056498804490495,
+              9,
+              [
+                "input",
+                3
+              ],
+              [
+                "lut",
+                281474976645120,
+                6,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              7595718147998050665,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                4340410370284600380,
+                6,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  2
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 491997,
+      "equivalent_function_merges": 2071881,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 114
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 120140,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 120800,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 90654,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 76345,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 71064,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        }
+      ],
+      "elapsed_seconds": 3.604439791999539
+    },
+    {
+      "seed": 1223,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 322656,
+      "equivalent_function_merges": 1060838,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 10
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 155120,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 126674,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 12318,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 7775,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 0
+        }
+      ],
+      "elapsed_seconds": 2.1626690840002993
+    },
+    {
+      "seed": 1223,
+      "condition": "affine_scaffold",
+      "exact_targets": 2,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "uses_affine_intermediate": false,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        },
+        "parity": {
+          "round": 3,
+          "signature": "7608434000728254870",
+          "primitives": 5,
+          "routing_bits": 32,
+          "depth": 3,
+          "uses_affine_intermediate": true,
+          "expression": [
+            "lut",
+            7608434000728254870,
+            6,
+            [
+              "lut",
+              72056498804490495,
+              9,
+              [
+                "input",
+                3
+              ],
+              [
+                "lut",
+                281474976645120,
+                6,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              7595718147998050665,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                4340410370284600380,
+                6,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  2
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "generated_unique_signatures": 486441,
+      "equivalent_function_merges": 2061613,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 164,
+          "found": [],
+          "affine_retained": 44
+        },
+        {
+          "round": 2,
+          "pair_count": 13530,
+          "pool_signatures": 14274,
+          "beam": 256,
+          "found": [
+            "mux"
+          ],
+          "affine_retained": 114
+        },
+        {
+          "round": 3,
+          "pair_count": 32896,
+          "pool_signatures": 119320,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 4,
+          "pair_count": 32896,
+          "pool_signatures": 122154,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 5,
+          "pair_count": 32896,
+          "pool_signatures": 79074,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 6,
+          "pair_count": 32896,
+          "pool_signatures": 82040,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        },
+        {
+          "round": 7,
+          "pair_count": 32896,
+          "pool_signatures": 70859,
+          "beam": 256,
+          "found": [
+            "mux",
+            "parity"
+          ],
+          "affine_retained": 128
+        }
+      ],
+      "elapsed_seconds": 3.518822874999387
+    }
+  ],
+  "aggregate": {
+    "target_greedy": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "seconds": {
+        "mean": 2.3477307190005376,
+        "variance": 0.061649283174500864
+      },
+      "unique_signatures": {
+        "mean": 322656.0,
+        "variance": 0.0
+      },
+      "equivalent_merges": {
+        "mean": 1060838.0,
+        "variance": 0.0
+      }
+    },
+    "affine_scaffold": {
+      "exact_targets": {
+        "mean": 2.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "seconds": {
+        "mean": 3.7307981664998806,
+        "variance": 0.11798603636460747
+      },
+      "unique_signatures": {
+        "mean": 486035.25,
+        "variance": 22728788.25
+      },
+      "equivalent_merges": {
+        "mean": 2076062.75,
+        "variance": 146719974.91666666
+      }
+    }
+  },
+  "viable": false,
+  "elapsed_seconds": 24.320235541999864,
+  "settings": {
+    "seeds": [
+      1220,
+      1221,
+      1222,
+      1223
+    ],
+    "beam": 256,
+    "rounds": 7,
+    "max_cost": 14
+  },
+  "sources": {
+    "pilot2.py": "30003589f62883a37458d38395c0ef26f846e9f96a803d03a4edc00b5310993a",
+    "search.py": "03b7be2a8676bb1450bf42796f119b63d02fd43b985eca044051324069e59f4d",
+    "search_v2.py": "73d4c18c6dd63ae095ba97727b0dbf19ba3aa4fb33b09ea36de71c323d182144",
+    "PILOT2-PROTOCOL.md": "3dc975fd8883ae3107417ac23bd44d6a056f37116084f5350eaeb0a73da787e2"
+  }
+}

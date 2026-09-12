@@ -1,0 +1,4130 @@
+{
+  "records": [
+    {
+      "seed": 200,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.78125
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.78125
+      },
+      "soft_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.875
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.875
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 20,
+      "compressed_symbols": 18,
+      "modules": 1,
+      "primitive_dag": 20,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6939494460409297,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5473152242678674,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.3720400005119791,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.30997447265883216,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.23843900194857898,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.23194155844410985,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.23015216669807664,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.22934999649864657,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.228858190146907,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "NOT",
+              "p0"
+            ]
+          ],
+          "table": [
+            0,
+            1
+          ],
+          "arity": 1,
+          "count": 4,
+          "size": 2,
+          "gain": 2,
+          "task_count": 4,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 20,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "seed": 200,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.78125
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.8125
+      },
+      "soft_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.875
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.84375
+      },
+      "hard_minus_soft": 0.125,
+      "primitive_symbols": 15,
+      "compressed_symbols": 14,
+      "modules": 1,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6939494460409297,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5277829336558642,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.3543729511612044,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.2696314458572864,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.22862665302467194,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.22781540351075813,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.2276754341876273,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.22766108264694668,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.22767284446704272,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "NOT",
+              "p0"
+            ]
+          ],
+          "table": [
+            0,
+            1
+          ],
+          "arity": 1,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 3,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 15,
+          "after": 14
+        },
+        {
+          "before": 14,
+          "after": 14
+        },
+        {
+          "before": 14,
+          "after": 14
+        }
+      ]
+    },
+    {
+      "seed": 200,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.546875
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 29,
+      "compressed_symbols": 28,
+      "modules": 1,
+      "primitive_dag": 25,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6938166011121729,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5556903138717393,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.4413349342466709,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.4031523996245987,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.3979976940936844,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.39647181966166284,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.39576599789461414,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.39533729879077384,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.395054676566449,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "AND",
+            [
+              "OR",
+              "p0",
+              "p1"
+            ],
+            "p2"
+          ],
+          "table": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "arity": 3,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 3,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 29,
+          "after": 28
+        },
+        {
+          "before": 28,
+          "after": 28
+        },
+        {
+          "before": 28,
+          "after": 28
+        }
+      ]
+    },
+    {
+      "seed": 200,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5234375
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "hard_minus_soft": 0.03125,
+      "primitive_symbols": 29,
+      "compressed_symbols": 28,
+      "modules": 1,
+      "primitive_dag": 25,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6938166011121729,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5401582338206954,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.41757983209515737,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.39624129707421185,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.3942747208926731,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.393932221770273,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.393858959121097,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.39384904301619494,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.3938566017520054,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "AND",
+            [
+              "OR",
+              "p0",
+              "p1"
+            ],
+            "p2"
+          ],
+          "table": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "arity": 3,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 3,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 29,
+          "after": 28
+        },
+        {
+          "before": 28,
+          "after": 28
+        },
+        {
+          "before": 28,
+          "after": 28
+        }
+      ]
+    },
+    {
+      "seed": 201,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6875
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.65625
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 20,
+      "compressed_symbols": 18,
+      "modules": 1,
+      "primitive_dag": 19,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6945722966662038,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6443341134789058,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5935067836843161,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.5561170156216135,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.5388670169063019,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.5285945725158273,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.5277528430082299,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.5271697488212065,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.526516433403887,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "OR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 20,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "seed": 201,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5546875
+      },
+      "soft_train": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6875
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6484375
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 18,
+      "compressed_symbols": 18,
+      "modules": 0,
+      "primitive_dag": 18,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6945722966662038,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6385113805672917,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.5885468072511074,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5542806488810299,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.5404597000991586,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.5270082946636241,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.5266583217263375,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.5266270567868776,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.5266776248835938,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "seed": 201,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6171875
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.7265625
+      },
+      "hard_train": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6796875
+      },
+      "hard_minus_soft": -0.09375,
+      "primitive_symbols": 15,
+      "compressed_symbols": 15,
+      "modules": 0,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6944303815066122,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5939893914062034,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5247852559487836,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.5083211014465436,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.5042095529662666,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.5031006699229474,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.5025456349164462,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.5022082975749078,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.5019864130287661,
+          "temp": 1.0
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        }
+      ]
+    },
+    {
+      "seed": 201,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6171875
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.7265625
+      },
+      "hard_train": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6953125
+      },
+      "hard_minus_soft": -0.09375,
+      "primitive_symbols": 17,
+      "compressed_symbols": 17,
+      "modules": 0,
+      "primitive_dag": 17,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6944303815066122,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5855354132558235,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.5166064974899738,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5032629933015864,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.5014919883983027,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.5011588026117471,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.5010881573384098,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.5011170691585791,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.5011101148598942,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 17,
+          "after": 17
+        },
+        {
+          "before": 17,
+          "after": 17
+        },
+        {
+          "before": 17,
+          "after": 17
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.671875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6484375
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.734375
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7265625
+      },
+      "hard_minus_soft": -0.15625,
+      "primitive_symbols": 12,
+      "compressed_symbols": 12,
+      "modules": 0,
+      "primitive_dag": 11,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6936584137541482,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6068452267418772,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.46028008181874347,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.4451402844978114,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.4423314716402935,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.4401748145426766,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.4379749750307901,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.43734286018504376,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.4370276607213345,
+          "temp": 1.0
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 12,
+          "after": 12
+        },
+        {
+          "before": 12,
+          "after": 12
+        },
+        {
+          "before": 12,
+          "after": 12
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.6796875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6328125
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7265625
+      },
+      "hard_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.7109375
+      },
+      "hard_minus_soft": -0.1875,
+      "primitive_symbols": 12,
+      "compressed_symbols": 11,
+      "modules": 1,
+      "primitive_dag": 11,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6936584137541482,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5948302190251582,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.4487517564021247,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.4409223088703088,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.4388101687343233,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.4377452474904213,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.4376449887976534,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.4376289537423935,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.4376559433285096,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "OR",
+            [
+              "XOR",
+              "p0",
+              "p1"
+            ],
+            [
+              "NOT",
+              "p2"
+            ]
+          ],
+          "table": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "arity": 3,
+          "count": 2,
+          "size": 3,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 12,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.625
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.796875
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.71875
+      },
+      "hard_minus_soft": 0.0625,
+      "primitive_symbols": 15,
+      "compressed_symbols": 15,
+      "modules": 0,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.694425973409706,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5624080834667011,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.4557561064472103,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.4328933524153743,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.42208927991501943,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.4198856589809734,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.4190055214496761,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.41849707683783116,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.4181706137020339,
+          "temp": 1.0
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.625
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.796875
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.734375
+      },
+      "hard_minus_soft": 0.03125,
+      "primitive_symbols": 18,
+      "compressed_symbols": 17,
+      "modules": 1,
+      "primitive_dag": 18,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.694425973409706,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5484288178200593,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.44128096995307226,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.4218050150165873,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.4175071753812941,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.4169933405214648,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.41687847124327737,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.4168608265811287,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.4168882241739771,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "NOT",
+              "p0"
+            ]
+          ],
+          "table": [
+            0,
+            1
+          ],
+          "arity": 1,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 3,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 18,
+          "after": 17
+        },
+        {
+          "before": 17,
+          "after": 17
+        },
+        {
+          "before": 17,
+          "after": 17
+        }
+      ]
+    },
+    {
+      "seed": 203,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.546875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5546875
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.703125
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.6953125
+      },
+      "hard_minus_soft": 0.0625,
+      "primitive_symbols": 11,
+      "compressed_symbols": 10,
+      "modules": 1,
+      "primitive_dag": 9,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933517899888639,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6116760267418253,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5283661856629298,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.5212010386582917,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.5198340142151301,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.5191940322868807,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.5188248111534913,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.5185873799370562,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.5184263446319819,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "XOR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 11,
+          "after": 10
+        },
+        {
+          "before": 10,
+          "after": 10
+        },
+        {
+          "before": 10,
+          "after": 10
+        }
+      ]
+    },
+    {
+      "seed": 203,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.546875
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5546875
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.703125
+      },
+      "hard_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.6953125
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 14,
+      "compressed_symbols": 13,
+      "modules": 1,
+      "primitive_dag": 12,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933517899888639,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.602612803249502,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.5221781432669296,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5185296836043823,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.517906099602164,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.5177496518185354,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.5177208971887519,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.5177228931362924,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.5177477356462157,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "XOR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 14,
+          "after": 13
+        },
+        {
+          "before": 13,
+          "after": 13
+        },
+        {
+          "before": 13,
+          "after": 13
+        }
+      ]
+    },
+    {
+      "seed": 203,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.53125
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.546875
+      },
+      "soft_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.75
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.734375
+      },
+      "hard_minus_soft": 0.0625,
+      "primitive_symbols": 16,
+      "compressed_symbols": 14,
+      "modules": 1,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933630622610638,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5607218697143657,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.46463652624239155,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.4481637904771043,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.44488195841374245,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.44360050054917555,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.44288918402579464,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.4423990296652316,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.44022636873997156,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "OR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 3,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 16,
+          "after": 14
+        },
+        {
+          "before": 14,
+          "after": 14
+        },
+        {
+          "before": 14,
+          "after": 14
+        }
+      ]
+    },
+    {
+      "seed": 203,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5546875
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.546875
+      },
+      "soft_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7578125
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.734375
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 15,
+      "compressed_symbols": 15,
+      "modules": 0,
+      "primitive_dag": 14,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933630622610638,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5453551656191657,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.45668865059537056,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.4429945255804808,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.44140615831581054,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.44101748597006707,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.44090989915599366,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.440895164299411,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.44093383668750163,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        }
+      ]
+    },
+    {
+      "seed": 204,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.4765625
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.453125
+      },
+      "soft_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6484375
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.625
+      },
+      "hard_minus_soft": -0.03125,
+      "primitive_symbols": 19,
+      "compressed_symbols": 18,
+      "modules": 1,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6942774943926507,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6285910029818338,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5923576271724802,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.574604569818394,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.5727651336965994,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.5721225409549158,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.5717850676629541,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.5715784130303816,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.5714423513777704,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "OR",
+            [
+              "NOT",
+              "p0"
+            ],
+            "p1"
+          ],
+          "table": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 19,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "seed": 204,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.4765625
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.4609375
+      },
+      "soft_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6484375
+      },
+      "hard_train": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6171875
+      },
+      "hard_minus_soft": -0.0625,
+      "primitive_symbols": 21,
+      "compressed_symbols": 20,
+      "modules": 1,
+      "primitive_dag": 16,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6942774943926507,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6235208359150579,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.5823366967159159,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5718879234589285,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.5711184013776093,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.570927160276486,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.5708902229917863,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.570915101600248,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.5708971070591975,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "OR",
+            [
+              "NOT",
+              "p0"
+            ],
+            "p1"
+          ],
+          "table": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 21,
+          "after": 20
+        },
+        {
+          "before": 20,
+          "after": 20
+        },
+        {
+          "before": 20,
+          "after": 20
+        }
+      ]
+    },
+    {
+      "seed": 204,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.625
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5859375
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.71875
+      },
+      "hard_train": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.6640625
+      },
+      "hard_minus_soft": -0.03125,
+      "primitive_symbols": 11,
+      "compressed_symbols": 11,
+      "modules": 0,
+      "primitive_dag": 11,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933366360680532,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.593868850712002,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5245804779057306,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.5126298093995187,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.5098232679446576,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.5087438851246552,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.5082164739194901,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.5078927092247296,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.5076787097501405,
+          "temp": 1.0
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        }
+      ]
+    },
+    {
+      "seed": 204,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.625
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7109375
+      },
+      "hard_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.6875
+      },
+      "hard_minus_soft": -0.03125,
+      "primitive_symbols": 9,
+      "compressed_symbols": 9,
+      "modules": 0,
+      "primitive_dag": 9,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933366360680532,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5846395830935536,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.517559417131287,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5088342013360814,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.5071874529133344,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.5068577303953989,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.5067848125063269,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.5067761199432778,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.5071514675401688,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 9,
+          "after": 9
+        },
+        {
+          "before": 9,
+          "after": 9
+        },
+        {
+          "before": 9,
+          "after": 9
+        }
+      ]
+    },
+    {
+      "seed": 205,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.0,
+        "bit_accuracy": 0.46875
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.4921875
+      },
+      "soft_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.703125
+      },
+      "hard_train": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6796875
+      },
+      "hard_minus_soft": 0.03125,
+      "primitive_symbols": 15,
+      "compressed_symbols": 14,
+      "modules": 1,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6948771747678926,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6237918585191888,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5663498234229685,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.5341651202205293,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.5064145078510315,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.5032255686654699,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.5025585704719794,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.5022292823409326,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.5020285312707382,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "XOR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 15,
+          "after": 14
+        },
+        {
+          "before": 14,
+          "after": 14
+        },
+        {
+          "before": 14,
+          "after": 14
+        }
+      ]
+    },
+    {
+      "seed": 205,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.0,
+        "bit_accuracy": 0.484375
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5234375
+      },
+      "soft_train": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.671875
+      },
+      "hard_train": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_minus_soft": 0.03125,
+      "primitive_symbols": 13,
+      "compressed_symbols": 13,
+      "modules": 0,
+      "primitive_dag": 12,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6948771747678926,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.6167764320895646,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.556705511153288,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5341033854341062,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.5331711893009345,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.5330043242914557,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.5329805959271996,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.5330930422255291,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.5330577595397562,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 13,
+          "after": 13
+        },
+        {
+          "before": 13,
+          "after": 13
+        },
+        {
+          "before": 13,
+          "after": 13
+        }
+      ]
+    },
+    {
+      "seed": 205,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.546875
+      },
+      "soft_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.71875
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.671875
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 19,
+      "compressed_symbols": 18,
+      "modules": 1,
+      "primitive_dag": 17,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6944518993271056,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.600643269884334,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5011095258681496,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.48085239019167103,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.4777437891840108,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.47146925609503365,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.4696862280806502,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.4692056581439055,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.46893085627727293,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "OR",
+            [
+              "NOT",
+              "p0"
+            ],
+            "p1"
+          ],
+          "table": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 3,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 19,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "seed": 205,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.578125
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.53125
+      },
+      "soft_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.703125
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6875
+      },
+      "hard_minus_soft": -0.03125,
+      "primitive_symbols": 16,
+      "compressed_symbols": 16,
+      "modules": 0,
+      "primitive_dag": 13,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6944518993271056,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5921351709349454,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.4903754463051523,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.4765255723147242,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.4753109201613206,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.4737809522080375,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.47330736811513296,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.47331484225973697,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.4734277245770841,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 16,
+          "after": 16
+        },
+        {
+          "before": 16,
+          "after": 16
+        },
+        {
+          "before": 16,
+          "after": 16
+        }
+      ]
+    },
+    {
+      "seed": 206,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_test": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.7734375
+      },
+      "soft_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.8671875
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8515625
+      },
+      "hard_minus_soft": 0.0625,
+      "primitive_symbols": 21,
+      "compressed_symbols": 18,
+      "modules": 2,
+      "primitive_dag": 20,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933661794305708,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5886307286675367,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.2862231235472651,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.2558946546421873,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.2459955451953736,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.24160554240529672,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.24046613304992925,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.23980544333255102,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.23937324044121355,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "AND",
+            [
+              "NOT",
+              "p0"
+            ],
+            [
+              "NOT",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "arity": 2,
+          "count": 4,
+          "size": 3,
+          "gain": 5,
+          "task_count": 2,
+          "level": 1
+        },
+        "N001": {
+          "pattern": [
+            "NOT",
+            [
+              "XOR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 21,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        },
+        {
+          "before": 18,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "seed": 206,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "soft_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.859375
+      },
+      "hard_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.859375
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 16,
+      "compressed_symbols": 15,
+      "modules": 1,
+      "primitive_dag": 16,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933661794305708,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5680344790941889,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.26325408821649526,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.24801602773555625,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.2459801508971323,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.2454824665756544,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.24538525443305192,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.2453745628025648,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.2459630181855852,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "AND",
+            [
+              "NOT",
+              "p0"
+            ],
+            [
+              "NOT",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 3,
+          "gain": 3,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 16,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        }
+      ]
+    },
+    {
+      "seed": 206,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.4921875
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.484375
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.796875
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 27,
+      "compressed_symbols": 24,
+      "modules": 2,
+      "primitive_dag": 25,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928278438850979,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5470992904069014,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.426926986791827,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.40395539013227444,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.3928248496193135,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.3910723948868382,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.389292384047507,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.37921350768642226,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.3760813900060237,
+          "temp": 1.0
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "AND",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "arity": 2,
+          "count": 4,
+          "size": 2,
+          "gain": 2,
+          "task_count": 4,
+          "level": 1
+        },
+        "N001": {
+          "pattern": [
+            "NOT",
+            [
+              "OR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 27,
+          "after": 24
+        },
+        {
+          "before": 24,
+          "after": 24
+        },
+        {
+          "before": 24,
+          "after": 24
+        }
+      ]
+    },
+    {
+      "seed": 206,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5234375
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.515625
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "hard_minus_soft": 0.0,
+      "primitive_symbols": 27,
+      "compressed_symbols": 24,
+      "modules": 2,
+      "primitive_dag": 25,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928278438850979,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5313786063191939,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.4142361103427007,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.3990912303523178,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.3970971585083476,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.39466528211295615,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.3941104177820907,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.39416196034312845,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.39408072167938607,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {
+        "N000": {
+          "pattern": [
+            "NOT",
+            [
+              "AND",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "arity": 2,
+          "count": 4,
+          "size": 2,
+          "gain": 2,
+          "task_count": 4,
+          "level": 1
+        },
+        "N001": {
+          "pattern": [
+            "NOT",
+            [
+              "OR",
+              "p0",
+              "p1"
+            ]
+          ],
+          "table": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "arity": 2,
+          "count": 3,
+          "size": 2,
+          "gain": 1,
+          "task_count": 2,
+          "level": 1
+        }
+      },
+      "history": [
+        {
+          "before": 27,
+          "after": 24
+        },
+        {
+          "before": 24,
+          "after": 24
+        },
+        {
+          "before": 24,
+          "after": 24
+        }
+      ]
+    },
+    {
+      "seed": 207,
+      "task": "numeric",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6875
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6875
+      },
+      "soft_train": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.125,
+        "bit_accuracy": 0.71875
+      },
+      "hard_minus_soft": 0.03125,
+      "primitive_symbols": 15,
+      "compressed_symbols": 15,
+      "modules": 0,
+      "primitive_dag": 14,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924417837913962,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5920471604192624,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.4260457523296477,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.41024673265242695,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.40723244157981603,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.40571335596690783,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.40499858081952744,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.40455622015689974,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.40425671229826615,
+          "temp": 1.0
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        },
+        {
+          "before": 15,
+          "after": 15
+        }
+      ]
+    },
+    {
+      "seed": 207,
+      "task": "numeric",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6875
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6796875
+      },
+      "soft_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.7265625
+      },
+      "hard_minus_soft": -0.03125,
+      "primitive_symbols": 16,
+      "compressed_symbols": 16,
+      "modules": 0,
+      "primitive_dag": 15,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924417837913962,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5803036664449488,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.4130517628692557,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.4050962285692154,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.40342116692645413,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.4030917323349551,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.4030277094136,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.4030213295472889,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.40306025508305404,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 16,
+          "after": 16
+        },
+        {
+          "before": 16,
+          "after": 16
+        },
+        {
+          "before": 16,
+          "after": 16
+        }
+      ]
+    },
+    {
+      "seed": 207,
+      "task": "selection",
+      "condition": "fixed",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.640625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5859375
+      },
+      "soft_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.75
+      },
+      "hard_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7109375
+      },
+      "hard_minus_soft": -0.0625,
+      "primitive_symbols": 11,
+      "compressed_symbols": 11,
+      "modules": 0,
+      "primitive_dag": 10,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6925581006784907,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.5778386076475426,
+          "temp": 1.0
+        },
+        {
+          "step": 100,
+          "loss": 0.5206584015804787,
+          "temp": 1.0
+        },
+        {
+          "step": 150,
+          "loss": 0.5064425826784181,
+          "temp": 1.0
+        },
+        {
+          "step": 200,
+          "loss": 0.49446040144836717,
+          "temp": 1.0
+        },
+        {
+          "step": 250,
+          "loss": 0.4918261136819831,
+          "temp": 1.0
+        },
+        {
+          "step": 300,
+          "loss": 0.4887550618155877,
+          "temp": 1.0
+        },
+        {
+          "step": 350,
+          "loss": 0.48838641376716113,
+          "temp": 1.0
+        },
+        {
+          "step": 399,
+          "loss": 0.48520762755585545,
+          "temp": 1.0
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        }
+      ]
+    },
+    {
+      "seed": 207,
+      "task": "selection",
+      "condition": "annealed",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.734375
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6875
+      },
+      "hard_minus_soft": -0.09375,
+      "primitive_symbols": 11,
+      "compressed_symbols": 11,
+      "modules": 0,
+      "primitive_dag": 10,
+      "allocated_logic_gates": 68,
+      "export_equivalent": true,
+      "compressed_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6925581006784907,
+          "temp": 1.0
+        },
+        {
+          "step": 50,
+          "loss": 0.57033646894743,
+          "temp": 0.899749373433584
+        },
+        {
+          "step": 100,
+          "loss": 0.5124326076328094,
+          "temp": 0.7994987468671679
+        },
+        {
+          "step": 150,
+          "loss": 0.5032023470273139,
+          "temp": 0.6992481203007519
+        },
+        {
+          "step": 200,
+          "loss": 0.49180002153698243,
+          "temp": 0.5989974937343359
+        },
+        {
+          "step": 250,
+          "loss": 0.49130497929783484,
+          "temp": 0.4987468671679198
+        },
+        {
+          "step": 300,
+          "loss": 0.4911997093510563,
+          "temp": 0.3984962406015038
+        },
+        {
+          "step": 350,
+          "loss": 0.49118836218842216,
+          "temp": 0.29824561403508776
+        },
+        {
+          "step": 399,
+          "loss": 0.4912409624983273,
+          "temp": 0.19999999999999984
+        }
+      ],
+      "library": {},
+      "history": [
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        },
+        {
+          "before": 11,
+          "after": 11
+        }
+      ]
+    }
+  ],
+  "aggregates": [
+    {
+      "task": "numeric",
+      "condition": "fixed",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 8,
+          "mean": 0.1640625,
+          "variance": 0.01416015625,
+          "sd": 0.11899645477912357,
+          "ci95": [
+            0.08984375,
+            0.2421875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.62109375,
+          "variance": 0.015555245535714286,
+          "sd": 0.12472067004195529,
+          "ci95": [
+            0.541015625,
+            0.701171875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 8,
+          "mean": 0.1640625,
+          "variance": 0.013602120535714286,
+          "sd": 0.11662812926440295,
+          "ci95": [
+            0.09765625,
+            0.24609375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.62109375,
+          "variance": 0.0150146484375,
+          "sd": 0.12253427454186033,
+          "ci95": [
+            0.54296875,
+            0.7001953125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 8,
+          "mean": 0.32421875,
+          "variance": 0.023978097098214284,
+          "sd": 0.1548486264007992,
+          "ci95": [
+            0.234375,
+            0.43359375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.748046875,
+          "variance": 0.006918770926339286,
+          "sd": 0.08317914958894017,
+          "ci95": [
+            0.697265625,
+            0.8046875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 8,
+          "mean": 0.3203125,
+          "variance": 0.023646763392857144,
+          "sd": 0.15377504151473068,
+          "ci95": [
+            0.22265625,
+            0.421875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.728515625,
+          "variance": 0.008017403738839286,
+          "sd": 0.08953995610250927,
+          "ci95": [
+            0.6748046875,
+            0.7890625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      },
+      "compression": {
+        "primitive_symbols": {
+          "n": 8,
+          "mean": 16.625,
+          "variance": 15.125,
+          "sd": 3.8890872965260113,
+          "ci95": [
+            14.0,
+            19.125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "compressed_symbols": {
+          "n": 8,
+          "mean": 15.375,
+          "variance": 9.982142857142858,
+          "sd": 3.1594529363709247,
+          "ci95": [
+            13.25,
+            17.25
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "modules": {
+          "n": 8,
+          "mean": 0.875,
+          "variance": 0.4107142857142857,
+          "sd": 0.6408699444616557,
+          "ci95": [
+            0.5,
+            1.25
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "primitive_dag": {
+          "n": 8,
+          "mean": 15.375,
+          "variance": 16.839285714285715,
+          "sd": 4.103569874424672,
+          "ci95": [
+            12.625,
+            17.875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_minus_soft": {
+          "n": 8,
+          "mean": 0.0,
+          "variance": 0.005022321428571429,
+          "sd": 0.0708683386892301,
+          "ci95": [
+            -0.05078125,
+            0.0390625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "numeric",
+      "condition": "annealed",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 8,
+          "mean": 0.16796875,
+          "variance": 0.015607561383928572,
+          "sd": 0.12493022606210465,
+          "ci95": [
+            0.08984375,
+            0.25
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.625,
+          "variance": 0.015363420758928572,
+          "sd": 0.12394926687531706,
+          "ci95": [
+            0.5458984375,
+            0.705078125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 8,
+          "mean": 0.15234375,
+          "variance": 0.0157470703125,
+          "sd": 0.1254873312828829,
+          "ci95": [
+            0.078125,
+            0.23828125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.625,
+          "variance": 0.015677315848214284,
+          "sd": 0.125209088520819,
+          "ci95": [
+            0.5478515625,
+            0.708984375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 8,
+          "mean": 0.3203125,
+          "variance": 0.02197265625,
+          "sd": 0.14823176532039278,
+          "ci95": [
+            0.234375,
+            0.421875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.7421875,
+          "variance": 0.0072021484375,
+          "sd": 0.08486547258750168,
+          "ci95": [
+            0.6904296875,
+            0.7998046875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 8,
+          "mean": 0.265625,
+          "variance": 0.025948660714285716,
+          "sd": 0.1610858799345421,
+          "ci95": [
+            0.171875,
+            0.37890625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.716796875,
+          "variance": 0.008383614676339286,
+          "sd": 0.09156208099611589,
+          "ci95": [
+            0.6611328125,
+            0.779296875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      },
+      "compression": {
+        "primitive_symbols": {
+          "n": 8,
+          "mean": 15.625,
+          "variance": 8.267857142857142,
+          "sd": 2.8753881725529062,
+          "ci95": [
+            13.875,
+            17.625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "compressed_symbols": {
+          "n": 8,
+          "mean": 15.0,
+          "variance": 8.571428571428571,
+          "sd": 2.9277002188455996,
+          "ci95": [
+            13.125,
+            17.0
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "modules": {
+          "n": 8,
+          "mean": 0.625,
+          "variance": 0.26785714285714285,
+          "sd": 0.5175491695067657,
+          "ci95": [
+            0.25,
+            0.875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "primitive_dag": {
+          "n": 8,
+          "mean": 14.375,
+          "variance": 5.982142857142857,
+          "sd": 2.445841952609133,
+          "ci95": [
+            12.75,
+            15.875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_minus_soft": {
+          "n": 8,
+          "mean": -0.015625,
+          "variance": 0.0078125,
+          "sd": 0.08838834764831845,
+          "ci95": [
+            -0.07421875,
+            0.0390625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "selection",
+      "condition": "fixed",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 8,
+          "mean": 0.1171875,
+          "variance": 0.0029994419642857145,
+          "sd": 0.05476716136779151,
+          "ci95": [
+            0.08203125,
+            0.15234375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.576171875,
+          "variance": 0.0026637486049107145,
+          "sd": 0.05161151620433868,
+          "ci95": [
+            0.5419921875,
+            0.607421875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 8,
+          "mean": 0.109375,
+          "variance": 0.002232142857142857,
+          "sd": 0.0472455591261534,
+          "ci95": [
+            0.078125,
+            0.140625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.564453125,
+          "variance": 0.0016697474888392857,
+          "sd": 0.040862543837104484,
+          "ci95": [
+            0.5361328125,
+            0.5888671875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 8,
+          "mean": 0.33203125,
+          "variance": 0.008353097098214286,
+          "sd": 0.09139527940880911,
+          "ci95": [
+            0.2734375,
+            0.390625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.7509765625,
+          "variance": 0.0008272443498883929,
+          "sd": 0.028761855814401004,
+          "ci95": [
+            0.732421875,
+            0.7705078125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 8,
+          "mean": 0.2421875,
+          "variance": 0.013323102678571428,
+          "sd": 0.11542574530221335,
+          "ci95": [
+            0.171875,
+            0.3203125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.7177734375,
+          "variance": 0.0021874564034598215,
+          "sd": 0.04677025126573324,
+          "ci95": [
+            0.6884765625,
+            0.7490234375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      },
+      "compression": {
+        "primitive_symbols": {
+          "n": 8,
+          "mean": 17.875,
+          "variance": 46.125,
+          "sd": 6.791538853603062,
+          "ci95": [
+            13.75,
+            22.5
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "compressed_symbols": {
+          "n": 8,
+          "mean": 17.0,
+          "variance": 37.142857142857146,
+          "sd": 6.094494002200441,
+          "ci95": [
+            13.375,
+            21.25
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "modules": {
+          "n": 8,
+          "mean": 0.625,
+          "variance": 0.5535714285714286,
+          "sd": 0.7440238091428449,
+          "ci95": [
+            0.24687500000000284,
+            1.125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "primitive_dag": {
+          "n": 8,
+          "mean": 16.625,
+          "variance": 31.982142857142858,
+          "sd": 5.655275665884277,
+          "ci95": [
+            13.25,
+            20.5
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_minus_soft": {
+          "n": 8,
+          "mean": -0.0078125,
+          "variance": 0.0029994419642857145,
+          "sd": 0.05476716136779151,
+          "ci95": [
+            -0.04296875,
+            0.02734375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "selection",
+      "condition": "annealed",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 8,
+          "mean": 0.12109375,
+          "variance": 0.0031912667410714285,
+          "sd": 0.05649129792340966,
+          "ci95": [
+            0.0859375,
+            0.15625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.5771484375,
+          "variance": 0.0016468593052455357,
+          "sd": 0.040581514329131874,
+          "ci95": [
+            0.55078125,
+            0.6025390625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 8,
+          "mean": 0.09765625,
+          "variance": 0.0017961774553571428,
+          "sd": 0.0423813338081418,
+          "ci95": [
+            0.0703125,
+            0.125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 8,
+          "mean": 0.5703125,
+          "variance": 0.0015869140625,
+          "sd": 0.03983608994994363,
+          "ci95": [
+            0.544921875,
+            0.5966796875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 8,
+          "mean": 0.3125,
+          "variance": 0.008928571428571428,
+          "sd": 0.0944911182523068,
+          "ci95": [
+            0.25390625,
+            0.375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.7470703125,
+          "variance": 0.0011149815150669643,
+          "sd": 0.03339133892294474,
+          "ci95": [
+            0.7255859375,
+            0.76953125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 8,
+          "mean": 0.25,
+          "variance": 0.007254464285714286,
+          "sd": 0.08517314298365586,
+          "ci95": [
+            0.19921875,
+            0.3046875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 8,
+          "mean": 0.7197265625,
+          "variance": 0.0011934552873883928,
+          "sd": 0.034546422208217055,
+          "ci95": [
+            0.6982421875,
+            0.7431640625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      },
+      "compression": {
+        "primitive_symbols": {
+          "n": 8,
+          "mean": 17.75,
+          "variance": 49.357142857142854,
+          "sd": 7.025463889106744,
+          "ci95": [
+            13.5,
+            22.5
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "compressed_symbols": {
+          "n": 8,
+          "mean": 17.125,
+          "variance": 39.267857142857146,
+          "sd": 6.266407036161723,
+          "ci95": [
+            13.25,
+            21.375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "modules": {
+          "n": 8,
+          "mean": 0.5,
+          "variance": 0.5714285714285714,
+          "sd": 0.7559289460184544,
+          "ci95": [
+            0.125,
+            1.0
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "primitive_dag": {
+          "n": 8,
+          "mean": 16.375,
+          "variance": 37.69642857142857,
+          "sd": 6.13974173491268,
+          "ci95": [
+            12.625,
+            20.5
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_minus_soft": {
+          "n": 8,
+          "mean": -0.0234375,
+          "variance": 0.00244140625,
+          "sd": 0.04941058844013093,
+          "ci95": [
+            -0.0546875,
+            0.0078125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "task": "numeric",
+      "n": 8,
+      "mean": -0.01171875,
+      "variance": 0.0038888113839285715,
+      "sd": 0.062360335020977646,
+      "ci95": [
+        -0.046875,
+        0.03125
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.75,
+      "p_holm": 0.75
+    },
+    {
+      "task": "selection",
+      "n": 8,
+      "mean": -0.01171875,
+      "variance": 0.00026157924107142856,
+      "sd": 0.016173411547086427,
+      "ci95": [
+        -0.0234375,
+        -0.00390625
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.25,
+      "p_holm": 0.5
+    }
+  ],
+  "verification": {
+    "gate_tables_verified": 16,
+    "max_gradient_error": 2.1535436804599913e-12
+  },
+  "elapsed_seconds": 3.5658760000001166,
+  "numpy": "2.3.5",
+  "split": {
+    "train": [
+      13,
+      33,
+      39,
+      18,
+      22,
+      10,
+      57,
+      49,
+      60,
+      16,
+      53,
+      58,
+      51,
+      59,
+      36,
+      47,
+      25,
+      1,
+      61,
+      56,
+      5,
+      20,
+      23,
+      9,
+      28,
+      46,
+      44,
+      40,
+      37,
+      34,
+      45,
+      26
+    ],
+    "test": [
+      50,
+      35,
+      63,
+      21,
+      15,
+      42,
+      8,
+      48,
+      62,
+      4,
+      38,
+      27,
+      43,
+      30,
+      17,
+      2,
+      0,
+      14,
+      55,
+      31,
+      19,
+      7,
+      6,
+      52,
+      12,
+      24,
+      29,
+      32,
+      3,
+      41,
+      11,
+      54
+    ]
+  },
+  "sources": {
+    "pilot.py": "57829ba505ddf8eba68dc2fe1809179c3e97f995824e25efa5a528518fd10648",
+    "e004.py": "56c39f24c323c72a2bd8a17abc748d8326860eae6f77387455c86f197a6f0ae2",
+    "logic_modules.py": "23a8bad4718dbf40f6b6303dcf17b7d4ac3e6c28c8dc05cd86638aff8aeaee6a",
+    "global_accept.py": "ad754ca58f67ff9c5abe2b4723e5e4451adb219a5561d2f4d81f73652f76c9c5"
+  },
+  "protocol_sha256": "c49774d1717ce8a63334b8470e468deb39d2391ab0b1cc0f86f4fc894c543540"
+}

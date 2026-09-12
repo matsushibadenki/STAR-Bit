@@ -1,0 +1,9 @@
+{
+  "full_adder_truth_table": true,
+  "mux_truth_table": true,
+  "numeric_spatial_temporal_equal": true,
+  "numeric_target_equal": true,
+  "selection_spatial_temporal_equal": true,
+  "selection_target_equal": true,
+  "verify_source_sha256": "b3af0f74d8a4dbb9ac933a89f2db603eb8a8229f23b8822e36c89eb548663c74"
+}

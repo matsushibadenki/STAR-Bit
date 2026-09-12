@@ -1,5 +1,25 @@
 # STAR-Bit：研究構想
 
+> **2026-09-12 Module Genesis追記**：E019で探索単位をGate構文から64-bit Function signatureへ変更し、同値構文を生成時に統合しました。同値統合と一段lookaheadだけではmuxしか到達しませんでしたが、タスク非依存のaffine中間signatureを保持するとparityが0/4から4/4 seedへ回復しました。これは踏み石の保持が到達可能性を変える肯定例ですが、人手でaffine族を選んだ帰納バイアスであり、自律Module Genesisではありません。次は子候補への実測寄与から親Functionを自動昇格します。[E019レポート](STAR-Bit-E019-function-space-genesis.md)。
+>
+> English: E019 moved from gate syntax to exact function signatures. Equivalence merging alone was insufficient, while retaining a task-independent affine scaffold recovered parity in 4/4 seeds. The next step replaces this hand-selected function family with learned archive promotion.
+>
+> 简体中文：E019将搜索单位从门语法改为精确功能签名。仅合并等价功能仍不够，而保留任务无关的仿射支架使parity恢复到4/4。下一步将用学习到的档案晋升替代人工选择的功能族。
+
+> **2026-09-12 Learned Circuit Abstraction追試**：E017で学習配線DLGNを入力出力例からhard circuit化しました。parityとmuxは4/4 pilot seedで全64入力完全一致しましたが、comparator/carryは0/4でした。離散refinementはDLGN開始13/16、random開始12/16のexact到達で、全タスク基準を満たしていません。E018のCEGISもparity/muxを高速化した一方、成功数はall-row SATと同じ8/16で、Module抽象化の主比較は保留しました。[E017境界レポート](STAR-Bit-E017-learned-circuit-abstraction.md)と[E018 CEGISレポート](STAR-Bit-E018-cegis-mdl.md)を参照してください。
+>
+> English: Learned wiring produced exact parity and mux circuits, but comparator and carry remained unresolved. CEGIS accelerated the easy tasks without improving total synthesis success, so autonomous Module-abstraction claims remain withheld.
+>
+> 简体中文：学习配线生成了精确的parity与mux电路，但comparator与carry仍未解决。CEGIS加速了简单任务，却没有提高总体合成成功率，因此暂不提出自主模块抽象结论。
+
+> **2026-09-12 Milestone 2**：検証済みLogic PE prior下で4 Expertsと入力依存Routerを共同学習し、全入力で均衡するラベル非依存fixed hash対照と16 seedで比較しました。独立hash追試のnumeric改善は+0.1035（95% CI [0.0508, 0.1602]、exact p=0.001953）、selection改善は+0.3359（Holm p=0.000244）でした。負荷分散損失はupdate 0から適用し、Expert交換は同一run内から別seedの順で実施しています。経路選択はRouter–Expert対応、精密数値はState付きmoduleへの依存が相対的に強いという分析まで到達しました。結論と限界は[Logic Routing Milestone 2](STAR-Bit-milestone-joint-routing.md)を参照してください。
+>
+> English: Milestone 2 isolates learned routing from a balanced fixed random hash under a verified Logic-PE prior and confirms the numeric result with independent random streams. Route selection depends more strongly on Router–Expert assignment, while numeric addition depends more on the recurrent stateful module.
+>
+> 简体中文：里程碑2在已验证Logic PE先验下，将学习路由与均衡固定随机哈希分离，并用独立随机流复验数值任务。路径选择更依赖Router与Expert的对应关系，数值加法更依赖递归状态模块。
+
+> **2026-09-12 Milestone 1**：固定ランダム論理配線の表現制約をSATで診断し、State付きLogic PEを時間再利用するprototypeまで進めました。16 split seedでtrain-selected scheduleは固定ランダムscheduleをnumeric +0.7402、selection +0.5098 test exact上回り、Holm補正後も有意でした。物理primitive数は空間展開比で66.7%／50%減りましたが、active演算数は減らず、強いmodule事前知識を使う小型Boolean実験です。結論と限界は[Logic Routing Milestone 1](STAR-Bit-milestone-logic-routing.md)を参照してください。
+
 > **2026-09-10追記**：ゲート数増大への対策と自律的なモジュール形成のアイデアを追加し、[回路モジュール発見・Logic PE再利用の実験](STAR-Bit-logic-modules-results.md)を実施しました。記述の圧縮と実行ゲート削減を分け、構想の追加仕様は[改訂計画](STAR-Bit-validation.md)第11節に記録しています。
 
 > **2026-09-09 検証追記**：以下は当初の構想であり、本文のAccuracy 76%・82%・83%・85%等は仮定値です。研究仮説は検証可能ですが、精度回復や通常MoEを超える新規性は未証明です。現在の実験仕様・判断基準は [研究検証と改訂計画](STAR-Bit-validation.md) を優先してください。

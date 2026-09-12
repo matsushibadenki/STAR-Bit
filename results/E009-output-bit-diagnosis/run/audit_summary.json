@@ -1,0 +1,212 @@
+{
+  "verified_witnesses": 98,
+  "summary": [
+    {
+      "task": "numeric",
+      "mode": "gate2",
+      "sat_fraction_mean": 0.375,
+      "sat_fraction_variance": 0.016666666666666666
+    },
+    {
+      "task": "numeric",
+      "mode": "lut4",
+      "sat_fraction_mean": 0.765625,
+      "sat_fraction_variance": 0.020572916666666666
+    },
+    {
+      "task": "selection",
+      "mode": "gate2",
+      "sat_fraction_mean": 0.0,
+      "sat_fraction_variance": 0.0
+    },
+    {
+      "task": "selection",
+      "mode": "lut4",
+      "sat_fraction_mean": 0.390625,
+      "sat_fraction_variance": 0.09973958333333334
+    }
+  ],
+  "individual_obstructions": [
+    [
+      "numeric",
+      "gate2",
+      500
+    ],
+    [
+      "numeric",
+      "gate2",
+      501
+    ],
+    [
+      "numeric",
+      "gate2",
+      502
+    ],
+    [
+      "numeric",
+      "gate2",
+      503
+    ],
+    [
+      "numeric",
+      "gate2",
+      504
+    ],
+    [
+      "numeric",
+      "gate2",
+      505
+    ],
+    [
+      "numeric",
+      "gate2",
+      506
+    ],
+    [
+      "numeric",
+      "gate2",
+      507
+    ],
+    [
+      "numeric",
+      "gate2",
+      508
+    ],
+    [
+      "numeric",
+      "gate2",
+      509
+    ],
+    [
+      "numeric",
+      "gate2",
+      510
+    ],
+    [
+      "numeric",
+      "gate2",
+      511
+    ],
+    [
+      "numeric",
+      "gate2",
+      512
+    ],
+    [
+      "numeric",
+      "gate2",
+      513
+    ],
+    [
+      "numeric",
+      "gate2",
+      514
+    ],
+    [
+      "numeric",
+      "gate2",
+      515
+    ],
+    [
+      "numeric",
+      "lut4",
+      505
+    ],
+    [
+      "selection",
+      "gate2",
+      500
+    ],
+    [
+      "selection",
+      "gate2",
+      501
+    ],
+    [
+      "selection",
+      "gate2",
+      502
+    ],
+    [
+      "selection",
+      "gate2",
+      503
+    ],
+    [
+      "selection",
+      "gate2",
+      504
+    ],
+    [
+      "selection",
+      "gate2",
+      505
+    ],
+    [
+      "selection",
+      "gate2",
+      506
+    ],
+    [
+      "selection",
+      "gate2",
+      507
+    ],
+    [
+      "selection",
+      "gate2",
+      508
+    ],
+    [
+      "selection",
+      "gate2",
+      509
+    ],
+    [
+      "selection",
+      "gate2",
+      510
+    ],
+    [
+      "selection",
+      "gate2",
+      511
+    ],
+    [
+      "selection",
+      "gate2",
+      512
+    ],
+    [
+      "selection",
+      "gate2",
+      513
+    ],
+    [
+      "selection",
+      "gate2",
+      514
+    ],
+    [
+      "selection",
+      "gate2",
+      515
+    ],
+    [
+      "selection",
+      "lut4",
+      501
+    ],
+    [
+      "selection",
+      "lut4",
+      507
+    ],
+    [
+      "selection",
+      "lut4",
+      508
+    ]
+  ],
+  "shared_conflicts": []
+}

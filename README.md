@@ -7,6 +7,24 @@
 - [CPU予備実験の実測結果](docs/STAR-Bit-pilot-results.md)
 - [Logic PE・モジュール発見の実測結果](docs/STAR-Bit-logic-modules-results.md)
 - [E003：全体コストによるModule採用](docs/STAR-Bit-E003-global-accept.md)
+- [E004：学習論理ゲートとhard化](docs/STAR-Bit-E004-learned-logic.md)
+- [E005：入力到達性と深さの比較](docs/STAR-Bit-E005-input-coverage.md)
+- [E006：2入力ゲートと4入力LUT](docs/STAR-Bit-E006-output-lut.md)
+- [E007：全入力学習と最適化予算](docs/STAR-Bit-E007-full-domain.md)
+- [E008：固定配線のSAT診断と表現制約](docs/STAR-Bit-E008-fixed-wiring-sat.md)
+- [E009：出力bit別の表現制約](docs/STAR-Bit-E009-output-bit-diagnosis.md)
+- [E010：出力直前の1接続修正](docs/STAR-Bit-E010-single-rewire.md)
+- [E011：出力arityを1増やす](docs/STAR-Bit-E011-output-arity-plus-one.md)
+- [E012：出力arityを2増やす](docs/STAR-Bit-E012-output-arity-plus-two.md)
+- [E013：隠れノード選択によるボトルネック診断](docs/STAR-Bit-E013-hidden-node-routing.md)
+- [E014：State付きLogic PEとschedule選択](docs/STAR-Bit-E014-temporal-logic-pe.md)
+- [E015：Logic Expert・schedule・Router共同最適化](docs/STAR-Bit-E015-joint-logic-router.md)
+- [E016：独立hashによるnumeric確認](docs/STAR-Bit-E016-independent-hash-replication.md)
+- [E017：Learned Circuit Abstraction境界実験](docs/STAR-Bit-E017-learned-circuit-abstraction.md)
+- [E018：CEGIS exact circuit形成pilot](docs/STAR-Bit-E018-cegis-mdl.md)
+- [E019：Function-space Module Genesis pilot](docs/STAR-Bit-E019-function-space-genesis.md)
+- [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
+- [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)
 - [継続研究ログと次の実験](docs/RESEARCH-LOG.md)
 
 English: Research on whether routing and structure can compensate for low-bit weights. The current implementation is an exploratory CPU MLP pilot, not a Transformer or full BitNet implementation.
@@ -25,7 +43,7 @@ python3 -m unittest discover -s experiments -p 'test_*.py'
 
 標準実行は96訓練runとExpert交換評価。再実行すると出力先のJSON・checkpoint・レポートを上書きする。別条件は `--output` で別ディレクトリに保存する（レポート生成は標準出力先を読む）。
 
-結果の制約：固定データ・二つの人工問題・8モデルシード。補正後の有意差なし。モデルtensorはFP32格納であり、低ビットの実メモリ・速度改善は主張しない。
+初期MLP pilotの制約：固定データ・二つの人工問題・8モデルシードで、補正後の有意差なし。後続のLogic Routing実験では16 seed、固定均衡hash対照、開始時からの負荷分散損失、Expert交換、独立追試を追加した。モデルtensorはFP32格納であり、低ビットの実メモリ・速度改善は主張しない。
 
 ## 回路モジュール発見（2026-09-10）
 

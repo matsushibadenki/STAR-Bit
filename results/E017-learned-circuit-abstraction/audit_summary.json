@@ -1,0 +1,223 @@
+{
+  "pilot1": {
+    "soft_only": {
+      "hard_test_mean": 0.6015625,
+      "hard_full_exact_runs": 0,
+      "soft_test_mean": 0.61328125,
+      "live_gates_mean": 0.6875
+    },
+    "st_second_half": {
+      "hard_test_mean": 0.60546875,
+      "hard_full_exact_runs": 0,
+      "soft_test_mean": 0.60546875,
+      "live_gates_mean": 0.75
+    }
+  },
+  "pilot2": {
+    "aggregate": {
+      "random_tables": {
+        "hard_test_mean": 0.8203125,
+        "hard_full_exact_runs": 4,
+        "full_exact_by_task": {
+          "parity": 4,
+          "comparator": 0,
+          "mux": 0,
+          "carry": 0
+        },
+        "live_gates_mean": 5.0
+      },
+      "diverse_tables": {
+        "hard_test_mean": 0.90625,
+        "hard_full_exact_runs": 8,
+        "full_exact_by_task": {
+          "parity": 4,
+          "comparator": 0,
+          "mux": 4,
+          "carry": 0
+        },
+        "live_gates_mean": 8.625
+      }
+    },
+    "by_task": {
+      "parity/random_tables": {
+        "hard_test": {
+          "mean": 1.0,
+          "variance": 0.0
+        },
+        "hard_full": {
+          "mean": 1.0,
+          "variance": 0.0
+        },
+        "full_exact": 4,
+        "live_gates": {
+          "mean": 7.5,
+          "variance": 1.6666666666666667
+        }
+      },
+      "parity/diverse_tables": {
+        "hard_test": {
+          "mean": 1.0,
+          "variance": 0.0
+        },
+        "hard_full": {
+          "mean": 1.0,
+          "variance": 0.0
+        },
+        "full_exact": 4,
+        "live_gates": {
+          "mean": 10.0,
+          "variance": 7.333333333333333
+        }
+      },
+      "comparator/random_tables": {
+        "hard_test": {
+          "mean": 0.734375,
+          "variance": 0.006184895833333333
+        },
+        "hard_full": {
+          "mean": 0.8671875,
+          "variance": 0.000244140625
+        },
+        "full_exact": 0,
+        "live_gates": {
+          "mean": 5.0,
+          "variance": 4.666666666666667
+        }
+      },
+      "comparator/diverse_tables": {
+        "hard_test": {
+          "mean": 0.734375,
+          "variance": 0.006184895833333333
+        },
+        "hard_full": {
+          "mean": 0.8828125,
+          "variance": 0.000244140625
+        },
+        "full_exact": 0,
+        "live_gates": {
+          "mean": 7.75,
+          "variance": 17.583333333333332
+        }
+      },
+      "mux/random_tables": {
+        "hard_test": {
+          "mean": 0.65625,
+          "variance": 0.00390625
+        },
+        "hard_full": {
+          "mean": 0.75,
+          "variance": 0.0
+        },
+        "full_exact": 0,
+        "live_gates": {
+          "mean": 1.0,
+          "variance": 0.0
+        }
+      },
+      "mux/diverse_tables": {
+        "hard_test": {
+          "mean": 1.0,
+          "variance": 0.0
+        },
+        "hard_full": {
+          "mean": 1.0,
+          "variance": 0.0
+        },
+        "full_exact": 4,
+        "live_gates": {
+          "mean": 8.5,
+          "variance": 3.6666666666666665
+        }
+      },
+      "carry/random_tables": {
+        "hard_test": {
+          "mean": 0.890625,
+          "variance": 0.0035807291666666665
+        },
+        "hard_full": {
+          "mean": 0.90625,
+          "variance": 0.001953125
+        },
+        "full_exact": 0,
+        "live_gates": {
+          "mean": 6.5,
+          "variance": 11.666666666666666
+        }
+      },
+      "carry/diverse_tables": {
+        "hard_test": {
+          "mean": 0.890625,
+          "variance": 0.0087890625
+        },
+        "hard_full": {
+          "mean": 0.94140625,
+          "variance": 0.004292805989583333
+        },
+        "full_exact": 0,
+        "live_gates": {
+          "mean": 8.25,
+          "variance": 5.583333333333333
+        }
+      }
+    },
+    "paired_difference": {
+      "mean": 0.0859375,
+      "variance": 0.027018229166666668
+    }
+  },
+  "pilot3": {
+    "dlgn_start": {
+      "exact_runs": 13,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 2,
+        "mux": 4,
+        "carry": 3
+      },
+      "initial_error": {
+        "mean": 2.8125,
+        "variance": 14.029166666666667
+      },
+      "final_error": {
+        "mean": 0.375,
+        "variance": 0.65
+      },
+      "live_gates_exact": {
+        "mean": 11.923076923076923,
+        "variance": 19.41025641025641
+      }
+    },
+    "random_start": {
+      "exact_runs": 12,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 2,
+        "mux": 4,
+        "carry": 2
+      },
+      "initial_error": {
+        "mean": 31.0625,
+        "variance": 26.8625
+      },
+      "final_error": {
+        "mean": 0.8125,
+        "variance": 3.095833333333333
+      },
+      "live_gates_exact": {
+        "mean": 16.083333333333332,
+        "variance": 27.90151515151516
+      }
+    }
+  },
+  "sat_row_first_sat": {
+    "parity": 5,
+    "mux": 3
+  },
+  "sat_bv_first_sat": {
+    "parity": 5,
+    "mux": 3
+  },
+  "main_threshold_met": false,
+  "module_main_run": false,
+  "audited_checkpoints": 64
+}

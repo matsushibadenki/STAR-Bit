@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "lut2",
+    "layer": 0,
+    "error": 4.251092750387486e-13
+  },
+  {
+    "condition": "lut2",
+    "layer": 1,
+    "error": 3.2407225774438997e-13
+  },
+  {
+    "condition": "lut2",
+    "layer": 2,
+    "error": 2.670408599109164e-12
+  },
+  {
+    "condition": "lut4",
+    "layer": 0,
+    "error": 6.290910988752257e-13
+  },
+  {
+    "condition": "lut4",
+    "layer": 1,
+    "error": 7.080679358811848e-13
+  },
+  {
+    "condition": "lut4",
+    "layer": 2,
+    "error": 2.2795028126361416e-13
+  }
+]

@@ -1,0 +1,6370 @@
+{
+  "records": [
+    {
+      "seed": 800,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 800,
+      "hash_seed": 40800,
+      "train_indices": [
+        13,
+        5,
+        3,
+        12,
+        40,
+        54,
+        16,
+        58,
+        37,
+        38,
+        61,
+        25,
+        47,
+        11,
+        1,
+        55,
+        34,
+        7,
+        56,
+        29,
+        14,
+        17,
+        30,
+        32,
+        42,
+        49,
+        19,
+        46,
+        45,
+        8,
+        36,
+        4
+      ],
+      "test_indices": [
+        20,
+        6,
+        53,
+        0,
+        62,
+        35,
+        23,
+        63,
+        21,
+        50,
+        10,
+        57,
+        51,
+        48,
+        18,
+        9,
+        22,
+        28,
+        41,
+        44,
+        24,
+        26,
+        52,
+        59,
+        60,
+        39,
+        43,
+        2,
+        31,
+        27,
+        33,
+        15
+      ],
+      "fixed_train_counts": [
+        10,
+        10,
+        7,
+        5
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.84375,
+            "bit_accuracy": 0.9140625
+          },
+          "full": {
+            "exact": 0.921875,
+            "bit_accuracy": 0.95703125
+          },
+          "utilization_train": [
+            0.3125,
+            0.3125,
+            0.21875,
+            0.15625
+          ],
+          "utilization_test": [
+            0.1875,
+            0.1875,
+            0.28125,
+            0.34375
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.84375,
+            "bit_accuracy": 0.9140625
+          },
+          "full": {
+            "exact": 0.921875,
+            "bit_accuracy": 0.95703125
+          },
+          "utilization_train": [
+            0.3125,
+            0.3125,
+            0.21875,
+            0.15625
+          ],
+          "utilization_test": [
+            0.1875,
+            0.1875,
+            0.28125,
+            0.34375
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6602315902709961,
+          "balance_loss": 0.0703125,
+          "schedule_entropy": 0.9999866485595703,
+          "table_softness": 0.5988845229148865
+        },
+        {
+          "step": 200,
+          "task_loss": 0.009359464049339294,
+          "balance_loss": 0.0703125,
+          "schedule_entropy": 0.01660034991800785,
+          "table_softness": 0.03718320280313492
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00036888677277602255,
+          "balance_loss": 0.0703125,
+          "schedule_entropy": 0.0007466812385246158,
+          "table_softness": 0.005681596230715513
+        },
+        {
+          "step": 600,
+          "task_loss": 1.210652385452704e-06,
+          "balance_loss": 0.0703125,
+          "schedule_entropy": 2.3052655251376564e-06,
+          "table_softness": 0.0002472112828399986
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0064325124403695e-06,
+          "balance_loss": 0.0703125,
+          "schedule_entropy": 8.883106169138889e-20,
+          "table_softness": 2.730433101838514e-10
+        }
+      ],
+      "checkpoint": "numeric-800-fixed_hash.pt",
+      "checkpoint_sha256": "7a44d1e95a7383dc268bdfde475e9459e59792bbb5c0bbd23e79026aded1ae39"
+    },
+    {
+      "seed": 800,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 800,
+      "hash_seed": 40800,
+      "train_indices": [
+        13,
+        5,
+        3,
+        12,
+        40,
+        54,
+        16,
+        58,
+        37,
+        38,
+        61,
+        25,
+        47,
+        11,
+        1,
+        55,
+        34,
+        7,
+        56,
+        29,
+        14,
+        17,
+        30,
+        32,
+        42,
+        49,
+        19,
+        46,
+        45,
+        8,
+        36,
+        4
+      ],
+      "test_indices": [
+        20,
+        6,
+        53,
+        0,
+        62,
+        35,
+        23,
+        63,
+        21,
+        50,
+        10,
+        57,
+        51,
+        48,
+        18,
+        9,
+        22,
+        28,
+        41,
+        44,
+        24,
+        26,
+        52,
+        59,
+        60,
+        39,
+        43,
+        2,
+        31,
+        27,
+        33,
+        15
+      ],
+      "fixed_train_counts": [
+        10,
+        10,
+        7,
+        5
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.2500000596046448,
+            0.24999994039535522,
+            0.2500000298023224
+          ],
+          "utilization_test": [
+            0.15466010570526123,
+            0.28924113512039185,
+            0.3469279706478119,
+            0.20917074382305145
+          ],
+          "utilization_full": [
+            0.20233003795146942,
+            0.2696205973625183,
+            0.29846397042274475,
+            0.22958537936210632
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.25,
+            0.25,
+            0.28125
+          ],
+          "utilization_test": [
+            0.125,
+            0.25,
+            0.375,
+            0.25
+          ],
+          "utilization_full": [
+            0.171875,
+            0.25,
+            0.3125,
+            0.265625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6601434946060181,
+          "balance_loss": 6.198883056640625e-05,
+          "schedule_entropy": 0.9999866485595703,
+          "table_softness": 0.5988845229148865
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007976148277521133,
+          "balance_loss": 5.6624412536621094e-05,
+          "schedule_entropy": 0.014809729531407356,
+          "table_softness": 0.014987276867032051
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00028383865719661117,
+          "balance_loss": 3.5762786865234375e-07,
+          "schedule_entropy": 0.0005443268455564976,
+          "table_softness": 0.0011975608067587018
+        },
+        {
+          "step": 600,
+          "task_loss": 1.2934387996210717e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 7.34654861389572e-07,
+          "table_softness": 1.459578015783336e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0064325124403695e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 1.6076976413162082e-22,
+          "table_softness": 2.8756871956860066e-19
+        }
+      ],
+      "checkpoint": "numeric-800-learned_balanced.pt",
+      "checkpoint_sha256": "355d77b868e3fea35cbb4c4e1b6a62a2140d255091d0b28721fe04923f16806b"
+    },
+    {
+      "seed": 801,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 801,
+      "hash_seed": 40801,
+      "train_indices": [
+        18,
+        31,
+        17,
+        28,
+        24,
+        47,
+        50,
+        39,
+        58,
+        51,
+        49,
+        2,
+        9,
+        27,
+        38,
+        32,
+        63,
+        56,
+        35,
+        11,
+        22,
+        15,
+        14,
+        45,
+        48,
+        54,
+        37,
+        23,
+        25,
+        60,
+        29,
+        8
+      ],
+      "test_indices": [
+        4,
+        7,
+        36,
+        46,
+        6,
+        21,
+        53,
+        44,
+        33,
+        34,
+        59,
+        52,
+        42,
+        16,
+        30,
+        1,
+        19,
+        61,
+        43,
+        40,
+        62,
+        3,
+        41,
+        26,
+        57,
+        12,
+        10,
+        55,
+        13,
+        5,
+        20,
+        0
+      ],
+      "fixed_train_counts": [
+        6,
+        9,
+        8,
+        9
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.78125,
+            "bit_accuracy": 0.8828125
+          },
+          "full": {
+            "exact": 0.890625,
+            "bit_accuracy": 0.94140625
+          },
+          "utilization_train": [
+            0.1875,
+            0.28125,
+            0.25,
+            0.28125
+          ],
+          "utilization_test": [
+            0.3125,
+            0.21875,
+            0.25,
+            0.21875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.78125,
+            "bit_accuracy": 0.8828125
+          },
+          "full": {
+            "exact": 0.890625,
+            "bit_accuracy": 0.94140625
+          },
+          "utilization_train": [
+            0.1875,
+            0.28125,
+            0.25,
+            0.28125
+          ],
+          "utilization_test": [
+            0.3125,
+            0.21875,
+            0.25,
+            0.21875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            6,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6546649932861328,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.999988317489624,
+          "table_softness": 0.6046565771102905
+        },
+        {
+          "step": 200,
+          "task_loss": 0.009536514058709145,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.0659915953874588,
+          "table_softness": 0.01134661678224802
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00037199322832748294,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.04531155154109001,
+          "table_softness": 0.0006912086391821504
+        },
+        {
+          "step": 600,
+          "task_loss": 1.345574673905503e-06,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.0012153353309258819,
+          "table_softness": 3.823552560788812e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0063287163575296e-06,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 2.0975137182688286e-09,
+          "table_softness": 1.3532444865157243e-17
+        }
+      ],
+      "checkpoint": "numeric-801-fixed_hash.pt",
+      "checkpoint_sha256": "3c4e66fa581ce541f8534a9cbfa9ef78352ed616fe19e1cb68cf42a8769c8469"
+    },
+    {
+      "seed": 801,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 801,
+      "hash_seed": 40801,
+      "train_indices": [
+        18,
+        31,
+        17,
+        28,
+        24,
+        47,
+        50,
+        39,
+        58,
+        51,
+        49,
+        2,
+        9,
+        27,
+        38,
+        32,
+        63,
+        56,
+        35,
+        11,
+        22,
+        15,
+        14,
+        45,
+        48,
+        54,
+        37,
+        23,
+        25,
+        60,
+        29,
+        8
+      ],
+      "test_indices": [
+        4,
+        7,
+        36,
+        46,
+        6,
+        21,
+        53,
+        44,
+        33,
+        34,
+        59,
+        52,
+        42,
+        16,
+        30,
+        1,
+        19,
+        61,
+        43,
+        40,
+        62,
+        3,
+        41,
+        26,
+        57,
+        12,
+        10,
+        55,
+        13,
+        5,
+        20,
+        0
+      ],
+      "fixed_train_counts": [
+        6,
+        9,
+        8,
+        9
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "utilization_test": [
+            0.2724447548389435,
+            0.27445194125175476,
+            0.18993830680847168,
+            0.2631649672985077
+          ],
+          "utilization_full": [
+            0.26122236251831055,
+            0.2622259855270386,
+            0.21996916830539703,
+            0.25658246874809265
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.15625,
+            0.3125,
+            0.28125,
+            0.25
+          ],
+          "utilization_test": [
+            0.25,
+            0.25,
+            0.21875,
+            0.28125
+          ],
+          "utilization_full": [
+            0.203125,
+            0.28125,
+            0.25,
+            0.265625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6539171934127808,
+          "balance_loss": 0.0001342296600341797,
+          "schedule_entropy": 0.999988317489624,
+          "table_softness": 0.6046565771102905
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007488850504159927,
+          "balance_loss": 0.00011527538299560547,
+          "schedule_entropy": 0.02156275510787964,
+          "table_softness": 0.008519941940903664
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002570964570622891,
+          "balance_loss": 2.384185791015625e-07,
+          "schedule_entropy": 0.001136396313086152,
+          "table_softness": 0.0004732075030915439
+        },
+        {
+          "step": 600,
+          "task_loss": 1.0374275234426023e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 8.251769031630829e-06,
+          "table_softness": 2.1686157651856774e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0063287163575296e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 7.030859182666384e-17,
+          "table_softness": 2.0933796611796888e-21
+        }
+      ],
+      "checkpoint": "numeric-801-learned_balanced.pt",
+      "checkpoint_sha256": "2c5f5400b8474d592df80cb426f4cc90487ce8abda56cf843804c21d4bc8a1c9"
+    },
+    {
+      "seed": 802,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 802,
+      "hash_seed": 40802,
+      "train_indices": [
+        63,
+        21,
+        32,
+        29,
+        9,
+        6,
+        4,
+        50,
+        34,
+        11,
+        39,
+        1,
+        24,
+        58,
+        48,
+        26,
+        28,
+        30,
+        52,
+        42,
+        18,
+        55,
+        53,
+        10,
+        49,
+        44,
+        0,
+        37,
+        22,
+        40,
+        33,
+        25
+      ],
+      "test_indices": [
+        20,
+        13,
+        17,
+        62,
+        56,
+        59,
+        23,
+        46,
+        27,
+        36,
+        7,
+        61,
+        47,
+        45,
+        19,
+        3,
+        12,
+        43,
+        38,
+        31,
+        5,
+        41,
+        51,
+        14,
+        2,
+        35,
+        15,
+        60,
+        54,
+        57,
+        8,
+        16
+      ],
+      "fixed_train_counts": [
+        8,
+        9,
+        8,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.28125,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.25,
+            0.21875,
+            0.25,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.28125,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.25,
+            0.21875,
+            0.25,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6640702486038208,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.9999865889549255,
+          "table_softness": 0.5944018363952637
+        },
+        {
+          "step": 200,
+          "task_loss": 0.009443345479667187,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.015191064216196537,
+          "table_softness": 0.02273626998066902
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00035415723687037826,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.0005714813014492393,
+          "table_softness": 0.0023304768837988377
+        },
+        {
+          "step": 600,
+          "task_loss": 1.2582943327288376e-06,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 8.60932516388857e-07,
+          "table_softness": 5.445494389277883e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0062249202746898e-06,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 2.780515829334522e-22,
+          "table_softness": 3.1357718219703794e-16
+        }
+      ],
+      "checkpoint": "numeric-802-fixed_hash.pt",
+      "checkpoint_sha256": "05d53db3c90f9654befc755b609a53cc0ce973dd8248eb06570eaeef833dce11"
+    },
+    {
+      "seed": 802,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 802,
+      "hash_seed": 40802,
+      "train_indices": [
+        63,
+        21,
+        32,
+        29,
+        9,
+        6,
+        4,
+        50,
+        34,
+        11,
+        39,
+        1,
+        24,
+        58,
+        48,
+        26,
+        28,
+        30,
+        52,
+        42,
+        18,
+        55,
+        53,
+        10,
+        49,
+        44,
+        0,
+        37,
+        22,
+        40,
+        33,
+        25
+      ],
+      "test_indices": [
+        20,
+        13,
+        17,
+        62,
+        56,
+        59,
+        23,
+        46,
+        27,
+        36,
+        7,
+        61,
+        47,
+        45,
+        19,
+        3,
+        12,
+        43,
+        38,
+        31,
+        5,
+        41,
+        51,
+        14,
+        2,
+        35,
+        15,
+        60,
+        54,
+        57,
+        8,
+        16
+      ],
+      "fixed_train_counts": [
+        8,
+        9,
+        8,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.25,
+            0.2499999850988388,
+            0.25
+          ],
+          "utilization_test": [
+            0.2690368890762329,
+            0.2532019317150116,
+            0.34000372886657715,
+            0.13775743544101715
+          ],
+          "utilization_full": [
+            0.25951844453811646,
+            0.251600980758667,
+            0.2950018644332886,
+            0.19387872517108917
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.25,
+            0.21875,
+            0.3125
+          ],
+          "utilization_test": [
+            0.21875,
+            0.25,
+            0.375,
+            0.15625
+          ],
+          "utilization_full": [
+            0.21875,
+            0.25,
+            0.296875,
+            0.234375
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6632505655288696,
+          "balance_loss": 0.00014102458953857422,
+          "schedule_entropy": 0.9999865889549255,
+          "table_softness": 0.5944018363952637
+        },
+        {
+          "step": 200,
+          "task_loss": 0.0076215146109461784,
+          "balance_loss": 2.6226043701171875e-06,
+          "schedule_entropy": 0.015032357536256313,
+          "table_softness": 0.012436916120350361
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002598784340079874,
+          "balance_loss": 0.0,
+          "schedule_entropy": 0.0005562315927818418,
+          "table_softness": 0.0010876668384298682
+        },
+        {
+          "step": 600,
+          "task_loss": 1.1831770052594948e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 7.058220603539667e-07,
+          "table_softness": 1.9342540326761082e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0062249202746898e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 8.486150993075861e-23,
+          "table_softness": 1.6518446573393335e-19
+        }
+      ],
+      "checkpoint": "numeric-802-learned_balanced.pt",
+      "checkpoint_sha256": "b527a94f8311f68dabf5cf3c5c1c143465afa7a6a77b2f9e8c7eebc94eeaafc0"
+    },
+    {
+      "seed": 803,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 803,
+      "hash_seed": 40803,
+      "train_indices": [
+        50,
+        52,
+        23,
+        34,
+        29,
+        20,
+        18,
+        11,
+        55,
+        25,
+        33,
+        56,
+        48,
+        2,
+        24,
+        19,
+        45,
+        1,
+        38,
+        53,
+        0,
+        15,
+        43,
+        12,
+        10,
+        61,
+        59,
+        4,
+        44,
+        46,
+        27,
+        14
+      ],
+      "test_indices": [
+        62,
+        28,
+        54,
+        39,
+        3,
+        26,
+        35,
+        17,
+        13,
+        63,
+        49,
+        58,
+        7,
+        9,
+        5,
+        31,
+        21,
+        16,
+        8,
+        41,
+        47,
+        37,
+        51,
+        22,
+        6,
+        30,
+        40,
+        36,
+        57,
+        60,
+        42,
+        32
+      ],
+      "fixed_train_counts": [
+        7,
+        8,
+        10,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.25,
+            0.3125,
+            0.21875
+          ],
+          "utilization_test": [
+            0.28125,
+            0.25,
+            0.1875,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.25,
+            0.3125,
+            0.21875
+          ],
+          "utilization_test": [
+            0.28125,
+            0.25,
+            0.1875,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6668152809143066,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.9999837875366211,
+          "table_softness": 0.5938459634780884
+        },
+        {
+          "step": 200,
+          "task_loss": 0.011190280318260193,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.019632922485470772,
+          "table_softness": 0.02284880168735981
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0004558041982818395,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.0010033909929916263,
+          "table_softness": 0.0015592531999573112
+        },
+        {
+          "step": 600,
+          "task_loss": 2.244604274892481e-06,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 5.098673227621475e-06,
+          "table_softness": 2.1700794604839757e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.005913645713008e-06,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 3.3539363492894123e-18,
+          "table_softness": 8.507063736365871e-18
+        }
+      ],
+      "checkpoint": "numeric-803-fixed_hash.pt",
+      "checkpoint_sha256": "86709e9560a791458a5068a171cc6b62a5e513011e1bb798f6f10feb32154955"
+    },
+    {
+      "seed": 803,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 803,
+      "hash_seed": 40803,
+      "train_indices": [
+        50,
+        52,
+        23,
+        34,
+        29,
+        20,
+        18,
+        11,
+        55,
+        25,
+        33,
+        56,
+        48,
+        2,
+        24,
+        19,
+        45,
+        1,
+        38,
+        53,
+        0,
+        15,
+        43,
+        12,
+        10,
+        61,
+        59,
+        4,
+        44,
+        46,
+        27,
+        14
+      ],
+      "test_indices": [
+        62,
+        28,
+        54,
+        39,
+        3,
+        26,
+        35,
+        17,
+        13,
+        63,
+        49,
+        58,
+        7,
+        9,
+        5,
+        31,
+        21,
+        16,
+        8,
+        41,
+        47,
+        37,
+        51,
+        22,
+        6,
+        30,
+        40,
+        36,
+        57,
+        60,
+        42,
+        32
+      ],
+      "fixed_train_counts": [
+        7,
+        8,
+        10,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25012436509132385,
+            0.2500227391719818,
+            0.24967652559280396,
+            0.2501763701438904
+          ],
+          "utilization_test": [
+            0.3055974841117859,
+            0.2407885044813156,
+            0.18993259966373444,
+            0.26368141174316406
+          ],
+          "utilization_full": [
+            0.27786093950271606,
+            0.24540561437606812,
+            0.2198045700788498,
+            0.2569288909435272
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.25,
+            0.28125,
+            0.21875
+          ],
+          "utilization_test": [
+            0.28125,
+            0.21875,
+            0.21875,
+            0.28125
+          ],
+          "utilization_full": [
+            0.265625,
+            0.234375,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6633079051971436,
+          "balance_loss": 4.971027374267578e-05,
+          "schedule_entropy": 0.9999837875366211,
+          "table_softness": 0.5938459634780884
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007510458119213581,
+          "balance_loss": 2.9802322387695312e-06,
+          "schedule_entropy": 0.014346105977892876,
+          "table_softness": 0.020021161064505577
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00030072691151872277,
+          "balance_loss": 3.5762786865234375e-06,
+          "schedule_entropy": 0.0005468729650601745,
+          "table_softness": 0.0019763438031077385
+        },
+        {
+          "step": 600,
+          "task_loss": 2.4660645067342557e-05,
+          "balance_loss": 1.430511474609375e-06,
+          "schedule_entropy": 8.198753675969783e-07,
+          "table_softness": 5.3773634135723114e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.628278369025793e-05,
+          "balance_loss": 5.960464477539062e-07,
+          "schedule_entropy": 6.057595995787387e-22,
+          "table_softness": 3.899335715429331e-12
+        }
+      ],
+      "checkpoint": "numeric-803-learned_balanced.pt",
+      "checkpoint_sha256": "940972fdb6df8d8eda3a0736a783bd3dc2525de1ce7f0e17fcf9c05fa285e9d2"
+    },
+    {
+      "seed": 804,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 804,
+      "hash_seed": 40804,
+      "train_indices": [
+        25,
+        17,
+        60,
+        48,
+        50,
+        19,
+        49,
+        26,
+        15,
+        46,
+        14,
+        30,
+        47,
+        20,
+        29,
+        52,
+        53,
+        13,
+        42,
+        40,
+        39,
+        44,
+        41,
+        10,
+        9,
+        37,
+        4,
+        22,
+        35,
+        21,
+        34,
+        12
+      ],
+      "test_indices": [
+        1,
+        54,
+        3,
+        6,
+        38,
+        5,
+        2,
+        18,
+        24,
+        31,
+        16,
+        0,
+        32,
+        27,
+        57,
+        11,
+        45,
+        8,
+        33,
+        59,
+        55,
+        62,
+        43,
+        23,
+        51,
+        56,
+        36,
+        58,
+        7,
+        61,
+        28,
+        63
+      ],
+      "fixed_train_counts": [
+        6,
+        10,
+        8,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.9609375
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.98046875
+          },
+          "utilization_train": [
+            0.1875,
+            0.3125,
+            0.25,
+            0.25
+          ],
+          "utilization_test": [
+            0.3125,
+            0.1875,
+            0.25,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.9609375
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.98046875
+          },
+          "utilization_train": [
+            0.1875,
+            0.3125,
+            0.25,
+            0.25
+          ],
+          "utilization_test": [
+            0.3125,
+            0.1875,
+            0.25,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6778929829597473,
+          "balance_loss": 0.03125,
+          "schedule_entropy": 0.9999858736991882,
+          "table_softness": 0.5918011665344238
+        },
+        {
+          "step": 200,
+          "task_loss": 0.008739705197513103,
+          "balance_loss": 0.03125,
+          "schedule_entropy": 0.0162481889128685,
+          "table_softness": 0.03619229421019554
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0003179729974362999,
+          "balance_loss": 0.03125,
+          "schedule_entropy": 0.0006930205854587257,
+          "table_softness": 0.005596192087978125
+        },
+        {
+          "step": 600,
+          "task_loss": 1.409975993738044e-06,
+          "balance_loss": 0.03125,
+          "schedule_entropy": 1.9751503259612946e-06,
+          "table_softness": 0.0002512236824259162
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0068474693980534e-06,
+          "balance_loss": 0.03125,
+          "schedule_entropy": 1.404690198891878e-19,
+          "table_softness": 1.4601497788646611e-10
+        }
+      ],
+      "checkpoint": "numeric-804-fixed_hash.pt",
+      "checkpoint_sha256": "2d26e30f53fe914395ef9cc40c88cb1f94f6ac8261cdd3ecc79d91fe98b031e5"
+    },
+    {
+      "seed": 804,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 804,
+      "hash_seed": 40804,
+      "train_indices": [
+        25,
+        17,
+        60,
+        48,
+        50,
+        19,
+        49,
+        26,
+        15,
+        46,
+        14,
+        30,
+        47,
+        20,
+        29,
+        52,
+        53,
+        13,
+        42,
+        40,
+        39,
+        44,
+        41,
+        10,
+        9,
+        37,
+        4,
+        22,
+        35,
+        21,
+        34,
+        12
+      ],
+      "test_indices": [
+        1,
+        54,
+        3,
+        6,
+        38,
+        5,
+        2,
+        18,
+        24,
+        31,
+        16,
+        0,
+        32,
+        27,
+        57,
+        11,
+        45,
+        8,
+        33,
+        59,
+        55,
+        62,
+        43,
+        23,
+        51,
+        56,
+        36,
+        58,
+        7,
+        61,
+        28,
+        63
+      ],
+      "fixed_train_counts": [
+        6,
+        10,
+        8,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.2500000298023224,
+            0.2499999701976776,
+            0.25,
+            0.2500000298023224
+          ],
+          "utilization_test": [
+            0.15768417716026306,
+            0.28886738419532776,
+            0.3146669864654541,
+            0.23878145217895508
+          ],
+          "utilization_full": [
+            0.20384210348129272,
+            0.2694336771965027,
+            0.28233349323272705,
+            0.24439074099063873
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.25,
+            0.21875,
+            0.3125
+          ],
+          "utilization_test": [
+            0.09375,
+            0.3125,
+            0.34375,
+            0.25
+          ],
+          "utilization_full": [
+            0.15625,
+            0.28125,
+            0.28125,
+            0.28125
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6773813962936401,
+          "balance_loss": 3.790855407714844e-05,
+          "schedule_entropy": 0.9999858736991882,
+          "table_softness": 0.5918011665344238
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007474662270396948,
+          "balance_loss": 3.5762786865234375e-06,
+          "schedule_entropy": 0.01399961393326521,
+          "table_softness": 0.009740340523421764
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00024716713232919574,
+          "balance_loss": -5.960464477539063e-08,
+          "schedule_entropy": 0.0005008672014810145,
+          "table_softness": 0.0006062962347641587
+        },
+        {
+          "step": 600,
+          "task_loss": 1.0673835504348972e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 5.593509513346362e-07,
+          "table_softness": 3.629524144344032e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0068474693980534e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 2.844933769092763e-23,
+          "table_softness": 1.7366943727267082e-21
+        }
+      ],
+      "checkpoint": "numeric-804-learned_balanced.pt",
+      "checkpoint_sha256": "fb3162f55259f86e8643c6f85d1de19b0c5660fb37af89285c094a80bdb551db"
+    },
+    {
+      "seed": 805,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 805,
+      "hash_seed": 40805,
+      "train_indices": [
+        31,
+        32,
+        61,
+        40,
+        29,
+        57,
+        35,
+        53,
+        12,
+        36,
+        14,
+        9,
+        0,
+        47,
+        11,
+        10,
+        28,
+        39,
+        50,
+        8,
+        46,
+        25,
+        24,
+        20,
+        1,
+        22,
+        17,
+        21,
+        3,
+        5,
+        42,
+        52
+      ],
+      "test_indices": [
+        38,
+        19,
+        15,
+        26,
+        49,
+        4,
+        13,
+        43,
+        6,
+        2,
+        18,
+        59,
+        23,
+        33,
+        16,
+        60,
+        30,
+        27,
+        37,
+        56,
+        48,
+        51,
+        55,
+        44,
+        34,
+        41,
+        45,
+        62,
+        54,
+        7,
+        63,
+        58
+      ],
+      "fixed_train_counts": [
+        10,
+        8,
+        7,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.71875,
+            "bit_accuracy": 0.9296875
+          },
+          "full": {
+            "exact": 0.859375,
+            "bit_accuracy": 0.96484375
+          },
+          "utilization_train": [
+            0.3125,
+            0.25,
+            0.21875,
+            0.21875
+          ],
+          "utilization_test": [
+            0.1875,
+            0.25,
+            0.28125,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.71875,
+            "bit_accuracy": 0.9296875
+          },
+          "full": {
+            "exact": 0.859375,
+            "bit_accuracy": 0.96484375
+          },
+          "utilization_train": [
+            0.3125,
+            0.25,
+            0.21875,
+            0.21875
+          ],
+          "utilization_test": [
+            0.1875,
+            0.25,
+            0.28125,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6672947406768799,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.9999873042106628,
+          "table_softness": 0.5944335460662842
+        },
+        {
+          "step": 200,
+          "task_loss": 0.011500387452542782,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.020162656903266907,
+          "table_softness": 0.023050785064697266
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0004992546164430678,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 0.0010377350263297558,
+          "table_softness": 0.0022142219822853804
+        },
+        {
+          "step": 600,
+          "task_loss": 2.766465968306875e-06,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 6.318226496659918e-06,
+          "table_softness": 4.537722634267993e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0061212378786877e-06,
+          "balance_loss": 0.0234375,
+          "schedule_entropy": 1.7005160834891667e-17,
+          "table_softness": 3.0222330714424483e-13
+        }
+      ],
+      "checkpoint": "numeric-805-fixed_hash.pt",
+      "checkpoint_sha256": "e30ec6bf79de84d69097e42c20f7b5000c3602e5abd7936c4a1329e498faa5d3"
+    },
+    {
+      "seed": 805,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 805,
+      "hash_seed": 40805,
+      "train_indices": [
+        31,
+        32,
+        61,
+        40,
+        29,
+        57,
+        35,
+        53,
+        12,
+        36,
+        14,
+        9,
+        0,
+        47,
+        11,
+        10,
+        28,
+        39,
+        50,
+        8,
+        46,
+        25,
+        24,
+        20,
+        1,
+        22,
+        17,
+        21,
+        3,
+        5,
+        42,
+        52
+      ],
+      "test_indices": [
+        38,
+        19,
+        15,
+        26,
+        49,
+        4,
+        13,
+        43,
+        6,
+        2,
+        18,
+        59,
+        23,
+        33,
+        16,
+        60,
+        30,
+        27,
+        37,
+        56,
+        48,
+        51,
+        55,
+        44,
+        34,
+        41,
+        45,
+        62,
+        54,
+        7,
+        63,
+        58
+      ],
+      "fixed_train_counts": [
+        10,
+        8,
+        7,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.25,
+            0.25,
+            0.2499999701976776
+          ],
+          "utilization_test": [
+            0.37132537364959717,
+            0.2481127679347992,
+            0.11754678189754486,
+            0.26301509141921997
+          ],
+          "utilization_full": [
+            0.3106626868247986,
+            0.2490563988685608,
+            0.18377339839935303,
+            0.25650754570961
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "utilization_test": [
+            0.4375,
+            0.1875,
+            0.03125,
+            0.34375
+          ],
+          "utilization_full": [
+            0.34375,
+            0.21875,
+            0.140625,
+            0.296875
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6655835509300232,
+          "balance_loss": 0.00017499923706054688,
+          "schedule_entropy": 0.9999873042106628,
+          "table_softness": 0.5944335460662842
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007559867575764656,
+          "balance_loss": 8.702278137207031e-06,
+          "schedule_entropy": 0.014879786409437656,
+          "table_softness": 0.009953701868653297
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00025304057635366917,
+          "balance_loss": 0.0,
+          "schedule_entropy": 0.0005178727442398667,
+          "table_softness": 0.0006295788916759193
+        },
+        {
+          "step": 600,
+          "task_loss": 1.0719340934883803e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 4.962953994436248e-07,
+          "table_softness": 3.262544396420708e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0061212378786877e-06,
+          "balance_loss": -1.1920928955078125e-07,
+          "schedule_entropy": 9.934682315247288e-24,
+          "table_softness": 4.884403909813347e-18
+        }
+      ],
+      "checkpoint": "numeric-805-learned_balanced.pt",
+      "checkpoint_sha256": "895739595958f7d751516901df73b686d86c145ed8555193f89a2db2fed936e4"
+    },
+    {
+      "seed": 806,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 806,
+      "hash_seed": 40806,
+      "train_indices": [
+        27,
+        9,
+        40,
+        2,
+        8,
+        4,
+        41,
+        59,
+        12,
+        34,
+        29,
+        36,
+        57,
+        30,
+        58,
+        11,
+        43,
+        52,
+        25,
+        61,
+        17,
+        51,
+        5,
+        22,
+        44,
+        3,
+        53,
+        31,
+        19,
+        38,
+        63,
+        1
+      ],
+      "test_indices": [
+        13,
+        37,
+        55,
+        28,
+        50,
+        60,
+        48,
+        62,
+        0,
+        20,
+        24,
+        35,
+        15,
+        42,
+        46,
+        33,
+        56,
+        18,
+        45,
+        47,
+        6,
+        54,
+        26,
+        49,
+        39,
+        14,
+        21,
+        7,
+        32,
+        10,
+        16,
+        23
+      ],
+      "fixed_train_counts": [
+        7,
+        6,
+        9,
+        10
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.8125,
+            "bit_accuracy": 0.921875
+          },
+          "full": {
+            "exact": 0.90625,
+            "bit_accuracy": 0.9609375
+          },
+          "utilization_train": [
+            0.21875,
+            0.1875,
+            0.28125,
+            0.3125
+          ],
+          "utilization_test": [
+            0.28125,
+            0.3125,
+            0.21875,
+            0.1875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.8125,
+            "bit_accuracy": 0.921875
+          },
+          "full": {
+            "exact": 0.90625,
+            "bit_accuracy": 0.9609375
+          },
+          "utilization_train": [
+            0.21875,
+            0.1875,
+            0.28125,
+            0.3125
+          ],
+          "utilization_test": [
+            0.28125,
+            0.3125,
+            0.21875,
+            0.1875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6585206985473633,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 0.999987781047821,
+          "table_softness": 0.5946977734565735
+        },
+        {
+          "step": 200,
+          "task_loss": 0.01068079099059105,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 0.016468266025185585,
+          "table_softness": 0.01769160106778145
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0004427980456966907,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 0.0007052811561152339,
+          "table_softness": 0.0012848770711570978
+        },
+        {
+          "step": 600,
+          "task_loss": 2.2211479517864063e-06,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 2.063644387817476e-06,
+          "table_softness": 1.5336119759012945e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.005602484838164e-06,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 1.1272478760809397e-19,
+          "table_softness": 2.7510668942947888e-17
+        }
+      ],
+      "checkpoint": "numeric-806-fixed_hash.pt",
+      "checkpoint_sha256": "8ea7e0b6bff21d46d684a01107655a538f7cc74b1c911d8a4cc12c5b93911241"
+    },
+    {
+      "seed": 806,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 806,
+      "hash_seed": 40806,
+      "train_indices": [
+        27,
+        9,
+        40,
+        2,
+        8,
+        4,
+        41,
+        59,
+        12,
+        34,
+        29,
+        36,
+        57,
+        30,
+        58,
+        11,
+        43,
+        52,
+        25,
+        61,
+        17,
+        51,
+        5,
+        22,
+        44,
+        3,
+        53,
+        31,
+        19,
+        38,
+        63,
+        1
+      ],
+      "test_indices": [
+        13,
+        37,
+        55,
+        28,
+        50,
+        60,
+        48,
+        62,
+        0,
+        20,
+        24,
+        35,
+        15,
+        42,
+        46,
+        33,
+        56,
+        18,
+        45,
+        47,
+        6,
+        54,
+        26,
+        49,
+        39,
+        14,
+        21,
+        7,
+        32,
+        10,
+        16,
+        23
+      ],
+      "fixed_train_counts": [
+        7,
+        6,
+        9,
+        10
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.2500000298023224,
+            0.2500000298023224,
+            0.24999988079071045,
+            0.2500000298023224
+          ],
+          "utilization_test": [
+            0.31429997086524963,
+            0.1375955045223236,
+            0.288549542427063,
+            0.2595549523830414
+          ],
+          "utilization_full": [
+            0.282150000333786,
+            0.193797767162323,
+            0.2692747414112091,
+            0.2547774612903595
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.28125,
+            0.28125,
+            0.15625,
+            0.28125
+          ],
+          "utilization_test": [
+            0.28125,
+            0.0625,
+            0.34375,
+            0.3125
+          ],
+          "utilization_full": [
+            0.28125,
+            0.171875,
+            0.25,
+            0.296875
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6564866304397583,
+          "balance_loss": 0.0002866983413696289,
+          "schedule_entropy": 0.999987781047821,
+          "table_softness": 0.5946977734565735
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007770723197609186,
+          "balance_loss": 2.384185791015625e-07,
+          "schedule_entropy": 0.014961790293455124,
+          "table_softness": 0.008220274932682514
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002724366495385766,
+          "balance_loss": 0.0,
+          "schedule_entropy": 0.0005667717778123915,
+          "table_softness": 0.0004798447189386934
+        },
+        {
+          "step": 600,
+          "task_loss": 1.005602484838164e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 7.782503530506801e-07,
+          "table_softness": 2.2422277652367484e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.005602484838164e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 1.1710626254053988e-22,
+          "table_softness": 2.5361259635905836e-22
+        }
+      ],
+      "checkpoint": "numeric-806-learned_balanced.pt",
+      "checkpoint_sha256": "f8b7cf94a361d88c3c1b7193333dc2b43c7375bf385066a25f85d49d0077170c"
+    },
+    {
+      "seed": 807,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 807,
+      "hash_seed": 40807,
+      "train_indices": [
+        21,
+        13,
+        47,
+        37,
+        33,
+        9,
+        16,
+        31,
+        35,
+        0,
+        52,
+        34,
+        38,
+        8,
+        57,
+        56,
+        15,
+        28,
+        10,
+        43,
+        27,
+        59,
+        55,
+        26,
+        7,
+        44,
+        32,
+        48,
+        20,
+        42,
+        62,
+        29
+      ],
+      "test_indices": [
+        25,
+        6,
+        12,
+        40,
+        22,
+        11,
+        18,
+        14,
+        19,
+        50,
+        39,
+        46,
+        41,
+        5,
+        60,
+        36,
+        17,
+        61,
+        1,
+        58,
+        3,
+        51,
+        45,
+        30,
+        24,
+        23,
+        63,
+        4,
+        53,
+        2,
+        49,
+        54
+      ],
+      "fixed_train_counts": [
+        9,
+        8,
+        5,
+        10
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.875,
+            "bit_accuracy": 0.9453125
+          },
+          "full": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.97265625
+          },
+          "utilization_train": [
+            0.28125,
+            0.25,
+            0.15625,
+            0.3125
+          ],
+          "utilization_test": [
+            0.21875,
+            0.25,
+            0.34375,
+            0.1875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.875,
+            "bit_accuracy": 0.9453125
+          },
+          "full": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.97265625
+          },
+          "utilization_train": [
+            0.28125,
+            0.25,
+            0.15625,
+            0.3125
+          ],
+          "utilization_test": [
+            0.21875,
+            0.25,
+            0.34375,
+            0.1875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6598093509674072,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.999987006187439,
+          "table_softness": 0.6012958288192749
+        },
+        {
+          "step": 200,
+          "task_loss": 0.008143060840666294,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.01752285286784172,
+          "table_softness": 0.039600614458322525
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002917253877967596,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.0007174406200647354,
+          "table_softness": 0.005955192260444164
+        },
+        {
+          "step": 600,
+          "task_loss": 1.0423275398352416e-06,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 1.4059023669688031e-06,
+          "table_softness": 0.0002591132069937885
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0064323987535317e-06,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 2.3963373878047195e-21,
+          "table_softness": 6.392134738186783e-11
+        }
+      ],
+      "checkpoint": "numeric-807-fixed_hash.pt",
+      "checkpoint_sha256": "6c1b71578e8aa54d3d61a4d3abcb42b92506fd39e0195157c766f9c08a5ba4ef"
+    },
+    {
+      "seed": 807,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 807,
+      "hash_seed": 40807,
+      "train_indices": [
+        21,
+        13,
+        47,
+        37,
+        33,
+        9,
+        16,
+        31,
+        35,
+        0,
+        52,
+        34,
+        38,
+        8,
+        57,
+        56,
+        15,
+        28,
+        10,
+        43,
+        27,
+        59,
+        55,
+        26,
+        7,
+        44,
+        32,
+        48,
+        20,
+        42,
+        62,
+        29
+      ],
+      "test_indices": [
+        25,
+        6,
+        12,
+        40,
+        22,
+        11,
+        18,
+        14,
+        19,
+        50,
+        39,
+        46,
+        41,
+        5,
+        60,
+        36,
+        17,
+        61,
+        1,
+        58,
+        3,
+        51,
+        45,
+        30,
+        24,
+        23,
+        63,
+        4,
+        53,
+        2,
+        49,
+        54
+      ],
+      "fixed_train_counts": [
+        9,
+        8,
+        5,
+        10
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.96875
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.984375
+          },
+          "utilization_train": [
+            0.24976623058319092,
+            0.25004297494888306,
+            0.25013160705566406,
+            0.25005918741226196
+          ],
+          "utilization_test": [
+            0.2270679473876953,
+            0.31277984380722046,
+            0.23521746695041656,
+            0.22493472695350647
+          ],
+          "utilization_full": [
+            0.23841708898544312,
+            0.28141140937805176,
+            0.2426745593547821,
+            0.2374969720840454
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.96875
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.984375
+          },
+          "utilization_train": [
+            0.25,
+            0.21875,
+            0.25,
+            0.28125
+          ],
+          "utilization_test": [
+            0.25,
+            0.28125,
+            0.21875,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.234375,
+            0.265625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.660468339920044,
+          "balance_loss": 0.00016736984252929688,
+          "schedule_entropy": 0.999987006187439,
+          "table_softness": 0.6012958288192749
+        },
+        {
+          "step": 200,
+          "task_loss": 0.0075538670644164085,
+          "balance_loss": 5.900859832763672e-05,
+          "schedule_entropy": 0.015469560399651527,
+          "table_softness": 0.02073693461716175
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002963504521176219,
+          "balance_loss": 4.0531158447265625e-06,
+          "schedule_entropy": 0.0005849093431606889,
+          "table_softness": 0.002141526434570551
+        },
+        {
+          "step": 600,
+          "task_loss": 1.4519192518491764e-05,
+          "balance_loss": 7.152557373046875e-07,
+          "schedule_entropy": 8.316083039972e-07,
+          "table_softness": 5.520631020772271e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 9.009454515762627e-06,
+          "balance_loss": 3.5762786865234375e-07,
+          "schedule_entropy": 5.3525704312989605e-22,
+          "table_softness": 1.73662267292235e-12
+        }
+      ],
+      "checkpoint": "numeric-807-learned_balanced.pt",
+      "checkpoint_sha256": "ed050b61b67879300bfda9f6a3783db09930f50e7f0ce2d743488ef0b476813f"
+    },
+    {
+      "seed": 808,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 808,
+      "hash_seed": 40808,
+      "train_indices": [
+        62,
+        49,
+        17,
+        51,
+        11,
+        10,
+        32,
+        8,
+        34,
+        63,
+        28,
+        3,
+        16,
+        50,
+        61,
+        41,
+        21,
+        2,
+        19,
+        0,
+        35,
+        45,
+        39,
+        12,
+        55,
+        52,
+        18,
+        20,
+        6,
+        44,
+        31,
+        57
+      ],
+      "test_indices": [
+        42,
+        26,
+        5,
+        24,
+        29,
+        1,
+        54,
+        37,
+        53,
+        4,
+        43,
+        9,
+        15,
+        7,
+        30,
+        58,
+        33,
+        14,
+        46,
+        36,
+        38,
+        22,
+        27,
+        48,
+        59,
+        47,
+        56,
+        13,
+        23,
+        40,
+        60,
+        25
+      ],
+      "fixed_train_counts": [
+        6,
+        7,
+        10,
+        9
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.9765625
+          },
+          "full": {
+            "exact": 0.984375,
+            "bit_accuracy": 0.98828125
+          },
+          "utilization_train": [
+            0.1875,
+            0.21875,
+            0.3125,
+            0.28125
+          ],
+          "utilization_test": [
+            0.3125,
+            0.28125,
+            0.1875,
+            0.21875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.9765625
+          },
+          "full": {
+            "exact": 0.984375,
+            "bit_accuracy": 0.98828125
+          },
+          "utilization_train": [
+            0.1875,
+            0.21875,
+            0.3125,
+            0.28125
+          ],
+          "utilization_test": [
+            0.3125,
+            0.28125,
+            0.1875,
+            0.21875
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6566500067710876,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 0.9999872446060181,
+          "table_softness": 0.5945264101028442
+        },
+        {
+          "step": 200,
+          "task_loss": 0.008406649343669415,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 0.018680468201637268,
+          "table_softness": 0.031012708321213722
+        },
+        {
+          "step": 400,
+          "task_loss": 0.000311485055135563,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 0.00089936243603006,
+          "table_softness": 0.005020682699978352
+        },
+        {
+          "step": 600,
+          "task_loss": 1.1525069112394704e-06,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 3.4973729725606972e-06,
+          "table_softness": 0.0002519193512853235
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0064325124403695e-06,
+          "balance_loss": 0.0390625,
+          "schedule_entropy": 6.533544487880851e-19,
+          "table_softness": 1.9295472164504446e-10
+        }
+      ],
+      "checkpoint": "numeric-808-fixed_hash.pt",
+      "checkpoint_sha256": "06369218ed8a7459171edb3ee19e625a55191f6e3ec1293621eac9618831321c"
+    },
+    {
+      "seed": 808,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 808,
+      "hash_seed": 40808,
+      "train_indices": [
+        62,
+        49,
+        17,
+        51,
+        11,
+        10,
+        32,
+        8,
+        34,
+        63,
+        28,
+        3,
+        16,
+        50,
+        61,
+        41,
+        21,
+        2,
+        19,
+        0,
+        35,
+        45,
+        39,
+        12,
+        55,
+        52,
+        18,
+        20,
+        6,
+        44,
+        31,
+        57
+      ],
+      "test_indices": [
+        42,
+        26,
+        5,
+        24,
+        29,
+        1,
+        54,
+        37,
+        53,
+        4,
+        43,
+        9,
+        15,
+        7,
+        30,
+        58,
+        33,
+        14,
+        46,
+        36,
+        38,
+        22,
+        27,
+        48,
+        59,
+        47,
+        56,
+        13,
+        23,
+        40,
+        60,
+        25
+      ],
+      "fixed_train_counts": [
+        6,
+        7,
+        10,
+        9
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.96875
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.984375
+          },
+          "utilization_train": [
+            0.25031396746635437,
+            0.2502410113811493,
+            0.25027474761009216,
+            0.2491702437400818
+          ],
+          "utilization_test": [
+            0.28819528222084045,
+            0.307559072971344,
+            0.2786443531513214,
+            0.12560129165649414
+          ],
+          "utilization_full": [
+            0.2692546248435974,
+            0.27890005707740784,
+            0.2644595503807068,
+            0.18738576769828796
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.96875
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.984375
+          },
+          "utilization_train": [
+            0.28125,
+            0.21875,
+            0.1875,
+            0.3125
+          ],
+          "utilization_test": [
+            0.3125,
+            0.34375,
+            0.1875,
+            0.15625
+          ],
+          "utilization_full": [
+            0.296875,
+            0.28125,
+            0.1875,
+            0.234375
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            5
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6575275659561157,
+          "balance_loss": 0.0001068115234375,
+          "schedule_entropy": 0.9999872446060181,
+          "table_softness": 0.5945264101028442
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007521826773881912,
+          "balance_loss": 0.0001379251480102539,
+          "schedule_entropy": 0.043519001454114914,
+          "table_softness": 0.02458919957280159
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00038164848228916526,
+          "balance_loss": 3.5643577575683594e-05,
+          "schedule_entropy": 0.005477352999150753,
+          "table_softness": 0.002715686336159706
+        },
+        {
+          "step": 600,
+          "task_loss": 7.002257916610688e-05,
+          "balance_loss": 9.775161743164062e-06,
+          "schedule_entropy": 0.00019596163474489003,
+          "table_softness": 8.817027264740318e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 4.320557491155341e-05,
+          "balance_loss": 3.814697265625e-06,
+          "schedule_entropy": 6.7819643130573315e-12,
+          "table_softness": 1.2942031127338716e-11
+        }
+      ],
+      "checkpoint": "numeric-808-learned_balanced.pt",
+      "checkpoint_sha256": "c1b9ee7aecd56db7acb9d7389a196e0ef65dcd94b1639c42ff5f2c591ac1abaa"
+    },
+    {
+      "seed": 809,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 809,
+      "hash_seed": 40809,
+      "train_indices": [
+        22,
+        3,
+        21,
+        6,
+        45,
+        32,
+        57,
+        44,
+        24,
+        43,
+        59,
+        29,
+        51,
+        23,
+        14,
+        7,
+        5,
+        38,
+        19,
+        20,
+        33,
+        50,
+        41,
+        58,
+        63,
+        55,
+        4,
+        46,
+        1,
+        16,
+        37,
+        15
+      ],
+      "test_indices": [
+        9,
+        8,
+        34,
+        2,
+        49,
+        48,
+        60,
+        0,
+        18,
+        36,
+        30,
+        47,
+        31,
+        11,
+        12,
+        40,
+        13,
+        54,
+        52,
+        27,
+        39,
+        62,
+        10,
+        17,
+        26,
+        53,
+        28,
+        25,
+        42,
+        56,
+        61,
+        35
+      ],
+      "fixed_train_counts": [
+        11,
+        6,
+        7,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.34375,
+            0.1875,
+            0.21875,
+            0.25
+          ],
+          "utilization_test": [
+            0.15625,
+            0.3125,
+            0.28125,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.34375,
+            0.1875,
+            0.21875,
+            0.25
+          ],
+          "utilization_test": [
+            0.15625,
+            0.3125,
+            0.28125,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6492291688919067,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.9999871850013733,
+          "table_softness": 0.6024354696273804
+        },
+        {
+          "step": 200,
+          "task_loss": 0.009339800104498863,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.023368697613477707,
+          "table_softness": 0.012438731268048286
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00037156135658733547,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.00154107715934515,
+          "table_softness": 0.0008056562510319054
+        },
+        {
+          "step": 600,
+          "task_loss": 1.6551190356040024e-06,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 1.749115835991688e-05,
+          "table_softness": 5.652059371641371e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0062250339615275e-06,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 8.703801398959442e-16,
+          "table_softness": 6.1449750509655705e-18
+        }
+      ],
+      "checkpoint": "numeric-809-fixed_hash.pt",
+      "checkpoint_sha256": "c5cd6a218ddb9b31cc2b3421ba01a9adb553406f8a379df26dbca987606ddfae"
+    },
+    {
+      "seed": 809,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 809,
+      "hash_seed": 40809,
+      "train_indices": [
+        22,
+        3,
+        21,
+        6,
+        45,
+        32,
+        57,
+        44,
+        24,
+        43,
+        59,
+        29,
+        51,
+        23,
+        14,
+        7,
+        5,
+        38,
+        19,
+        20,
+        33,
+        50,
+        41,
+        58,
+        63,
+        55,
+        4,
+        46,
+        1,
+        16,
+        37,
+        15
+      ],
+      "test_indices": [
+        9,
+        8,
+        34,
+        2,
+        49,
+        48,
+        60,
+        0,
+        18,
+        36,
+        30,
+        47,
+        31,
+        11,
+        12,
+        40,
+        13,
+        54,
+        52,
+        27,
+        39,
+        62,
+        10,
+        17,
+        26,
+        53,
+        28,
+        25,
+        42,
+        56,
+        61,
+        35
+      ],
+      "fixed_train_counts": [
+        11,
+        6,
+        7,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.2501611113548279,
+            0.24948769807815552,
+            0.25016212463378906,
+            0.25018903613090515
+          ],
+          "utilization_test": [
+            0.2512456774711609,
+            0.11757558584213257,
+            0.34440940618515015,
+            0.2867693305015564
+          ],
+          "utilization_full": [
+            0.2507034242153168,
+            0.18353165686130524,
+            0.2972857654094696,
+            0.26847919821739197
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.3125,
+            0.21875,
+            0.25
+          ],
+          "utilization_test": [
+            0.25,
+            0.125,
+            0.34375,
+            0.28125
+          ],
+          "utilization_full": [
+            0.234375,
+            0.21875,
+            0.28125,
+            0.265625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6474061608314514,
+          "balance_loss": 0.00025725364685058594,
+          "schedule_entropy": 0.9999871850013733,
+          "table_softness": 0.6024354696273804
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007407985627651215,
+          "balance_loss": 0.0004169940948486328,
+          "schedule_entropy": 0.033767398446798325,
+          "table_softness": 0.01999574527144432
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0003111191908828914,
+          "balance_loss": 1.5616416931152344e-05,
+          "schedule_entropy": 0.0017238790169358253,
+          "table_softness": 0.0017794687300920486
+        },
+        {
+          "step": 600,
+          "task_loss": 3.338549140607938e-05,
+          "balance_loss": 3.5762786865234375e-06,
+          "schedule_entropy": 1.9708155377884395e-05,
+          "table_softness": 3.118170570814982e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 2.2016958610038273e-05,
+          "balance_loss": 1.430511474609375e-06,
+          "schedule_entropy": 1.77646187148571e-15,
+          "table_softness": 3.3099792438179287e-13
+        }
+      ],
+      "checkpoint": "numeric-809-learned_balanced.pt",
+      "checkpoint_sha256": "965ac2809c220147a0c3754dcdbb1addbd40ea42ba74aaf55ccd0eb8e691d92c"
+    },
+    {
+      "seed": 810,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 810,
+      "hash_seed": 40810,
+      "train_indices": [
+        57,
+        54,
+        21,
+        27,
+        13,
+        5,
+        34,
+        39,
+        42,
+        20,
+        14,
+        28,
+        36,
+        2,
+        12,
+        60,
+        59,
+        3,
+        9,
+        45,
+        10,
+        35,
+        52,
+        7,
+        44,
+        26,
+        46,
+        38,
+        16,
+        43,
+        25,
+        18
+      ],
+      "test_indices": [
+        31,
+        0,
+        40,
+        48,
+        41,
+        33,
+        17,
+        55,
+        30,
+        22,
+        58,
+        29,
+        37,
+        19,
+        62,
+        50,
+        53,
+        47,
+        23,
+        15,
+        32,
+        51,
+        24,
+        63,
+        1,
+        4,
+        11,
+        8,
+        61,
+        49,
+        6,
+        56
+      ],
+      "fixed_train_counts": [
+        6,
+        11,
+        8,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.78125,
+            "bit_accuracy": 0.890625
+          },
+          "full": {
+            "exact": 0.890625,
+            "bit_accuracy": 0.9453125
+          },
+          "utilization_train": [
+            0.1875,
+            0.34375,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.3125,
+            0.15625,
+            0.25,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.78125,
+            "bit_accuracy": 0.890625
+          },
+          "full": {
+            "exact": 0.890625,
+            "bit_accuracy": 0.9453125
+          },
+          "utilization_train": [
+            0.1875,
+            0.34375,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.3125,
+            0.15625,
+            0.25,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6684112548828125,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.9999869465827942,
+          "table_softness": 0.605246901512146
+        },
+        {
+          "step": 200,
+          "task_loss": 0.008843021467328072,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.017879290506243706,
+          "table_softness": 0.04067862778902054
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0003431632649153471,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 0.0008141110884025693,
+          "table_softness": 0.0070822881534695625
+        },
+        {
+          "step": 600,
+          "task_loss": 1.2389987205096986e-06,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 2.4058469989540754e-06,
+          "table_softness": 0.0003582359349820763
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0067437870020512e-06,
+          "balance_loss": 0.0546875,
+          "schedule_entropy": 1.2246376657104897e-19,
+          "table_softness": 6.343563695165866e-12
+        }
+      ],
+      "checkpoint": "numeric-810-fixed_hash.pt",
+      "checkpoint_sha256": "b37e456174e0099b3374f4a1639c8ddd4b2c6e56bdfd26957dca25c3da1681a4"
+    },
+    {
+      "seed": 810,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 810,
+      "hash_seed": 40810,
+      "train_indices": [
+        57,
+        54,
+        21,
+        27,
+        13,
+        5,
+        34,
+        39,
+        42,
+        20,
+        14,
+        28,
+        36,
+        2,
+        12,
+        60,
+        59,
+        3,
+        9,
+        45,
+        10,
+        35,
+        52,
+        7,
+        44,
+        26,
+        46,
+        38,
+        16,
+        43,
+        25,
+        18
+      ],
+      "test_indices": [
+        31,
+        0,
+        40,
+        48,
+        41,
+        33,
+        17,
+        55,
+        30,
+        22,
+        58,
+        29,
+        37,
+        19,
+        62,
+        50,
+        53,
+        47,
+        23,
+        15,
+        32,
+        51,
+        24,
+        63,
+        1,
+        4,
+        11,
+        8,
+        61,
+        49,
+        6,
+        56
+      ],
+      "fixed_train_counts": [
+        6,
+        11,
+        8,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.78125,
+            "bit_accuracy": 0.890625
+          },
+          "full": {
+            "exact": 0.890625,
+            "bit_accuracy": 0.9453125
+          },
+          "utilization_train": [
+            0.24977435171604156,
+            0.2506677806377411,
+            0.24982768297195435,
+            0.2497301697731018
+          ],
+          "utilization_test": [
+            0.2141471803188324,
+            0.4113355576992035,
+            0.1656266450881958,
+            0.2088906168937683
+          ],
+          "utilization_full": [
+            0.2319607436656952,
+            0.3310016691684723,
+            0.20772717893123627,
+            0.22931040823459625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.78125,
+            "bit_accuracy": 0.8984375
+          },
+          "full": {
+            "exact": 0.890625,
+            "bit_accuracy": 0.94921875
+          },
+          "utilization_train": [
+            0.28125,
+            0.21875,
+            0.3125,
+            0.1875
+          ],
+          "utilization_test": [
+            0.28125,
+            0.4375,
+            0.15625,
+            0.125
+          ],
+          "utilization_full": [
+            0.28125,
+            0.328125,
+            0.234375,
+            0.15625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6702561378479004,
+          "balance_loss": 0.0001207590103149414,
+          "schedule_entropy": 0.9999869465827942,
+          "table_softness": 0.605246901512146
+        },
+        {
+          "step": 200,
+          "task_loss": 0.006674299947917461,
+          "balance_loss": 3.731250762939453e-05,
+          "schedule_entropy": 0.013782850466668606,
+          "table_softness": 0.06331459432840347
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002831172023434192,
+          "balance_loss": 1.71661376953125e-05,
+          "schedule_entropy": 0.0004845104122068733,
+          "table_softness": 0.010290691629052162
+        },
+        {
+          "step": 600,
+          "task_loss": 3.2216190447798e-05,
+          "balance_loss": 5.9604644775390625e-06,
+          "schedule_entropy": 5.138347773936403e-07,
+          "table_softness": 0.00037667996366508305
+        },
+        {
+          "step": 799,
+          "task_loss": 2.104700070049148e-05,
+          "balance_loss": 2.384185791015625e-06,
+          "schedule_entropy": 6.228058739986061e-23,
+          "table_softness": 6.948168429499191e-11
+        }
+      ],
+      "checkpoint": "numeric-810-learned_balanced.pt",
+      "checkpoint_sha256": "ed5a9ef6a3edf91d9c69a1e7b518665cf27366f0b262b29a1d35b2c6c6421750"
+    },
+    {
+      "seed": 811,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 811,
+      "hash_seed": 40811,
+      "train_indices": [
+        32,
+        15,
+        43,
+        62,
+        33,
+        40,
+        44,
+        5,
+        2,
+        34,
+        14,
+        9,
+        12,
+        48,
+        42,
+        47,
+        53,
+        51,
+        50,
+        7,
+        22,
+        38,
+        21,
+        46,
+        18,
+        10,
+        0,
+        36,
+        1,
+        17,
+        58,
+        57
+      ],
+      "test_indices": [
+        60,
+        28,
+        30,
+        61,
+        25,
+        45,
+        8,
+        41,
+        55,
+        24,
+        31,
+        54,
+        20,
+        4,
+        49,
+        52,
+        16,
+        11,
+        37,
+        35,
+        3,
+        39,
+        26,
+        63,
+        6,
+        29,
+        19,
+        27,
+        56,
+        23,
+        59,
+        13
+      ],
+      "fixed_train_counts": [
+        5,
+        7,
+        12,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.9765625
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.98828125
+          },
+          "utilization_train": [
+            0.15625,
+            0.21875,
+            0.375,
+            0.25
+          ],
+          "utilization_test": [
+            0.34375,
+            0.28125,
+            0.125,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.9765625
+          },
+          "full": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.98828125
+          },
+          "utilization_train": [
+            0.15625,
+            0.21875,
+            0.375,
+            0.25
+          ],
+          "utilization_test": [
+            0.34375,
+            0.28125,
+            0.125,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6605132818222046,
+          "balance_loss": 0.1015625,
+          "schedule_entropy": 0.9999856352806091,
+          "table_softness": 0.5992099642753601
+        },
+        {
+          "step": 200,
+          "task_loss": 0.009523379616439342,
+          "balance_loss": 0.1015625,
+          "schedule_entropy": 0.019342003390192986,
+          "table_softness": 0.02061329036951065
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00037008937215432525,
+          "balance_loss": 0.1015625,
+          "schedule_entropy": 0.0008893350604921579,
+          "table_softness": 0.0033639681059867144
+        },
+        {
+          "step": 600,
+          "task_loss": 1.5212439166134573e-06,
+          "balance_loss": 0.1015625,
+          "schedule_entropy": 3.107202246610541e-06,
+          "table_softness": 0.0002437332150293514
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0060174417958478e-06,
+          "balance_loss": 0.1015625,
+          "schedule_entropy": 2.9845426133343365e-19,
+          "table_softness": 1.2824770134756136e-09
+        }
+      ],
+      "checkpoint": "numeric-811-fixed_hash.pt",
+      "checkpoint_sha256": "ebc522b026885336a2ac57d55a67630c68cc28baeca52ffef1cbea3543810da4"
+    },
+    {
+      "seed": 811,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 811,
+      "hash_seed": 40811,
+      "train_indices": [
+        32,
+        15,
+        43,
+        62,
+        33,
+        40,
+        44,
+        5,
+        2,
+        34,
+        14,
+        9,
+        12,
+        48,
+        42,
+        47,
+        53,
+        51,
+        50,
+        7,
+        22,
+        38,
+        21,
+        46,
+        18,
+        10,
+        0,
+        36,
+        1,
+        17,
+        58,
+        57
+      ],
+      "test_indices": [
+        60,
+        28,
+        30,
+        61,
+        25,
+        45,
+        8,
+        41,
+        55,
+        24,
+        31,
+        54,
+        20,
+        4,
+        49,
+        52,
+        16,
+        11,
+        37,
+        35,
+        3,
+        39,
+        26,
+        63,
+        6,
+        29,
+        19,
+        27,
+        56,
+        23,
+        59,
+        13
+      ],
+      "fixed_train_counts": [
+        5,
+        7,
+        12,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.2500000298023224,
+            0.25,
+            0.24999995529651642,
+            0.25
+          ],
+          "utilization_test": [
+            0.41341835260391235,
+            0.21035435795783997,
+            0.3065530061721802,
+            0.06967432051897049
+          ],
+          "utilization_full": [
+            0.33170920610427856,
+            0.2301771491765976,
+            0.2782765030860901,
+            0.15983715653419495
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.28125,
+            0.1875,
+            0.3125
+          ],
+          "utilization_test": [
+            0.46875,
+            0.15625,
+            0.3125,
+            0.0625
+          ],
+          "utilization_full": [
+            0.34375,
+            0.21875,
+            0.25,
+            0.1875
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6598251461982727,
+          "balance_loss": 0.00015735626220703125,
+          "schedule_entropy": 0.9999856352806091,
+          "table_softness": 0.5992099642753601
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007716035470366478,
+          "balance_loss": 9.298324584960938e-06,
+          "schedule_entropy": 0.0210600346326828,
+          "table_softness": 0.014358781278133392
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002689490211196244,
+          "balance_loss": 1.1920928955078125e-07,
+          "schedule_entropy": 0.0008716245647519827,
+          "table_softness": 0.0011148208286613226
+        },
+        {
+          "step": 600,
+          "task_loss": 1.2441313401723164e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 3.2252030450763414e-06,
+          "table_softness": 1.3109181963955052e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0060174417958478e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 1.4047192536108939e-18,
+          "table_softness": 2.754137140574402e-19
+        }
+      ],
+      "checkpoint": "numeric-811-learned_balanced.pt",
+      "checkpoint_sha256": "0ba63fd477571f5bdcfb2f863fbb0c52b44a6ac3242a1e56c346b887cc505cf5"
+    },
+    {
+      "seed": 812,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 812,
+      "hash_seed": 40812,
+      "train_indices": [
+        38,
+        11,
+        32,
+        59,
+        0,
+        47,
+        49,
+        34,
+        16,
+        53,
+        17,
+        29,
+        3,
+        7,
+        57,
+        35,
+        28,
+        4,
+        27,
+        39,
+        51,
+        36,
+        58,
+        5,
+        2,
+        10,
+        61,
+        30,
+        21,
+        13,
+        8,
+        12
+      ],
+      "test_indices": [
+        1,
+        14,
+        15,
+        19,
+        43,
+        22,
+        18,
+        46,
+        55,
+        44,
+        9,
+        23,
+        33,
+        42,
+        50,
+        31,
+        26,
+        45,
+        48,
+        41,
+        56,
+        24,
+        62,
+        6,
+        37,
+        54,
+        40,
+        60,
+        20,
+        63,
+        52,
+        25
+      ],
+      "fixed_train_counts": [
+        9,
+        10,
+        9,
+        4
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.28125,
+            0.3125,
+            0.28125,
+            0.125
+          ],
+          "utilization_test": [
+            0.21875,
+            0.1875,
+            0.21875,
+            0.375
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.28125,
+            0.3125,
+            0.28125,
+            0.125
+          ],
+          "utilization_test": [
+            0.21875,
+            0.1875,
+            0.21875,
+            0.375
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6539919972419739,
+          "balance_loss": 0.0859375,
+          "schedule_entropy": 0.9999872446060181,
+          "table_softness": 0.5959091186523438
+        },
+        {
+          "step": 200,
+          "task_loss": 0.010933073237538338,
+          "balance_loss": 0.0859375,
+          "schedule_entropy": 0.06532222777605057,
+          "table_softness": 0.021706227213144302
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0004376005963422358,
+          "balance_loss": 0.0859375,
+          "schedule_entropy": 0.023621203377842903,
+          "table_softness": 0.0016052557621151209
+        },
+        {
+          "step": 600,
+          "task_loss": 2.3182360564533155e-06,
+          "balance_loss": 0.0859375,
+          "schedule_entropy": 0.0003358009271323681,
+          "table_softness": 2.5430248570046388e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0062249202746898e-06,
+          "balance_loss": 0.0859375,
+          "schedule_entropy": 3.538472986841512e-11,
+          "table_softness": 1.942595155051465e-16
+        }
+      ],
+      "checkpoint": "numeric-812-fixed_hash.pt",
+      "checkpoint_sha256": "36b0bb43380a42de459e23a38d987063feb74f0aaaecf54a639deb1aa69339c2"
+    },
+    {
+      "seed": 812,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 812,
+      "hash_seed": 40812,
+      "train_indices": [
+        38,
+        11,
+        32,
+        59,
+        0,
+        47,
+        49,
+        34,
+        16,
+        53,
+        17,
+        29,
+        3,
+        7,
+        57,
+        35,
+        28,
+        4,
+        27,
+        39,
+        51,
+        36,
+        58,
+        5,
+        2,
+        10,
+        61,
+        30,
+        21,
+        13,
+        8,
+        12
+      ],
+      "test_indices": [
+        1,
+        14,
+        15,
+        19,
+        43,
+        22,
+        18,
+        46,
+        55,
+        44,
+        9,
+        23,
+        33,
+        42,
+        50,
+        31,
+        26,
+        45,
+        48,
+        41,
+        56,
+        24,
+        62,
+        6,
+        37,
+        54,
+        40,
+        60,
+        20,
+        63,
+        52,
+        25
+      ],
+      "fixed_train_counts": [
+        9,
+        10,
+        9,
+        4
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.24972003698349,
+            0.2500934600830078,
+            0.25011101365089417,
+            0.25007548928260803
+          ],
+          "utilization_test": [
+            0.1280352771282196,
+            0.22366411983966827,
+            0.3235379755496979,
+            0.3247626721858978
+          ],
+          "utilization_full": [
+            0.1888776421546936,
+            0.23687876760959625,
+            0.28682446479797363,
+            0.28741908073425293
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.28125,
+            0.25,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.15625,
+            0.21875,
+            0.3125,
+            0.3125
+          ],
+          "utilization_full": [
+            0.21875,
+            0.234375,
+            0.28125,
+            0.265625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6566988229751587,
+          "balance_loss": 1.52587890625e-05,
+          "schedule_entropy": 0.9999872446060181,
+          "table_softness": 0.5959091186523438
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007808933034539223,
+          "balance_loss": 8.547306060791016e-05,
+          "schedule_entropy": 0.018285786733031273,
+          "table_softness": 0.023883093148469925
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0003252079477533698,
+          "balance_loss": 5.4836273193359375e-06,
+          "schedule_entropy": 0.0008076707017607987,
+          "table_softness": 0.0026644773315638304
+        },
+        {
+          "step": 600,
+          "task_loss": 2.4616696464363486e-05,
+          "balance_loss": 1.1920928955078125e-06,
+          "schedule_entropy": 2.473983613526798e-06,
+          "table_softness": 8.692701521795243e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.4961569831939414e-05,
+          "balance_loss": 3.5762786865234375e-07,
+          "schedule_entropy": 2.0249444726313766e-19,
+          "table_softness": 1.353542018051046e-11
+        }
+      ],
+      "checkpoint": "numeric-812-learned_balanced.pt",
+      "checkpoint_sha256": "6aa53c6b15f0052bbae55497c6873883af2bd7ce0bc43a97dee503ffd979d61e"
+    },
+    {
+      "seed": 813,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 813,
+      "hash_seed": 40813,
+      "train_indices": [
+        53,
+        36,
+        63,
+        15,
+        56,
+        16,
+        6,
+        21,
+        35,
+        49,
+        51,
+        13,
+        28,
+        47,
+        55,
+        61,
+        50,
+        31,
+        23,
+        12,
+        60,
+        24,
+        52,
+        7,
+        34,
+        46,
+        30,
+        37,
+        58,
+        40,
+        59,
+        29
+      ],
+      "test_indices": [
+        18,
+        26,
+        0,
+        25,
+        39,
+        42,
+        2,
+        14,
+        9,
+        62,
+        48,
+        41,
+        38,
+        20,
+        33,
+        32,
+        45,
+        10,
+        8,
+        54,
+        57,
+        4,
+        22,
+        5,
+        11,
+        43,
+        19,
+        44,
+        27,
+        1,
+        17,
+        3
+      ],
+      "fixed_train_counts": [
+        9,
+        8,
+        8,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.875,
+            "bit_accuracy": 0.9375
+          },
+          "full": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.96875
+          },
+          "utilization_train": [
+            0.28125,
+            0.25,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.21875,
+            0.25,
+            0.25,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.875,
+            "bit_accuracy": 0.9375
+          },
+          "full": {
+            "exact": 0.9375,
+            "bit_accuracy": 0.96875
+          },
+          "utilization_train": [
+            0.28125,
+            0.25,
+            0.25,
+            0.21875
+          ],
+          "utilization_test": [
+            0.21875,
+            0.25,
+            0.25,
+            0.28125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6394059658050537,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.999985933303833,
+          "table_softness": 0.5919574499130249
+        },
+        {
+          "step": 200,
+          "task_loss": 0.010456640273332596,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.02041483111679554,
+          "table_softness": 0.020322252064943314
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0004042425425723195,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.0012648716801777482,
+          "table_softness": 0.0019398514414206147
+        },
+        {
+          "step": 600,
+          "task_loss": 1.7291904441663064e-06,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 1.1709425052686129e-05,
+          "table_softness": 5.196247366257012e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0072624263557373e-06,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 2.2887899613907104e-16,
+          "table_softness": 3.0158815982755938e-12
+        }
+      ],
+      "checkpoint": "numeric-813-fixed_hash.pt",
+      "checkpoint_sha256": "af6f0d6ed15c89bf9475f866d224df9280fb88433fddfc271c5d56955367022e"
+    },
+    {
+      "seed": 813,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 813,
+      "hash_seed": 40813,
+      "train_indices": [
+        53,
+        36,
+        63,
+        15,
+        56,
+        16,
+        6,
+        21,
+        35,
+        49,
+        51,
+        13,
+        28,
+        47,
+        55,
+        61,
+        50,
+        31,
+        23,
+        12,
+        60,
+        24,
+        52,
+        7,
+        34,
+        46,
+        30,
+        37,
+        58,
+        40,
+        59,
+        29
+      ],
+      "test_indices": [
+        18,
+        26,
+        0,
+        25,
+        39,
+        42,
+        2,
+        14,
+        9,
+        62,
+        48,
+        41,
+        38,
+        20,
+        33,
+        32,
+        45,
+        10,
+        8,
+        54,
+        57,
+        4,
+        22,
+        5,
+        11,
+        43,
+        19,
+        44,
+        27,
+        1,
+        17,
+        3
+      ],
+      "fixed_train_counts": [
+        9,
+        8,
+        8,
+        7
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.25,
+            0.25,
+            0.2499999701976776
+          ],
+          "utilization_test": [
+            0.28129300475120544,
+            0.26409590244293213,
+            0.1963193118572235,
+            0.25829175114631653
+          ],
+          "utilization_full": [
+            0.26564648747444153,
+            0.25704795122146606,
+            0.22315967082977295,
+            0.25414586067199707
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.25,
+            0.34375,
+            0.28125,
+            0.125
+          ],
+          "utilization_test": [
+            0.3125,
+            0.3125,
+            0.1875,
+            0.1875
+          ],
+          "utilization_full": [
+            0.28125,
+            0.328125,
+            0.234375,
+            0.15625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.640109121799469,
+          "balance_loss": 0.0002384185791015625,
+          "schedule_entropy": 0.999985933303833,
+          "table_softness": 0.5919574499130249
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007278758566826582,
+          "balance_loss": 1.7881393432617188e-06,
+          "schedule_entropy": 0.014475761912763119,
+          "table_softness": 0.00781203294172883
+        },
+        {
+          "step": 400,
+          "task_loss": 0.0002452516055200249,
+          "balance_loss": -5.960464477539063e-08,
+          "schedule_entropy": 0.0005004322156310081,
+          "table_softness": 0.0005177167477086186
+        },
+        {
+          "step": 600,
+          "task_loss": 1.0072624263557373e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 4.699130897733994e-07,
+          "table_softness": 3.1455535918212263e-06
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0072624263557373e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 1.88011523015167e-23,
+          "table_softness": 1.332110762773254e-21
+        }
+      ],
+      "checkpoint": "numeric-813-learned_balanced.pt",
+      "checkpoint_sha256": "cbc33dcc51a10e8d44571e13e7086283e4413e512cbc9a5090fa975a3fbd42bc"
+    },
+    {
+      "seed": 814,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 814,
+      "hash_seed": 40814,
+      "train_indices": [
+        24,
+        19,
+        34,
+        49,
+        32,
+        43,
+        40,
+        9,
+        41,
+        37,
+        56,
+        25,
+        3,
+        55,
+        58,
+        27,
+        60,
+        52,
+        23,
+        33,
+        31,
+        45,
+        39,
+        28,
+        21,
+        18,
+        16,
+        6,
+        8,
+        17,
+        51,
+        20
+      ],
+      "test_indices": [
+        57,
+        12,
+        47,
+        53,
+        1,
+        63,
+        61,
+        0,
+        59,
+        14,
+        30,
+        22,
+        35,
+        46,
+        26,
+        11,
+        50,
+        10,
+        44,
+        7,
+        13,
+        38,
+        48,
+        4,
+        15,
+        2,
+        42,
+        36,
+        29,
+        5,
+        54,
+        62
+      ],
+      "fixed_train_counts": [
+        8,
+        9,
+        7,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.84375,
+            "bit_accuracy": 0.90625
+          },
+          "full": {
+            "exact": 0.921875,
+            "bit_accuracy": 0.953125
+          },
+          "utilization_train": [
+            0.25,
+            0.28125,
+            0.21875,
+            0.25
+          ],
+          "utilization_test": [
+            0.25,
+            0.21875,
+            0.28125,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 0.84375,
+            "bit_accuracy": 0.90625
+          },
+          "full": {
+            "exact": 0.921875,
+            "bit_accuracy": 0.953125
+          },
+          "utilization_train": [
+            0.25,
+            0.28125,
+            0.21875,
+            0.25
+          ],
+          "utilization_test": [
+            0.25,
+            0.21875,
+            0.28125,
+            0.25
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.663210391998291,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.999987781047821,
+          "table_softness": 0.5938196182250977
+        },
+        {
+          "step": 200,
+          "task_loss": 0.008885812014341354,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.017372075468301773,
+          "table_softness": 0.05063360929489136
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00035097773070447147,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 0.0007693487568758428,
+          "table_softness": 0.00891302339732647
+        },
+        {
+          "step": 600,
+          "task_loss": 1.3817308399666217e-06,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 2.1234670839476166e-06,
+          "table_softness": 0.0004914883174933493
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0066398772323737e-06,
+          "balance_loss": 0.0078125,
+          "schedule_entropy": 8.208069920628505e-20,
+          "table_softness": 1.546169442478984e-10
+        }
+      ],
+      "checkpoint": "numeric-814-fixed_hash.pt",
+      "checkpoint_sha256": "bab3a642596623567986938d274851ecfede98892c8a98edd4c5dbbfa3db60cd"
+    },
+    {
+      "seed": 814,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 814,
+      "hash_seed": 40814,
+      "train_indices": [
+        24,
+        19,
+        34,
+        49,
+        32,
+        43,
+        40,
+        9,
+        41,
+        37,
+        56,
+        25,
+        3,
+        55,
+        58,
+        27,
+        60,
+        52,
+        23,
+        33,
+        31,
+        45,
+        39,
+        28,
+        21,
+        18,
+        16,
+        6,
+        8,
+        17,
+        51,
+        20
+      ],
+      "test_indices": [
+        57,
+        12,
+        47,
+        53,
+        1,
+        63,
+        61,
+        0,
+        59,
+        14,
+        30,
+        22,
+        35,
+        46,
+        26,
+        11,
+        50,
+        10,
+        44,
+        7,
+        13,
+        38,
+        48,
+        4,
+        15,
+        2,
+        42,
+        36,
+        29,
+        5,
+        54,
+        62
+      ],
+      "fixed_train_counts": [
+        8,
+        9,
+        7,
+        8
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.24999994039535522,
+            0.25,
+            0.25,
+            0.2500000596046448
+          ],
+          "utilization_test": [
+            0.295878142118454,
+            0.2745164632797241,
+            0.09396804124116898,
+            0.33563733100891113
+          ],
+          "utilization_full": [
+            0.2729390263557434,
+            0.26225823163986206,
+            0.1719840168952942,
+            0.29281872510910034
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.21875,
+            0.3125,
+            0.25
+          ],
+          "utilization_test": [
+            0.25,
+            0.28125,
+            0.125,
+            0.34375
+          ],
+          "utilization_full": [
+            0.234375,
+            0.25,
+            0.21875,
+            0.296875
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6640686988830566,
+          "balance_loss": 0.0001938343048095703,
+          "schedule_entropy": 0.999987781047821,
+          "table_softness": 0.5938196182250977
+        },
+        {
+          "step": 200,
+          "task_loss": 0.008476337417960167,
+          "balance_loss": 0.00016891956329345703,
+          "schedule_entropy": 0.022789474576711655,
+          "table_softness": 0.01834859326481819
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00030864111613482237,
+          "balance_loss": 9.5367431640625e-07,
+          "schedule_entropy": 0.0016351845115423203,
+          "table_softness": 0.001491299830377102
+        },
+        {
+          "step": 600,
+          "task_loss": 1.5340178833866958e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 2.3527834855485708e-05,
+          "table_softness": 2.33204809774179e-05
+        },
+        {
+          "step": 799,
+          "task_loss": 1.0066398772323737e-06,
+          "balance_loss": 0.0,
+          "schedule_entropy": 3.645268968946978e-15,
+          "table_softness": 1.3315055234432195e-19
+        }
+      ],
+      "checkpoint": "numeric-814-learned_balanced.pt",
+      "checkpoint_sha256": "dc4d8d75efe4049ffe16b026d071ce9e7c47e516134f5d3e8f5994d10e21fcc7"
+    },
+    {
+      "seed": 815,
+      "task": "numeric",
+      "condition": "fixed_hash",
+      "split_seed": 815,
+      "hash_seed": 40815,
+      "train_indices": [
+        13,
+        57,
+        28,
+        18,
+        41,
+        31,
+        27,
+        6,
+        2,
+        7,
+        56,
+        9,
+        42,
+        0,
+        54,
+        5,
+        16,
+        1,
+        11,
+        44,
+        32,
+        43,
+        59,
+        52,
+        33,
+        24,
+        47,
+        58,
+        48,
+        46,
+        8,
+        55
+      ],
+      "test_indices": [
+        53,
+        12,
+        45,
+        35,
+        34,
+        29,
+        25,
+        4,
+        14,
+        38,
+        51,
+        37,
+        23,
+        62,
+        10,
+        61,
+        21,
+        30,
+        26,
+        63,
+        15,
+        36,
+        20,
+        50,
+        19,
+        17,
+        3,
+        49,
+        60,
+        22,
+        40,
+        39
+      ],
+      "fixed_train_counts": [
+        4,
+        7,
+        9,
+        12
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.9921875
+          },
+          "test": {
+            "exact": 0.625,
+            "bit_accuracy": 0.8125
+          },
+          "full": {
+            "exact": 0.796875,
+            "bit_accuracy": 0.90234375
+          },
+          "utilization_train": [
+            0.125,
+            0.21875,
+            0.28125,
+            0.375
+          ],
+          "utilization_test": [
+            0.375,
+            0.28125,
+            0.21875,
+            0.125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            23,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 0.96875,
+            "bit_accuracy": 0.9921875
+          },
+          "test": {
+            "exact": 0.625,
+            "bit_accuracy": 0.8125
+          },
+          "full": {
+            "exact": 0.796875,
+            "bit_accuracy": 0.90234375
+          },
+          "utilization_train": [
+            0.125,
+            0.21875,
+            0.28125,
+            0.375
+          ],
+          "utilization_test": [
+            0.375,
+            0.28125,
+            0.21875,
+            0.125
+          ],
+          "utilization_full": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "selected_schedules": [
+            23,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6512568593025208,
+          "balance_loss": 0.1328125,
+          "schedule_entropy": 0.9999858140945435,
+          "table_softness": 0.590971827507019
+        },
+        {
+          "step": 200,
+          "task_loss": 0.02439296618103981,
+          "balance_loss": 0.1328125,
+          "schedule_entropy": 0.1137879267334938,
+          "table_softness": 0.0571725070476532
+        },
+        {
+          "step": 400,
+          "task_loss": 0.014559997245669365,
+          "balance_loss": 0.1328125,
+          "schedule_entropy": 0.07762566208839417,
+          "table_softness": 0.0119407894089818
+        },
+        {
+          "step": 600,
+          "task_loss": 0.014139901846647263,
+          "balance_loss": 0.1328125,
+          "schedule_entropy": 0.06899513304233551,
+          "table_softness": 0.0007181032560765743
+        },
+        {
+          "step": 799,
+          "task_loss": 0.014134536497294903,
+          "balance_loss": 0.1328125,
+          "schedule_entropy": 0.06687791645526886,
+          "table_softness": 1.904750357439866e-09
+        }
+      ],
+      "checkpoint": "numeric-815-fixed_hash.pt",
+      "checkpoint_sha256": "e761b9a9d2eee2edc778a02e7a2f7596c24d82c92a111d3d2a9ee49c664a582b"
+    },
+    {
+      "seed": 815,
+      "task": "numeric",
+      "condition": "learned_balanced",
+      "split_seed": 815,
+      "hash_seed": 40815,
+      "train_indices": [
+        13,
+        57,
+        28,
+        18,
+        41,
+        31,
+        27,
+        6,
+        2,
+        7,
+        56,
+        9,
+        42,
+        0,
+        54,
+        5,
+        16,
+        1,
+        11,
+        44,
+        32,
+        43,
+        59,
+        52,
+        33,
+        24,
+        47,
+        58,
+        48,
+        46,
+        8,
+        55
+      ],
+      "test_indices": [
+        53,
+        12,
+        45,
+        35,
+        34,
+        29,
+        25,
+        4,
+        14,
+        38,
+        51,
+        37,
+        23,
+        62,
+        10,
+        61,
+        21,
+        30,
+        26,
+        63,
+        15,
+        36,
+        20,
+        50,
+        19,
+        17,
+        3,
+        49,
+        60,
+        22,
+        40,
+        39
+      ],
+      "fixed_train_counts": [
+        4,
+        7,
+        9,
+        12
+      ],
+      "evaluation": {
+        "soft": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.2505934238433838,
+            0.2494198977947235,
+            0.24937626719474792,
+            0.2506103813648224
+          ],
+          "utilization_test": [
+            0.38486289978027344,
+            0.1848403513431549,
+            0.13961000740528107,
+            0.29068678617477417
+          ],
+          "utilization_full": [
+            0.3177281618118286,
+            0.2171301394701004,
+            0.1944931447505951,
+            0.2706485688686371
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "hard": {
+          "train": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "test": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "full": {
+            "exact": 1.0,
+            "bit_accuracy": 1.0
+          },
+          "utilization_train": [
+            0.21875,
+            0.28125,
+            0.25,
+            0.25
+          ],
+          "utilization_test": [
+            0.46875,
+            0.125,
+            0.125,
+            0.28125
+          ],
+          "utilization_full": [
+            0.34375,
+            0.203125,
+            0.1875,
+            0.265625
+          ],
+          "selected_schedules": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "curve": [
+        {
+          "step": 0,
+          "task_loss": 0.6548460721969604,
+          "balance_loss": 0.00010883808135986328,
+          "schedule_entropy": 0.9999858140945435,
+          "table_softness": 0.590971827507019
+        },
+        {
+          "step": 200,
+          "task_loss": 0.007773471064865589,
+          "balance_loss": 0.0005528926849365234,
+          "schedule_entropy": 0.024138715118169785,
+          "table_softness": 0.043863363564014435
+        },
+        {
+          "step": 400,
+          "task_loss": 0.00035196251701563597,
+          "balance_loss": 4.398822784423828e-05,
+          "schedule_entropy": 0.001159684848971665,
+          "table_softness": 0.0067036934196949005
+        },
+        {
+          "step": 600,
+          "task_loss": 3.9470345654990524e-05,
+          "balance_loss": 1.3709068298339844e-05,
+          "schedule_entropy": 5.534780939342454e-06,
+          "table_softness": 0.00023243828036356717
+        },
+        {
+          "step": 799,
+          "task_loss": 2.5548979465384036e-05,
+          "balance_loss": 5.7220458984375e-06,
+          "schedule_entropy": 4.389735014255611e-18,
+          "table_softness": 5.7982296047809356e-11
+        }
+      ],
+      "checkpoint": "numeric-815-learned_balanced.pt",
+      "checkpoint_sha256": "9ef6c7dfdfad3264683bb7fc71c3635554e629ddf44ffbc7e108f5c5ab9e9344"
+    }
+  ],
+  "elapsed_seconds": 45.44018358300036,
+  "torch_version": "2.10.0",
+  "numpy_version": "1.25.2",
+  "settings": {
+    "seeds": [
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815
+    ],
+    "steps": 800,
+    "hash_offset": 40000
+  },
+  "sources": {
+    "results/E016-independent-hash-replication/main.py": "436f28196c14d9649eef13ec5856022dc65b92348921094aa8a22abf4cf64809",
+    "results/E016-independent-hash-replication/PROTOCOL.md": "f68e7857a40723164dfb71e89d71e0c8058b3f88fd3d4e469702e743af935f74",
+    "results/E015-joint-logic-router/model.py": "f03c4237621f9a0dc7f7aa950d82534d3fb79c6566d181dcc7b98c5a1e9a5dce"
+  }
+}

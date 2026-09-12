@@ -1,0 +1,109 @@
+{
+  "pilot1": {
+    "target_greedy": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "generated_unique_signatures": {
+        "mean": 138957.25,
+        "variance": 17181050.916666668
+      },
+      "equivalent_function_merges": {
+        "mean": 296708.75,
+        "variance": 6947576.25
+      },
+      "seconds": {
+        "mean": 0.6653932502499629,
+        "variance": 0.0014806353281012136
+      }
+    },
+    "composition_pareto": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "generated_unique_signatures": {
+        "mean": 132145.5,
+        "variance": 18942915.666666668
+      },
+      "equivalent_function_merges": {
+        "mean": 332492.5,
+        "variance": 66102137.0
+      },
+      "seconds": {
+        "mean": 4.600868176999938,
+        "variance": 0.0077318886995048075
+      }
+    }
+  },
+  "pilot2": {
+    "target_greedy": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "seconds": {
+        "mean": 2.3477307190005376,
+        "variance": 0.061649283174500864
+      },
+      "unique_signatures": {
+        "mean": 322656.0,
+        "variance": 0.0
+      },
+      "equivalent_merges": {
+        "mean": 1060838.0,
+        "variance": 0.0
+      }
+    },
+    "affine_scaffold": {
+      "exact_targets": {
+        "mean": 2.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "seconds": {
+        "mean": 3.7307981664998806,
+        "variance": 0.11798603636460747
+      },
+      "unique_signatures": {
+        "mean": 486035.25,
+        "variance": 22728788.25
+      },
+      "equivalent_merges": {
+        "mean": 2076062.75,
+        "variance": 146719974.91666666
+      }
+    }
+  },
+  "solutions_verified": 20,
+  "affine_parity_solutions_using_affine_intermediate": 4,
+  "main_threshold_met": false
+}

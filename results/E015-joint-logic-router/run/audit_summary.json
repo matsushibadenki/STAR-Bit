@@ -1,0 +1,655 @@
+{
+  "aggregates": {
+    "numeric/fixed_hash": {
+      "soft_train_exact": {
+        "mean": 0.998046875,
+        "variance": 6.103515625e-05,
+        "ci95": [
+          0.994140625,
+          1.0
+        ]
+      },
+      "soft_train_bit_accuracy": {
+        "mean": 0.99951171875,
+        "variance": 3.814697265625e-06,
+        "ci95": [
+          0.99853515625,
+          1.0
+        ]
+      },
+      "soft_test_exact": {
+        "mean": 0.935546875,
+        "variance": 0.006050618489583334,
+        "ci95": [
+          0.8984375,
+          0.970703125
+        ]
+      },
+      "soft_test_bit_accuracy": {
+        "mean": 0.9716796875,
+        "variance": 0.0012766520182291667,
+        "ci95": [
+          0.9541015625,
+          0.98779296875
+        ]
+      },
+      "soft_full_exact": {
+        "mean": 0.966796875,
+        "variance": 0.0015584309895833334,
+        "ci95": [
+          0.947265625,
+          0.984375
+        ]
+      },
+      "soft_full_bit_accuracy": {
+        "mean": 0.985595703125,
+        "variance": 0.0003208796183268229,
+        "ci95": [
+          0.976806640625,
+          0.99365234375
+        ]
+      },
+      "hard_train_exact": {
+        "mean": 0.998046875,
+        "variance": 6.103515625e-05,
+        "ci95": [
+          0.994140625,
+          1.0
+        ]
+      },
+      "hard_train_bit_accuracy": {
+        "mean": 0.99951171875,
+        "variance": 3.814697265625e-06,
+        "ci95": [
+          0.99853515625,
+          1.0
+        ]
+      },
+      "hard_test_exact": {
+        "mean": 0.935546875,
+        "variance": 0.006050618489583334,
+        "ci95": [
+          0.896484375,
+          0.970703125
+        ]
+      },
+      "hard_test_bit_accuracy": {
+        "mean": 0.9716796875,
+        "variance": 0.0012766520182291667,
+        "ci95": [
+          0.9541015625,
+          0.98779296875
+        ]
+      },
+      "hard_full_exact": {
+        "mean": 0.966796875,
+        "variance": 0.0015584309895833334,
+        "ci95": [
+          0.947265625,
+          0.984375
+        ]
+      },
+      "hard_full_bit_accuracy": {
+        "mean": 0.985595703125,
+        "variance": 0.0003208796183268229,
+        "ci95": [
+          0.976806640625,
+          0.99365234375
+        ]
+      },
+      "complete_test_seeds": 8,
+      "final_balance_loss": {
+        "mean": 0.0,
+        "variance": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "hard_full_utilization_cv": {
+        "mean": 0.0,
+        "variance": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "soft_train_utilization_cv": {
+        "mean": 0.0,
+        "variance": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "numeric/learned_balanced": {
+      "soft_train_exact": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "soft_train_bit_accuracy": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "soft_test_exact": {
+        "mean": 0.99609375,
+        "variance": 0.00011393229166666667,
+        "ci95": [
+          0.990234375,
+          1.0
+        ]
+      },
+      "soft_test_bit_accuracy": {
+        "mean": 0.9990234375,
+        "variance": 7.120768229166667e-06,
+        "ci95": [
+          0.99755859375,
+          1.0
+        ]
+      },
+      "soft_full_exact": {
+        "mean": 0.998046875,
+        "variance": 2.8483072916666667e-05,
+        "ci95": [
+          0.9951171875,
+          1.0
+        ]
+      },
+      "soft_full_bit_accuracy": {
+        "mean": 0.99951171875,
+        "variance": 1.7801920572916667e-06,
+        "ci95": [
+          0.998779296875,
+          1.0
+        ]
+      },
+      "hard_train_exact": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "hard_train_bit_accuracy": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "hard_test_exact": {
+        "mean": 0.9921875,
+        "variance": 0.0003255208333333333,
+        "ci95": [
+          0.982421875,
+          1.0
+        ]
+      },
+      "hard_test_bit_accuracy": {
+        "mean": 0.998046875,
+        "variance": 2.0345052083333332e-05,
+        "ci95": [
+          0.99560546875,
+          1.0
+        ]
+      },
+      "hard_full_exact": {
+        "mean": 0.99609375,
+        "variance": 8.138020833333333e-05,
+        "ci95": [
+          0.9912109375,
+          1.0
+        ]
+      },
+      "hard_full_bit_accuracy": {
+        "mean": 0.9990234375,
+        "variance": 5.086263020833333e-06,
+        "ci95": [
+          0.997802734375,
+          1.0
+        ]
+      },
+      "complete_test_seeds": 13,
+      "final_balance_loss": {
+        "mean": 1.1473894119262695e-06,
+        "variance": 8.978654856643213e-12,
+        "ci95": [
+          9.685754776000977e-08,
+          2.7642585337162004e-06
+        ]
+      },
+      "hard_full_utilization_cv": {
+        "mean": 0.22232931318772325,
+        "variance": 0.006258696597306947,
+        "ci95": [
+          0.1854683804112525,
+          0.2599063142088101
+        ]
+      },
+      "soft_train_utilization_cv": {
+        "mean": 0.0005320722734313628,
+        "variance": 9.256559862413153e-07,
+        "ci95": [
+          0.00013685765966912458,
+          0.0010459316809430352
+        ]
+      }
+    },
+    "selection/fixed_hash": {
+      "soft_train_exact": {
+        "mean": 0.9921875,
+        "variance": 0.0004557291666666667,
+        "ci95": [
+          0.98046875,
+          1.0
+        ]
+      },
+      "soft_train_bit_accuracy": {
+        "mean": 0.998046875,
+        "variance": 2.8483072916666667e-05,
+        "ci95": [
+          0.9951171875,
+          1.0
+        ]
+      },
+      "soft_test_exact": {
+        "mean": 0.638671875,
+        "variance": 0.054032389322916666,
+        "ci95": [
+          0.529296875,
+          0.75
+        ]
+      },
+      "soft_test_bit_accuracy": {
+        "mean": 0.8505859375,
+        "variance": 0.011457316080729167,
+        "ci95": [
+          0.7998046875,
+          0.9013671875
+        ]
+      },
+      "soft_full_exact": {
+        "mean": 0.8154296875,
+        "variance": 0.014720662434895834,
+        "ci95": [
+          0.7578125,
+          0.87109375
+        ]
+      },
+      "soft_full_bit_accuracy": {
+        "mean": 0.92431640625,
+        "variance": 0.003037261962890625,
+        "ci95": [
+          0.896728515625,
+          0.949951171875
+        ]
+      },
+      "hard_train_exact": {
+        "mean": 0.990234375,
+        "variance": 0.00048421223958333335,
+        "ci95": [
+          0.978515625,
+          1.0
+        ]
+      },
+      "hard_train_bit_accuracy": {
+        "mean": 0.99755859375,
+        "variance": 3.0263264973958334e-05,
+        "ci95": [
+          0.99462890625,
+          1.0
+        ]
+      },
+      "hard_test_exact": {
+        "mean": 0.640625,
+        "variance": 0.05377604166666667,
+        "ci95": [
+          0.529296875,
+          0.748046875
+        ]
+      },
+      "hard_test_bit_accuracy": {
+        "mean": 0.8525390625,
+        "variance": 0.0112945556640625,
+        "ci95": [
+          0.80078125,
+          0.9013671875
+        ]
+      },
+      "hard_full_exact": {
+        "mean": 0.8154296875,
+        "variance": 0.014720662434895834,
+        "ci95": [
+          0.7587890625,
+          0.8720947265624996
+        ]
+      },
+      "hard_full_bit_accuracy": {
+        "mean": 0.925048828125,
+        "variance": 0.0030054092407226563,
+        "ci95": [
+          0.898193359375,
+          0.950439453125
+        ]
+      },
+      "complete_test_seeds": 2,
+      "final_balance_loss": {
+        "mean": 0.04736328125,
+        "variance": 0.0018755594889322917,
+        "ci95": [
+          0.02880859375,
+          0.0693359375
+        ]
+      },
+      "hard_full_utilization_cv": {
+        "mean": 0.0,
+        "variance": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "soft_train_utilization_cv": {
+        "mean": 0.1971889931898747,
+        "variance": 0.00904510102908111,
+        "ci95": [
+          0.154457482941736,
+          0.2434209138607468
+        ]
+      }
+    },
+    "selection/learned_balanced": {
+      "soft_train_exact": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "soft_train_bit_accuracy": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "soft_test_exact": {
+        "mean": 0.9765625,
+        "variance": 0.0014973958333333334,
+        "ci95": [
+          0.95703125,
+          0.994140625
+        ]
+      },
+      "soft_test_bit_accuracy": {
+        "mean": 0.99169921875,
+        "variance": 0.000223541259765625,
+        "ci95": [
+          0.98388671875,
+          0.998046875
+        ]
+      },
+      "soft_full_exact": {
+        "mean": 0.98828125,
+        "variance": 0.00037434895833333336,
+        "ci95": [
+          0.978515625,
+          0.9970703125
+        ]
+      },
+      "soft_full_bit_accuracy": {
+        "mean": 0.995849609375,
+        "variance": 5.588531494140625e-05,
+        "ci95": [
+          0.991943359375,
+          0.9990234375
+        ]
+      },
+      "hard_train_exact": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "hard_train_bit_accuracy": {
+        "mean": 1.0,
+        "variance": 0.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "hard_test_exact": {
+        "mean": 0.9765625,
+        "variance": 0.0014973958333333334,
+        "ci95": [
+          0.95703125,
+          0.994140625
+        ]
+      },
+      "hard_test_bit_accuracy": {
+        "mean": 0.99169921875,
+        "variance": 0.000223541259765625,
+        "ci95": [
+          0.984375,
+          0.998046875
+        ]
+      },
+      "hard_full_exact": {
+        "mean": 0.98828125,
+        "variance": 0.00037434895833333336,
+        "ci95": [
+          0.978515625,
+          0.9970703125
+        ]
+      },
+      "hard_full_bit_accuracy": {
+        "mean": 0.995849609375,
+        "variance": 5.588531494140625e-05,
+        "ci95": [
+          0.991943359375,
+          0.9990234375
+        ]
+      },
+      "complete_test_seeds": 11,
+      "final_balance_loss": {
+        "mean": 0.002533137798309326,
+        "variance": 2.4938294402924535e-05,
+        "ci95": [
+          0.0004494912922382355,
+          0.00520624928176403
+        ]
+      },
+      "hard_full_utilization_cv": {
+        "mean": 0.14296357026490752,
+        "variance": 0.008016553748918243,
+        "ci95": [
+          0.10012441298079448,
+          0.1843077330521062
+        ]
+      },
+      "soft_train_utilization_cv": {
+        "mean": 0.029356086199396454,
+        "variance": 0.0017805194997769066,
+        "ci95": [
+          0.0112813420668153,
+          0.05085709437219205
+        ]
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "task": "numeric",
+      "mean": 0.056640625,
+      "variance": 0.005757649739583333,
+      "ci95": [
+        0.021484375,
+        0.09375
+      ],
+      "cohen_dz": 0.746458067571856,
+      "p": 0.015625,
+      "holm_p": 0.015625
+    },
+    {
+      "task": "selection",
+      "mean": 0.3359375,
+      "variance": 0.0455078125,
+      "ci95": [
+        0.236328125,
+        0.4375
+      ],
+      "cohen_dz": 1.5747641011430653,
+      "p": 0.0001220703125,
+      "holm_p": 0.000244140625
+    }
+  ],
+  "swaps": {
+    "numeric/fixed_hash/same_run_swap": {
+      "mean": 0.01171875,
+      "variance": 0.001025390625,
+      "ci95": [
+        0.0,
+        0.029296875
+      ]
+    },
+    "numeric/fixed_hash/cross_seed": {
+      "mean": 0.00390625,
+      "variance": 0.0012858072916666667,
+      "ci95": [
+        -0.01171875,
+        0.0234375
+      ]
+    },
+    "numeric/fixed_hash/zero_expert": {
+      "mean": -0.23828125,
+      "variance": 0.001025390625,
+      "ci95": [
+        -0.25,
+        -0.220703125
+      ]
+    },
+    "numeric/fixed_hash/reinitialized_expert": {
+      "mean": -0.1796875,
+      "variance": 0.0025390625,
+      "ci95": [
+        -0.203125,
+        -0.15625
+      ]
+    },
+    "numeric/learned_balanced/same_run_swap": {
+      "mean": -0.021484375,
+      "variance": 0.004781087239583333,
+      "ci95": [
+        -0.060546875,
+        0.00390625
+      ]
+    },
+    "numeric/learned_balanced/cross_seed": {
+      "mean": -0.021484375,
+      "variance": 0.00386962890625,
+      "ci95": [
+        -0.056640625,
+        0.001953125
+      ]
+    },
+    "numeric/learned_balanced/zero_expert": {
+      "mean": -0.26953125,
+      "variance": 0.020035807291666666,
+      "ci95": [
+        -0.33984375,
+        -0.205078125
+      ]
+    },
+    "numeric/learned_balanced/reinitialized_expert": {
+      "mean": -0.205078125,
+      "variance": 0.014839680989583333,
+      "ci95": [
+        -0.265625,
+        -0.150390625
+      ]
+    },
+    "selection/fixed_hash/same_run_swap": {
+      "mean": 0.0234375,
+      "variance": 0.006966145833333334,
+      "ci95": [
+        -0.013671875,
+        0.06640625
+      ]
+    },
+    "selection/fixed_hash/cross_seed": {
+      "mean": 0.021484375,
+      "variance": 0.01793212890625,
+      "ci95": [
+        -0.037109375,
+        0.08984375
+      ]
+    },
+    "selection/fixed_hash/zero_expert": {
+      "mean": -0.1328125,
+      "variance": 0.005143229166666667,
+      "ci95": [
+        -0.166015625,
+        -0.09765625
+      ]
+    },
+    "selection/fixed_hash/reinitialized_expert": {
+      "mean": -0.056640625,
+      "variance": 0.01343994140625,
+      "ci95": [
+        -0.111328125,
+        0.0
+      ]
+    },
+    "selection/learned_balanced/same_run_swap": {
+      "mean": -0.26171875,
+      "variance": 0.010791015625,
+      "ci95": [
+        -0.314453125,
+        -0.21484375
+      ]
+    },
+    "selection/learned_balanced/cross_seed": {
+      "mean": -0.0859375,
+      "variance": 0.0123046875,
+      "ci95": [
+        -0.140625,
+        -0.03515625
+      ]
+    },
+    "selection/learned_balanced/zero_expert": {
+      "mean": -0.234375,
+      "variance": 0.006510416666666667,
+      "ci95": [
+        -0.271484375,
+        -0.193359375
+      ]
+    },
+    "selection/learned_balanced/reinitialized_expert": {
+      "mean": -0.134765625,
+      "variance": 0.008426920572916666,
+      "ci95": [
+        -0.177734375,
+        -0.08984375
+      ]
+    }
+  },
+  "records_verified": 64,
+  "interventions_verified": 384,
+  "numeric_split_hash_coupling": true
+}

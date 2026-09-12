@@ -1,0 +1,4304 @@
+{
+  "records": [
+    {
+      "task": "parity",
+      "seed": 1100,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 2.1377309579984285,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 2.137110499999835,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            5,
+            6
+          ],
+          [
+            1,
+            7,
+            9
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            2,
+            8,
+            9
+          ],
+          [
+            1,
+            6,
+            0
+          ],
+          [
+            4,
+            11,
+            9
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            13,
+            6
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "parity",
+      "seed": 1100,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 6,
+      "constrained_rows": [
+        3,
+        14,
+        32,
+        45,
+        48,
+        50,
+        51,
+        56,
+        0,
+        6,
+        1,
+        2,
+        16
+      ],
+      "elapsed_seconds": 0.5522008329990058,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.22184474999994563,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.03176983299999847,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.22307324999928824,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.001637291999941226,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.06204599999909988,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.001764917000400601,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            1,
+            3,
+            6
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            8,
+            8,
+            8
+          ],
+          [
+            6,
+            7,
+            6
+          ],
+          [
+            9,
+            10,
+            5
+          ],
+          [
+            11,
+            11,
+            0
+          ],
+          [
+            7,
+            7,
+            0
+          ],
+          [
+            13,
+            13,
+            0
+          ],
+          [
+            10,
+            11,
+            9
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "comparator",
+      "seed": 1100,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.012098875000447,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.012085291000403,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "comparator",
+      "seed": 1100,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 21,
+      "constrained_rows": [
+        3,
+        14,
+        32,
+        45,
+        48,
+        50,
+        51,
+        56,
+        0,
+        1,
+        4,
+        5,
+        2,
+        9,
+        10,
+        6,
+        12,
+        17,
+        7,
+        8,
+        13,
+        19,
+        16,
+        20,
+        18,
+        25,
+        37,
+        33
+      ],
+      "elapsed_seconds": 24.11097270800019,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.13719916599984572,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.016097374998935265,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.024453625001115142,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.0177505409992591,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.01347054100006062,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.11035758399884799,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.004589124999256455,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.21031679199950304,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.07180779199916287,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.6787352090013883,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.36623608300033084,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.002727249999225023,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.8137399159986671,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.3302765000007639,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 0.5835531250013446,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 0.43774020800083235,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "sat",
+          "seconds": 1.8292266669996025,
+          "constrained_rows": 24,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 17,
+          "status": "sat",
+          "seconds": 1.6331114580007124,
+          "constrained_rows": 25,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 18,
+          "status": "sat",
+          "seconds": 0.0033122499989985954,
+          "constrained_rows": 26,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 19,
+          "status": "sat",
+          "seconds": 6.776116999999431,
+          "constrained_rows": 27,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 20,
+          "status": "unknown",
+          "seconds": 10.005107875000249,
+          "constrained_rows": 28,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "mux",
+      "seed": 1100,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 7.806507666999096,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 7.805922584000655,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            2,
+            5,
+            14
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            2,
+            12
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            7,
+            9,
+            6
+          ],
+          [
+            7,
+            9,
+            0
+          ],
+          [
+            8,
+            9,
+            0
+          ],
+          [
+            6,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            10,
+            6
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "mux",
+      "seed": 1100,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 5,
+      "constrained_rows": [
+        3,
+        14,
+        32,
+        45,
+        48,
+        50,
+        51,
+        56,
+        1,
+        2,
+        4,
+        5
+      ],
+      "elapsed_seconds": 0.19385504099955142,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1382772910001222,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.014785999999730848,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.016363583999918774,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.0063084590001381,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.009840750000876142,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            7,
+            2
+          ],
+          [
+            1,
+            7,
+            6
+          ],
+          [
+            3,
+            8,
+            12
+          ],
+          [
+            1,
+            10,
+            10
+          ],
+          [
+            2,
+            11,
+            6
+          ],
+          [
+            5,
+            12,
+            0
+          ],
+          [
+            6,
+            11,
+            6
+          ],
+          [
+            9,
+            14,
+            9
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "carry",
+      "seed": 1100,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.01017258399952,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.01016108299882,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "carry",
+      "seed": 1100,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 23,
+      "constrained_rows": [
+        3,
+        14,
+        32,
+        45,
+        48,
+        50,
+        51,
+        56,
+        0,
+        4,
+        15,
+        9,
+        2,
+        5,
+        13,
+        10,
+        7,
+        8,
+        1,
+        11,
+        17,
+        22,
+        18,
+        6,
+        29,
+        20,
+        28,
+        31,
+        36,
+        16
+      ],
+      "elapsed_seconds": 27.11975641599929,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.13767150000057882,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.06616724999912549,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.06029987500005518,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.010387583000920131,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.02528474999962782,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.1479038750003383,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.0688849999987724,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.02608183299889788,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.3984688330001518,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.06205620800028555,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.4675967919993127,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.21189550000053714,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.0028973329990549246,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.001900082999782171,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 1.87488037500043,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 0.7239760840002418,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "sat",
+          "seconds": 3.064457541999218,
+          "constrained_rows": 24,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 17,
+          "status": "sat",
+          "seconds": 2.5200394580006105,
+          "constrained_rows": 25,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 18,
+          "status": "sat",
+          "seconds": 1.808062833000804,
+          "constrained_rows": 26,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 19,
+          "status": "sat",
+          "seconds": 0.20204083300086495,
+          "constrained_rows": 27,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 20,
+          "status": "sat",
+          "seconds": 0.0027764999995270045,
+          "constrained_rows": 28,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 21,
+          "status": "sat",
+          "seconds": 5.184165708998989,
+          "constrained_rows": 29,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 22,
+          "status": "unknown",
+          "seconds": 10.005115415999171,
+          "constrained_rows": 30,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "parity",
+      "seed": 1101,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 7.600374624998949,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 7.599796749998859,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            6
+          ],
+          [
+            1,
+            3,
+            6
+          ],
+          [
+            1,
+            6,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            9
+          ],
+          [
+            6,
+            7,
+            4
+          ],
+          [
+            5,
+            11,
+            9
+          ],
+          [
+            8,
+            13,
+            6
+          ],
+          [
+            6,
+            14,
+            4
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "parity",
+      "seed": 1101,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 7,
+      "constrained_rows": [
+        9,
+        10,
+        11,
+        13,
+        23,
+        26,
+        45,
+        52,
+        1,
+        2,
+        0,
+        3,
+        5,
+        32
+      ],
+      "elapsed_seconds": 0.668046000000686,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.3268571670014353,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.2804141670003446,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.0035718330000236165,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.039641375000428525,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.002463417000399204,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.0016187910005101003,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.001607416999831912,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            2,
+            3,
+            6
+          ],
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            1,
+            3,
+            13
+          ],
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            5,
+            9,
+            12
+          ],
+          [
+            0,
+            3,
+            12
+          ],
+          [
+            8,
+            10,
+            0
+          ],
+          [
+            9,
+            11,
+            9
+          ],
+          [
+            7,
+            13,
+            9
+          ],
+          [
+            4,
+            14,
+            6
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "comparator",
+      "seed": 1101,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.009337124998638,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.009324874999947,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "comparator",
+      "seed": 1101,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 19,
+      "constrained_rows": [
+        9,
+        10,
+        11,
+        13,
+        23,
+        26,
+        45,
+        52,
+        1,
+        0,
+        2,
+        3,
+        4,
+        6,
+        17,
+        5,
+        19,
+        8,
+        16,
+        25,
+        32,
+        34,
+        35,
+        37,
+        18,
+        20
+      ],
+      "elapsed_seconds": 29.275985250000303,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.3820261249984469,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.16915979199984577,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.3773386249995383,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.3006623339988437,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.08397412500016799,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.3456375420009863,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.0038908749993424863,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.2423039580007753,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.6467275000013615,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 1.005074082999272,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 3.6417455410010007,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.049564333001399064,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.8210004169995955,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.002035625000644359,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 0.0030383329994947417,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 0.005660541999532143,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "sat",
+          "seconds": 9.891315750001013,
+          "constrained_rows": 24,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 17,
+          "status": "sat",
+          "seconds": 1.2622047499990003,
+          "constrained_rows": 25,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 18,
+          "status": "unknown",
+          "seconds": 10.005113332999827,
+          "constrained_rows": 26,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "mux",
+      "seed": 1101,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 1.3241294159997778,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 1.323547874999349,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            6,
+            6,
+            12
+          ],
+          [
+            1,
+            5,
+            8
+          ],
+          [
+            2,
+            7,
+            6
+          ],
+          [
+            0,
+            9,
+            13
+          ],
+          [
+            8,
+            9,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            4
+          ],
+          [
+            0,
+            5,
+            0
+          ],
+          [
+            2,
+            10,
+            9
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "mux",
+      "seed": 1101,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 4,
+      "constrained_rows": [
+        9,
+        10,
+        11,
+        13,
+        23,
+        26,
+        45,
+        52,
+        0,
+        4,
+        6
+      ],
+      "elapsed_seconds": 0.29361358399910387,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1621812499997759,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.06722445800005517,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.008720333000383107,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.049063374999605,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            1,
+            2,
+            6
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            2,
+            8
+          ],
+          [
+            2,
+            6,
+            6
+          ],
+          [
+            1,
+            7,
+            2
+          ],
+          [
+            2,
+            10,
+            7
+          ],
+          [
+            3,
+            11,
+            4
+          ],
+          [
+            1,
+            11,
+            4
+          ],
+          [
+            0,
+            6,
+            11
+          ],
+          [
+            13,
+            14,
+            6
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "carry",
+      "seed": 1101,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.026818124999409,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.026806040999872,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "carry",
+      "seed": 1101,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 17,
+      "constrained_rows": [
+        9,
+        10,
+        11,
+        13,
+        23,
+        26,
+        45,
+        52,
+        15,
+        2,
+        6,
+        0,
+        14,
+        5,
+        7,
+        22,
+        12,
+        20,
+        29,
+        28,
+        38,
+        31,
+        21,
+        32
+      ],
+      "elapsed_seconds": 27.329053417000978,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.19698145899928932,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.03060958300011407,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.0026856250005948823,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.001779500000338885,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.0013720419992750976,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.020101666001210106,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.016247666999333887,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.38459762499951466,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.3061322499997914,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.005279207998682978,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.5119375419999415,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 1.6156784579998202,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 1.8367843329997413,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.007893584001067211,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 5.662817708998773,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 6.693974583000454,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "unknown",
+          "seconds": 10.001587208000274,
+          "constrained_rows": 24,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "parity",
+      "seed": 1102,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 4.65387012499923,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 4.6530945419999625,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            3,
+            5,
+            6
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            1,
+            6,
+            9
+          ],
+          [
+            2,
+            5,
+            2
+          ],
+          [
+            5,
+            6,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            9,
+            9
+          ],
+          [
+            2,
+            13,
+            6
+          ],
+          [
+            0,
+            14,
+            6
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "parity",
+      "seed": 1102,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 5,
+      "constrained_rows": [
+        8,
+        33,
+        38,
+        41,
+        44,
+        46,
+        49,
+        56,
+        0,
+        1,
+        4,
+        3
+      ],
+      "elapsed_seconds": 0.26697220799906063,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1801955419996375,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.008330916998602333,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.01641004100019927,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.05224541600000521,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.001469042001190246,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            1,
+            9
+          ],
+          [
+            4,
+            6,
+            6
+          ],
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            8,
+            8,
+            1
+          ],
+          [
+            3,
+            9,
+            9
+          ],
+          [
+            9,
+            10,
+            0
+          ],
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            12,
+            12,
+            0
+          ],
+          [
+            7,
+            10,
+            9
+          ],
+          [
+            6,
+            14,
+            12
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "comparator",
+      "seed": 1102,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.02812300000005,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.028111332998378,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "comparator",
+      "seed": 1102,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 22,
+      "constrained_rows": [
+        8,
+        33,
+        38,
+        41,
+        44,
+        46,
+        49,
+        56,
+        1,
+        0,
+        4,
+        3,
+        5,
+        2,
+        12,
+        6,
+        7,
+        9,
+        10,
+        11,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        25,
+        27,
+        34
+      ],
+      "elapsed_seconds": 29.710544208999636,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.17631683299987344,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.01031416700061527,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.0059298750002199085,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.03932454099958704,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.001268709000214585,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.0025363329987158068,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.0026635829999577254,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.006269916999372072,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.002905208000811399,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.00171299999965413,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.6123556670008838,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.001638666999497218,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.004233207999277511,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.22378358300011314,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 0.933738166000694,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 7.3607227920001606,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "sat",
+          "seconds": 2.6536247089989047,
+          "constrained_rows": 24,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 17,
+          "status": "sat",
+          "seconds": 0.0026908750005532056,
+          "constrained_rows": 25,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 18,
+          "status": "sat",
+          "seconds": 1.6165125419993274,
+          "constrained_rows": 26,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 19,
+          "status": "sat",
+          "seconds": 0.0027893340011360124,
+          "constrained_rows": 27,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 20,
+          "status": "sat",
+          "seconds": 6.005263834000289,
+          "constrained_rows": 28,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 21,
+          "status": "unknown",
+          "seconds": 10.005088083000373,
+          "constrained_rows": 29,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "mux",
+      "seed": 1102,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 2.6811160420002125,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 2.6805309580013272,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            1,
+            1,
+            9
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            3,
+            7,
+            7
+          ],
+          [
+            1,
+            1,
+            9
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            11,
+            9
+          ],
+          [
+            4,
+            12,
+            8
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            10,
+            14,
+            1
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "mux",
+      "seed": 1102,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 10,
+      "constrained_rows": [
+        8,
+        33,
+        38,
+        41,
+        44,
+        46,
+        49,
+        56,
+        3,
+        1,
+        2,
+        0,
+        5,
+        7,
+        19,
+        4,
+        6
+      ],
+      "elapsed_seconds": 0.3680253750007978,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1768836659994122,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.008721792000869755,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.0022475000005215406,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.009744457998749567,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.0018762090003292542,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.0015244999995047692,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.026147125001443783,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.026244541999403737,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.0033080829998652916,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.09487520899892843,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            2,
+            10
+          ],
+          [
+            1,
+            2,
+            9
+          ],
+          [
+            6,
+            7,
+            1
+          ],
+          [
+            7,
+            8,
+            3
+          ],
+          [
+            1,
+            9,
+            7
+          ],
+          [
+            9,
+            10,
+            0
+          ],
+          [
+            8,
+            11,
+            0
+          ],
+          [
+            11,
+            12,
+            0
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            10,
+            14,
+            6
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "carry",
+      "seed": 1102,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.011272583000391,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.011261417001151,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "carry",
+      "seed": 1102,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 20,
+      "constrained_rows": [
+        8,
+        33,
+        38,
+        41,
+        44,
+        46,
+        49,
+        56,
+        4,
+        15,
+        1,
+        5,
+        2,
+        3,
+        12,
+        6,
+        13,
+        11,
+        14,
+        7,
+        22,
+        9,
+        20,
+        29,
+        28,
+        21,
+        43
+      ],
+      "elapsed_seconds": 18.98627737500101,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1998295829998824,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.010724791000029654,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.0013649590000568423,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.004272540998499608,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.01607500000136497,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.0037285409998730756,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.021231791000900557,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.026195291999101755,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.038129791000756086,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.0614411669994297,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.06296091699914541,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.05233945899999526,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.002063583000563085,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 1.8045408750003844,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 0.2570370419998653,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 0.5510851250000997,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "sat",
+          "seconds": 2.4789193750002596,
+          "constrained_rows": 24,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 17,
+          "status": "sat",
+          "seconds": 2.1803925829990476,
+          "constrained_rows": 25,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 18,
+          "status": "sat",
+          "seconds": 1.1715000829990458,
+          "constrained_rows": 26,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 19,
+          "status": "unknown",
+          "seconds": 10.005076625000584,
+          "constrained_rows": 27,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "parity",
+      "seed": 1103,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 2.049862416999531,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 2.0492825410001387,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            3,
+            4,
+            6
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            9
+          ],
+          [
+            0,
+            1,
+            14
+          ],
+          [
+            2,
+            9,
+            1
+          ],
+          [
+            2,
+            4,
+            0
+          ],
+          [
+            8,
+            10,
+            2
+          ],
+          [
+            1,
+            8,
+            6
+          ],
+          [
+            2,
+            13,
+            6
+          ],
+          [
+            5,
+            14,
+            9
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "parity",
+      "seed": 1103,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 6,
+      "constrained_rows": [
+        9,
+        29,
+        30,
+        40,
+        42,
+        43,
+        51,
+        54,
+        1,
+        0,
+        3,
+        4,
+        8
+      ],
+      "elapsed_seconds": 0.4420055840000714,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.21669208300045284,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.14296187500076485,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.03476050000062969,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.005025417000069865,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.001841707999119535,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.029809792000378366,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            3,
+            4,
+            4
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            2,
+            7,
+            6
+          ],
+          [
+            1,
+            4,
+            2
+          ],
+          [
+            0,
+            8,
+            6
+          ],
+          [
+            3,
+            10,
+            6
+          ],
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            6,
+            6,
+            0
+          ],
+          [
+            11,
+            13,
+            9
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "comparator",
+      "seed": 1103,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.008658917000503,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.00864725000065,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "comparator",
+      "seed": 1103,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 16,
+      "constrained_rows": [
+        9,
+        29,
+        30,
+        40,
+        42,
+        43,
+        51,
+        54,
+        1,
+        0,
+        4,
+        2,
+        3,
+        17,
+        10,
+        6,
+        8,
+        12,
+        7,
+        16,
+        11,
+        18,
+        19
+      ],
+      "elapsed_seconds": 13.85934795799949,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.16053970899884007,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.02578729200104135,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.09426879199963878,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.0024903339999582386,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.003830083000138984,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.16025187500054017,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.05477595799857227,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.0274230830000306,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.10704591600006097,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.07263670799875399,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.24572875000012573,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.33396429200001876,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.3801028749985562,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.006011208999552764,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 2.147911165999176,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "unknown",
+          "seconds": 10.005057375001343,
+          "constrained_rows": 23,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "mux",
+      "seed": 1103,
+      "condition": "all_rows",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 1.2504514159991231,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 1.249821957999302,
+          "constrained_rows": 64,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            1,
+            4
+          ],
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            2,
+            8,
+            2
+          ],
+          [
+            0,
+            1,
+            8
+          ],
+          [
+            10,
+            11,
+            6
+          ],
+          [
+            2,
+            5,
+            7
+          ],
+          [
+            0,
+            9,
+            0
+          ],
+          [
+            12,
+            13,
+            10
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "mux",
+      "seed": 1103,
+      "condition": "cegis",
+      "exact": true,
+      "final_status": "sat",
+      "solver_calls": 9,
+      "constrained_rows": [
+        9,
+        29,
+        30,
+        40,
+        42,
+        43,
+        51,
+        54,
+        2,
+        3,
+        1,
+        4,
+        0,
+        7,
+        5,
+        16
+      ],
+      "elapsed_seconds": 0.47284633299932466,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1586260410003888,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.022560000001249136,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.024495416999343433,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.01809641699946951,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.057340332999956445,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.08769112500158371,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.044709416999467066,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.0021697499996662373,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.039828166000006604,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        }
+      ],
+      "witness": {
+        "sequential": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            6,
+            7,
+            6
+          ],
+          [
+            1,
+            5,
+            10
+          ],
+          [
+            1,
+            8,
+            9
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            0,
+            9,
+            1
+          ],
+          [
+            0,
+            12,
+            0
+          ],
+          [
+            9,
+            11,
+            9
+          ],
+          [
+            10,
+            14,
+            5
+          ]
+        ],
+        "output": 9
+      }
+    },
+    {
+      "task": "carry",
+      "seed": 1103,
+      "condition": "all_rows",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 1,
+      "constrained_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "elapsed_seconds": 10.010427999999592,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "unknown",
+          "seconds": 10.010415916998681,
+          "constrained_rows": 64,
+          "reason_unknown": "timeout"
+        }
+      ],
+      "witness": null
+    },
+    {
+      "task": "carry",
+      "seed": 1103,
+      "condition": "cegis",
+      "exact": false,
+      "final_status": "unknown",
+      "solver_calls": 21,
+      "constrained_rows": [
+        9,
+        29,
+        30,
+        40,
+        42,
+        43,
+        51,
+        54,
+        1,
+        0,
+        4,
+        6,
+        15,
+        3,
+        11,
+        8,
+        12,
+        5,
+        7,
+        13,
+        14,
+        22,
+        16,
+        20,
+        28,
+        18,
+        21,
+        10
+      ],
+      "elapsed_seconds": 26.001781041999493,
+      "calls": [
+        {
+          "iteration": 0,
+          "status": "sat",
+          "seconds": 0.1911629999995057,
+          "constrained_rows": 8,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 1,
+          "status": "sat",
+          "seconds": 0.054772540999692865,
+          "constrained_rows": 9,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 2,
+          "status": "sat",
+          "seconds": 0.03330212500077323,
+          "constrained_rows": 10,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 3,
+          "status": "sat",
+          "seconds": 0.008953458000178216,
+          "constrained_rows": 11,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 4,
+          "status": "sat",
+          "seconds": 0.0022065829998609843,
+          "constrained_rows": 12,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 5,
+          "status": "sat",
+          "seconds": 0.18090462500003923,
+          "constrained_rows": 13,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 6,
+          "status": "sat",
+          "seconds": 0.3345178340005077,
+          "constrained_rows": 14,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 7,
+          "status": "sat",
+          "seconds": 0.19950108299963176,
+          "constrained_rows": 15,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 8,
+          "status": "sat",
+          "seconds": 0.26167762499972014,
+          "constrained_rows": 16,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 9,
+          "status": "sat",
+          "seconds": 0.5440129590006109,
+          "constrained_rows": 17,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 10,
+          "status": "sat",
+          "seconds": 0.2994997500009049,
+          "constrained_rows": 18,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 11,
+          "status": "sat",
+          "seconds": 0.27083954099907714,
+          "constrained_rows": 19,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 12,
+          "status": "sat",
+          "seconds": 0.5053683340011048,
+          "constrained_rows": 20,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 13,
+          "status": "sat",
+          "seconds": 0.6725154169998859,
+          "constrained_rows": 21,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 14,
+          "status": "sat",
+          "seconds": 0.658427667000069,
+          "constrained_rows": 22,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 15,
+          "status": "sat",
+          "seconds": 0.7206560829999944,
+          "constrained_rows": 23,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 16,
+          "status": "sat",
+          "seconds": 1.7390280409999832,
+          "constrained_rows": 24,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 17,
+          "status": "sat",
+          "seconds": 1.0247749169993767,
+          "constrained_rows": 25,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 18,
+          "status": "sat",
+          "seconds": 5.3413331669999025,
+          "constrained_rows": 26,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 19,
+          "status": "sat",
+          "seconds": 2.9101108750001004,
+          "constrained_rows": 27,
+          "reason_unknown": null
+        },
+        {
+          "iteration": 20,
+          "status": "unknown",
+          "seconds": 10.004066457999215,
+          "constrained_rows": 28,
+          "reason_unknown": "canceled"
+        }
+      ],
+      "witness": null
+    }
+  ],
+  "aggregate": {
+    "all_rows": {
+      "exact_total": 8,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "success": {
+        "mean": 0.5,
+        "variance": 0.26666666666666666
+      },
+      "solver_calls": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 6.851309492187056,
+        "variance": 14.062413187085735
+      }
+    },
+    "cegis": {
+      "exact_total": 8,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "success": {
+        "mean": 0.5,
+        "variance": 0.26666666666666666
+      },
+      "solver_calls": {
+        "mean": 13.1875,
+        "variance": 52.42916666666667
+      },
+      "seconds": {
+        "mean": 12.478205208312374,
+        "variance": 169.49073071840212
+      }
+    }
+  },
+  "viable": false,
+  "elapsed_seconds": 309.8695645830012,
+  "z3_version": "4.13.0",
+  "sources": {
+    "results/E018-cegis-mdl/pilot.py": "83c504b98ccd0224808be82357dcc1187efff6a850559e835b4a868844155867",
+    "results/E018-cegis-mdl/PILOT-PROTOCOL.md": "183f791747542f58b42fece6d39d83f0d088791dea758736cbeba82550d79780",
+    "results/E017-learned-circuit-abstraction/refine.py": "dd8860a4f654816fdfe4eb69858f7e1530a411b2696c289cf8fff40a9caad248"
+  }
+}

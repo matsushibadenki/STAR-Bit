@@ -1,0 +1,264 @@
+{
+  "records": [
+    {
+      "task": "parity",
+      "gates": 1,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.014628458999141003
+    },
+    {
+      "task": "parity",
+      "gates": 2,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.04524475000107486
+    },
+    {
+      "task": "parity",
+      "gates": 3,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.1879325419995439
+    },
+    {
+      "task": "parity",
+      "gates": 4,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 1.6133629159994598
+    },
+    {
+      "task": "parity",
+      "gates": 5,
+      "status": "sat",
+      "reason_unknown": null,
+      "verified": true,
+      "genome": {
+        "sequential": [
+          [
+            1,
+            5,
+            9
+          ],
+          [
+            0,
+            4,
+            9
+          ],
+          [
+            3,
+            6,
+            6
+          ],
+          [
+            2,
+            7,
+            6
+          ],
+          [
+            8,
+            9,
+            6
+          ]
+        ],
+        "output": 4
+      },
+      "seconds": 0.6751630409999052
+    },
+    {
+      "task": "comparator",
+      "gates": 1,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.012315500000113389
+    },
+    {
+      "task": "comparator",
+      "gates": 2,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.04332499999873107
+    },
+    {
+      "task": "comparator",
+      "gates": 3,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.17981758399946557
+    },
+    {
+      "task": "comparator",
+      "gates": 4,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 1.875225457999477
+    },
+    {
+      "task": "comparator",
+      "gates": 5,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.0181186660011
+    },
+    {
+      "task": "comparator",
+      "gates": 6,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.017725333000271
+    },
+    {
+      "task": "comparator",
+      "gates": 7,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.014155625000058
+    },
+    {
+      "task": "comparator",
+      "gates": 8,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.024892791001548
+    },
+    {
+      "task": "comparator",
+      "gates": 9,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.024652166001033
+    },
+    {
+      "task": "comparator",
+      "gates": 10,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.025047916999029
+    },
+    {
+      "task": "mux",
+      "gates": 1,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.013531250000596629
+    },
+    {
+      "task": "mux",
+      "gates": 2,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.047665166999649955
+    },
+    {
+      "task": "mux",
+      "gates": 3,
+      "status": "sat",
+      "reason_unknown": null,
+      "verified": true,
+      "genome": {
+        "sequential": [
+          [
+            1,
+            2,
+            9
+          ],
+          [
+            0,
+            6,
+            13
+          ],
+          [
+            2,
+            7,
+            9
+          ]
+        ],
+        "output": 2
+      },
+      "seconds": 0.05221295800038206
+    },
+    {
+      "task": "carry",
+      "gates": 1,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.013398167000559624
+    },
+    {
+      "task": "carry",
+      "gates": 2,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.07610500000009779
+    },
+    {
+      "task": "carry",
+      "gates": 3,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 0.597705207999752
+    },
+    {
+      "task": "carry",
+      "gates": 4,
+      "status": "unsat",
+      "reason_unknown": null,
+      "seconds": 7.7899982089984405
+    },
+    {
+      "task": "carry",
+      "gates": 5,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.015208124999845
+    },
+    {
+      "task": "carry",
+      "gates": 6,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.02082666700153
+    },
+    {
+      "task": "carry",
+      "gates": 7,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.019534375000148
+    },
+    {
+      "task": "carry",
+      "gates": 8,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.041931583000405
+    },
+    {
+      "task": "carry",
+      "gates": 9,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.029768332999083
+    },
+    {
+      "task": "carry",
+      "gates": 10,
+      "status": "unknown",
+      "reason_unknown": "timeout",
+      "seconds": 10.029866374999983
+    }
+  ],
+  "first_sat": {
+    "parity": 5,
+    "mux": 3
+  },
+  "all_tasks_sat": false,
+  "elapsed_seconds": 133.5291767079998,
+  "z3_version": "4.13.0",
+  "sources": {
+    "sat_bv_probe.py": "774db72b5513125633c77daaec28f734e7c2cb6d01018db09f3d4cf70bdae0b0",
+    "refine.py": "dd8860a4f654816fdfe4eb69858f7e1530a411b2696c289cf8fff40a9caad248",
+    "SAT-BV-PROTOCOL.md": "4cf0aa265deeec701d73d2e6173c7843e24d6d84a9ac86e0aad44da53696ced2"
+  }
+}

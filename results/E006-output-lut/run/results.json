@@ -1,0 +1,6710 @@
+{
+  "records": [
+    {
+      "seed": 400,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.484375
+      },
+      "hard_test": {
+        "exact": 0.0,
+        "bit_accuracy": 0.453125
+      },
+      "soft_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.7421875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6931656043702185
+        },
+        {
+          "step": 50,
+          "loss": 0.616481128369446
+        },
+        {
+          "step": 100,
+          "loss": 0.4743170310575842
+        },
+        {
+          "step": 150,
+          "loss": 0.4349245230300546
+        },
+        {
+          "step": 200,
+          "loss": 0.4262182229000989
+        },
+        {
+          "step": 250,
+          "loss": 0.4237758732883591
+        },
+        {
+          "step": 300,
+          "loss": 0.42199237711264914
+        },
+        {
+          "step": 350,
+          "loss": 0.421436416012642
+        },
+        {
+          "step": 399,
+          "loss": 0.42076395657995685
+        }
+      ]
+    },
+    {
+      "seed": 400,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.453125
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.453125
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.78125
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7421875
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6931656043702183
+        },
+        {
+          "step": 50,
+          "loss": 0.623997475205232
+        },
+        {
+          "step": 100,
+          "loss": 0.49210068601493145
+        },
+        {
+          "step": 150,
+          "loss": 0.43990527866766727
+        },
+        {
+          "step": 200,
+          "loss": 0.41672654023946054
+        },
+        {
+          "step": 250,
+          "loss": 0.40898464085427777
+        },
+        {
+          "step": 300,
+          "loss": 0.4035946769656173
+        },
+        {
+          "step": 350,
+          "loss": 0.4019988042215392
+        },
+        {
+          "step": 399,
+          "loss": 0.40097905946001067
+        }
+      ]
+    },
+    {
+      "seed": 400,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5234375
+      },
+      "soft_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.859375
+      },
+      "hard_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.84375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6931656043702183
+        },
+        {
+          "step": 50,
+          "loss": 0.6089228120955892
+        },
+        {
+          "step": 100,
+          "loss": 0.43666318880159427
+        },
+        {
+          "step": 150,
+          "loss": 0.3450397835202189
+        },
+        {
+          "step": 200,
+          "loss": 0.2889993465529778
+        },
+        {
+          "step": 250,
+          "loss": 0.2697112224591119
+        },
+        {
+          "step": 300,
+          "loss": 0.2524636415787657
+        },
+        {
+          "step": 350,
+          "loss": 0.24925728144867826
+        },
+        {
+          "step": 399,
+          "loss": 0.2438242273028721
+        }
+      ]
+    },
+    {
+      "seed": 400,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.578125
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.828125
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6934774223669088
+        },
+        {
+          "step": 50,
+          "loss": 0.5775963367781367
+        },
+        {
+          "step": 100,
+          "loss": 0.4345953711093252
+        },
+        {
+          "step": 150,
+          "loss": 0.3826464840985702
+        },
+        {
+          "step": 200,
+          "loss": 0.3666053885287306
+        },
+        {
+          "step": 250,
+          "loss": 0.3625696646800064
+        },
+        {
+          "step": 300,
+          "loss": 0.3606833290884496
+        },
+        {
+          "step": 350,
+          "loss": 0.359988600264824
+        },
+        {
+          "step": 399,
+          "loss": 0.35958272372974465
+        }
+      ]
+    },
+    {
+      "seed": 400,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.609375
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.7890625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6934774223669087
+        },
+        {
+          "step": 50,
+          "loss": 0.5996330699688291
+        },
+        {
+          "step": 100,
+          "loss": 0.4429968271837288
+        },
+        {
+          "step": 150,
+          "loss": 0.4062740031754871
+        },
+        {
+          "step": 200,
+          "loss": 0.391738090407561
+        },
+        {
+          "step": 250,
+          "loss": 0.3854744325288204
+        },
+        {
+          "step": 300,
+          "loss": 0.37929334445809754
+        },
+        {
+          "step": 350,
+          "loss": 0.3779584403043686
+        },
+        {
+          "step": 399,
+          "loss": 0.3771544579224324
+        }
+      ]
+    },
+    {
+      "seed": 400,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6171875
+      },
+      "soft_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.890625
+      },
+      "hard_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6934774223669088
+        },
+        {
+          "step": 50,
+          "loss": 0.5872013230820954
+        },
+        {
+          "step": 100,
+          "loss": 0.33512229784204106
+        },
+        {
+          "step": 150,
+          "loss": 0.23773055368684645
+        },
+        {
+          "step": 200,
+          "loss": 0.21714873346811206
+        },
+        {
+          "step": 250,
+          "loss": 0.20295753657634807
+        },
+        {
+          "step": 300,
+          "loss": 0.19962672133276133
+        },
+        {
+          "step": 350,
+          "loss": 0.19783205309726803
+        },
+        {
+          "step": 399,
+          "loss": 0.19653056672567532
+        }
+      ]
+    },
+    {
+      "seed": 401,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.734375
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.75
+      },
+      "soft_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.921875
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.890625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6935138107696885
+        },
+        {
+          "step": 50,
+          "loss": 0.574645200550955
+        },
+        {
+          "step": 100,
+          "loss": 0.2733443565679697
+        },
+        {
+          "step": 150,
+          "loss": 0.2270598373462829
+        },
+        {
+          "step": 200,
+          "loss": 0.2116671705755233
+        },
+        {
+          "step": 250,
+          "loss": 0.196813480679648
+        },
+        {
+          "step": 300,
+          "loss": 0.1823401240448405
+        },
+        {
+          "step": 350,
+          "loss": 0.17835754814423466
+        },
+        {
+          "step": 399,
+          "loss": 0.17750194230692246
+        }
+      ]
+    },
+    {
+      "seed": 401,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.734375
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.7421875
+      },
+      "soft_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.921875
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.8984375
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6935138107696885
+        },
+        {
+          "step": 50,
+          "loss": 0.5897906599840341
+        },
+        {
+          "step": 100,
+          "loss": 0.3026438107611552
+        },
+        {
+          "step": 150,
+          "loss": 0.24119932632974245
+        },
+        {
+          "step": 200,
+          "loss": 0.2008690722536148
+        },
+        {
+          "step": 250,
+          "loss": 0.19065075860562397
+        },
+        {
+          "step": 300,
+          "loss": 0.17830478380248121
+        },
+        {
+          "step": 350,
+          "loss": 0.17516220512242242
+        },
+        {
+          "step": 399,
+          "loss": 0.16503992685885538
+        }
+      ]
+    },
+    {
+      "seed": 401,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7421875
+      },
+      "hard_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.734375
+      },
+      "soft_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.953125
+      },
+      "hard_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.9453125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6935138107696885
+        },
+        {
+          "step": 50,
+          "loss": 0.5774173337556977
+        },
+        {
+          "step": 100,
+          "loss": 0.20016590971173415
+        },
+        {
+          "step": 150,
+          "loss": 0.12405276770825932
+        },
+        {
+          "step": 200,
+          "loss": 0.10597042949174862
+        },
+        {
+          "step": 250,
+          "loss": 0.10036665964496064
+        },
+        {
+          "step": 300,
+          "loss": 0.09628073795109895
+        },
+        {
+          "step": 350,
+          "loss": 0.09248955438668074
+        },
+        {
+          "step": 399,
+          "loss": 0.09134422467542325
+        }
+      ]
+    },
+    {
+      "seed": 401,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.609375
+      },
+      "soft_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8515625
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6946579082224067
+        },
+        {
+          "step": 50,
+          "loss": 0.5711609594652185
+        },
+        {
+          "step": 100,
+          "loss": 0.41327208806538057
+        },
+        {
+          "step": 150,
+          "loss": 0.36778374166206873
+        },
+        {
+          "step": 200,
+          "loss": 0.33764862241816107
+        },
+        {
+          "step": 250,
+          "loss": 0.3281739744232265
+        },
+        {
+          "step": 300,
+          "loss": 0.32521549201173106
+        },
+        {
+          "step": 350,
+          "loss": 0.31764205622363906
+        },
+        {
+          "step": 399,
+          "loss": 0.31117136255049493
+        }
+      ]
+    },
+    {
+      "seed": 401,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6328125
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.8203125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6946579082224067
+        },
+        {
+          "step": 50,
+          "loss": 0.5852847053606074
+        },
+        {
+          "step": 100,
+          "loss": 0.41650872936969713
+        },
+        {
+          "step": 150,
+          "loss": 0.3665914126977604
+        },
+        {
+          "step": 200,
+          "loss": 0.3445679861166687
+        },
+        {
+          "step": 250,
+          "loss": 0.33345620728692
+        },
+        {
+          "step": 300,
+          "loss": 0.3307750407105849
+        },
+        {
+          "step": 350,
+          "loss": 0.32774801023968425
+        },
+        {
+          "step": 399,
+          "loss": 0.3247810902300904
+        }
+      ]
+    },
+    {
+      "seed": 401,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5703125
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.9140625
+      },
+      "hard_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.890625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6946579082224067
+        },
+        {
+          "step": 50,
+          "loss": 0.5752009929040908
+        },
+        {
+          "step": 100,
+          "loss": 0.3416713812573017
+        },
+        {
+          "step": 150,
+          "loss": 0.22129080429545017
+        },
+        {
+          "step": 200,
+          "loss": 0.18862397944608073
+        },
+        {
+          "step": 250,
+          "loss": 0.18068142038925683
+        },
+        {
+          "step": 300,
+          "loss": 0.17106132393768064
+        },
+        {
+          "step": 350,
+          "loss": 0.16364778788355572
+        },
+        {
+          "step": 399,
+          "loss": 0.1618184710429229
+        }
+      ]
+    },
+    {
+      "seed": 402,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.5,
+        "bit_accuracy": 0.8515625
+      },
+      "hard_test": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8359375
+      },
+      "soft_train": {
+        "exact": 0.625,
+        "bit_accuracy": 0.890625
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.890625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6942834768908533
+        },
+        {
+          "step": 50,
+          "loss": 0.6115852581308521
+        },
+        {
+          "step": 100,
+          "loss": 0.3445079493147192
+        },
+        {
+          "step": 150,
+          "loss": 0.2529244291448466
+        },
+        {
+          "step": 200,
+          "loss": 0.19965073792760143
+        },
+        {
+          "step": 250,
+          "loss": 0.18942512650876664
+        },
+        {
+          "step": 300,
+          "loss": 0.18619867998883063
+        },
+        {
+          "step": 350,
+          "loss": 0.18521469632969279
+        },
+        {
+          "step": 399,
+          "loss": 0.18465784507397762
+        }
+      ]
+    },
+    {
+      "seed": 402,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7578125
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6942834768908533
+        },
+        {
+          "step": 50,
+          "loss": 0.6191764216322588
+        },
+        {
+          "step": 100,
+          "loss": 0.3885254701198163
+        },
+        {
+          "step": 150,
+          "loss": 0.3303466456173283
+        },
+        {
+          "step": 200,
+          "loss": 0.3046337109574724
+        },
+        {
+          "step": 250,
+          "loss": 0.29861674904246127
+        },
+        {
+          "step": 300,
+          "loss": 0.2960314132490495
+        },
+        {
+          "step": 350,
+          "loss": 0.29452763946879623
+        },
+        {
+          "step": 399,
+          "loss": 0.2935606521946788
+        }
+      ]
+    },
+    {
+      "seed": 402,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.828125
+      },
+      "hard_test": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8203125
+      },
+      "soft_train": {
+        "exact": 0.84375,
+        "bit_accuracy": 0.9609375
+      },
+      "hard_train": {
+        "exact": 0.875,
+        "bit_accuracy": 0.9609375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6942834768908532
+        },
+        {
+          "step": 50,
+          "loss": 0.6104448835600023
+        },
+        {
+          "step": 100,
+          "loss": 0.2909333986461984
+        },
+        {
+          "step": 150,
+          "loss": 0.11849010047927278
+        },
+        {
+          "step": 200,
+          "loss": 0.08408383126268781
+        },
+        {
+          "step": 250,
+          "loss": 0.07570621379231898
+        },
+        {
+          "step": 300,
+          "loss": 0.07241608501723383
+        },
+        {
+          "step": 350,
+          "loss": 0.07050593053056396
+        },
+        {
+          "step": 399,
+          "loss": 0.06927488482282602
+        }
+      ]
+    },
+    {
+      "seed": 402,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.546875
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5390625
+      },
+      "soft_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8203125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6948464014561291
+        },
+        {
+          "step": 50,
+          "loss": 0.582035869413106
+        },
+        {
+          "step": 100,
+          "loss": 0.43869391973398664
+        },
+        {
+          "step": 150,
+          "loss": 0.37041034825602676
+        },
+        {
+          "step": 200,
+          "loss": 0.3484276986162747
+        },
+        {
+          "step": 250,
+          "loss": 0.3343278737464609
+        },
+        {
+          "step": 300,
+          "loss": 0.32688114669310897
+        },
+        {
+          "step": 350,
+          "loss": 0.32549739667701116
+        },
+        {
+          "step": 399,
+          "loss": 0.3199314072516887
+        }
+      ]
+    },
+    {
+      "seed": 402,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5390625
+      },
+      "soft_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.84375
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.84375
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.694846401456129
+        },
+        {
+          "step": 50,
+          "loss": 0.5969609397442348
+        },
+        {
+          "step": 100,
+          "loss": 0.42534098003980303
+        },
+        {
+          "step": 150,
+          "loss": 0.35310680697161567
+        },
+        {
+          "step": 200,
+          "loss": 0.3190696355064245
+        },
+        {
+          "step": 250,
+          "loss": 0.309780249019728
+        },
+        {
+          "step": 300,
+          "loss": 0.3074527222545996
+        },
+        {
+          "step": 350,
+          "loss": 0.3061093603358397
+        },
+        {
+          "step": 399,
+          "loss": 0.30524260199030007
+        }
+      ]
+    },
+    {
+      "seed": 402,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6015625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.59375
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.8984375
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.8984375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.694846401456129
+        },
+        {
+          "step": 50,
+          "loss": 0.563868963536807
+        },
+        {
+          "step": 100,
+          "loss": 0.3248180094184696
+        },
+        {
+          "step": 150,
+          "loss": 0.23945625052285885
+        },
+        {
+          "step": 200,
+          "loss": 0.19866126587012872
+        },
+        {
+          "step": 250,
+          "loss": 0.18858868307938748
+        },
+        {
+          "step": 300,
+          "loss": 0.17794967522531688
+        },
+        {
+          "step": 350,
+          "loss": 0.17465204954803093
+        },
+        {
+          "step": 399,
+          "loss": 0.17328431396172184
+        }
+      ]
+    },
+    {
+      "seed": 403,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5234375
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5859375
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7421875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6939212571225762
+        },
+        {
+          "step": 50,
+          "loss": 0.618683489627853
+        },
+        {
+          "step": 100,
+          "loss": 0.45435589039511326
+        },
+        {
+          "step": 150,
+          "loss": 0.409343916110644
+        },
+        {
+          "step": 200,
+          "loss": 0.39453433927923326
+        },
+        {
+          "step": 250,
+          "loss": 0.39131800332998257
+        },
+        {
+          "step": 300,
+          "loss": 0.3903395911190274
+        },
+        {
+          "step": 350,
+          "loss": 0.38252777647320446
+        },
+        {
+          "step": 399,
+          "loss": 0.37959237234456555
+        }
+      ]
+    },
+    {
+      "seed": 403,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5390625
+      },
+      "soft_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.78125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6939212571225764
+        },
+        {
+          "step": 50,
+          "loss": 0.6332279304700579
+        },
+        {
+          "step": 100,
+          "loss": 0.4644523317140453
+        },
+        {
+          "step": 150,
+          "loss": 0.4268297126867903
+        },
+        {
+          "step": 200,
+          "loss": 0.4063637001774689
+        },
+        {
+          "step": 250,
+          "loss": 0.37610374730090124
+        },
+        {
+          "step": 300,
+          "loss": 0.37076127500263073
+        },
+        {
+          "step": 350,
+          "loss": 0.36177984900810667
+        },
+        {
+          "step": 399,
+          "loss": 0.3558408817303441
+        }
+      ]
+    },
+    {
+      "seed": 403,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.75
+      },
+      "hard_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.734375
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.90625
+      },
+      "hard_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6939212571225762
+        },
+        {
+          "step": 50,
+          "loss": 0.6199665826539817
+        },
+        {
+          "step": 100,
+          "loss": 0.3776778137346442
+        },
+        {
+          "step": 150,
+          "loss": 0.2784099411741905
+        },
+        {
+          "step": 200,
+          "loss": 0.24136519810013798
+        },
+        {
+          "step": 250,
+          "loss": 0.20441908215724763
+        },
+        {
+          "step": 300,
+          "loss": 0.1908200547014476
+        },
+        {
+          "step": 350,
+          "loss": 0.1872562779240964
+        },
+        {
+          "step": 399,
+          "loss": 0.18514073739013734
+        }
+      ]
+    },
+    {
+      "seed": 403,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6640625
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.78125
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.75
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6940386594363563
+        },
+        {
+          "step": 50,
+          "loss": 0.5901613923039394
+        },
+        {
+          "step": 100,
+          "loss": 0.44369111339449147
+        },
+        {
+          "step": 150,
+          "loss": 0.39362523571979735
+        },
+        {
+          "step": 200,
+          "loss": 0.38343349888736944
+        },
+        {
+          "step": 250,
+          "loss": 0.3811116746413114
+        },
+        {
+          "step": 300,
+          "loss": 0.38024020724314034
+        },
+        {
+          "step": 350,
+          "loss": 0.3797175656004325
+        },
+        {
+          "step": 399,
+          "loss": 0.37921655103151786
+        }
+      ]
+    },
+    {
+      "seed": 403,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.625
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.609375
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7578125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6940386594363563
+        },
+        {
+          "step": 50,
+          "loss": 0.6142163836670602
+        },
+        {
+          "step": 100,
+          "loss": 0.4455765966742502
+        },
+        {
+          "step": 150,
+          "loss": 0.40653359539114975
+        },
+        {
+          "step": 200,
+          "loss": 0.39765000594830063
+        },
+        {
+          "step": 250,
+          "loss": 0.389691024501268
+        },
+        {
+          "step": 300,
+          "loss": 0.38388056165428064
+        },
+        {
+          "step": 350,
+          "loss": 0.38235352491265184
+        },
+        {
+          "step": 399,
+          "loss": 0.3814838971938961
+        }
+      ]
+    },
+    {
+      "seed": 403,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.6796875
+      },
+      "hard_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.6796875
+      },
+      "soft_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.8671875
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8515625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6940386594363563
+        },
+        {
+          "step": 50,
+          "loss": 0.5965855153090316
+        },
+        {
+          "step": 100,
+          "loss": 0.3870456528783724
+        },
+        {
+          "step": 150,
+          "loss": 0.29196076778004765
+        },
+        {
+          "step": 200,
+          "loss": 0.264158469241353
+        },
+        {
+          "step": 250,
+          "loss": 0.2544968593469327
+        },
+        {
+          "step": 300,
+          "loss": 0.25144927691017294
+        },
+        {
+          "step": 350,
+          "loss": 0.2497783977654989
+        },
+        {
+          "step": 399,
+          "loss": 0.2486152024061391
+        }
+      ]
+    },
+    {
+      "seed": 404,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6875
+      },
+      "soft_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.828125
+      },
+      "hard_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692942108490282
+        },
+        {
+          "step": 50,
+          "loss": 0.6047830706125416
+        },
+        {
+          "step": 100,
+          "loss": 0.40567142673205003
+        },
+        {
+          "step": 150,
+          "loss": 0.32288258353485266
+        },
+        {
+          "step": 200,
+          "loss": 0.3043467318964995
+        },
+        {
+          "step": 250,
+          "loss": 0.2972243725395865
+        },
+        {
+          "step": 300,
+          "loss": 0.29577333566478026
+        },
+        {
+          "step": 350,
+          "loss": 0.2915714756653436
+        },
+        {
+          "step": 399,
+          "loss": 0.28992426036838076
+        }
+      ]
+    },
+    {
+      "seed": 404,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.6484375
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.7890625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692942108490282
+        },
+        {
+          "step": 50,
+          "loss": 0.6125298738550705
+        },
+        {
+          "step": 100,
+          "loss": 0.4382999471578133
+        },
+        {
+          "step": 150,
+          "loss": 0.39498112798542884
+        },
+        {
+          "step": 200,
+          "loss": 0.3624815213437972
+        },
+        {
+          "step": 250,
+          "loss": 0.3448688444837706
+        },
+        {
+          "step": 300,
+          "loss": 0.3378543883164653
+        },
+        {
+          "step": 350,
+          "loss": 0.3194465772634354
+        },
+        {
+          "step": 399,
+          "loss": 0.31750649390044194
+        }
+      ]
+    },
+    {
+      "seed": 404,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.859375
+      },
+      "hard_test": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.859375
+      },
+      "soft_train": {
+        "exact": 0.84375,
+        "bit_accuracy": 0.953125
+      },
+      "hard_train": {
+        "exact": 0.84375,
+        "bit_accuracy": 0.953125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929421084902821
+        },
+        {
+          "step": 50,
+          "loss": 0.5957291876013932
+        },
+        {
+          "step": 100,
+          "loss": 0.22112312857478836
+        },
+        {
+          "step": 150,
+          "loss": 0.11684532339863526
+        },
+        {
+          "step": 200,
+          "loss": 0.0964661193263425
+        },
+        {
+          "step": 250,
+          "loss": 0.09152919488112939
+        },
+        {
+          "step": 300,
+          "loss": 0.08907931737594967
+        },
+        {
+          "step": 350,
+          "loss": 0.08759649072985051
+        },
+        {
+          "step": 399,
+          "loss": 0.08662232681714066
+        }
+      ]
+    },
+    {
+      "seed": 404,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6015625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.625
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.796875
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7421875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.69328236192753
+        },
+        {
+          "step": 50,
+          "loss": 0.5818736331300836
+        },
+        {
+          "step": 100,
+          "loss": 0.4299889989954536
+        },
+        {
+          "step": 150,
+          "loss": 0.3846524333916531
+        },
+        {
+          "step": 200,
+          "loss": 0.3736552613961376
+        },
+        {
+          "step": 250,
+          "loss": 0.3716670142603419
+        },
+        {
+          "step": 300,
+          "loss": 0.37072798311543076
+        },
+        {
+          "step": 350,
+          "loss": 0.3697233105229919
+        },
+        {
+          "step": 399,
+          "loss": 0.36256818993862827
+        }
+      ]
+    },
+    {
+      "seed": 404,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.640625
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6171875
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.7890625
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8046875
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.69328236192753
+        },
+        {
+          "step": 50,
+          "loss": 0.5976198787790568
+        },
+        {
+          "step": 100,
+          "loss": 0.440153984644943
+        },
+        {
+          "step": 150,
+          "loss": 0.39931052824606683
+        },
+        {
+          "step": 200,
+          "loss": 0.38356142965980733
+        },
+        {
+          "step": 250,
+          "loss": 0.376387406978326
+        },
+        {
+          "step": 300,
+          "loss": 0.3736011925363729
+        },
+        {
+          "step": 350,
+          "loss": 0.37239227773855066
+        },
+        {
+          "step": 399,
+          "loss": 0.37166020764167984
+        }
+      ]
+    },
+    {
+      "seed": 404,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.609375
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5859375
+      },
+      "soft_train": {
+        "exact": 0.875,
+        "bit_accuracy": 0.9375
+      },
+      "hard_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.9296875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932823619275299
+        },
+        {
+          "step": 50,
+          "loss": 0.5698312034053228
+        },
+        {
+          "step": 100,
+          "loss": 0.27016458082033756
+        },
+        {
+          "step": 150,
+          "loss": 0.17497111493994
+        },
+        {
+          "step": 200,
+          "loss": 0.15393646421959578
+        },
+        {
+          "step": 250,
+          "loss": 0.13586565589802874
+        },
+        {
+          "step": 300,
+          "loss": 0.12870810755853224
+        },
+        {
+          "step": 350,
+          "loss": 0.1254145165999112
+        },
+        {
+          "step": 399,
+          "loss": 0.12408367723953757
+        }
+      ]
+    },
+    {
+      "seed": 405,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7265625
+      },
+      "hard_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.703125
+      },
+      "soft_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8515625
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6922888942907218
+        },
+        {
+          "step": 50,
+          "loss": 0.6038239356611808
+        },
+        {
+          "step": 100,
+          "loss": 0.3896304723311624
+        },
+        {
+          "step": 150,
+          "loss": 0.3357536834684248
+        },
+        {
+          "step": 200,
+          "loss": 0.2978038207777054
+        },
+        {
+          "step": 250,
+          "loss": 0.29120490737416693
+        },
+        {
+          "step": 300,
+          "loss": 0.2899614593817573
+        },
+        {
+          "step": 350,
+          "loss": 0.28926485492592935
+        },
+        {
+          "step": 399,
+          "loss": 0.2888331878996888
+        }
+      ]
+    },
+    {
+      "seed": 405,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6953125
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.71875
+      },
+      "soft_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8359375
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6922888942907218
+        },
+        {
+          "step": 50,
+          "loss": 0.6128648226212607
+        },
+        {
+          "step": 100,
+          "loss": 0.4059325139191674
+        },
+        {
+          "step": 150,
+          "loss": 0.3517588188429501
+        },
+        {
+          "step": 200,
+          "loss": 0.3259227255484622
+        },
+        {
+          "step": 250,
+          "loss": 0.3096246295117743
+        },
+        {
+          "step": 300,
+          "loss": 0.307113821524189
+        },
+        {
+          "step": 350,
+          "loss": 0.3050461101502261
+        },
+        {
+          "step": 399,
+          "loss": 0.2992976494029733
+        }
+      ]
+    },
+    {
+      "seed": 405,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7578125
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7578125
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.9140625
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.8984375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6922888942907219
+        },
+        {
+          "step": 50,
+          "loss": 0.5961067834057419
+        },
+        {
+          "step": 100,
+          "loss": 0.3040703199281296
+        },
+        {
+          "step": 150,
+          "loss": 0.20879471870363575
+        },
+        {
+          "step": 200,
+          "loss": 0.1718423634931906
+        },
+        {
+          "step": 250,
+          "loss": 0.15588539508448734
+        },
+        {
+          "step": 300,
+          "loss": 0.15281312956158474
+        },
+        {
+          "step": 350,
+          "loss": 0.15134534544306644
+        },
+        {
+          "step": 399,
+          "loss": 0.1504579697740714
+        }
+      ]
+    },
+    {
+      "seed": 405,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6171875
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.8046875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692894018393581
+        },
+        {
+          "step": 50,
+          "loss": 0.6018368984038404
+        },
+        {
+          "step": 100,
+          "loss": 0.43061343070826297
+        },
+        {
+          "step": 150,
+          "loss": 0.40509452560655906
+        },
+        {
+          "step": 200,
+          "loss": 0.3890928363770533
+        },
+        {
+          "step": 250,
+          "loss": 0.3671265206262942
+        },
+        {
+          "step": 300,
+          "loss": 0.361649440088696
+        },
+        {
+          "step": 350,
+          "loss": 0.35640444197290644
+        },
+        {
+          "step": 399,
+          "loss": 0.35209268088335
+        }
+      ]
+    },
+    {
+      "seed": 405,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.59375
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8125
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692894018393581
+        },
+        {
+          "step": 50,
+          "loss": 0.6044921013434199
+        },
+        {
+          "step": 100,
+          "loss": 0.439359768165462
+        },
+        {
+          "step": 150,
+          "loss": 0.39203229996452155
+        },
+        {
+          "step": 200,
+          "loss": 0.3624269340827504
+        },
+        {
+          "step": 250,
+          "loss": 0.35725952138582795
+        },
+        {
+          "step": 300,
+          "loss": 0.3549542446283027
+        },
+        {
+          "step": 350,
+          "loss": 0.3526623864335898
+        },
+        {
+          "step": 399,
+          "loss": 0.3512414349598557
+        }
+      ]
+    },
+    {
+      "seed": 405,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.640625
+      },
+      "hard_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.625
+      },
+      "soft_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.953125
+      },
+      "hard_train": {
+        "exact": 0.75,
+        "bit_accuracy": 0.9375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692894018393581
+        },
+        {
+          "step": 50,
+          "loss": 0.5874980994259569
+        },
+        {
+          "step": 100,
+          "loss": 0.33253345593966055
+        },
+        {
+          "step": 150,
+          "loss": 0.2193280690882779
+        },
+        {
+          "step": 200,
+          "loss": 0.16167037227484943
+        },
+        {
+          "step": 250,
+          "loss": 0.11296564722924096
+        },
+        {
+          "step": 300,
+          "loss": 0.10498579419814082
+        },
+        {
+          "step": 350,
+          "loss": 0.10234219884656344
+        },
+        {
+          "step": 399,
+          "loss": 0.10090741424317838
+        }
+      ]
+    },
+    {
+      "seed": 406,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.796875
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.8046875
+      },
+      "soft_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8828125
+      },
+      "hard_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.8828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6940977670771189
+        },
+        {
+          "step": 50,
+          "loss": 0.5922887861121529
+        },
+        {
+          "step": 100,
+          "loss": 0.3367639666602247
+        },
+        {
+          "step": 150,
+          "loss": 0.2821496221516111
+        },
+        {
+          "step": 200,
+          "loss": 0.24669356140524856
+        },
+        {
+          "step": 250,
+          "loss": 0.18267440832770626
+        },
+        {
+          "step": 300,
+          "loss": 0.17822274788770825
+        },
+        {
+          "step": 350,
+          "loss": 0.17514140076458218
+        },
+        {
+          "step": 399,
+          "loss": 0.17359703914901345
+        }
+      ]
+    },
+    {
+      "seed": 406,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.796875
+      },
+      "hard_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.796875
+      },
+      "soft_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9375
+      },
+      "hard_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9375
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6940977670771189
+        },
+        {
+          "step": 50,
+          "loss": 0.5952190019100543
+        },
+        {
+          "step": 100,
+          "loss": 0.33754951902458635
+        },
+        {
+          "step": 150,
+          "loss": 0.18264756887639147
+        },
+        {
+          "step": 200,
+          "loss": 0.14081199665951905
+        },
+        {
+          "step": 250,
+          "loss": 0.1329642763960265
+        },
+        {
+          "step": 300,
+          "loss": 0.12947999010678424
+        },
+        {
+          "step": 350,
+          "loss": 0.127467455086991
+        },
+        {
+          "step": 399,
+          "loss": 0.12618091154609926
+        }
+      ]
+    },
+    {
+      "seed": 406,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.71875
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.734375
+      },
+      "soft_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.953125
+      },
+      "hard_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.953125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6940977670771189
+        },
+        {
+          "step": 50,
+          "loss": 0.5783968119467029
+        },
+        {
+          "step": 100,
+          "loss": 0.2559494043036912
+        },
+        {
+          "step": 150,
+          "loss": 0.15100302662632853
+        },
+        {
+          "step": 200,
+          "loss": 0.13046731789280144
+        },
+        {
+          "step": 250,
+          "loss": 0.11095000534140739
+        },
+        {
+          "step": 300,
+          "loss": 0.10552265967379414
+        },
+        {
+          "step": 350,
+          "loss": 0.09361980126839921
+        },
+        {
+          "step": 399,
+          "loss": 0.09089160820073139
+        }
+      ]
+    },
+    {
+      "seed": 406,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5625
+      },
+      "soft_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.859375
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6941907310270148
+        },
+        {
+          "step": 50,
+          "loss": 0.5872186534443349
+        },
+        {
+          "step": 100,
+          "loss": 0.4034316082885664
+        },
+        {
+          "step": 150,
+          "loss": 0.35157465276700134
+        },
+        {
+          "step": 200,
+          "loss": 0.3418297827297909
+        },
+        {
+          "step": 250,
+          "loss": 0.3385554946759074
+        },
+        {
+          "step": 300,
+          "loss": 0.33721744772919504
+        },
+        {
+          "step": 350,
+          "loss": 0.3189909291772202
+        },
+        {
+          "step": 399,
+          "loss": 0.3037476565741746
+        }
+      ]
+    },
+    {
+      "seed": 406,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.6171875
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.84375
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6941907310270148
+        },
+        {
+          "step": 50,
+          "loss": 0.5988235368752723
+        },
+        {
+          "step": 100,
+          "loss": 0.41505967509530806
+        },
+        {
+          "step": 150,
+          "loss": 0.3435644655648051
+        },
+        {
+          "step": 200,
+          "loss": 0.3256300753644744
+        },
+        {
+          "step": 250,
+          "loss": 0.3174498556332905
+        },
+        {
+          "step": 300,
+          "loss": 0.3147265345363006
+        },
+        {
+          "step": 350,
+          "loss": 0.3047873960422142
+        },
+        {
+          "step": 399,
+          "loss": 0.3031740012432965
+        }
+      ]
+    },
+    {
+      "seed": 406,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.578125
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9375
+      },
+      "hard_train": {
+        "exact": 0.75,
+        "bit_accuracy": 0.9296875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6941907310270148
+        },
+        {
+          "step": 50,
+          "loss": 0.5783896736569403
+        },
+        {
+          "step": 100,
+          "loss": 0.3276193941728631
+        },
+        {
+          "step": 150,
+          "loss": 0.21740626293686505
+        },
+        {
+          "step": 200,
+          "loss": 0.1924548407760437
+        },
+        {
+          "step": 250,
+          "loss": 0.1772408353668216
+        },
+        {
+          "step": 300,
+          "loss": 0.17070072547996454
+        },
+        {
+          "step": 350,
+          "loss": 0.16311051995879594
+        },
+        {
+          "step": 399,
+          "loss": 0.15798414292382418
+        }
+      ]
+    },
+    {
+      "seed": 407,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.53125
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.75
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.75
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6934952292026155
+        },
+        {
+          "step": 50,
+          "loss": 0.620877992868729
+        },
+        {
+          "step": 100,
+          "loss": 0.49509160021464804
+        },
+        {
+          "step": 150,
+          "loss": 0.46170026288065424
+        },
+        {
+          "step": 200,
+          "loss": 0.44453745702048053
+        },
+        {
+          "step": 250,
+          "loss": 0.43097890870735034
+        },
+        {
+          "step": 300,
+          "loss": 0.4110104091905099
+        },
+        {
+          "step": 350,
+          "loss": 0.4064729136933097
+        },
+        {
+          "step": 399,
+          "loss": 0.4025803559323136
+        }
+      ]
+    },
+    {
+      "seed": 407,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6796875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.65625
+      },
+      "soft_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6934952292026155
+        },
+        {
+          "step": 50,
+          "loss": 0.636541087846352
+        },
+        {
+          "step": 100,
+          "loss": 0.49366400967220203
+        },
+        {
+          "step": 150,
+          "loss": 0.4178845770232885
+        },
+        {
+          "step": 200,
+          "loss": 0.320461416787057
+        },
+        {
+          "step": 250,
+          "loss": 0.2798601250907622
+        },
+        {
+          "step": 300,
+          "loss": 0.2748490513284653
+        },
+        {
+          "step": 350,
+          "loss": 0.2730675287214143
+        },
+        {
+          "step": 399,
+          "loss": 0.27205613354807945
+        }
+      ]
+    },
+    {
+      "seed": 407,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.703125
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.71875
+      },
+      "soft_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.8984375
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.8828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6934952292026155
+        },
+        {
+          "step": 50,
+          "loss": 0.6219617892170703
+        },
+        {
+          "step": 100,
+          "loss": 0.39150850390446634
+        },
+        {
+          "step": 150,
+          "loss": 0.2595443470080274
+        },
+        {
+          "step": 200,
+          "loss": 0.21433442693199778
+        },
+        {
+          "step": 250,
+          "loss": 0.20308763862951137
+        },
+        {
+          "step": 300,
+          "loss": 0.1997556539573231
+        },
+        {
+          "step": 350,
+          "loss": 0.1976084786639794
+        },
+        {
+          "step": 399,
+          "loss": 0.1955514746260968
+        }
+      ]
+    },
+    {
+      "seed": 407,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6484375
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6328125
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.7890625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933704956348123
+        },
+        {
+          "step": 50,
+          "loss": 0.5683725723895254
+        },
+        {
+          "step": 100,
+          "loss": 0.40724433952044836
+        },
+        {
+          "step": 150,
+          "loss": 0.368751413385823
+        },
+        {
+          "step": 200,
+          "loss": 0.3590599719266163
+        },
+        {
+          "step": 250,
+          "loss": 0.35669926991981016
+        },
+        {
+          "step": 300,
+          "loss": 0.35426340053077476
+        },
+        {
+          "step": 350,
+          "loss": 0.34930793246442743
+        },
+        {
+          "step": 399,
+          "loss": 0.34827154246945147
+        }
+      ]
+    },
+    {
+      "seed": 407,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.5859375
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5859375
+      },
+      "soft_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.8046875
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933704956348123
+        },
+        {
+          "step": 50,
+          "loss": 0.5863715135257819
+        },
+        {
+          "step": 100,
+          "loss": 0.40796502608561824
+        },
+        {
+          "step": 150,
+          "loss": 0.3806619993961595
+        },
+        {
+          "step": 200,
+          "loss": 0.37334296542519096
+        },
+        {
+          "step": 250,
+          "loss": 0.36723026458318087
+        },
+        {
+          "step": 300,
+          "loss": 0.36427698322891366
+        },
+        {
+          "step": 350,
+          "loss": 0.3609356709343645
+        },
+        {
+          "step": 399,
+          "loss": 0.3596072207483213
+        }
+      ]
+    },
+    {
+      "seed": 407,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.53125
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.890625
+      },
+      "hard_train": {
+        "exact": 0.625,
+        "bit_accuracy": 0.890625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933704956348123
+        },
+        {
+          "step": 50,
+          "loss": 0.5649710033991411
+        },
+        {
+          "step": 100,
+          "loss": 0.3676150445421595
+        },
+        {
+          "step": 150,
+          "loss": 0.27282288460332016
+        },
+        {
+          "step": 200,
+          "loss": 0.2248039156994143
+        },
+        {
+          "step": 250,
+          "loss": 0.20504618712495154
+        },
+        {
+          "step": 300,
+          "loss": 0.2009989632396163
+        },
+        {
+          "step": 350,
+          "loss": 0.19059328163873335
+        },
+        {
+          "step": 399,
+          "loss": 0.18820990467268162
+        }
+      ]
+    },
+    {
+      "seed": 408,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.703125
+      },
+      "hard_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.703125
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.828125
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692992743054784
+        },
+        {
+          "step": 50,
+          "loss": 0.6022210439517409
+        },
+        {
+          "step": 100,
+          "loss": 0.37004261567592067
+        },
+        {
+          "step": 150,
+          "loss": 0.31781144483523455
+        },
+        {
+          "step": 200,
+          "loss": 0.3095372382405137
+        },
+        {
+          "step": 250,
+          "loss": 0.3077117313239972
+        },
+        {
+          "step": 300,
+          "loss": 0.30678764218016336
+        },
+        {
+          "step": 350,
+          "loss": 0.3060904153261209
+        },
+        {
+          "step": 399,
+          "loss": 0.299531218713316
+        }
+      ]
+    },
+    {
+      "seed": 408,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.609375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.609375
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692992743054784
+        },
+        {
+          "step": 50,
+          "loss": 0.6311815869670323
+        },
+        {
+          "step": 100,
+          "loss": 0.492531986101483
+        },
+        {
+          "step": 150,
+          "loss": 0.4276559501677277
+        },
+        {
+          "step": 200,
+          "loss": 0.41018396054746603
+        },
+        {
+          "step": 250,
+          "loss": 0.4037841451913821
+        },
+        {
+          "step": 300,
+          "loss": 0.3977206078757587
+        },
+        {
+          "step": 350,
+          "loss": 0.3915757773081344
+        },
+        {
+          "step": 399,
+          "loss": 0.38966677549592954
+        }
+      ]
+    },
+    {
+      "seed": 408,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.84375
+      },
+      "hard_test": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.84375
+      },
+      "soft_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9453125
+      },
+      "hard_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9453125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692992743054784
+        },
+        {
+          "step": 50,
+          "loss": 0.6005709919183071
+        },
+        {
+          "step": 100,
+          "loss": 0.31098315337656646
+        },
+        {
+          "step": 150,
+          "loss": 0.1965533515027104
+        },
+        {
+          "step": 200,
+          "loss": 0.1572707009107848
+        },
+        {
+          "step": 250,
+          "loss": 0.14998645115813336
+        },
+        {
+          "step": 300,
+          "loss": 0.14654398178760958
+        },
+        {
+          "step": 350,
+          "loss": 0.10992372914122675
+        },
+        {
+          "step": 399,
+          "loss": 0.1036683606240076
+        }
+      ]
+    },
+    {
+      "seed": 408,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.6796875
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.640625
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929922576072634
+        },
+        {
+          "step": 50,
+          "loss": 0.5993362315446941
+        },
+        {
+          "step": 100,
+          "loss": 0.44212835860807476
+        },
+        {
+          "step": 150,
+          "loss": 0.4150609291957563
+        },
+        {
+          "step": 200,
+          "loss": 0.40866004502449915
+        },
+        {
+          "step": 250,
+          "loss": 0.4023219132694569
+        },
+        {
+          "step": 300,
+          "loss": 0.3963856688991829
+        },
+        {
+          "step": 350,
+          "loss": 0.39224197011581163
+        },
+        {
+          "step": 399,
+          "loss": 0.3886732217056297
+        }
+      ]
+    },
+    {
+      "seed": 408,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.671875
+      },
+      "hard_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.671875
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "hard_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7734375
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929922576072634
+        },
+        {
+          "step": 50,
+          "loss": 0.6120361007736479
+        },
+        {
+          "step": 100,
+          "loss": 0.4421729239639423
+        },
+        {
+          "step": 150,
+          "loss": 0.4087507008882933
+        },
+        {
+          "step": 200,
+          "loss": 0.39735449735839234
+        },
+        {
+          "step": 250,
+          "loss": 0.39439551076178214
+        },
+        {
+          "step": 300,
+          "loss": 0.39285078014204633
+        },
+        {
+          "step": 350,
+          "loss": 0.3918448381064602
+        },
+        {
+          "step": 399,
+          "loss": 0.38951880743235967
+        }
+      ]
+    },
+    {
+      "seed": 408,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.640625
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.625
+      },
+      "soft_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.890625
+      },
+      "hard_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.890625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929922576072634
+        },
+        {
+          "step": 50,
+          "loss": 0.5839408963445187
+        },
+        {
+          "step": 100,
+          "loss": 0.34743561462403716
+        },
+        {
+          "step": 150,
+          "loss": 0.26990534958943463
+        },
+        {
+          "step": 200,
+          "loss": 0.2220062891263705
+        },
+        {
+          "step": 250,
+          "loss": 0.1987935540336963
+        },
+        {
+          "step": 300,
+          "loss": 0.19076843092667806
+        },
+        {
+          "step": 350,
+          "loss": 0.1885183203473419
+        },
+        {
+          "step": 399,
+          "loss": 0.18729920012015028
+        }
+      ]
+    },
+    {
+      "seed": 409,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.5,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_test": {
+        "exact": 0.375,
+        "bit_accuracy": 0.7890625
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.890625
+      },
+      "hard_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.8828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6927419010284027
+        },
+        {
+          "step": 50,
+          "loss": 0.6050980521216565
+        },
+        {
+          "step": 100,
+          "loss": 0.3300817457078076
+        },
+        {
+          "step": 150,
+          "loss": 0.2857537781140853
+        },
+        {
+          "step": 200,
+          "loss": 0.2738486559003709
+        },
+        {
+          "step": 250,
+          "loss": 0.260709700583573
+        },
+        {
+          "step": 300,
+          "loss": 0.2479377527710228
+        },
+        {
+          "step": 350,
+          "loss": 0.2369602026674985
+        },
+        {
+          "step": 399,
+          "loss": 0.2302963900192296
+        }
+      ]
+    },
+    {
+      "seed": 409,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.859375
+      },
+      "hard_test": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8203125
+      },
+      "soft_train": {
+        "exact": 0.71875,
+        "bit_accuracy": 0.9296875
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.9140625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6927419010284028
+        },
+        {
+          "step": 50,
+          "loss": 0.6233588401419698
+        },
+        {
+          "step": 100,
+          "loss": 0.34876500532847887
+        },
+        {
+          "step": 150,
+          "loss": 0.20037280183829467
+        },
+        {
+          "step": 200,
+          "loss": 0.149356434265409
+        },
+        {
+          "step": 250,
+          "loss": 0.14183952586880688
+        },
+        {
+          "step": 300,
+          "loss": 0.13390165987226565
+        },
+        {
+          "step": 350,
+          "loss": 0.13185718932027884
+        },
+        {
+          "step": 399,
+          "loss": 0.1306056950461949
+        }
+      ]
+    },
+    {
+      "seed": 409,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.7890625
+      },
+      "hard_test": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.7890625
+      },
+      "soft_train": {
+        "exact": 0.875,
+        "bit_accuracy": 0.96875
+      },
+      "hard_train": {
+        "exact": 0.875,
+        "bit_accuracy": 0.96875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6927419010284027
+        },
+        {
+          "step": 50,
+          "loss": 0.6053583766238919
+        },
+        {
+          "step": 100,
+          "loss": 0.2200953740381214
+        },
+        {
+          "step": 150,
+          "loss": 0.13690664841190095
+        },
+        {
+          "step": 200,
+          "loss": 0.10213915735951694
+        },
+        {
+          "step": 250,
+          "loss": 0.09526248294841036
+        },
+        {
+          "step": 300,
+          "loss": 0.09103243555313374
+        },
+        {
+          "step": 350,
+          "loss": 0.07738308978074374
+        },
+        {
+          "step": 399,
+          "loss": 0.07313286155052201
+        }
+      ]
+    },
+    {
+      "seed": 409,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.609375
+      },
+      "soft_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8203125
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924729131458423
+        },
+        {
+          "step": 50,
+          "loss": 0.5810836612745615
+        },
+        {
+          "step": 100,
+          "loss": 0.4090001344896709
+        },
+        {
+          "step": 150,
+          "loss": 0.33258560058872655
+        },
+        {
+          "step": 200,
+          "loss": 0.32100989342983866
+        },
+        {
+          "step": 250,
+          "loss": 0.3181667411957623
+        },
+        {
+          "step": 300,
+          "loss": 0.3169227969327615
+        },
+        {
+          "step": 350,
+          "loss": 0.3110777012990891
+        },
+        {
+          "step": 399,
+          "loss": 0.309311853443228
+        }
+      ]
+    },
+    {
+      "seed": 409,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.609375
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.59375
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.828125
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8203125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924729131458423
+        },
+        {
+          "step": 50,
+          "loss": 0.6027061100323837
+        },
+        {
+          "step": 100,
+          "loss": 0.4307147569773306
+        },
+        {
+          "step": 150,
+          "loss": 0.3502791304507492
+        },
+        {
+          "step": 200,
+          "loss": 0.3373349724938486
+        },
+        {
+          "step": 250,
+          "loss": 0.3334607822506368
+        },
+        {
+          "step": 300,
+          "loss": 0.331412868578313
+        },
+        {
+          "step": 350,
+          "loss": 0.3301360209914326
+        },
+        {
+          "step": 399,
+          "loss": 0.32923106700828053
+        }
+      ]
+    },
+    {
+      "seed": 409,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.6171875
+      },
+      "soft_train": {
+        "exact": 0.71875,
+        "bit_accuracy": 0.921875
+      },
+      "hard_train": {
+        "exact": 0.71875,
+        "bit_accuracy": 0.90625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924729131458423
+        },
+        {
+          "step": 50,
+          "loss": 0.5765822876606557
+        },
+        {
+          "step": 100,
+          "loss": 0.3342324785426691
+        },
+        {
+          "step": 150,
+          "loss": 0.2201577106140709
+        },
+        {
+          "step": 200,
+          "loss": 0.19776440602627537
+        },
+        {
+          "step": 250,
+          "loss": 0.1802493005667368
+        },
+        {
+          "step": 300,
+          "loss": 0.16714967184618254
+        },
+        {
+          "step": 350,
+          "loss": 0.15936675171341397
+        },
+        {
+          "step": 399,
+          "loss": 0.15111586516792577
+        }
+      ]
+    },
+    {
+      "seed": 410,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.640625
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.78125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924637889787896
+        },
+        {
+          "step": 50,
+          "loss": 0.6160358732496465
+        },
+        {
+          "step": 100,
+          "loss": 0.40816239256113257
+        },
+        {
+          "step": 150,
+          "loss": 0.38682472149140906
+        },
+        {
+          "step": 200,
+          "loss": 0.365686222234732
+        },
+        {
+          "step": 250,
+          "loss": 0.3622077010058261
+        },
+        {
+          "step": 300,
+          "loss": 0.3611277704711641
+        },
+        {
+          "step": 350,
+          "loss": 0.3585046466127986
+        },
+        {
+          "step": 399,
+          "loss": 0.3580050895681339
+        }
+      ]
+    },
+    {
+      "seed": 410,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6328125
+      },
+      "hard_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.65625
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924637889787896
+        },
+        {
+          "step": 50,
+          "loss": 0.622844352931599
+        },
+        {
+          "step": 100,
+          "loss": 0.43380483115378665
+        },
+        {
+          "step": 150,
+          "loss": 0.39471345840651983
+        },
+        {
+          "step": 200,
+          "loss": 0.3696101317880862
+        },
+        {
+          "step": 250,
+          "loss": 0.3648956667882933
+        },
+        {
+          "step": 300,
+          "loss": 0.3626846520817635
+        },
+        {
+          "step": 350,
+          "loss": 0.360051971282237
+        },
+        {
+          "step": 399,
+          "loss": 0.35933004496589604
+        }
+      ]
+    },
+    {
+      "seed": 410,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.578125
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.625,
+        "bit_accuracy": 0.8671875
+      },
+      "hard_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.8671875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924637889787895
+        },
+        {
+          "step": 50,
+          "loss": 0.6147409998759057
+        },
+        {
+          "step": 100,
+          "loss": 0.36914300761306496
+        },
+        {
+          "step": 150,
+          "loss": 0.28978930686912757
+        },
+        {
+          "step": 200,
+          "loss": 0.2570716716411232
+        },
+        {
+          "step": 250,
+          "loss": 0.23926291405258876
+        },
+        {
+          "step": 300,
+          "loss": 0.23561228140415597
+        },
+        {
+          "step": 350,
+          "loss": 0.22875655902662817
+        },
+        {
+          "step": 399,
+          "loss": 0.22727187483551445
+        }
+      ]
+    },
+    {
+      "seed": 410,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.578125
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5625
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7421875
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.7578125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933139776175744
+        },
+        {
+          "step": 50,
+          "loss": 0.5969114760142873
+        },
+        {
+          "step": 100,
+          "loss": 0.4665733499315202
+        },
+        {
+          "step": 150,
+          "loss": 0.4221749059041028
+        },
+        {
+          "step": 200,
+          "loss": 0.40955916351752
+        },
+        {
+          "step": 250,
+          "loss": 0.4075324349235626
+        },
+        {
+          "step": 300,
+          "loss": 0.40193941585559534
+        },
+        {
+          "step": 350,
+          "loss": 0.3989964087387292
+        },
+        {
+          "step": 399,
+          "loss": 0.39449522744462695
+        }
+      ]
+    },
+    {
+      "seed": 410,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.6015625
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5390625
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.7890625
+      },
+      "hard_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.7421875
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933139776175745
+        },
+        {
+          "step": 50,
+          "loss": 0.6091262723577158
+        },
+        {
+          "step": 100,
+          "loss": 0.48383044341713866
+        },
+        {
+          "step": 150,
+          "loss": 0.44033309639565876
+        },
+        {
+          "step": 200,
+          "loss": 0.42580927393299517
+        },
+        {
+          "step": 250,
+          "loss": 0.4150751945050039
+        },
+        {
+          "step": 300,
+          "loss": 0.4122046908505296
+        },
+        {
+          "step": 350,
+          "loss": 0.4105935458557207
+        },
+        {
+          "step": 399,
+          "loss": 0.40730724611866226
+        }
+      ]
+    },
+    {
+      "seed": 410,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5546875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.546875
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.875
+      },
+      "hard_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.8828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6933139776175744
+        },
+        {
+          "step": 50,
+          "loss": 0.5916276697637627
+        },
+        {
+          "step": 100,
+          "loss": 0.4071818315752644
+        },
+        {
+          "step": 150,
+          "loss": 0.2780580428423716
+        },
+        {
+          "step": 200,
+          "loss": 0.23632554586711918
+        },
+        {
+          "step": 250,
+          "loss": 0.22860649137431782
+        },
+        {
+          "step": 300,
+          "loss": 0.21587693414521986
+        },
+        {
+          "step": 350,
+          "loss": 0.2099227131414551
+        },
+        {
+          "step": 399,
+          "loss": 0.20825521385604476
+        }
+      ]
+    },
+    {
+      "seed": 411,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.75
+      },
+      "hard_train": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932104676514322
+        },
+        {
+          "step": 50,
+          "loss": 0.6340698946550276
+        },
+        {
+          "step": 100,
+          "loss": 0.5342896910333543
+        },
+        {
+          "step": 150,
+          "loss": 0.512967166502895
+        },
+        {
+          "step": 200,
+          "loss": 0.4801654509277157
+        },
+        {
+          "step": 250,
+          "loss": 0.44071532812276976
+        },
+        {
+          "step": 300,
+          "loss": 0.43684733836599576
+        },
+        {
+          "step": 350,
+          "loss": 0.43614753433138687
+        },
+        {
+          "step": 399,
+          "loss": 0.4357707135005159
+        }
+      ]
+    },
+    {
+      "seed": 411,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.5
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5234375
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.734375
+      },
+      "hard_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.7109375
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932104676514322
+        },
+        {
+          "step": 50,
+          "loss": 0.6471206780180674
+        },
+        {
+          "step": 100,
+          "loss": 0.521131223656035
+        },
+        {
+          "step": 150,
+          "loss": 0.4783845618440927
+        },
+        {
+          "step": 200,
+          "loss": 0.46875429939414437
+        },
+        {
+          "step": 250,
+          "loss": 0.4650745069152092
+        },
+        {
+          "step": 300,
+          "loss": 0.4631461907951939
+        },
+        {
+          "step": 350,
+          "loss": 0.4618597300738857
+        },
+        {
+          "step": 399,
+          "loss": 0.460423466367213
+        }
+      ]
+    },
+    {
+      "seed": 411,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.6640625
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6953125
+      },
+      "soft_train": {
+        "exact": 0.75,
+        "bit_accuracy": 0.9140625
+      },
+      "hard_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.8984375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932104676514323
+        },
+        {
+          "step": 50,
+          "loss": 0.6354594229924113
+        },
+        {
+          "step": 100,
+          "loss": 0.36811676506443036
+        },
+        {
+          "step": 150,
+          "loss": 0.258908116038294
+        },
+        {
+          "step": 200,
+          "loss": 0.19789869693421888
+        },
+        {
+          "step": 250,
+          "loss": 0.17099376600808622
+        },
+        {
+          "step": 300,
+          "loss": 0.16315223487347247
+        },
+        {
+          "step": 350,
+          "loss": 0.15462954191130196
+        },
+        {
+          "step": 399,
+          "loss": 0.15254783992315502
+        }
+      ]
+    },
+    {
+      "seed": 411,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.609375
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.609375
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692894169694072
+        },
+        {
+          "step": 50,
+          "loss": 0.5887571091052023
+        },
+        {
+          "step": 100,
+          "loss": 0.46307480818159846
+        },
+        {
+          "step": 150,
+          "loss": 0.40967986934922235
+        },
+        {
+          "step": 200,
+          "loss": 0.3974501773986776
+        },
+        {
+          "step": 250,
+          "loss": 0.3930319939434028
+        },
+        {
+          "step": 300,
+          "loss": 0.39008700379292327
+        },
+        {
+          "step": 350,
+          "loss": 0.38845738541024094
+        },
+        {
+          "step": 399,
+          "loss": 0.3878977450167337
+        }
+      ]
+    },
+    {
+      "seed": 411,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.5859375
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.765625
+      },
+      "hard_train": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.7265625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692894169694072
+        },
+        {
+          "step": 50,
+          "loss": 0.606834733818589
+        },
+        {
+          "step": 100,
+          "loss": 0.48065702017910417
+        },
+        {
+          "step": 150,
+          "loss": 0.44783777089363463
+        },
+        {
+          "step": 200,
+          "loss": 0.43866755024773707
+        },
+        {
+          "step": 250,
+          "loss": 0.4316090335967253
+        },
+        {
+          "step": 300,
+          "loss": 0.42672113330289857
+        },
+        {
+          "step": 350,
+          "loss": 0.42311975596916773
+        },
+        {
+          "step": 399,
+          "loss": 0.42162371171129065
+        }
+      ]
+    },
+    {
+      "seed": 411,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.65625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.640625
+      },
+      "soft_train": {
+        "exact": 0.71875,
+        "bit_accuracy": 0.90625
+      },
+      "hard_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.8984375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928941696940721
+        },
+        {
+          "step": 50,
+          "loss": 0.5887626449852155
+        },
+        {
+          "step": 100,
+          "loss": 0.355521230374953
+        },
+        {
+          "step": 150,
+          "loss": 0.2512129636289948
+        },
+        {
+          "step": 200,
+          "loss": 0.21954899844622805
+        },
+        {
+          "step": 250,
+          "loss": 0.20549617531759487
+        },
+        {
+          "step": 300,
+          "loss": 0.19460819614262126
+        },
+        {
+          "step": 350,
+          "loss": 0.186969474503599
+        },
+        {
+          "step": 399,
+          "loss": 0.18059988282726924
+        }
+      ]
+    },
+    {
+      "seed": 412,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.703125
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.703125
+      },
+      "soft_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.859375
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.859375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6931232130219922
+        },
+        {
+          "step": 50,
+          "loss": 0.6094822155571982
+        },
+        {
+          "step": 100,
+          "loss": 0.3223279957549875
+        },
+        {
+          "step": 150,
+          "loss": 0.27686995244186585
+        },
+        {
+          "step": 200,
+          "loss": 0.2653502410393772
+        },
+        {
+          "step": 250,
+          "loss": 0.2592177721969674
+        },
+        {
+          "step": 300,
+          "loss": 0.2579167450433447
+        },
+        {
+          "step": 350,
+          "loss": 0.25725773040371547
+        },
+        {
+          "step": 399,
+          "loss": 0.25682054120139014
+        }
+      ]
+    },
+    {
+      "seed": 412,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.21875,
+        "bit_accuracy": 0.703125
+      },
+      "hard_test": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7109375
+      },
+      "soft_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.859375
+      },
+      "hard_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.8359375
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6931232130219923
+        },
+        {
+          "step": 50,
+          "loss": 0.5964611492012792
+        },
+        {
+          "step": 100,
+          "loss": 0.3347212794092035
+        },
+        {
+          "step": 150,
+          "loss": 0.2891500740119518
+        },
+        {
+          "step": 200,
+          "loss": 0.27916662325860825
+        },
+        {
+          "step": 250,
+          "loss": 0.2748280215144956
+        },
+        {
+          "step": 300,
+          "loss": 0.2714808215555836
+        },
+        {
+          "step": 350,
+          "loss": 0.26991497092505534
+        },
+        {
+          "step": 399,
+          "loss": 0.26891994787613505
+        }
+      ]
+    },
+    {
+      "seed": 412,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.703125
+      },
+      "hard_test": {
+        "exact": 0.1875,
+        "bit_accuracy": 0.6953125
+      },
+      "soft_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.9296875
+      },
+      "hard_train": {
+        "exact": 0.8125,
+        "bit_accuracy": 0.9296875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6931232130219923
+        },
+        {
+          "step": 50,
+          "loss": 0.5852662925663981
+        },
+        {
+          "step": 100,
+          "loss": 0.2839633781961175
+        },
+        {
+          "step": 150,
+          "loss": 0.1812582388174609
+        },
+        {
+          "step": 200,
+          "loss": 0.16035425311653928
+        },
+        {
+          "step": 250,
+          "loss": 0.1454670237288821
+        },
+        {
+          "step": 300,
+          "loss": 0.13994145094098903
+        },
+        {
+          "step": 350,
+          "loss": 0.1313460680963917
+        },
+        {
+          "step": 399,
+          "loss": 0.12922676487743306
+        }
+      ]
+    },
+    {
+      "seed": 412,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5859375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.59375
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.828125
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6935088643858776
+        },
+        {
+          "step": 50,
+          "loss": 0.593258895371539
+        },
+        {
+          "step": 100,
+          "loss": 0.409623320986824
+        },
+        {
+          "step": 150,
+          "loss": 0.3614103592411005
+        },
+        {
+          "step": 200,
+          "loss": 0.34133101366737295
+        },
+        {
+          "step": 250,
+          "loss": 0.33878915354026795
+        },
+        {
+          "step": 300,
+          "loss": 0.3375051204524759
+        },
+        {
+          "step": 350,
+          "loss": 0.3339843454991883
+        },
+        {
+          "step": 399,
+          "loss": 0.33140513566059104
+        }
+      ]
+    },
+    {
+      "seed": 412,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.6015625
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.8515625
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.828125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6935088643858776
+        },
+        {
+          "step": 50,
+          "loss": 0.5960700729901822
+        },
+        {
+          "step": 100,
+          "loss": 0.4129806297939732
+        },
+        {
+          "step": 150,
+          "loss": 0.3574272948452568
+        },
+        {
+          "step": 200,
+          "loss": 0.33925512616543463
+        },
+        {
+          "step": 250,
+          "loss": 0.33453777567294474
+        },
+        {
+          "step": 300,
+          "loss": 0.33270233851984055
+        },
+        {
+          "step": 350,
+          "loss": 0.33164594478169707
+        },
+        {
+          "step": 399,
+          "loss": 0.3309647057616105
+        }
+      ]
+    },
+    {
+      "seed": 412,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.921875
+      },
+      "hard_train": {
+        "exact": 0.71875,
+        "bit_accuracy": 0.9296875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6935088643858776
+        },
+        {
+          "step": 50,
+          "loss": 0.5901543446768558
+        },
+        {
+          "step": 100,
+          "loss": 0.32340094558418353
+        },
+        {
+          "step": 150,
+          "loss": 0.21672900100606202
+        },
+        {
+          "step": 200,
+          "loss": 0.16684660046432406
+        },
+        {
+          "step": 250,
+          "loss": 0.1457114030890814
+        },
+        {
+          "step": 300,
+          "loss": 0.13646671723821388
+        },
+        {
+          "step": 350,
+          "loss": 0.13210581556795636
+        },
+        {
+          "step": 399,
+          "loss": 0.13037909885487192
+        }
+      ]
+    },
+    {
+      "seed": 413,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5546875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5625
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929112650148754
+        },
+        {
+          "step": 50,
+          "loss": 0.621702059967455
+        },
+        {
+          "step": 100,
+          "loss": 0.5096927303033815
+        },
+        {
+          "step": 150,
+          "loss": 0.4224387016369532
+        },
+        {
+          "step": 200,
+          "loss": 0.4022434405428722
+        },
+        {
+          "step": 250,
+          "loss": 0.39345294219683447
+        },
+        {
+          "step": 300,
+          "loss": 0.38542954813313235
+        },
+        {
+          "step": 350,
+          "loss": 0.38239883370985395
+        },
+        {
+          "step": 399,
+          "loss": 0.38173940594828243
+        }
+      ]
+    },
+    {
+      "seed": 413,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.546875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.5625
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.7890625
+      },
+      "hard_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929112650148754
+        },
+        {
+          "step": 50,
+          "loss": 0.621635320052282
+        },
+        {
+          "step": 100,
+          "loss": 0.4592095875479334
+        },
+        {
+          "step": 150,
+          "loss": 0.4044027383137189
+        },
+        {
+          "step": 200,
+          "loss": 0.39344716859655327
+        },
+        {
+          "step": 250,
+          "loss": 0.3866178496650287
+        },
+        {
+          "step": 300,
+          "loss": 0.3843292373171353
+        },
+        {
+          "step": 350,
+          "loss": 0.38310631052333954
+        },
+        {
+          "step": 399,
+          "loss": 0.38234966595792935
+        }
+      ]
+    },
+    {
+      "seed": 413,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5859375
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.59375
+      },
+      "soft_train": {
+        "exact": 0.5625,
+        "bit_accuracy": 0.859375
+      },
+      "hard_train": {
+        "exact": 0.53125,
+        "bit_accuracy": 0.8515625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6929112650148754
+        },
+        {
+          "step": 50,
+          "loss": 0.6165179925766961
+        },
+        {
+          "step": 100,
+          "loss": 0.4176918796310555
+        },
+        {
+          "step": 150,
+          "loss": 0.3184396969383352
+        },
+        {
+          "step": 200,
+          "loss": 0.2901873270330017
+        },
+        {
+          "step": 250,
+          "loss": 0.2834134774580778
+        },
+        {
+          "step": 300,
+          "loss": 0.26481803711889107
+        },
+        {
+          "step": 350,
+          "loss": 0.26226645107852803
+        },
+        {
+          "step": 399,
+          "loss": 0.2606237944349777
+        }
+      ]
+    },
+    {
+      "seed": 413,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.484375
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.484375
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928300190199393
+        },
+        {
+          "step": 50,
+          "loss": 0.578462356849341
+        },
+        {
+          "step": 100,
+          "loss": 0.4214682650939252
+        },
+        {
+          "step": 150,
+          "loss": 0.38264571418774307
+        },
+        {
+          "step": 200,
+          "loss": 0.37045162271064475
+        },
+        {
+          "step": 250,
+          "loss": 0.3634935826667133
+        },
+        {
+          "step": 300,
+          "loss": 0.36236332804128996
+        },
+        {
+          "step": 350,
+          "loss": 0.3618185072676825
+        },
+        {
+          "step": 399,
+          "loss": 0.36147930842355736
+        }
+      ]
+    },
+    {
+      "seed": 413,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5078125
+      },
+      "soft_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.8046875
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.8203125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928300190199393
+        },
+        {
+          "step": 50,
+          "loss": 0.6047282041367723
+        },
+        {
+          "step": 100,
+          "loss": 0.41769782142671186
+        },
+        {
+          "step": 150,
+          "loss": 0.37949109350498694
+        },
+        {
+          "step": 200,
+          "loss": 0.3667848010335155
+        },
+        {
+          "step": 250,
+          "loss": 0.36316243447361196
+        },
+        {
+          "step": 300,
+          "loss": 0.35753812119650197
+        },
+        {
+          "step": 350,
+          "loss": 0.3506650083397439
+        },
+        {
+          "step": 399,
+          "loss": 0.34926017027095313
+        }
+      ]
+    },
+    {
+      "seed": 413,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.671875
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.671875
+      },
+      "soft_train": {
+        "exact": 0.75,
+        "bit_accuracy": 0.9296875
+      },
+      "hard_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.90625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928300190199393
+        },
+        {
+          "step": 50,
+          "loss": 0.5858592490653503
+        },
+        {
+          "step": 100,
+          "loss": 0.3470918983332681
+        },
+        {
+          "step": 150,
+          "loss": 0.2408863898559493
+        },
+        {
+          "step": 200,
+          "loss": 0.20490596529045338
+        },
+        {
+          "step": 250,
+          "loss": 0.17625441216952292
+        },
+        {
+          "step": 300,
+          "loss": 0.1651121228247907
+        },
+        {
+          "step": 350,
+          "loss": 0.16209632020775128
+        },
+        {
+          "step": 399,
+          "loss": 0.1607120493115214
+        }
+      ]
+    },
+    {
+      "seed": 414,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.03125,
+        "bit_accuracy": 0.546875
+      },
+      "soft_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.7734375
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928707180491239
+        },
+        {
+          "step": 50,
+          "loss": 0.6163594164197677
+        },
+        {
+          "step": 100,
+          "loss": 0.5002030126338963
+        },
+        {
+          "step": 150,
+          "loss": 0.4425876548889086
+        },
+        {
+          "step": 200,
+          "loss": 0.41956163720093803
+        },
+        {
+          "step": 250,
+          "loss": 0.4066587389356207
+        },
+        {
+          "step": 300,
+          "loss": 0.40490495046708996
+        },
+        {
+          "step": 350,
+          "loss": 0.4043151688864389
+        },
+        {
+          "step": 399,
+          "loss": 0.40391716183472653
+        }
+      ]
+    },
+    {
+      "seed": 414,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.578125
+      },
+      "soft_train": {
+        "exact": 0.5,
+        "bit_accuracy": 0.78125
+      },
+      "hard_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.765625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692870718049124
+        },
+        {
+          "step": 50,
+          "loss": 0.6326039655084221
+        },
+        {
+          "step": 100,
+          "loss": 0.48771951210380765
+        },
+        {
+          "step": 150,
+          "loss": 0.4324622975617102
+        },
+        {
+          "step": 200,
+          "loss": 0.4171439919345883
+        },
+        {
+          "step": 250,
+          "loss": 0.40999981661926443
+        },
+        {
+          "step": 300,
+          "loss": 0.4076957963296043
+        },
+        {
+          "step": 350,
+          "loss": 0.4066900181700539
+        },
+        {
+          "step": 399,
+          "loss": 0.4060641148656787
+        }
+      ]
+    },
+    {
+      "seed": 414,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "hard_test": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.78125
+      },
+      "soft_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9375
+      },
+      "hard_train": {
+        "exact": 0.78125,
+        "bit_accuracy": 0.9375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.692870718049124
+        },
+        {
+          "step": 50,
+          "loss": 0.6183166814273983
+        },
+        {
+          "step": 100,
+          "loss": 0.38216972100486296
+        },
+        {
+          "step": 150,
+          "loss": 0.18876301893641306
+        },
+        {
+          "step": 200,
+          "loss": 0.16643790240702533
+        },
+        {
+          "step": 250,
+          "loss": 0.1597581635625518
+        },
+        {
+          "step": 300,
+          "loss": 0.15642149541594186
+        },
+        {
+          "step": 350,
+          "loss": 0.15088489835626057
+        },
+        {
+          "step": 399,
+          "loss": 0.13981744272684402
+        }
+      ]
+    },
+    {
+      "seed": 414,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5390625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5859375
+      },
+      "soft_train": {
+        "exact": 0.34375,
+        "bit_accuracy": 0.7890625
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7421875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932018208223591
+        },
+        {
+          "step": 50,
+          "loss": 0.5870688434104295
+        },
+        {
+          "step": 100,
+          "loss": 0.4601932329241017
+        },
+        {
+          "step": 150,
+          "loss": 0.4202553392988826
+        },
+        {
+          "step": 200,
+          "loss": 0.4164279363380121
+        },
+        {
+          "step": 250,
+          "loss": 0.41508854145286517
+        },
+        {
+          "step": 300,
+          "loss": 0.4143815480676908
+        },
+        {
+          "step": 350,
+          "loss": 0.4139448431255155
+        },
+        {
+          "step": 399,
+          "loss": 0.4136543702452721
+        }
+      ]
+    },
+    {
+      "seed": 414,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.0,
+        "bit_accuracy": 0.5546875
+      },
+      "hard_test": {
+        "exact": 0.0,
+        "bit_accuracy": 0.5234375
+      },
+      "soft_train": {
+        "exact": 0.28125,
+        "bit_accuracy": 0.75
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7578125
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932018208223591
+        },
+        {
+          "step": 50,
+          "loss": 0.6063007414054806
+        },
+        {
+          "step": 100,
+          "loss": 0.4738508992752087
+        },
+        {
+          "step": 150,
+          "loss": 0.4472328325853906
+        },
+        {
+          "step": 200,
+          "loss": 0.4412987850110637
+        },
+        {
+          "step": 250,
+          "loss": 0.43860629181668864
+        },
+        {
+          "step": 300,
+          "loss": 0.43722567152776637
+        },
+        {
+          "step": 350,
+          "loss": 0.4363662646176477
+        },
+        {
+          "step": 399,
+          "loss": 0.4357917764998674
+        }
+      ]
+    },
+    {
+      "seed": 414,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.59375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.6875,
+        "bit_accuracy": 0.8984375
+      },
+      "hard_train": {
+        "exact": 0.71875,
+        "bit_accuracy": 0.90625
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6932018208223591
+        },
+        {
+          "step": 50,
+          "loss": 0.5890442970739386
+        },
+        {
+          "step": 100,
+          "loss": 0.33156998741772176
+        },
+        {
+          "step": 150,
+          "loss": 0.20395665733813256
+        },
+        {
+          "step": 200,
+          "loss": 0.17156134317666974
+        },
+        {
+          "step": 250,
+          "loss": 0.16509808938296774
+        },
+        {
+          "step": 300,
+          "loss": 0.16199958176849888
+        },
+        {
+          "step": 350,
+          "loss": 0.1602464754144911
+        },
+        {
+          "step": 399,
+          "loss": 0.15910484134513597
+        }
+      ]
+    },
+    {
+      "seed": 415,
+      "task": "numeric",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5859375
+      },
+      "hard_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.640625
+      },
+      "soft_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.7890625
+      },
+      "hard_train": {
+        "exact": 0.3125,
+        "bit_accuracy": 0.78125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924666212831065
+        },
+        {
+          "step": 50,
+          "loss": 0.6114481390065167
+        },
+        {
+          "step": 100,
+          "loss": 0.45401681360119106
+        },
+        {
+          "step": 150,
+          "loss": 0.3487886188693179
+        },
+        {
+          "step": 200,
+          "loss": 0.3418808372693689
+        },
+        {
+          "step": 250,
+          "loss": 0.33956582609613384
+        },
+        {
+          "step": 300,
+          "loss": 0.3377955252328622
+        },
+        {
+          "step": 350,
+          "loss": 0.3368279547455939
+        },
+        {
+          "step": 399,
+          "loss": 0.3363906840904751
+        }
+      ]
+    },
+    {
+      "seed": 415,
+      "task": "numeric",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.453125
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.4921875
+      },
+      "soft_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.734375
+      },
+      "hard_train": {
+        "exact": 0.25,
+        "bit_accuracy": 0.7265625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924666212831065
+        },
+        {
+          "step": 50,
+          "loss": 0.6290280393814959
+        },
+        {
+          "step": 100,
+          "loss": 0.4889139077841859
+        },
+        {
+          "step": 150,
+          "loss": 0.4585021807400843
+        },
+        {
+          "step": 200,
+          "loss": 0.45200752675513906
+        },
+        {
+          "step": 250,
+          "loss": 0.4468913008674768
+        },
+        {
+          "step": 300,
+          "loss": 0.43306457981218477
+        },
+        {
+          "step": 350,
+          "loss": 0.4304391770202011
+        },
+        {
+          "step": 399,
+          "loss": 0.42932645920902834
+        }
+      ]
+    },
+    {
+      "seed": 415,
+      "task": "numeric",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.515625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.515625
+      },
+      "soft_train": {
+        "exact": 0.59375,
+        "bit_accuracy": 0.875
+      },
+      "hard_train": {
+        "exact": 0.625,
+        "bit_accuracy": 0.875
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6924666212831064
+        },
+        {
+          "step": 50,
+          "loss": 0.6135825060415732
+        },
+        {
+          "step": 100,
+          "loss": 0.400697095911929
+        },
+        {
+          "step": 150,
+          "loss": 0.27865386452701413
+        },
+        {
+          "step": 200,
+          "loss": 0.2469890083444481
+        },
+        {
+          "step": 250,
+          "loss": 0.23623728134262967
+        },
+        {
+          "step": 300,
+          "loss": 0.2256674145473827
+        },
+        {
+          "step": 350,
+          "loss": 0.22330875570522635
+        },
+        {
+          "step": 399,
+          "loss": 0.2214251014428621
+        }
+      ]
+    },
+    {
+      "seed": 415,
+      "task": "selection",
+      "condition": "gate2",
+      "soft_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5625
+      },
+      "hard_test": {
+        "exact": 0.125,
+        "bit_accuracy": 0.5546875
+      },
+      "soft_train": {
+        "exact": 0.4375,
+        "bit_accuracy": 0.796875
+      },
+      "hard_train": {
+        "exact": 0.46875,
+        "bit_accuracy": 0.7734375
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928465232993983
+        },
+        {
+          "step": 50,
+          "loss": 0.5943552808488082
+        },
+        {
+          "step": 100,
+          "loss": 0.42753458463555927
+        },
+        {
+          "step": 150,
+          "loss": 0.390153310488586
+        },
+        {
+          "step": 200,
+          "loss": 0.38122933822821137
+        },
+        {
+          "step": 250,
+          "loss": 0.3777417208434375
+        },
+        {
+          "step": 300,
+          "loss": 0.3739448148395833
+        },
+        {
+          "step": 350,
+          "loss": 0.37302144429218553
+        },
+        {
+          "step": 399,
+          "loss": 0.3725496467156797
+        }
+      ]
+    },
+    {
+      "seed": 415,
+      "task": "selection",
+      "condition": "lut2",
+      "soft_test": {
+        "exact": 0.09375,
+        "bit_accuracy": 0.5703125
+      },
+      "hard_test": {
+        "exact": 0.0625,
+        "bit_accuracy": 0.5703125
+      },
+      "soft_train": {
+        "exact": 0.375,
+        "bit_accuracy": 0.796875
+      },
+      "hard_train": {
+        "exact": 0.40625,
+        "bit_accuracy": 0.7890625
+      },
+      "trainable_logits": 1040,
+      "hard_table_bits": 272,
+      "output_connections": 8,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928465232993983
+        },
+        {
+          "step": 50,
+          "loss": 0.6112822638600257
+        },
+        {
+          "step": 100,
+          "loss": 0.4777745556006908
+        },
+        {
+          "step": 150,
+          "loss": 0.4414474232674537
+        },
+        {
+          "step": 200,
+          "loss": 0.4224359937852939
+        },
+        {
+          "step": 250,
+          "loss": 0.3994220854000209
+        },
+        {
+          "step": 300,
+          "loss": 0.3897843245806112
+        },
+        {
+          "step": 350,
+          "loss": 0.376286553776033
+        },
+        {
+          "step": 399,
+          "loss": 0.37483902413214476
+        }
+      ]
+    },
+    {
+      "seed": 415,
+      "task": "selection",
+      "condition": "lut4",
+      "soft_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6171875
+      },
+      "hard_test": {
+        "exact": 0.15625,
+        "bit_accuracy": 0.6171875
+      },
+      "soft_train": {
+        "exact": 0.65625,
+        "bit_accuracy": 0.8828125
+      },
+      "hard_train": {
+        "exact": 0.625,
+        "bit_accuracy": 0.8828125
+      },
+      "trainable_logits": 1088,
+      "hard_table_bits": 320,
+      "output_connections": 16,
+      "hard_equivalent": true,
+      "curves": [
+        {
+          "step": 0,
+          "loss": 0.6928465232993982
+        },
+        {
+          "step": 50,
+          "loss": 0.5950848604126091
+        },
+        {
+          "step": 100,
+          "loss": 0.3516392856046904
+        },
+        {
+          "step": 150,
+          "loss": 0.25917109798030724
+        },
+        {
+          "step": 200,
+          "loss": 0.2364444238192491
+        },
+        {
+          "step": 250,
+          "loss": 0.21837268522052633
+        },
+        {
+          "step": 300,
+          "loss": 0.21309042878783188
+        },
+        {
+          "step": 350,
+          "loss": 0.21098952362187307
+        },
+        {
+          "step": 399,
+          "loss": 0.20795783789987707
+        }
+      ]
+    }
+  ],
+  "aggregates": [
+    {
+      "task": "numeric",
+      "condition": "gate2",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 16,
+          "mean": 0.19140625,
+          "variance": 0.020686848958333334,
+          "sd": 0.14382923540898537,
+          "ci95": [
+            0.126953125,
+            0.263671875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.64990234375,
+          "variance": 0.013453928629557292,
+          "sd": 0.11599107133550104,
+          "ci95": [
+            0.59521484375,
+            0.705078125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 16,
+          "mean": 0.18359375,
+          "variance": 0.016129557291666666,
+          "sd": 0.12700219404272772,
+          "ci95": [
+            0.125,
+            0.244140625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.6552734375,
+          "variance": 0.0124176025390625,
+          "sd": 0.11143429696041744,
+          "ci95": [
+            0.6015625,
+            0.70703125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 16,
+          "mean": 0.462890625,
+          "variance": 0.017606608072916665,
+          "sd": 0.13268989438882173,
+          "ci95": [
+            0.3984375,
+            0.52734375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.8203125,
+          "variance": 0.0032145182291666665,
+          "sd": 0.05669672150280532,
+          "ci95": [
+            0.79345703125,
+            0.8471801757812498
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 16,
+          "mean": 0.44140625,
+          "variance": 0.019514973958333334,
+          "sd": 0.13969600552032022,
+          "ci95": [
+            0.375,
+            0.5059082031249993
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.8056640625,
+          "variance": 0.0039866129557291664,
+          "sd": 0.06313963062712014,
+          "ci95": [
+            0.77587890625,
+            0.8349609375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "numeric",
+      "condition": "lut2",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 16,
+          "mean": 0.171875,
+          "variance": 0.016145833333333335,
+          "sd": 0.1270662556831409,
+          "ci95": [
+            0.1171875,
+            0.236328125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.634765625,
+          "variance": 0.014603678385416667,
+          "sd": 0.12084568004449588,
+          "ci95": [
+            0.57666015625,
+            0.69287109375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 16,
+          "mean": 0.171875,
+          "variance": 0.012760416666666666,
+          "sd": 0.11296201426438299,
+          "ci95": [
+            0.12109375,
+            0.2265625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.64306640625,
+          "variance": 0.012701161702473958,
+          "sd": 0.11269943079924565,
+          "ci95": [
+            0.58836669921875,
+            0.69677734375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 16,
+          "mean": 0.47265625,
+          "variance": 0.021988932291666666,
+          "sd": 0.14828665581119113,
+          "ci95": [
+            0.40625,
+            0.546875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.8203125,
+          "variance": 0.004020182291666666,
+          "sd": 0.06340490747305501,
+          "ci95": [
+            0.79150390625,
+            0.8515625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 16,
+          "mean": 0.439453125,
+          "variance": 0.02232666015625,
+          "sd": 0.14942108337262852,
+          "ci95": [
+            0.373046875,
+            0.515625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.80419921875,
+          "variance": 0.004414621988932292,
+          "sd": 0.0664426217794895,
+          "ci95": [
+            0.77392578125,
+            0.8369140625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "numeric",
+      "condition": "lut4",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 16,
+          "mean": 0.26953125,
+          "variance": 0.023160807291666665,
+          "sd": 0.15218675136708407,
+          "ci95": [
+            0.197265625,
+            0.33984375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.7099609375,
+          "variance": 0.011498006184895833,
+          "sd": 0.1072287563338111,
+          "ci95": [
+            0.65673828125,
+            0.7587890625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 16,
+          "mean": 0.271484375,
+          "variance": 0.02144775390625,
+          "sd": 0.1464505169203919,
+          "ci95": [
+            0.203125,
+            0.33984375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.7109375,
+          "variance": 0.0114501953125,
+          "sd": 0.10700558542664958,
+          "ci95": [
+            0.6572265625,
+            0.759765625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 16,
+          "mean": 0.73046875,
+          "variance": 0.010791015625,
+          "sd": 0.10387981336621664,
+          "ci95": [
+            0.681640625,
+            0.779296875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.91845703125,
+          "variance": 0.0014157613118489583,
+          "sd": 0.03762660377776552,
+          "ci95": [
+            0.900390625,
+            0.93603515625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 16,
+          "mean": 0.716796875,
+          "variance": 0.014383951822916666,
+          "sd": 0.11993311395489015,
+          "ci95": [
+            0.66015625,
+            0.7734375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.91162109375,
+          "variance": 0.0017636617024739583,
+          "sd": 0.04199597245539098,
+          "ci95": [
+            0.89111328125,
+            0.93115234375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "selection",
+      "condition": "gate2",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 16,
+          "mean": 0.158203125,
+          "variance": 0.005399576822916667,
+          "sd": 0.07348181287173491,
+          "ci95": [
+            0.123046875,
+            0.193359375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.59423828125,
+          "variance": 0.0024289449055989584,
+          "sd": 0.0492843271801387,
+          "ci95": [
+            0.5703125,
+            0.6171997070312498
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 16,
+          "mean": 0.14453125,
+          "variance": 0.0023274739583333333,
+          "sd": 0.04824390073712254,
+          "ci95": [
+            0.12109375,
+            0.166015625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.591796875,
+          "variance": 0.0019734700520833335,
+          "sd": 0.044423755492791615,
+          "ci95": [
+            0.5693359375,
+            0.6123046875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 16,
+          "mean": 0.404296875,
+          "variance": 0.0050089518229166664,
+          "sd": 0.07077394875882415,
+          "ci95": [
+            0.37109375,
+            0.439453125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.8037109375,
+          "variance": 0.0009918212890625,
+          "sd": 0.03149319432929121,
+          "ci95": [
+            0.78857421875,
+            0.818359375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 16,
+          "mean": 0.388671875,
+          "variance": 0.005594889322916667,
+          "sd": 0.07479899279346391,
+          "ci95": [
+            0.35546875,
+            0.423828125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.78857421875,
+          "variance": 0.000980377197265625,
+          "sd": 0.031310975667737106,
+          "ci95": [
+            0.7734375,
+            0.80322265625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "selection",
+      "condition": "lut2",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 16,
+          "mean": 0.154296875,
+          "variance": 0.00670166015625,
+          "sd": 0.08186366810893585,
+          "ci95": [
+            0.115234375,
+            0.193359375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.59521484375,
+          "variance": 0.0017107645670572916,
+          "sd": 0.041361389810514,
+          "ci95": [
+            0.57470703125,
+            0.6142578125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 16,
+          "mean": 0.119140625,
+          "variance": 0.004585774739583334,
+          "sd": 0.06771834861825363,
+          "ci95": [
+            0.0859375,
+            0.150390625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.58251953125,
+          "variance": 0.001773834228515625,
+          "sd": 0.042116911431343405,
+          "ci95": [
+            0.5625,
+            0.6025390625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 16,
+          "mean": 0.400390625,
+          "variance": 0.006538899739583334,
+          "sd": 0.08086346356410498,
+          "ci95": [
+            0.361328125,
+            0.4375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.8046875,
+          "variance": 0.0008626302083333333,
+          "sd": 0.029370567041399342,
+          "ci95": [
+            0.791015625,
+            0.818359375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 16,
+          "mean": 0.380859375,
+          "variance": 0.00718994140625,
+          "sd": 0.08479352219509459,
+          "ci95": [
+            0.33984375,
+            0.419921875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.794921875,
+          "variance": 0.00118408203125,
+          "sd": 0.03441049303991444,
+          "ci95": [
+            0.7783203125,
+            0.810546875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    },
+    {
+      "task": "selection",
+      "condition": "lut4",
+      "metrics": {
+        "soft_test_exact": {
+          "n": 16,
+          "mean": 0.154296875,
+          "variance": 0.005659993489583333,
+          "sd": 0.07523292822682986,
+          "ci95": [
+            0.12109375,
+            0.19140625
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.6123046875,
+          "variance": 0.0016265869140625,
+          "sd": 0.04033096718481346,
+          "ci95": [
+            0.5927734375,
+            0.630859375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_exact": {
+          "n": 16,
+          "mean": 0.13671875,
+          "variance": 0.0071451822916666664,
+          "sd": 0.08452918011945144,
+          "ci95": [
+            0.099609375,
+            0.177734375
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_test_bit_accuracy": {
+          "n": 16,
+          "mean": 0.60205078125,
+          "variance": 0.0017697652180989583,
+          "sd": 0.04206857756210636,
+          "ci95": [
+            0.58251953125,
+            0.6220703125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_exact": {
+          "n": 16,
+          "mean": 0.693359375,
+          "variance": 0.00640869140625,
+          "sd": 0.08005430285905936,
+          "ci95": [
+            0.658203125,
+            0.732421875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "soft_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.9072265625,
+          "variance": 0.0006093343098958333,
+          "sd": 0.02468469788949894,
+          "ci95": [
+            0.8955078125,
+            0.9189453125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_exact": {
+          "n": 16,
+          "mean": 0.662109375,
+          "variance": 0.006148274739583333,
+          "sd": 0.07841093507657802,
+          "ci95": [
+            0.625,
+            0.69921875
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        },
+        "hard_train_bit_accuracy": {
+          "n": 16,
+          "mean": 0.900390625,
+          "variance": 0.0005330403645833333,
+          "sd": 0.023087666936772396,
+          "ci95": [
+            0.8896484375,
+            0.9111328125
+          ],
+          "ci_method": "seed percentile bootstrap, 10000 resamples"
+        }
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "task": "numeric",
+      "baseline": "lut2",
+      "n": 16,
+      "mean": 0.099609375,
+      "variance": 0.02476806640625,
+      "sd": 0.1573787355593188,
+      "ci95": [
+        0.029296875,
+        0.17578125
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.0218505859375,
+      "p_holm": 0.1031494140625
+    },
+    {
+      "task": "numeric",
+      "baseline": "gate2",
+      "n": 16,
+      "mean": 0.087890625,
+      "variance": 0.01812744140625,
+      "sd": 0.13463818702823505,
+      "ci95": [
+        0.02734375,
+        0.15234375
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.0206298828125,
+      "p_holm": 0.1031494140625
+    },
+    {
+      "task": "selection",
+      "baseline": "lut2",
+      "n": 16,
+      "mean": 0.017578125,
+      "variance": 0.00963134765625,
+      "sd": 0.09813942967151379,
+      "ci95": [
+        -0.029296875,
+        0.064453125
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.5345458984375,
+      "p_holm": 1
+    },
+    {
+      "task": "selection",
+      "baseline": "gate2",
+      "n": 16,
+      "mean": -0.0078125,
+      "variance": 0.005403645833333333,
+      "sd": 0.0735094948515723,
+      "ci95": [
+        -0.04296875,
+        0.02734375
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.750579833984375,
+      "p_holm": 1
+    },
+    {
+      "task": "selection_minus_numeric",
+      "baseline": "interaction",
+      "n": 16,
+      "mean": -0.08203125,
+      "variance": 0.03943684895833333,
+      "sd": 0.19858713190520008,
+      "ci95": [
+        -0.177734375,
+        0.005859375
+      ],
+      "ci_method": "seed percentile bootstrap, 10000 resamples",
+      "p_signflip_two_sided": 0.131591796875,
+      "p_holm": 0.394775390625
+    }
+  ],
+  "verification": {
+    "initial_soft_match": true,
+    "max_gradient_error": 4.155833798836009e-12
+  },
+  "elapsed_seconds": 9.587711084001057,
+  "sources": {
+    "pilot.py": "57829ba505ddf8eba68dc2fe1809179c3e97f995824e25efa5a528518fd10648",
+    "e004.py": "56c39f24c323c72a2bd8a17abc748d8326860eae6f77387455c86f197a6f0ae2",
+    "experiment.py": "2d6011b744d36aa127db6b84ed69cacb5ea2e4900d11fc94b3573fa147e2d8eb",
+    "logic_modules.py": "23a8bad4718dbf40f6b6303dcf17b7d4ac3e6c28c8dc05cd86638aff8aeaee6a",
+    "run_experiment.py": "eefa31beaca68b847f1ac45ad25537f956462c158c56d9e3f8340fe3a5f6f760",
+    "global_accept.py": "ad754ca58f67ff9c5abe2b4723e5e4451adb219a5561d2f4d81f73652f76c9c5"
+  },
+  "protocol_sha256": "d0309e5416f15c79a00cf154561b1ba09e216c6906ebee8d1721137ae6264654",
+  "numpy": "1.25.2"
+}

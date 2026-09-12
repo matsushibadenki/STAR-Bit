@@ -1,0 +1,978 @@
+{
+  "records": [
+    {
+      "seed": 1200,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 139066,
+      "equivalent_function_merges": 297276,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 12788,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 51498,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 55370,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 7422,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 6106,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 6486,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 0.7156798750002054
+    },
+    {
+      "seed": 1200,
+      "condition": "composition_pareto",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 137247,
+      "equivalent_function_merges": 344071,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 12510,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 48358,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 46152,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 13801,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 9976,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 7054,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 4.677122124998277
+    },
+    {
+      "seed": 1201,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 133173,
+      "equivalent_function_merges": 297393,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 13438,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 47304,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 51962,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 7365,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 6369,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 7339,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 0.6219299579988729
+    },
+    {
+      "seed": 1201,
+      "condition": "composition_pareto",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 130987,
+      "equivalent_function_merges": 325371,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 13056,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 47938,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 47640,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 9120,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 7248,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 6589,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 4.6679920829992625
+    },
+    {
+      "seed": 1202,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 140803,
+      "equivalent_function_merges": 299187,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 13670,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 50476,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 54660,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 7122,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 8398,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 7081,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 0.6613394590003736
+    },
+    {
+      "seed": 1202,
+      "condition": "composition_pareto",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 133467,
+      "equivalent_function_merges": 328923,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 12804,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 49064,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 47060,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 9889,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 7303,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 7951,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 4.565212417001021
+    },
+    {
+      "seed": 1203,
+      "condition": "target_greedy",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 142787,
+      "equivalent_function_merges": 292979,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 13210,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 53028,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 56506,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 7499,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 6351,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 6797,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 0.6626237090003997
+    },
+    {
+      "seed": 1203,
+      "condition": "composition_pareto",
+      "exact_targets": 1,
+      "all_exact": false,
+      "solutions": {
+        "mux": {
+          "round": 2,
+          "signature": "15625477333024561368",
+          "primitives": 3,
+          "routing_bits": 20,
+          "depth": 2,
+          "expression": [
+            "lut",
+            15625477333024561368,
+            6,
+            [
+              "lut",
+              5787213827046133840,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      "intermediate_overlap": {},
+      "generated_unique_signatures": 126881,
+      "equivalent_function_merges": 331605,
+      "history": [
+        {
+          "round": 1,
+          "pair_count": 21,
+          "pool_signatures": 164,
+          "beam": 128,
+          "found": []
+        },
+        {
+          "round": 2,
+          "pair_count": 8256,
+          "pool_signatures": 12352,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 3,
+          "pair_count": 8256,
+          "pool_signatures": 46322,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 4,
+          "pair_count": 8256,
+          "pool_signatures": 46562,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 5,
+          "pair_count": 8256,
+          "pool_signatures": 10179,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 6,
+          "pair_count": 8256,
+          "pool_signatures": 6938,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        },
+        {
+          "round": 7,
+          "pair_count": 8256,
+          "pool_signatures": 5132,
+          "beam": 128,
+          "found": [
+            "mux"
+          ]
+        }
+      ],
+      "elapsed_seconds": 4.493146083001193
+    }
+  ],
+  "aggregate": {
+    "target_greedy": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "generated_unique_signatures": {
+        "mean": 138957.25,
+        "variance": 17181050.916666668
+      },
+      "equivalent_function_merges": {
+        "mean": 296708.75,
+        "variance": 6947576.25
+      },
+      "seconds": {
+        "mean": 0.6653932502499629,
+        "variance": 0.0014806353281012136
+      }
+    },
+    "composition_pareto": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "generated_unique_signatures": {
+        "mean": 132145.5,
+        "variance": 18942915.666666668
+      },
+      "equivalent_function_merges": {
+        "mean": 332492.5,
+        "variance": 66102137.0
+      },
+      "seconds": {
+        "mean": 4.600868176999938,
+        "variance": 0.0077318886995048075
+      }
+    }
+  },
+  "viable": false,
+  "elapsed_seconds": 21.069301333000112,
+  "settings": {
+    "seeds": [
+      1200,
+      1201,
+      1202,
+      1203
+    ],
+    "beam": 128,
+    "rounds": 7,
+    "max_cost": 14
+  },
+  "sources": {
+    "pilot.py": "d6a2f942596874027a07d6d48f60383c1ef2dfe2ba0a1819ba1a00b5aa3dee23",
+    "search.py": "03b7be2a8676bb1450bf42796f119b63d02fd43b985eca044051324069e59f4d",
+    "PILOT-PROTOCOL.md": "19fb03cdb3d4f9c6d300add61aa45a03adae3b277cd8d13b95f93ab738da9fc3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fixtures": {
+    "fixed_nonsymmetric_lut4_sat": true,
+    "lut4_missing_input_unsat": true
+  },
+  "known_trained_witnesses": [
+    {
+      "name": "numeric-515-lut4",
+      "task": "numeric",
+      "seed": 515,
+      "condition": "lut4",
+      "exact": 1.0
+    }
+  ]
+}

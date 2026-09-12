@@ -1,0 +1,180 @@
+{
+  "aggregate": {
+    "all_rows": {
+      "exact_total": 8,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "success": {
+        "mean": 0.5,
+        "variance": 0.26666666666666666
+      },
+      "solver_calls": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 6.851309492187056,
+        "variance": 14.062413187085735
+      }
+    },
+    "cegis": {
+      "exact_total": 8,
+      "exact_by_task": {
+        "parity": 4,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "success": {
+        "mean": 0.5,
+        "variance": 0.26666666666666666
+      },
+      "solver_calls": {
+        "mean": 13.1875,
+        "variance": 52.42916666666667
+      },
+      "seconds": {
+        "mean": 12.478205208312374,
+        "variance": 169.49073071840212
+      }
+    }
+  },
+  "by_task": {
+    "parity/all_rows": {
+      "success": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 4.110459531249035,
+        "variance": 6.870840308652056
+      },
+      "solver_calls": {
+        "mean": 1.0,
+        "variance": 0.0
+      }
+    },
+    "parity/cegis": {
+      "success": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 0.48230615624970596,
+        "variance": 0.029125800262462406
+      },
+      "solver_calls": {
+        "mean": 6.0,
+        "variance": 0.6666666666666666
+      }
+    },
+    "comparator/all_rows": {
+      "success": {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 10.01455447924991,
+        "variance": 8.403772906562692e-05
+      },
+      "solver_calls": {
+        "mean": 1.0,
+        "variance": 0.0
+      }
+    },
+    "comparator/cegis": {
+      "success": {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 24.239212531249905,
+        "variance": 54.35419458652738
+      },
+      "solver_calls": {
+        "mean": 19.5,
+        "variance": 7.0
+      }
+    },
+    "mux/all_rows": {
+      "success": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 3.2655511352495523,
+        "variance": 9.597198590652704
+      },
+      "solver_calls": {
+        "mean": 1.0,
+        "variance": 0.0
+      }
+    },
+    "mux/cegis": {
+      "success": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 0.33208508324969443,
+        "variance": 0.013897678279098907
+      },
+      "solver_calls": {
+        "mean": 7.0,
+        "variance": 8.666666666666666
+      }
+    },
+    "carry/all_rows": {
+      "success": {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 10.014672822999728,
+        "variance": 6.578022202600423e-05
+      },
+      "solver_calls": {
+        "mean": 1.0,
+        "variance": 0.0
+      }
+    },
+    "carry/cegis": {
+      "success": {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      "seconds": {
+        "mean": 24.859217062500193,
+        "variance": 15.669000935661378
+      },
+      "solver_calls": {
+        "mean": 20.25,
+        "variance": 6.25
+      }
+    }
+  },
+  "success_times": {
+    "parity/all_rows": {
+      "mean": 4.110459531249035,
+      "variance": 6.870840308652056
+    },
+    "parity/cegis": {
+      "mean": 0.48230615624970596,
+      "variance": 0.029125800262462406
+    },
+    "mux/all_rows": {
+      "mean": 3.2655511352495523,
+      "variance": 9.597198590652704
+    },
+    "mux/cegis": {
+      "mean": 0.33208508324969443,
+      "variance": 0.013897678279098907
+    }
+  },
+  "records_verified": 32,
+  "main_threshold_met": false
+}

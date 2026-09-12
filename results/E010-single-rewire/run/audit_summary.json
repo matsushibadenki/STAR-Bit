@@ -1,0 +1,90 @@
+{
+  "verified_witnesses": 0,
+  "statistics": {
+    "random_raw": {
+      "mean": 0.0,
+      "variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "total_sat": 0
+    },
+    "dependency_raw": {
+      "mean": 0.0,
+      "variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "total_sat": 0
+    },
+    "paired_difference": {
+      "mean": 0.0,
+      "variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "tests": [
+    {
+      "label": "all",
+      "n": 108,
+      "random_sat": 0,
+      "guided_sat": 0,
+      "difference": 0.0,
+      "random_only": 0,
+      "guided_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/gate2",
+      "n": 40,
+      "random_sat": 0,
+      "guided_sat": 0,
+      "difference": 0.0,
+      "random_only": 0,
+      "guided_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "numeric/lut4",
+      "n": 1,
+      "random_sat": 0,
+      "guided_sat": 0,
+      "difference": 0.0,
+      "random_only": 0,
+      "guided_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/gate2",
+      "n": 64,
+      "random_sat": 0,
+      "guided_sat": 0,
+      "difference": 0.0,
+      "random_only": 0,
+      "guided_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "label": "selection/lut4",
+      "n": 3,
+      "random_sat": 0,
+      "guided_sat": 0,
+      "difference": 0.0,
+      "random_only": 0,
+      "guided_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ],
+  "same_replacement_cases": 16,
+  "guided_fallback_cases": 108
+}
