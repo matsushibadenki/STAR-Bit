@@ -1,0 +1,66 @@
+{
+  "aggregate": {
+    "target_greedy": {
+      "exact_targets": {
+        "mean": 1.0,
+        "variance": 0.0
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 4,
+        "carry": 0
+      },
+      "seconds": {
+        "mean": 3.2371554685000774,
+        "variance": 0.819195016869839
+      },
+      "unique_signatures": {
+        "mean": 329558.0,
+        "variance": 0.0
+      },
+      "equivalent_merges": {
+        "mean": 1084096.0,
+        "variance": 0.0
+      }
+    },
+    "offspring_promotion": {
+      "exact_targets": {
+        "mean": 2.25,
+        "variance": 0.25
+      },
+      "all_exact_seeds": 0,
+      "exact_by_task": {
+        "parity": 3,
+        "comparator": 2,
+        "mux": 4,
+        "carry": 0
+      },
+      "seconds": {
+        "mean": 26.43249518750008,
+        "variance": 35.442277739511496
+      },
+      "unique_signatures": {
+        "mean": 724681.25,
+        "variance": 76435550.91666667
+      },
+      "equivalent_merges": {
+        "mean": 2303016.75,
+        "variance": 3701569009.5833335
+      }
+    }
+  },
+  "comparison": {
+    "mean": 1.25,
+    "variance": 0.25,
+    "ci95": [
+      1.0,
+      1.75
+    ],
+    "cohen_dz": 2.5,
+    "exact_p": 0.125
+  },
+  "solutions_verified": 13,
+  "main_threshold_met": false
+}

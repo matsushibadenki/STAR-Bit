@@ -23,6 +23,7 @@
 - [E017：Learned Circuit Abstraction境界実験](docs/STAR-Bit-E017-learned-circuit-abstraction.md)
 - [E018：CEGIS exact circuit形成pilot](docs/STAR-Bit-E018-cegis-mdl.md)
 - [E019：Function-space Module Genesis pilot](docs/STAR-Bit-E019-function-space-genesis.md)
+- [E020：Learned Archive Promotion pilot](docs/STAR-Bit-E020-learned-archive-promotion.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)
 - [継続研究ログと次の実験](docs/RESEARCH-LOG.md)

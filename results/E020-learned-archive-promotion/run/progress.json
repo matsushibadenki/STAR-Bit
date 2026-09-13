@@ -1,0 +1,3541 @@
+[
+  {
+    "seed": 1260,
+    "condition": "target_greedy",
+    "exact_targets": 1,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 329558,
+    "equivalent_merges": 1084096,
+    "promoted_signatures": 0,
+    "top_promoted": [],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 3,
+        "pool": 155120,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 4,
+        "pool": 126906,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 5,
+        "pool": 24327,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 6,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 7,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 8,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      }
+    ],
+    "elapsed_seconds": 2.344115625000086
+  },
+  {
+    "seed": 1260,
+    "condition": "offspring_promotion",
+    "exact_targets": 3,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 6,
+        "primitives": 5,
+        "routing_bits": 34,
+        "depth": 3,
+        "signature": "7608434000728254870",
+        "expression": [
+          "lut",
+          7608434000728254870,
+          9,
+          [
+            "lut",
+            11936128518282651045,
+            9,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            3732582714024604620,
+            6,
+            [
+              "lut",
+              3732415143318664140,
+              6,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              281474976645120,
+              6,
+              [
+                "input",
+                4
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      },
+      "comparator": {
+        "round": 7,
+        "primitives": 16,
+        "routing_bits": 114,
+        "depth": 6,
+        "signature": "36240869367020798",
+        "expression": [
+          "lut",
+          36240869367020798,
+          14,
+          [
+            "lut",
+            36240869367020796,
+            11,
+            [
+              "lut",
+              36240731928067324,
+              2,
+              [
+                "lut",
+                38505777420893436,
+                11,
+                [
+                  "lut",
+                  225180587719932,
+                  14,
+                  [
+                    "lut",
+                    4042322160,
+                    2,
+                    [
+                      "input",
+                      2
+                    ],
+                    [
+                      "input",
+                      5
+                    ]
+                  ],
+                  [
+                    "lut",
+                    225176545447116,
+                    2,
+                    [
+                      "input",
+                      1
+                    ],
+                    [
+                      "input",
+                      4
+                    ]
+                  ]
+                ],
+                [
+                  "lut",
+                  18408462892752437111,
+                  7,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "lut",
+                    57421771435671756,
+                    2,
+                    [
+                      "input",
+                      1
+                    ],
+                    [
+                      "input",
+                      3
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                1085102592318504960,
+                4,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446743386514784095,
+              14,
+              [
+                "lut",
+                18446556426588345685,
+                13,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "lut",
+                18379189048491114255,
+                13,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            170,
+            1,
+            [
+              "lut",
+              18446556426588345685,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              18446744073692839680,
+              14,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 713028,
+    "equivalent_merges": 2336882,
+    "promoted_signatures": 636,
+    "top_promoted": [
+      {
+        "signature": "18446744069667229455",
+        "credit": 19963,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12659530246663417775",
+        "credit": 19504,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "361700864190383365",
+        "credit": 19430,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "11936128518282651045",
+        "credit": 19380,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "7378697629483820646",
+        "credit": 19256,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085102596613472255",
+        "credit": 19205,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12273903644374837845",
+        "credit": 15916,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6172840429334713770",
+        "credit": 15916,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6149008514797120170",
+        "credit": 15896,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14714328930390887475",
+        "credit": 15530,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3732415143318664140",
+        "credit": 15530,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446556426588345685",
+        "credit": 15014,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085350949055099120",
+        "credit": 15012,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "17361393124654452495",
+        "credit": 15012,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18389322302273879859",
+        "credit": 14892,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14355442858917939",
+        "credit": 14772,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "93823560602965",
+        "credit": 14754,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "71777218556133120",
+        "credit": 14730,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6149102338357723135",
+        "credit": 14720,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6872316419617283935",
+        "credit": 14508,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3746770586177582079",
+        "credit": 14436,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6148820867675914240",
+        "credit": 14428,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689292520605548544",
+        "credit": 14374,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14106333703424951235",
+        "credit": 14342,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "4340410370284600380",
+        "credit": 14342,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3674993371882992384",
+        "credit": 14336,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12297829381041378645",
+        "credit": 14298,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6148914692668172970",
+        "credit": 14298,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446744073692839680",
+        "credit": 14222,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "16711935",
+        "credit": 14062,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14699973487531969536",
+        "credit": 13996,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14757395256390660915",
+        "credit": 13910,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 723,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      }
+    ],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 6
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 116
+      },
+      {
+        "round": 3,
+        "pool": 112634,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 125
+      },
+      {
+        "round": 4,
+        "pool": 140906,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 148
+      },
+      {
+        "round": 5,
+        "pool": 123406,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 174
+      },
+      {
+        "round": 6,
+        "pool": 113187,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 178
+      },
+      {
+        "round": 7,
+        "pool": 101716,
+        "beam": 256,
+        "found": [
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "promoted": 183
+      },
+      {
+        "round": 8,
+        "pool": 108441,
+        "beam": 256,
+        "found": [
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "promoted": 189
+      }
+    ],
+    "elapsed_seconds": 26.944241874999534
+  },
+  {
+    "seed": 1261,
+    "condition": "target_greedy",
+    "exact_targets": 1,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 329558,
+    "equivalent_merges": 1084096,
+    "promoted_signatures": 0,
+    "top_promoted": [],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 3,
+        "pool": 155120,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 4,
+        "pool": 126906,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 5,
+        "pool": 24327,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 6,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 7,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 8,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      }
+    ],
+    "elapsed_seconds": 4.386679082999763
+  },
+  {
+    "seed": 1261,
+    "condition": "offspring_promotion",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 4,
+        "primitives": 7,
+        "routing_bits": 48,
+        "depth": 4,
+        "signature": "7608434000728254870",
+        "expression": [
+          "lut",
+          7608434000728254870,
+          9,
+          [
+            "lut",
+            7594923408007719270,
+            6,
+            [
+              "lut",
+              6148914692668172970,
+              6,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              4338026148038689740,
+              9,
+              [
+                "lut",
+                17365863670214553855,
+                11,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ],
+              [
+                "lut",
+                3689517697150995660,
+                6,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18379189048491114255,
+            13,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 733709,
+    "equivalent_merges": 2363161,
+    "promoted_signatures": 643,
+    "top_promoted": [
+      {
+        "signature": "4557430888798830399",
+        "credit": 18985,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "7378697629483820646",
+        "credit": 18914,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "217020518514230019",
+        "credit": 18466,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12273903644374837845",
+        "credit": 15884,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6172840429334713770",
+        "credit": 15884,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6149008514797120170",
+        "credit": 15584,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14714328930390887475",
+        "credit": 15162,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3732415143318664140",
+        "credit": 15162,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1148435428713435120",
+        "credit": 14996,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "17298308644996116495",
+        "credit": 14996,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14757226376558555955",
+        "credit": 14942,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689517697150995660",
+        "credit": 14942,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18398892597513158485",
+        "credit": 14888,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "71777218556133120",
+        "credit": 14834,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085350949055099120",
+        "credit": 14816,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "17361393124654452495",
+        "credit": 14816,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "47851476196393130",
+        "credit": 14792,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446744073692839680",
+        "credit": 14703,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6196766167432910335",
+        "credit": 14688,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18379189048491114255",
+        "credit": 14618,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446479160126672655",
+        "credit": 14604,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "16711935",
+        "credit": 14559,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12297829381041378645",
+        "credit": 14524,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6148914692668172970",
+        "credit": 14524,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446744073709486080",
+        "credit": 14477,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "65535",
+        "credit": 14373,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085367506154029055",
+        "credit": 14350,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "16557098929935",
+        "credit": 14344,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14106333703424951235",
+        "credit": 14058,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "4340410370284600380",
+        "credit": 14058,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085086035472220160",
+        "credit": 14052,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446744070846240085",
+        "credit": 14012,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      }
+    ],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 6
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 115
+      },
+      {
+        "round": 3,
+        "pool": 106246,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 124
+      },
+      {
+        "round": 4,
+        "pool": 147606,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 148
+      },
+      {
+        "round": 5,
+        "pool": 133222,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 173
+      },
+      {
+        "round": 6,
+        "pool": 116323,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 181
+      },
+      {
+        "round": 7,
+        "pool": 108502,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 190
+      },
+      {
+        "round": 8,
+        "pool": 109072,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 194
+      }
+    ],
+    "elapsed_seconds": 34.66367750000063
+  },
+  {
+    "seed": 1262,
+    "condition": "target_greedy",
+    "exact_targets": 1,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 329558,
+    "equivalent_merges": 1084096,
+    "promoted_signatures": 0,
+    "top_promoted": [],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 3,
+        "pool": 155120,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 4,
+        "pool": 126906,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 5,
+        "pool": 24327,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 6,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 7,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 8,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      }
+    ],
+    "elapsed_seconds": 3.4999176660003286
+  },
+  {
+    "seed": 1262,
+    "condition": "offspring_promotion",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "comparator": {
+        "round": 5,
+        "primitives": 15,
+        "routing_bits": 108,
+        "depth": 5,
+        "signature": "36240869367020798",
+        "expression": [
+          "lut",
+          36240869367020798,
+          1,
+          [
+            "lut",
+            1085102592318504960,
+            4,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            17544669661831299841,
+            1,
+            [
+              "lut",
+              901849268875702290,
+              1,
+              [
+                "lut",
+                3689517697150995660,
+                6,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "lut",
+                17319419586606862245,
+                9,
+                [
+                  "lut",
+                  47851476196393130,
+                  2,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "input",
+                    3
+                  ]
+                ],
+                [
+                  "lut",
+                  1085102596360827120,
+                  6,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              225146227981564,
+              8,
+              [
+                "lut",
+                225180587719932,
+                14,
+                [
+                  "lut",
+                  4042322160,
+                  2,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ],
+                [
+                  "lut",
+                  225176545447116,
+                  2,
+                  [
+                    "input",
+                    1
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                18443929280992772095,
+                11,
+                [
+                  "lut",
+                  17361641481391046655,
+                  11,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ],
+                [
+                  "lut",
+                  47851476196393130,
+                  2,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "input",
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 723925,
+    "equivalent_merges": 2287009,
+    "promoted_signatures": 626,
+    "top_promoted": [
+      {
+        "signature": "1085102596613472255",
+        "credit": 19549,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "361700864190383365",
+        "credit": 19429,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12659530246663417775",
+        "credit": 19260,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "7378697629483820646",
+        "credit": 19230,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "11936128518282651045",
+        "credit": 19102,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12273903644374837845",
+        "credit": 15694,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6172840429334713770",
+        "credit": 15694,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14714328930390887475",
+        "credit": 15564,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3732415143318664140",
+        "credit": 15564,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6149008514797120170",
+        "credit": 15184,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14757226376558555955",
+        "credit": 15128,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689517697150995660",
+        "credit": 15128,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446518897164104499",
+        "credit": 14671,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085350949055099120",
+        "credit": 14602,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "17361393124654452495",
+        "credit": 14602,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14106333703424951235",
+        "credit": 14484,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "4340410370284600380",
+        "credit": 14484,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689573991287357439",
+        "credit": 14471,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446479160126672655",
+        "credit": 14464,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12297829381041378645",
+        "credit": 14446,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6148914692668172970",
+        "credit": 14446,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1080880403494997760",
+        "credit": 14384,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "72057589759737855",
+        "credit": 14354,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "56294136361779",
+        "credit": 14348,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "16557098929935",
+        "credit": 14328,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6872316419617283935",
+        "credit": 14322,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14757395256390660915",
+        "credit": 14302,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689348817318890700",
+        "credit": 14302,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446744073709486080",
+        "credit": 14289,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "65535",
+        "credit": 14165,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085367506154029055",
+        "credit": 14138,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689292520605548544",
+        "credit": 14124,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 702,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      }
+    ],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 6
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 115
+      },
+      {
+        "round": 3,
+        "pool": 109142,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 126
+      },
+      {
+        "round": 4,
+        "pool": 142958,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 149
+      },
+      {
+        "round": 5,
+        "pool": 128300,
+        "beam": 256,
+        "found": [
+          "comparator",
+          "mux"
+        ],
+        "promoted": 169
+      },
+      {
+        "round": 6,
+        "pool": 119286,
+        "beam": 256,
+        "found": [
+          "comparator",
+          "mux"
+        ],
+        "promoted": 171
+      },
+      {
+        "round": 7,
+        "pool": 106408,
+        "beam": 256,
+        "found": [
+          "comparator",
+          "mux"
+        ],
+        "promoted": 180
+      },
+      {
+        "round": 8,
+        "pool": 105093,
+        "beam": 256,
+        "found": [
+          "comparator",
+          "mux"
+        ],
+        "promoted": 187
+      }
+    ],
+    "elapsed_seconds": 21.845180583
+  },
+  {
+    "seed": 1263,
+    "condition": "target_greedy",
+    "exact_targets": 1,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 329558,
+    "equivalent_merges": 1084096,
+    "promoted_signatures": 0,
+    "top_promoted": [],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 3,
+        "pool": 155120,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 4,
+        "pool": 126906,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 5,
+        "pool": 24327,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 6,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 7,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      },
+      {
+        "round": 8,
+        "pool": 3489,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 0
+      }
+    ],
+    "elapsed_seconds": 2.7179095000001325
+  },
+  {
+    "seed": 1263,
+    "condition": "offspring_promotion",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "signature": "15625477333024561368",
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 7,
+        "primitives": 5,
+        "routing_bits": 34,
+        "depth": 3,
+        "signature": "7608434000728254870",
+        "expression": [
+          "lut",
+          7608434000728254870,
+          6,
+          [
+            "lut",
+            4340410370284600380,
+            6,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            6172933524171347370,
+            6,
+            [
+              "lut",
+              6172840429334713770,
+              6,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              281474976645120,
+              6,
+              [
+                "input",
+                4
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    "generated_unique_signatures": 728063,
+    "equivalent_merges": 2225015,
+    "promoted_signatures": 652,
+    "top_promoted": [
+      {
+        "signature": "8608480567731124087",
+        "credit": 19697,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "11936128518282651045",
+        "credit": 19250,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "4557430888798830399",
+        "credit": 19084,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "217020518514230019",
+        "credit": 18558,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6172840429334713770",
+        "credit": 15896,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12273903644374837845",
+        "credit": 15888,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "72056494543077120",
+        "credit": 15750,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6149008514797120170",
+        "credit": 15484,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14714328930390887475",
+        "credit": 15206,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3732415143318664140",
+        "credit": 15206,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1148435428713435120",
+        "credit": 14872,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "17298308644996116495",
+        "credit": 14872,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "71777218556133120",
+        "credit": 14776,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689517697150995660",
+        "credit": 14768,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14757226376558555955",
+        "credit": 14760,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "12297829381041378645",
+        "credit": 14656,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "6148914692668172970",
+        "credit": 14656,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085350949055099120",
+        "credit": 14484,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "17361393124654452495",
+        "credit": 14484,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18389322302273879859",
+        "credit": 14442,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446518897164104499",
+        "credit": 14399,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3746770586177582079",
+        "credit": 14296,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14355442858917939",
+        "credit": 14204,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14106333703424951235",
+        "credit": 14172,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "4340410370284600380",
+        "credit": 14172,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "18446744070846240085",
+        "credit": 14108,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3674993371882992384",
+        "credit": 14070,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "14757395256390660915",
+        "credit": 13928,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "3689348817318890700",
+        "credit": 13928,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "71777218572845055",
+        "credit": 13822,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "2863311530",
+        "credit": 13812,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      },
+      {
+        "signature": "1085102596360827120",
+        "credit": 13782,
+        "reuse_tasks": [
+          "carry",
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "partners": 704,
+        "cost": [
+          1,
+          6,
+          1
+        ]
+      }
+    ],
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "beam": 164,
+        "found": [],
+        "promoted": 6
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 117
+      },
+      {
+        "round": 3,
+        "pool": 107824,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 128
+      },
+      {
+        "round": 4,
+        "pool": 151752,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 140
+      },
+      {
+        "round": 5,
+        "pool": 141468,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 174
+      },
+      {
+        "round": 6,
+        "pool": 117061,
+        "beam": 256,
+        "found": [
+          "mux"
+        ],
+        "promoted": 171
+      },
+      {
+        "round": 7,
+        "pool": 99722,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 174
+      },
+      {
+        "round": 8,
+        "pool": 97498,
+        "beam": 256,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "promoted": 182
+      }
+    ],
+    "elapsed_seconds": 22.276880792000156
+  }
+]

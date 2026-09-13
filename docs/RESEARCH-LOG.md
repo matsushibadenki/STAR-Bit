@@ -242,3 +242,13 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Next] 上位の子候補へ複数round・複数taskで寄与した親signatureにpromotion scoreを与え、affine族の手指定をlearned archive promotionへ置き換える。
 - [Next] `reuse_count / improved tasks / child Pareto rank / primitive / routing / state`を保存し、Moduleの昇格・維持・削除を同一予算で比較する。
 - [Later] 全4 target exact後にModule Libraryを別task/seedへ固定移植し、from-scratchとの成功率・step・総記述bitを16 seedで評価する。
+
+## E020：Learned Archive Promotion（2026-09-13）
+
+- [Done] E019のaffine族手指定を外し、良い子Functionを生成した親signatureへtarget改善、dependency support拡張、partner数からcreditを与える自動昇格を実装した。[実行前計画](../results/E020-learned-archive-promotion/PROTOCOL.md)。
+- [Done] seed1260–1263、beam256、8 round、tree cost16でtarget-greedyと同一生成予算比較。exact target平均は1.00（分散0）対2.25（分散0.25）、paired差+1.25、bootstrap 95% CI [1.00, 1.75]、dz=2.5、pilot exact p=0.125。[詳細](STAR-Bit-E020-learned-archive-promotion.md)。
+- [Done] promotionはparity 3/4、初のcomparator 2/4、mux 4/4へ到達。comparator回路は15–16 primitives、routing 108–114 bits、depth 5–6。carryは0/4。
+- [Done] 各seedで626–652親signatureへcreditが付き、最終beamの182–194 Functionがpromoted。時間平均はgreedy 3.24秒から26.43秒へ増加し、archive肥大化を確認した。
+- [Next] creditをtask間reuseと費用で正規化し、archive上限、age、retirementを加えて同じ成功率を小さいLibraryで維持できるか測る。
+- [Next] carryにはState付き逐次compositionを追加し、精密数値対経路選択でpromotion軸を比較する。
+- [Later] 全task exact後に昇格Functionを固定Module Libraryとして別seed/taskへ移植し、from-scratchとの探索step・成功率・総記述bitを16 seedで評価する。

@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-13 Learned Archive Promotion追記**：E020ではE019の手指定affine scaffoldを外し、良い子Functionを生成した親signatureを実測creditで自動昇格しました。target-greedyのexact target平均1.00に対しpromotionは2.25となり、parity 3/4と初のcomparator 2/4へ到達しました。carryは0/4で、時間は3.24秒から26.43秒へ増えています。中間Function価値の学習には肯定的な兆候がありますが、自律Module Genesisは未成立です。[E020レポート](STAR-Bit-E020-learned-archive-promotion.md)。
+>
+> English: Learned offspring credit raised exact targets from 1.00 to 2.25 and discovered comparator in 2/4 seeds without a hand-selected function family. Carry remained unsolved and runtime grew sharply.
+>
+> 简体中文：基于子代贡献的自动晋升在不指定函数族的情况下，将精确目标数从1.00提高到2.25，并在2/4种子中发现comparator。carry仍未解决，运行时间明显增加。
+
 > **2026-09-12 Module Genesis追記**：E019で探索単位をGate構文から64-bit Function signatureへ変更し、同値構文を生成時に統合しました。同値統合と一段lookaheadだけではmuxしか到達しませんでしたが、タスク非依存のaffine中間signatureを保持するとparityが0/4から4/4 seedへ回復しました。これは踏み石の保持が到達可能性を変える肯定例ですが、人手でaffine族を選んだ帰納バイアスであり、自律Module Genesisではありません。次は子候補への実測寄与から親Functionを自動昇格します。[E019レポート](STAR-Bit-E019-function-space-genesis.md)。
 >
 > English: E019 moved from gate syntax to exact function signatures. Equivalence merging alone was insufficient, while retaining a task-independent affine scaffold recovered parity in 4/4 seeds. The next step replaces this hand-selected function family with learned archive promotion.
