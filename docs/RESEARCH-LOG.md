@@ -249,6 +249,41 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] seed1260–1263、beam256、8 round、tree cost16でtarget-greedyと同一生成予算比較。exact target平均は1.00（分散0）対2.25（分散0.25）、paired差+1.25、bootstrap 95% CI [1.00, 1.75]、dz=2.5、pilot exact p=0.125。[詳細](STAR-Bit-E020-learned-archive-promotion.md)。
 - [Done] promotionはparity 3/4、初のcomparator 2/4、mux 4/4へ到達。comparator回路は15–16 primitives、routing 108–114 bits、depth 5–6。carryは0/4。
 - [Done] 各seedで626–652親signatureへcreditが付き、最終beamの182–194 Functionがpromoted。時間平均はgreedy 3.24秒から26.43秒へ増加し、archive肥大化を確認した。
-- [Next] creditをtask間reuseと費用で正規化し、archive上限、age、retirementを加えて同じ成功率を小さいLibraryで維持できるか測る。
-- [Next] carryにはState付き逐次compositionを追加し、精密数値対経路選択でpromotion軸を比較する。
+- [Done] E021でcreditをtask間reuseと費用で正規化し、archive上限、age、retirementを比較した。
+- [Later] carryへのState付き逐次compositionと、精密数値対経路選択のpromotion軸を比較する。
 - [Later] 全task exact後に昇格Functionを固定Module Libraryとして別seed/taskへ移植し、from-scratchとの探索step・成功率・総記述bitを16 seedで評価する。
+
+## E021：Cost-normalized Promotion and Retirement（2026-09-13）
+
+- [Done] offspring creditをtask間再利用、partner当たりcredit、primitive・routing・depth費用で正規化し、2 round更新されないcreditを退役させた。[実行前計画](../results/E021-cost-normalized-promotion/PROTOCOL.md)。
+- [Done] 新規seed1280–1283でraw promotionと対応比較。exact target平均は2.25（不偏分散0.25）対2.50（0.333）、paired差+0.25、bootstrap 95% CI [0, 0.75]、dz=0.5、pilot exact p=1.0。[詳細](STAR-Bit-E021-cost-normalized-promotion.md)。
+- [Done] credit台帳を平均627.5から333.0へ46.9%、時間を19.02秒から17.97秒へ5.5%削減。最終beam内credit付きFunctionは195.5から175.25への10.4%削減で、事前登録した30%基準は未達。
+- [Done] normalized_retiredのseed1282で初のcarry exactを発見（round 8、15 primitives、106 routing bits、depth 7）。単発1/4であり再現性の証拠とは扱わない。
+- [Done] comparatorはseed1283でrawの16 primitives・114 routing bitsから13 primitives・92 bitsへ低費用化。保存した19解を全64入力で再評価した。
+- [Done] E022で移植元と評価seedを分け、学習Function、同一費用ランダムFunction、移植なしを16 seed比較した。
+- [Later] promotion専用枠、target枠へのcredit済みFunction再流入、retirementを別々に記録し、正規化・枠数・退役を要因分解する。
+- [Later] 再現性のあるtransfer後に固定Moduleへ昇格し、探索step、総記述bit、primitive実行数、State費用を測る。
+
+## E022：Fixed Learned-Function Transfer（2026-09-13）
+
+- [Done] E021 normalized回路の内部signatureから、生入力と4 target出力を除外し、primitive費用帯ごとに4個、計16 Functionを固定Library化した。[実行前計画](../results/E022-fixed-function-transfer/PROTOCOL.md)。
+- [Done] source seed1280–1283と評価seed1300–1315を分離。同じ式木形状、primitive、routing bits、depthを持つランダムLUT/Input Functionをseedごとの固定対照にした。
+- [Done] exact target平均はrandom matched 1.8750（不偏分散0.25）、learned 2.4375（0.5292）。対応差+0.5625、bootstrap 95% CI [0.1875, 0.9375]、dz=0.691、exact sign-flip p=0.03125で事前pilot基準を満たした。[詳細](STAR-Bit-E022-fixed-function-transfer.md)。
+- [Done] comparatorは1/16→5/16、carryは1/16→4/16、parityは12/16→14/16、muxは16/16のまま。個別taskのexact McNemarはHolm補正後すべて非有意。
+- [Done] learned条件の39/39解が移植signatureを使用。全3条件の95 exact解、source hash、Libraryのtarget出力除外を監査した。
+- [Done] 構造自由度は飽和したmuxよりcomparator/carryで到達性を広げたが、同一task由来の出力近傍Functionを許すためtask-independent Concept transferとは扱わない。
+- [Done] E023でtarget task由来Functionを除くleave-one-task-out移植と、truth-table errorを揃える対照を行った。
+- [Later] 複数random Library seedをcrossさせ、Library抽選分散とsearch seed分散を分離する。
+- [Later] task横断transfer後に固定ModuleをSTAR-Bit Routerへ統合し、記述bit、物理primitive、active演算、State、Router総費用を測る。
+
+## E023：Leave-one-task-out Function Transfer（2026-09-13）
+
+- [Done] 各評価taskについて同じtaskのsource回路を完全に除外し、残る3 taskから費用帯別8 Functionを構成した。[実行前計画](../results/E023-leave-one-task-out-transfer/PROTOCOL.md)。
+- [Done] seed1320–1335、4 task、no transfer／cost-matched random／error-matched random／learned cross-taskの256探索を完了した。[詳細](STAR-Bit-E023-leave-one-task-out-transfer.md)。
+- [Done] primaryはlearned 27/64対error-matched random 27/64。1 seed当たりexact task数の対応差0、95% CI [−0.3125, 0.3125]、dz=0、exact p=1で事前基準は不成立。
+- [Done] cost-matched randomは37/64でlearnedより平均−0.625 task/seed（95% CI [−0.875, −0.375]、exact p=0.001953）。探索枠追加だけでなくFunction選定が成否を左右する。
+- [Done] error-matched controlは512スロット中97.7%でlearned Functionと同じtarget errorを実現したが、cost-matched randomより成功率が低かった。即時errorだけではcompositional potentialを表せない。
+- [Done] learned条件の27 exact解中、移植Functionを最終式で使ったのは3解。全条件125 exact式とLibrary再生成、source hashを監査した。
+- [Next] 未知probe taskでのoffspring改善をcreditにするcross-task utilityと、signature多様性制約を組み合わせる。
+- [Next] Library選定後に生成・固定する新規task familyでselection過適合を分離する。
+- [Later] task横断再利用が成立後、STAR-Bit Routerへ戻してload balance、固定random route、同一run内→別seed Expert交換、総費用を評価する。

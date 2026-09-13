@@ -1,0 +1,2074 @@
+[
+  {
+    "seed": 1280,
+    "condition": "raw_promotion",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 5,
+        "signature": "7608434000728254870",
+        "primitives": 7,
+        "routing_bits": 48,
+        "depth": 4,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          6,
+          [
+            "lut",
+            7392264517199685270,
+            6,
+            [
+              "lut",
+              3689348817318890700,
+              6,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              6171526169341831770,
+              9,
+              [
+                "lut",
+                18379189048491114255,
+                13,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ],
+              [
+                "lut",
+                6149008514797120170,
+                6,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            1080880403494997760,
+            4,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 622,
+    "retired_signatures": 0,
+    "final_promoted": 197,
+    "generated_unique_signatures": 726755,
+    "equivalent_merges": 2371875,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 116,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 108554,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 304,
+        "final_promoted": 126,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 139958,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 432,
+        "final_promoted": 152,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 126834,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 522,
+        "final_promoted": 176,
+        "retired_total": 0
+      },
+      {
+        "round": 6,
+        "pool": 121172,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 570,
+        "final_promoted": 193,
+        "retired_total": 0
+      },
+      {
+        "round": 7,
+        "pool": 108801,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 597,
+        "final_promoted": 190,
+        "retired_total": 0
+      },
+      {
+        "round": 8,
+        "pool": 108698,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 622,
+        "final_promoted": 197,
+        "retired_total": 0
+      }
+    ],
+    "elapsed_seconds": 19.306325167002797
+  },
+  {
+    "seed": 1280,
+    "condition": "normalized_retired",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 5,
+        "signature": "7608434000728254870",
+        "primitives": 7,
+        "routing_bits": 48,
+        "depth": 4,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          9,
+          [
+            "lut",
+            10838359358483032470,
+            9,
+            [
+              "lut",
+              1148435428713435120,
+              6,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              7378697629483833753,
+              6,
+              [
+                "lut",
+                65535,
+                1,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                7378697629483820646,
+                6,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            281474976710655,
+            7,
+            [
+              "input",
+              4
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 315,
+    "retired_signatures": 439,
+    "final_promoted": 179,
+    "generated_unique_signatures": 708790,
+    "equivalent_merges": 2092336,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 90,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 131908,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 330,
+        "final_promoted": 86,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 151088,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 499,
+        "final_promoted": 106,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 112274,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 556,
+        "final_promoted": 172,
+        "retired_total": 73
+      },
+      {
+        "round": 6,
+        "pool": 102418,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 454,
+        "final_promoted": 171,
+        "retired_total": 217
+      },
+      {
+        "round": 7,
+        "pool": 100274,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 347,
+        "final_promoted": 178,
+        "retired_total": 370
+      },
+      {
+        "round": 8,
+        "pool": 98090,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 315,
+        "final_promoted": 179,
+        "retired_total": 439
+      }
+    ],
+    "elapsed_seconds": 18.098995708001894
+  },
+  {
+    "seed": 1281,
+    "condition": "raw_promotion",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 5,
+        "signature": "7608434000728254870",
+        "primitives": 7,
+        "routing_bits": 48,
+        "depth": 4,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          6,
+          [
+            "lut",
+            7393105643594738070,
+            6,
+            [
+              "lut",
+              3689348817318890700,
+              6,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              6172928046667572570,
+              9,
+              [
+                "lut",
+                18446479160126672655,
+                13,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "lut",
+                6172840429334713770,
+                6,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            1085086035472220160,
+            4,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 641,
+    "retired_signatures": 0,
+    "final_promoted": 194,
+    "generated_unique_signatures": 695935,
+    "equivalent_merges": 2371367,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 114,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 104822,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 306,
+        "final_promoted": 123,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 132862,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 437,
+        "final_promoted": 155,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 124942,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 537,
+        "final_promoted": 173,
+        "retired_total": 0
+      },
+      {
+        "round": 6,
+        "pool": 113294,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 598,
+        "final_promoted": 192,
+        "retired_total": 0
+      },
+      {
+        "round": 7,
+        "pool": 105475,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 623,
+        "final_promoted": 195,
+        "retired_total": 0
+      },
+      {
+        "round": 8,
+        "pool": 101802,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 641,
+        "final_promoted": 194,
+        "retired_total": 0
+      }
+    ],
+    "elapsed_seconds": 18.925923000002513
+  },
+  {
+    "seed": 1281,
+    "condition": "normalized_retired",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 5,
+        "signature": "7608434000728254870",
+        "primitives": 5,
+        "routing_bits": 32,
+        "depth": 3,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          6,
+          [
+            "lut",
+            17298062221247451120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "lut",
+              72056494543077120,
+              6,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            11068046443366737510,
+            6,
+            [
+              "input",
+              5
+            ],
+            [
+              "lut",
+              7378697629483820646,
+              6,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 348,
+    "retired_signatures": 442,
+    "final_promoted": 176,
+    "generated_unique_signatures": 682223,
+    "equivalent_merges": 2123335,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 88,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 128884,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 332,
+        "final_promoted": 80,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 142224,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 508,
+        "final_promoted": 103,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 110840,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 575,
+        "final_promoted": 182,
+        "retired_total": 76
+      },
+      {
+        "round": 6,
+        "pool": 97854,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 469,
+        "final_promoted": 171,
+        "retired_total": 228
+      },
+      {
+        "round": 7,
+        "pool": 97303,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 374,
+        "final_promoted": 172,
+        "retired_total": 370
+      },
+      {
+        "round": 8,
+        "pool": 92380,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 348,
+        "final_promoted": 176,
+        "retired_total": 442
+      }
+    ],
+    "elapsed_seconds": 17.843060957999114
+  },
+  {
+    "seed": 1282,
+    "condition": "raw_promotion",
+    "exact_targets": 2,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 5,
+        "signature": "7608434000728254870",
+        "primitives": 7,
+        "routing_bits": 48,
+        "depth": 4,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          9,
+          [
+            "lut",
+            10850976254411762070,
+            9,
+            [
+              "lut",
+              1085350949055099120,
+              6,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              7378697629487163033,
+              6,
+              [
+                "lut",
+                16711935,
+                1,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                7378697629483820646,
+                6,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            71777218572845055,
+            7,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 626,
+    "retired_signatures": 0,
+    "final_promoted": 190,
+    "generated_unique_signatures": 725243,
+    "equivalent_merges": 2380315,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 116,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 111262,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 304,
+        "final_promoted": 125,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 139972,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 429,
+        "final_promoted": 157,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 128922,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 520,
+        "final_promoted": 176,
+        "retired_total": 0
+      },
+      {
+        "round": 6,
+        "pool": 116415,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 574,
+        "final_promoted": 193,
+        "retired_total": 0
+      },
+      {
+        "round": 7,
+        "pool": 114308,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 604,
+        "final_promoted": 195,
+        "retired_total": 0
+      },
+      {
+        "round": 8,
+        "pool": 101626,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 626,
+        "final_promoted": 190,
+        "retired_total": 0
+      }
+    ],
+    "elapsed_seconds": 19.406404583998665
+  },
+  {
+    "seed": 1282,
+    "condition": "normalized_retired",
+    "exact_targets": 3,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 5,
+        "signature": "7608434000728254870",
+        "primitives": 9,
+        "routing_bits": 60,
+        "depth": 5,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          9,
+          [
+            "lut",
+            10851025731680037270,
+            9,
+            [
+              "lut",
+              6510615877802092950,
+              6,
+              [
+                "lut",
+                17361640514770759695,
+                6,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "lut",
+                  1095216660735,
+                  1,
+                  [
+                    "input",
+                    3
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                12297829382186703257,
+                6,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "lut",
+                  858993459,
+                  1,
+                  [
+                    "input",
+                    1
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              3689348818177884159,
+              7,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ],
+          [
+            "lut",
+            72057589759737855,
+            7,
+            [
+              "input",
+              4
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      },
+      "carry": {
+        "round": 8,
+        "signature": "18373834293211332608",
+        "primitives": 15,
+        "routing_bits": 106,
+        "depth": 7,
+        "expression": [
+          "lut",
+          18373834293211332608,
+          2,
+          [
+            "lut",
+            18373834293345552384,
+            11,
+            [
+              "lut",
+              18373825497118277632,
+              2,
+              [
+                "lut",
+                18373825497286049792,
+                11,
+                [
+                  "lut",
+                  18229710308505550848,
+                  4,
+                  [
+                    "lut",
+                    252645135,
+                    1,
+                    [
+                      "input",
+                      2
+                    ],
+                    [
+                      "input",
+                      5
+                    ]
+                  ],
+                  [
+                    "lut",
+                    18229710308707663872,
+                    14,
+                    [
+                      "lut",
+                      14757170082422194176,
+                      8,
+                      [
+                        "input",
+                        1
+                      ],
+                      [
+                        "input",
+                        4
+                      ]
+                    ],
+                    [
+                      "lut",
+                      17361641477096079360,
+                      8,
+                      [
+                        "input",
+                        2
+                      ],
+                      [
+                        "input",
+                        5
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "lut",
+                  6196953084409675775,
+                  7,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "lut",
+                    18374686483949813760,
+                    8,
+                    [
+                      "input",
+                      3
+                    ],
+                    [
+                      "input",
+                      4
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                252645135,
+                1,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              8646761748688238591,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                3746770586177582079,
+                7,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            252645135,
+            1,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 337,
+    "retired_signatures": 430,
+    "final_promoted": 170,
+    "generated_unique_signatures": 714763,
+    "equivalent_merges": 2105163,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 90,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 132026,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 330,
+        "final_promoted": 82,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 148328,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 503,
+        "final_promoted": 111,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 114298,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 566,
+        "final_promoted": 187,
+        "retired_total": 73
+      },
+      {
+        "round": 6,
+        "pool": 105110,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 454,
+        "final_promoted": 176,
+        "retired_total": 222
+      },
+      {
+        "round": 7,
+        "pool": 102081,
+        "found": [
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 353,
+        "final_promoted": 175,
+        "retired_total": 366
+      },
+      {
+        "round": 8,
+        "pool": 100182,
+        "found": [
+          "carry",
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 337,
+        "final_promoted": 170,
+        "retired_total": 430
+      }
+    ],
+    "elapsed_seconds": 18.278288208002778
+  },
+  {
+    "seed": 1283,
+    "condition": "raw_promotion",
+    "exact_targets": 3,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "comparator": {
+        "round": 7,
+        "signature": "36240869367020798",
+        "primitives": 16,
+        "routing_bits": 114,
+        "depth": 6,
+        "expression": [
+          "lut",
+          36240869367020798,
+          14,
+          [
+            "lut",
+            36240869367020796,
+            11,
+            [
+              "lut",
+              36240731928067324,
+              2,
+              [
+                "lut",
+                38505777420893436,
+                11,
+                [
+                  "lut",
+                  225180587719932,
+                  14,
+                  [
+                    "lut",
+                    4042322160,
+                    2,
+                    [
+                      "input",
+                      2
+                    ],
+                    [
+                      "input",
+                      5
+                    ]
+                  ],
+                  [
+                    "lut",
+                    225176545447116,
+                    2,
+                    [
+                      "input",
+                      1
+                    ],
+                    [
+                      "input",
+                      4
+                    ]
+                  ]
+                ],
+                [
+                  "lut",
+                  18408462892752437111,
+                  7,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "lut",
+                    57421771435671756,
+                    2,
+                    [
+                      "input",
+                      1
+                    ],
+                    [
+                      "input",
+                      3
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                1085102592318504960,
+                4,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446743386514784095,
+              7,
+              [
+                "lut",
+                264913582878960,
+                2,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "lut",
+                47851476196393130,
+                2,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            170,
+            1,
+            [
+              "lut",
+              18446744073709486080,
+              14,
+              [
+                "input",
+                4
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              18398892597513158485,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 8,
+        "signature": "7608434000728254870",
+        "primitives": 5,
+        "routing_bits": 34,
+        "depth": 3,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          6,
+          [
+            "lut",
+            4340410370284600380,
+            6,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            6172933524171347370,
+            6,
+            [
+              "lut",
+              72056494543077120,
+              6,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              6148914692668172970,
+              6,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 621,
+    "retired_signatures": 0,
+    "final_promoted": 201,
+    "generated_unique_signatures": 693195,
+    "equivalent_merges": 2257403,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 116,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 109900,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 304,
+        "final_promoted": 123,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 139698,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 437,
+        "final_promoted": 149,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 129082,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 535,
+        "final_promoted": 179,
+        "retired_total": 0
+      },
+      {
+        "round": 6,
+        "pool": 106017,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 577,
+        "final_promoted": 191,
+        "retired_total": 0
+      },
+      {
+        "round": 7,
+        "pool": 98593,
+        "found": [
+          "comparator",
+          "mux"
+        ],
+        "credit_entries": 599,
+        "final_promoted": 195,
+        "retired_total": 0
+      },
+      {
+        "round": 8,
+        "pool": 97167,
+        "found": [
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 621,
+        "final_promoted": 201,
+        "retired_total": 0
+      }
+    ],
+    "elapsed_seconds": 18.43798337499902
+  },
+  {
+    "seed": 1283,
+    "condition": "normalized_retired",
+    "exact_targets": 3,
+    "all_exact": false,
+    "solutions": {
+      "mux": {
+        "round": 2,
+        "signature": "15625477333024561368",
+        "primitives": 3,
+        "routing_bits": 20,
+        "depth": 2,
+        "expression": [
+          "lut",
+          15625477333024561368,
+          6,
+          [
+            "lut",
+            5787213827046133840,
+            4,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            9838263505978427528,
+            8,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      },
+      "comparator": {
+        "round": 7,
+        "signature": "36240869367020798",
+        "primitives": 13,
+        "routing_bits": 92,
+        "depth": 6,
+        "expression": [
+          "lut",
+          36240869367020798,
+          2,
+          [
+            "lut",
+            38492703540444414,
+            14,
+            [
+              "lut",
+              212072347532542,
+              2,
+              [
+                "lut",
+                225326616607998,
+                11,
+                [
+                  "lut",
+                  225180587719932,
+                  14,
+                  [
+                    "lut",
+                    4042322160,
+                    2,
+                    [
+                      "input",
+                      2
+                    ],
+                    [
+                      "input",
+                      5
+                    ]
+                  ],
+                  [
+                    "lut",
+                    225176545447116,
+                    2,
+                    [
+                      "input",
+                      1
+                    ],
+                    [
+                      "input",
+                      4
+                    ]
+                  ]
+                ],
+                [
+                  "lut",
+                  18446743343565111125,
+                  7,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "lut",
+                    1095216660735,
+                    1,
+                    [
+                      "input",
+                      3
+                    ],
+                    [
+                      "input",
+                      4
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                1085102592318504960,
+                4,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ],
+            [
+              "lut",
+              38281180957114504,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                18389322302273879859,
+                13,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            1085102592318504960,
+            4,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      },
+      "parity": {
+        "round": 8,
+        "signature": "7608434000728254870",
+        "primitives": 5,
+        "routing_bits": 34,
+        "depth": 3,
+        "expression": [
+          "lut",
+          7608434000728254870,
+          9,
+          [
+            "lut",
+            3689517697150995660,
+            6,
+            [
+              "input",
+              4
+            ],
+            [
+              "input",
+              1
+            ]
+          ],
+          [
+            "lut",
+            11915017571648494245,
+            6,
+            [
+              "lut",
+              11936128518282651045,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              71777218556133120,
+              6,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    "credited_signatures": 332,
+    "retired_signatures": 445,
+    "final_promoted": 176,
+    "generated_unique_signatures": 683310,
+    "equivalent_merges": 2040680,
+    "history": [
+      {
+        "round": 1,
+        "pool": 164,
+        "found": [],
+        "credit_entries": 6,
+        "final_promoted": 6,
+        "retired_total": 0
+      },
+      {
+        "round": 2,
+        "pool": 14274,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 164,
+        "final_promoted": 90,
+        "retired_total": 0
+      },
+      {
+        "round": 3,
+        "pool": 132582,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 330,
+        "final_promoted": 87,
+        "retired_total": 0
+      },
+      {
+        "round": 4,
+        "pool": 149246,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 496,
+        "final_promoted": 110,
+        "retired_total": 0
+      },
+      {
+        "round": 5,
+        "pool": 104988,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 552,
+        "final_promoted": 160,
+        "retired_total": 75
+      },
+      {
+        "round": 6,
+        "pool": 96334,
+        "found": [
+          "mux"
+        ],
+        "credit_entries": 464,
+        "final_promoted": 170,
+        "retired_total": 223
+      },
+      {
+        "round": 7,
+        "pool": 93283,
+        "found": [
+          "comparator",
+          "mux"
+        ],
+        "credit_entries": 369,
+        "final_promoted": 167,
+        "retired_total": 363
+      },
+      {
+        "round": 8,
+        "pool": 94139,
+        "found": [
+          "comparator",
+          "mux",
+          "parity"
+        ],
+        "credit_entries": 332,
+        "final_promoted": 176,
+        "retired_total": 445
+      }
+    ],
+    "elapsed_seconds": 17.642537125000672
+  }
+]

@@ -1,5 +1,25 @@
 # STAR-Bit：研究構想
 
+> **2026-09-13 Cross-task Transfer追記**：E023では評価task由来のsource回路を完全に除外して16 seed×4 task×4条件を比較しました。learned cross-taskとtruth-table errorを揃えたrandom対照はともに27/64で、対応差0（95% CI [−0.3125, 0.3125]、exact p=1）でした。通常のcost-matched randomは37/64でlearnedを上回り、learned条件でも移植Functionを実際に使った解は3/27だけでした。E022の別seed再利用は支持されますが、別task Concept再利用は支持されません。[E023レポート](STAR-Bit-E023-leave-one-task-out-transfer.md)。
+>
+> English: Leave-one-task-out evaluation removed the E022 advantage. Learned cross-task and error-matched random Libraries both solved 27/64 cases; cost-matched random solved 37/64. Cross-task conceptual reuse is unsupported.
+>
+> 简体中文：留一任务评估消除了E022的优势。跨任务学习库与误差匹配随机库均成功27/64，成本匹配随机库成功37/64；目前不支持跨任务概念复用。
+>
+> E017〜E023の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
+
+> **2026-09-13 Learned-Function Transfer追記**：E022ではE021のsource回路から出力を除く16内部Functionを固定Library化し、新規16 seedへ移植しました。同じ式木形状・primitive・routing・depthのランダムLibraryに対し、exact target平均は1.8750から2.4375、対応差+0.5625（bootstrap 95% CI [0.1875, 0.9375]、exact sign-flip p=0.03125）でした。comparatorは1/16→5/16、carryは1/16→4/16で事前pilot基準を満たしました。ただし同一task由来の部分回路を許した別seed移植であり、task横断のConcept再利用は未証明です。[E022レポート](STAR-Bit-E022-fixed-function-transfer.md)。
+>
+> English: A fixed learned Function Library improved exact target discovery by +0.5625 over shape- and cost-matched random Functions across 16 held-out search seeds. Same-task source subcircuits were allowed, so task-independent transfer remains unproven.
+>
+> 简体中文：固定学习函数库在16个独立搜索种子上，相比形状和成本匹配的随机函数，将精确目标发现提高+0.5625。由于允许使用同任务来源的子电路，尚未证明任务无关迁移。
+
+> **2026-09-13 Cost-normalized Promotion追記**：E021ではoffspring creditをtask間再利用と構造費用で正規化し、古いcreditを退役させました。raw promotion対照よりcredit台帳を46.9%、時間を5.5%削減しながらexact target平均を2.25から2.50へ維持し、初のcarry exactを1/4 seedで発見しました。ただし最終beam内credit付きFunctionは10.4%しか減らず、事前登録した30%基準は未達です。carryの再現性と移植効果は未確認です。[E021レポート](STAR-Bit-E021-cost-normalized-promotion.md)。
+>
+> English: Cost normalization and retirement reduced the credit registry by 46.9% and runtime by 5.5% while preserving target discovery, and found carry once. The preregistered final-beam reduction criterion was not met.
+>
+> 简体中文：成本归一化和退役机制将credit台账缩小46.9%、运行时间缩短5.5%，同时保持目标发现能力，并首次找到一次carry；但最终beam缩减的预注册标准未达成。
+
 > **2026-09-13 Learned Archive Promotion追記**：E020ではE019の手指定affine scaffoldを外し、良い子Functionを生成した親signatureを実測creditで自動昇格しました。target-greedyのexact target平均1.00に対しpromotionは2.25となり、parity 3/4と初のcomparator 2/4へ到達しました。carryは0/4で、時間は3.24秒から26.43秒へ増えています。中間Function価値の学習には肯定的な兆候がありますが、自律Module Genesisは未成立です。[E020レポート](STAR-Bit-E020-learned-archive-promotion.md)。
 >
 > English: Learned offspring credit raised exact targets from 1.00 to 2.25 and discovered comparator in 2/4 seeds without a hand-selected function family. Carry remained unsolved and runtime grew sharply.

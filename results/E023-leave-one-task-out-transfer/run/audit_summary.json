@@ -1,0 +1,234 @@
+{
+  "aggregate": {
+    "no_transfer": {
+      "exact": {
+        "mean": 0.53125,
+        "variance": 0.25297619047619047
+      },
+      "elapsed_seconds": {
+        "mean": 2.18271619207826,
+        "variance": 1.0589178577282787
+      },
+      "generated_unique_signatures": {
+        "mean": 99894.15625,
+        "variance": 2622932377.3720236
+      },
+      "exact_by_task": {
+        "parity": 16,
+        "comparator": 2,
+        "mux": 16,
+        "carry": 0
+      },
+      "uses_transfer_by_task": {
+        "parity": 0,
+        "comparator": 0,
+        "mux": 0,
+        "carry": 0
+      }
+    },
+    "random_cost_matched": {
+      "exact": {
+        "mean": 0.578125,
+        "variance": 0.24776785714285715
+      },
+      "elapsed_seconds": {
+        "mean": 2.009349725875097,
+        "variance": 1.0574633560549824
+      },
+      "generated_unique_signatures": {
+        "mean": 109105.359375,
+        "variance": 2773841195.249752
+      },
+      "exact_by_task": {
+        "parity": 16,
+        "comparator": 0,
+        "mux": 16,
+        "carry": 5
+      },
+      "uses_transfer_by_task": {
+        "parity": 5,
+        "comparator": 0,
+        "mux": 2,
+        "carry": 2
+      }
+    },
+    "random_error_matched": {
+      "exact": {
+        "mean": 0.421875,
+        "variance": 0.24776785714285715
+      },
+      "elapsed_seconds": {
+        "mean": 2.081510209749922,
+        "variance": 1.099823578888795
+      },
+      "generated_unique_signatures": {
+        "mean": 111921.296875,
+        "variance": 2758610383.9898314
+      },
+      "exact_by_task": {
+        "parity": 8,
+        "comparator": 2,
+        "mux": 16,
+        "carry": 1
+      },
+      "uses_transfer_by_task": {
+        "parity": 2,
+        "comparator": 0,
+        "mux": 0,
+        "carry": 0
+      }
+    },
+    "learned_cross_task": {
+      "exact": {
+        "mean": 0.421875,
+        "variance": 0.24776785714285715
+      },
+      "elapsed_seconds": {
+        "mean": 2.2167352631249173,
+        "variance": 1.3181774103615478
+      },
+      "generated_unique_signatures": {
+        "mean": 129101.046875,
+        "variance": 3508063679.442212
+      },
+      "exact_by_task": {
+        "parity": 10,
+        "comparator": 0,
+        "mux": 16,
+        "carry": 1
+      },
+      "uses_transfer_by_task": {
+        "parity": 2,
+        "comparator": 0,
+        "mux": 0,
+        "carry": 1
+      }
+    }
+  },
+  "primary_comparison": {
+    "mean": 0.0,
+    "variance": 0.4,
+    "ci95": [
+      -0.3125,
+      0.3125
+    ],
+    "cohen_dz": 0.0,
+    "exact_sign_flip_p": 1.0,
+    "paired_differences": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -1.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "secondary_cost_comparison": {
+    "mean": -0.625,
+    "variance": 0.25,
+    "ci95": [
+      -0.875,
+      -0.375
+    ],
+    "cohen_dz": -1.25,
+    "exact_sign_flip_p": 0.001953125,
+    "paired_differences": [
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ]
+  },
+  "secondary_no_transfer_comparison": {
+    "mean": -0.4375,
+    "variance": 0.5291666666666667,
+    "ci95": [
+      -0.8125,
+      -0.0625
+    ],
+    "cohen_dz": -0.6014254720455369,
+    "exact_sign_flip_p": 0.0625,
+    "paired_differences": [
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -1.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      -2.0,
+      -1.0,
+      -1.0
+    ]
+  },
+  "task_tests": [
+    {
+      "task": "parity",
+      "learned_only": 4,
+      "control_only": 2,
+      "p": 0.6875,
+      "holm_p": 1.0
+    },
+    {
+      "task": "comparator",
+      "learned_only": 0,
+      "control_only": 2,
+      "p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "task": "mux",
+      "learned_only": 0,
+      "control_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "task": "carry",
+      "learned_only": 1,
+      "control_only": 1,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ],
+  "error_match_residual": {
+    "mean": 0.033203125,
+    "variance": 0.05173296844422701,
+    "median": 0.0,
+    "maximum": 2,
+    "exact_match_fraction": 0.9765625
+  },
+  "solutions_verified": 125,
+  "solutions_using_any_transfer": 14,
+  "learned_only_successes": 5,
+  "all_learned_only_successes_use_transfer": false,
+  "promising_threshold_met": false
+}
