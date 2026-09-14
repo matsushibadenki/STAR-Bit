@@ -1,0 +1,188 @@
+{
+  "aggregate": {
+    "no_transfer": {
+      "exact": {
+        "mean": 0.4375,
+        "variance": 0.2625
+      },
+      "elapsed_seconds": {
+        "mean": 2.163666765687566,
+        "variance": 0.566734799867061
+      },
+      "exact_by_task": {
+        "eval_threshold2": 2,
+        "eval_threshold4": 0,
+        "eval_equal3": 4,
+        "eval_dual_mux_xor": 1
+      },
+      "uses_transfer": 0
+    },
+    "frequency_cost": {
+      "exact": {
+        "mean": 0.0625,
+        "variance": 0.0625
+      },
+      "elapsed_seconds": {
+        "mean": 2.376079088625005,
+        "variance": 0.22636372748985975
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 1,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 0
+    },
+    "probe_utility": {
+      "exact": {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      "elapsed_seconds": {
+        "mean": 2.2962693878750713,
+        "variance": 0.12121674334936702
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 0,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 0
+    },
+    "probe_utility_diverse": {
+      "exact": {
+        "mean": 0.0625,
+        "variance": 0.0625
+      },
+      "elapsed_seconds": {
+        "mean": 2.3327725182500103,
+        "variance": 0.10211830315853576
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 1,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 1
+    },
+    "random_matched": {
+      "exact": {
+        "mean": 0.125,
+        "variance": 0.11666666666666667
+      },
+      "elapsed_seconds": {
+        "mean": 2.2217523306874796,
+        "variance": 0.17551232610203485
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 2,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 1
+    }
+  },
+  "primary": {
+    "mean": -0.25,
+    "variance": 0.25,
+    "ci95": [
+      -0.75,
+      0.0
+    ],
+    "cohen_dz": -0.5,
+    "exact_p": 1.0,
+    "differences": [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "vs_frequency": {
+    "mean": 0.0,
+    "variance": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "cohen_dz": null,
+    "exact_p": 1.0,
+    "differences": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "vs_no_transfer": {
+    "mean": -1.5,
+    "variance": 1.6666666666666667,
+    "ci95": [
+      -2.5,
+      -0.5
+    ],
+    "cohen_dz": -1.161895003862225,
+    "exact_p": 0.25,
+    "differences": [
+      -3.0,
+      -2.0,
+      -1.0,
+      0.0
+    ]
+  },
+  "task_tests": [
+    {
+      "task": "eval_threshold2",
+      "learned_only": 0,
+      "random_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "task": "eval_threshold4",
+      "learned_only": 0,
+      "random_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "task": "eval_equal3",
+      "learned_only": 0,
+      "random_only": 1,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "task": "eval_dual_mux_xor",
+      "learned_only": 0,
+      "random_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ],
+  "library_stats": {
+    "frequency_cost": {
+      "mean_pairwise_hamming": 30.785714285714285,
+      "mean_probe_utility": 0.5127838181940829,
+      "positive_utility_functions": 4
+    },
+    "probe_utility": {
+      "mean_pairwise_hamming": 26.785714285714285,
+      "mean_probe_utility": 1.1725805954566169,
+      "positive_utility_functions": 6
+    },
+    "probe_utility_diverse": {
+      "mean_pairwise_hamming": 29.857142857142858,
+      "mean_probe_utility": 1.1725805954566169,
+      "positive_utility_functions": 6
+    }
+  },
+  "solutions_verified": 11,
+  "learned_only_successes": 0,
+  "all_learned_only_use_transfer": false,
+  "advance_threshold_met": false
+}

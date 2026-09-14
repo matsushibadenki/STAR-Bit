@@ -284,6 +284,19 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] cost-matched randomは37/64でlearnedより平均−0.625 task/seed（95% CI [−0.875, −0.375]、exact p=0.001953）。探索枠追加だけでなくFunction選定が成否を左右する。
 - [Done] error-matched controlは512スロット中97.7%でlearned Functionと同じtarget errorを実現したが、cost-matched randomより成功率が低かった。即時errorだけではcompositional potentialを表せない。
 - [Done] learned条件の27 exact解中、移植Functionを最終式で使ったのは3解。全条件125 exact式とLibrary再生成、source hashを監査した。
-- [Next] 未知probe taskでのoffspring改善をcreditにするcross-task utilityと、signature多様性制約を組み合わせる。
+- [Done] E024で未知probe taskの一段offspring改善とsignature多様性を組み合わせたが、移行基準を満たさなかった。
 - [Next] Library選定後に生成・固定する新規task familyでselection過適合を分離する。
 - [Later] task横断再利用が成立後、STAR-Bit Routerへ戻してload balance、固定random route、同一run内→別seed Expert交換、総費用を評価する。
+
+
+## E024：Probe Utility and Function Diversity（2026-09-14）
+
+- [Done] source Function選定用の4 probe taskと、選定後に固定した4 evaluation taskを分離した。[実行前計画](../results/E024-probe-utility-diversity/PROTOCOL.md)。
+- [Done] 一段composition改善、probe-task breadth、構造費用、signature多様性から8 Functionを選ぶ条件を実装した。
+- [Done] seed1340–1343、4評価task、5条件の80探索を完了。utility-diverse 1/16、random matched 2/16、frequency 1/16、utilityのみ0/16、no transfer 7/16。[詳細](STAR-Bit-E024-probe-utility-diversity.md)。
+- [Done] primaryのutility-diverse−randomは−0.25 task/seed（不偏分散0.25、bootstrap 95% CI [−0.75, 0]、dz=−0.5、pilot exact p=1）。16-seed移行基準は不成立。
+- [Done] utility Libraryの平均probe scoreは0.513から1.173、pairwise Hamming距離はdiversity併用で26.79から29.86 bitへ改善したが、評価成功へ移らなかった。
+- [Done] 全11 exact式とsource hashを再検証。固定Library条件全体がno transferを下回り、無用な保護枠が探索を阻害する負の効果を確認した。
+- [Next] 固定保護枠をusage-gated evictionへ置き換え、実際に子回路へ使われないModuleを早期解放する。
+- [Next] 一段lookaheadを2〜3段rolloutまたはState付き逐次utilityへ拡張する前に、小規模診断で費用対情報量を測る。
+- [Later] cross-family transfer成立後にRouterへ統合し、load balance、固定random route、同一run内→別seed Expert交換、総費用を評価する。

@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-14 Probe Utility追記**：E024ではsource頻度・target errorに代えて、選定用probe taskでの一段composition改善とsignature多様性からFunctionを選びました。選定後に固定した4新規task×4 seedで、utility-diverseは1/16、同費用randomは2/16、移植なしは7/16でした。事前の16-seed移行基準は未達です。一段lookaheadと静的多様性でもtask横断Module価値は捉えられず、無用な固定Library枠が探索を阻害することを確認しました。[E024レポート](STAR-Bit-E024-probe-utility-diversity.md)。
+>
+> English: One-step probe utility plus signature diversity solved 1/16 held-out cases versus random 2/16 and no-transfer 7/16. The expansion gate failed; protected slots can harm search when Modules are not useful.
+>
+> 简体中文：一步probe效用加签名多样性在保留任务上成功1/16，随机库2/16，无迁移7/16。扩展标准未达成；无用模块的固定保护槽会损害搜索。
+
 > **2026-09-13 Cross-task Transfer追記**：E023では評価task由来のsource回路を完全に除外して16 seed×4 task×4条件を比較しました。learned cross-taskとtruth-table errorを揃えたrandom対照はともに27/64で、対応差0（95% CI [−0.3125, 0.3125]、exact p=1）でした。通常のcost-matched randomは37/64でlearnedを上回り、learned条件でも移植Functionを実際に使った解は3/27だけでした。E022の別seed再利用は支持されますが、別task Concept再利用は支持されません。[E023レポート](STAR-Bit-E023-leave-one-task-out-transfer.md)。
 >
 > English: Leave-one-task-out evaluation removed the E022 advantage. Learned cross-task and error-matched random Libraries both solved 27/64 cases; cost-matched random solved 37/64. Cross-task conceptual reuse is unsupported.

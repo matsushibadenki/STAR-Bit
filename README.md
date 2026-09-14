@@ -27,6 +27,7 @@
 - [E021：Cost-normalized Promotion and Retirement pilot](docs/STAR-Bit-E021-cost-normalized-promotion.md)
 - [E022：Fixed Learned-Function Transfer](docs/STAR-Bit-E022-fixed-function-transfer.md)
 - [E023：Leave-one-task-out Function Transfer](docs/STAR-Bit-E023-leave-one-task-out-transfer.md)
+- [E024：Probe Utility and Function Diversity pilot](docs/STAR-Bit-E024-probe-utility-diversity.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

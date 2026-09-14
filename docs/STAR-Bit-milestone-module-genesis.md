@@ -45,13 +45,18 @@ $$
 
 ここで $\Delta_{\mathrm{probe}}$ は複数の未知probe taskでのoffspring改善、$D$ はLibrary内のsignature多様性である。選定後に新しいtask familyを固定し、source選定への過適合を分離する。最終式で使われないFunctionには、beamを変えた間接効果と実際の部品再利用を分けてcreditを与える。
 
+
+## E024追試
+
+一段probe utilityとsignature多様性を組み合わせても、選定後に固定した新規taskではutility-diverse 1/16、同費用random 2/16、移植なし7/16だった。Functionを固定保護すること自体がbeamを阻害した。cross-task価値の推定だけでなく、使用されないModuleを解放する形成・分解機構が必要である。[E024詳細](STAR-Bit-E024-probe-utility-diversity.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
 - [Done] 同一task・別seed移植を16 seedと同費用random対照で確認した。
 - [Done] leave-one-task-out 256探索により、task横断Concept transferが未成立であることを確認した。
 - [Done] 平均・不偏分散、bootstrap CI、効果量、exact検定、多重比較補正、全expression再評価を各段階で保存した。
-- [Next] 未知probe taskへのoffspring寄与とsignature多様性を使うModule選定を事前登録する。
+- [Done] E024で未知probe taskへの一段offspring寄与とsignature多様性を評価したが、held-out taskへ移らなかった。
 - [Next] 選定後に生成する新規task familyでcross-family transferを評価する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。
