@@ -1,0 +1,208 @@
+{
+  "aggregate": {
+    "no_transfer": {
+      "exact": {
+        "mean": 0.25,
+        "variance": 0.2
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 4,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 0,
+      "elapsed_seconds": {
+        "mean": 2.2937577551875847,
+        "variance": 0.9590462714627649
+      },
+      "best_error": {
+        "mean": 2.0625,
+        "variance": 2.8625
+      }
+    },
+    "legacy_all8": {
+      "exact": {
+        "mean": 0.125,
+        "variance": 0.11666666666666667
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 2,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 1,
+      "elapsed_seconds": {
+        "mean": 2.2540894998748513,
+        "variance": 0.1694102159674472
+      },
+      "best_error": {
+        "mean": 5.1875,
+        "variance": 28.295833333333334
+      }
+    },
+    "counterfactual": {
+      "exact": {
+        "mean": 0.3125,
+        "variance": 0.22916666666666666
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 4,
+        "eval_dual_mux_xor": 1
+      },
+      "uses_transfer": 1,
+      "elapsed_seconds": {
+        "mean": 2.345269077937644,
+        "variance": 1.1262335843503164
+      },
+      "best_error": {
+        "mean": 1.9375,
+        "variance": 3.2625
+      }
+    },
+    "random_matched": {
+      "exact": {
+        "mean": 0.25,
+        "variance": 0.2
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 4,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 0,
+      "elapsed_seconds": {
+        "mean": 2.329123007687599,
+        "variance": 0.9513596349614749
+      },
+      "best_error": {
+        "mean": 2.3125,
+        "variance": 3.9625
+      }
+    }
+  },
+  "primary": {
+    "mean": 0.75,
+    "variance": 0.9166666666666666,
+    "ci95": [
+      0.0,
+      1.5
+    ],
+    "cohen_dz": 0.7833494518006403,
+    "exact_p": 0.5,
+    "differences": [
+      0.0,
+      2.0,
+      1.0,
+      0.0
+    ]
+  },
+  "vs_no_transfer": {
+    "mean": 0.25,
+    "variance": 0.25,
+    "ci95": [
+      0.0,
+      0.75
+    ],
+    "cohen_dz": 0.5,
+    "exact_p": 1.0,
+    "differences": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "vs_random": {
+    "mean": 0.25,
+    "variance": 0.25,
+    "ci95": [
+      0.0,
+      0.75
+    ],
+    "cohen_dz": 0.5,
+    "exact_p": 1.0,
+    "differences": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "task_tests": [
+    {
+      "task": "eval_threshold2",
+      "counterfactual_only": 0,
+      "legacy_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "task": "eval_threshold4",
+      "counterfactual_only": 0,
+      "legacy_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "task": "eval_equal3",
+      "counterfactual_only": 2,
+      "legacy_only": 0,
+      "p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "task": "eval_dual_mux_xor",
+      "counterfactual_only": 1,
+      "legacy_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    }
+  ],
+  "admitted_count": 1,
+  "admitted": {
+    "signature": "17361640514770759695",
+    "primitives": 2,
+    "routing_bits": 12,
+    "depth": 2,
+    "probe_deltas": {
+      "probe_majority": 1,
+      "probe_exactly2": 2,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "net": 3,
+    "positive_tasks": 2,
+    "score": 1.2295081967213115,
+    "admitted": true,
+    "expression": [
+      "lut",
+      17361640514770759695,
+      6,
+      [
+        "input",
+        2
+      ],
+      [
+        "lut",
+        1095216660735,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    ]
+  },
+  "solutions_verified": 15,
+  "mitigation_threshold_met": true,
+  "transfer_threshold_met": false
+}

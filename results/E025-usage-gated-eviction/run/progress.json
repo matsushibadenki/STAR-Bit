@@ -1,0 +1,7410 @@
+[
+  {
+    "seed": 1350,
+    "task": "eval_threshold2",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 121410,
+    "elapsed_seconds": 2.6041280419999566
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold2",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 127132,
+    "elapsed_seconds": 2.27021112500006
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold2",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 127807,
+    "elapsed_seconds": 2.3376924579999923
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold2",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "10838359358483032470",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 5,
+        "ever_causal_used": 8,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 126490,
+    "elapsed_seconds": 2.3460071660000494
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold2",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "52428",
+      "1080880403494997760",
+      "6149008514797120170",
+      "12297829381041378645",
+      "12659446357362172771",
+      "14974415778290335743",
+      "18422818335611355050"
+    ],
+    "evicted_signatures": [
+      "52428",
+      "1080880403494997760",
+      "6149008514797120170",
+      "12297829381041378645",
+      "12659446357362172771",
+      "18422818335611355050",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 1,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 4,
+        "ever_causal_used": 7,
+        "evicted": 4,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "1080880403494997760",
+      "14974415778290335743",
+      "18446744073709551615",
+      "12659446357362172771",
+      "6149008514797120170",
+      "52428",
+      "18422818335611355050",
+      "12297829381041378645"
+    ],
+    "generated_unique_signatures": 126154,
+    "elapsed_seconds": 2.4946685830000206
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold4",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 114070,
+    "elapsed_seconds": 2.262100583000006
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold4",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 123154,
+    "elapsed_seconds": 1.918354958000009
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold4",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 120786,
+    "elapsed_seconds": 1.9007795420000093
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold4",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308707663872"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 4,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 6,
+        "ever_causal_used": 8,
+        "evicted": 2,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 4,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 4,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 121129,
+    "elapsed_seconds": 2.0615903330000265
+  },
+  {
+    "seed": 1350,
+    "task": "eval_threshold4",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "0",
+      "71777214294589695",
+      "3689573991287357439",
+      "6148914694099828735",
+      "13816973012342132687",
+      "14916994006046199555",
+      "18446742978492890880",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "71777214294589695",
+      "3689573991287357439",
+      "6148914694099828735",
+      "13816973012342132687",
+      "14916994006046199555",
+      "18446742978492890880",
+      "18446744073709551615"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 4,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 1,
+        "ever_causal_used": 8,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3689573991287357439",
+      "6148914694099828735",
+      "0",
+      "18446742978492890880",
+      "18446744073709551615",
+      "14916994006046199555",
+      "13816973012342132687",
+      "71777214294589695"
+    ],
+    "generated_unique_signatures": 131931,
+    "elapsed_seconds": 2.3885570830000233
+  },
+  {
+    "seed": 1350,
+    "task": "eval_equal3",
+    "condition": "no_transfer",
+    "exact": true,
+    "round": 3,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      2,
+      [
+        "lut",
+        9819010546270478865,
+        1,
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      [
+        "lut",
+        1085102596360827120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    ],
+    "primitives": 5,
+    "routing_bits": 34,
+    "depth": 3,
+    "library_signatures": [],
+    "generated_unique_signatures": 43770,
+    "elapsed_seconds": 0.9816129999999248
+  },
+  {
+    "seed": 1350,
+    "task": "eval_equal3",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 124705,
+    "elapsed_seconds": 2.249715415999958
+  },
+  {
+    "seed": 1350,
+    "task": "eval_equal3",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 121070,
+    "elapsed_seconds": 2.169131208000067
+  },
+  {
+    "seed": 1350,
+    "task": "eval_equal3",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "3746770586177582079",
+      "18229710308505550848",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 5,
+        "ever_causal_used": 8,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 123569,
+    "elapsed_seconds": 2.317958875000045
+  },
+  {
+    "seed": 1350,
+    "task": "eval_equal3",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "868082074056920076",
+      "6148914691236517205",
+      "15987215726639185919",
+      "17361641481391046655",
+      "18446744070846240085",
+      "18446744072850558156",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "868082074056920076",
+      "6148914691236517205",
+      "17361641481391046655",
+      "18446744070846240085",
+      "18446744072850558156",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 1,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "15987215726639185919",
+      "17361641481391046655",
+      "18446744073709551615",
+      "868082074056920076",
+      "18446744072850558156",
+      "6148914691236517205",
+      "18446744070846240085"
+    ],
+    "generated_unique_signatures": 121600,
+    "elapsed_seconds": 2.9975802499999418
+  },
+  {
+    "seed": 1350,
+    "task": "eval_dual_mux_xor",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 151797,
+    "elapsed_seconds": 2.709370083999943
+  },
+  {
+    "seed": 1350,
+    "task": "eval_dual_mux_xor",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 156574,
+    "elapsed_seconds": 2.3531176669999923
+  },
+  {
+    "seed": 1350,
+    "task": "eval_dual_mux_xor",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 146930,
+    "elapsed_seconds": 2.2208807090000846
+  },
+  {
+    "seed": 1350,
+    "task": "eval_dual_mux_xor",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 1,
+        "ever_causal_used": 8,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 150823,
+    "elapsed_seconds": 2.5070223750000196
+  },
+  {
+    "seed": 1350,
+    "task": "eval_dual_mux_xor",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "12297829383904690175",
+      "17216961135748579327",
+      "17289283647394799583",
+      "17361641481391046655",
+      "17726157138046219775",
+      "18446463698244403455",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "3689573991287357439",
+      "12297829383904690175",
+      "17216961135748579327",
+      "17289283647394799583",
+      "17361641481391046655",
+      "17726157138046219775",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 1,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 6,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 2,
+        "ever_causal_used": 7,
+        "evicted": 6,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3689573991287357439",
+      "12297829383904690175",
+      "17726157138046219775",
+      "18446744073709551615",
+      "18446463698244403455",
+      "17361641481391046655",
+      "17289283647394799583",
+      "17216961135748579327"
+    ],
+    "generated_unique_signatures": 168096,
+    "elapsed_seconds": 2.8590930830000616
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold2",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 126954,
+    "elapsed_seconds": 2.917974791000006
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold2",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 122618,
+    "elapsed_seconds": 2.380853874999957
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold2",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 120318,
+    "elapsed_seconds": 2.4830547080000542
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold2",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "10838359358483032470",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 4,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 122452,
+    "elapsed_seconds": 2.4516467079999984
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold2",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "72057589759737855",
+      "3674993371882992384",
+      "6510615555426900570",
+      "14757382013288497344",
+      "17361658038237331455",
+      "18446528831423462460"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "3674993371882992384",
+      "6510615555426900570",
+      "17361658038237331455",
+      "18446528831423462460",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 2,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 5,
+        "ever_causal_used": 7,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 2,
+        "ever_causal_used": 7,
+        "evicted": 6,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3674993371882992384",
+      "18446528831423462460",
+      "17361658038237331455",
+      "18446744073709551615",
+      "14757382013288497344",
+      "65535",
+      "6510615555426900570",
+      "72057589759737855"
+    ],
+    "generated_unique_signatures": 129078,
+    "elapsed_seconds": 2.63286912500007
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold4",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 133231,
+    "elapsed_seconds": 2.7201322090000986
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold4",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 120448,
+    "elapsed_seconds": 2.1645157079999535
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold4",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 119025,
+    "elapsed_seconds": 2.0324769999999717
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold4",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308707663872"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 4,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 5,
+        "ever_causal_used": 8,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 119184,
+    "elapsed_seconds": 2.3056266249999453
+  },
+  {
+    "seed": 1351,
+    "task": "eval_threshold4",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "14355442858917939",
+      "1085086035472220160",
+      "3732415143046030220",
+      "6869501626899849045",
+      "14757226373981654220",
+      "14771750698589555727",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "1085086035472220160",
+      "3732415143046030220",
+      "6869501626899849045",
+      "14757226373981654220",
+      "14771750698589555727",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 1,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 3,
+        "ever_causal_used": 7,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "1085086035472220160",
+      "18446744073709551615",
+      "3732415143046030220",
+      "14757226373981654220",
+      "14355442858917939",
+      "14771750698589555727",
+      "6869501626899849045"
+    ],
+    "generated_unique_signatures": 162637,
+    "elapsed_seconds": 2.8352220829999624
+  },
+  {
+    "seed": 1351,
+    "task": "eval_equal3",
+    "condition": "no_transfer",
+    "exact": true,
+    "round": 3,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      2,
+      [
+        "lut",
+        9819010546270478865,
+        1,
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ],
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      [
+        "lut",
+        1085102596360827120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    ],
+    "primitives": 5,
+    "routing_bits": 34,
+    "depth": 3,
+    "library_signatures": [],
+    "generated_unique_signatures": 44636,
+    "elapsed_seconds": 0.9827622500000643
+  },
+  {
+    "seed": 1351,
+    "task": "eval_equal3",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 127116,
+    "elapsed_seconds": 2.302492208999979
+  },
+  {
+    "seed": 1351,
+    "task": "eval_equal3",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 120773,
+    "elapsed_seconds": 2.2069680419999713
+  },
+  {
+    "seed": 1351,
+    "task": "eval_equal3",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 127116,
+    "elapsed_seconds": 2.391336916
+  },
+  {
+    "seed": 1351,
+    "task": "eval_equal3",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "225176545447116",
+      "281474976645120",
+      "3689348814741910323",
+      "4557430888798830399",
+      "6149102338357723135",
+      "14757395259826634751",
+      "17365863670214553855"
+    ],
+    "evicted_signatures": [
+      "0",
+      "225176545447116",
+      "281474976645120",
+      "3689348814741910323",
+      "4557430888798830399",
+      "6149102338357723135",
+      "14757395259826634751",
+      "17365863670214553855"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 7,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "281474976645120",
+      "6149102338357723135",
+      "4557430888798830399",
+      "0",
+      "14757395259826634751",
+      "17365863670214553855",
+      "225176545447116",
+      "3689348814741910323"
+    ],
+    "generated_unique_signatures": 118066,
+    "elapsed_seconds": 2.3803604160000305
+  },
+  {
+    "seed": 1351,
+    "task": "eval_dual_mux_xor",
+    "condition": "no_transfer",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      2821461354254751960,
+      9,
+      [
+        "lut",
+        361784057722982480,
+        9,
+        [
+          "lut",
+          4222189090898160,
+          2,
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          18083552705543253855,
+          7,
+          [
+            "lut",
+            1085350949055099120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              4
+            ]
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        15987065608942221175,
+        7,
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ],
+        [
+          "input",
+          0
+        ]
+      ]
+    ],
+    "primitives": 9,
+    "routing_bits": 60,
+    "depth": 4,
+    "library_signatures": [],
+    "generated_unique_signatures": 94872,
+    "elapsed_seconds": 1.660296207999977
+  },
+  {
+    "seed": 1351,
+    "task": "eval_dual_mux_xor",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 165588,
+    "elapsed_seconds": 2.4318979590000254
+  },
+  {
+    "seed": 1351,
+    "task": "eval_dual_mux_xor",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 157802,
+    "elapsed_seconds": 2.300286208999978
+  },
+  {
+    "seed": 1351,
+    "task": "eval_dual_mux_xor",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 162534,
+    "elapsed_seconds": 2.459466916999986
+  },
+  {
+    "seed": 1351,
+    "task": "eval_dual_mux_xor",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "0",
+      "37383395353088",
+      "71777218572845055",
+      "3689517697100464320",
+      "14771750699259606015",
+      "17361376563528990720",
+      "18085043209519168250",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "71777218572845055",
+      "3689517697100464320",
+      "14771750699259606015",
+      "17361376563528990720",
+      "18446744073709551615"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 2,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 2,
+        "ever_causal_used": 8,
+        "evicted": 6,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "37383395353088",
+      "18085043209519168250",
+      "3689517697100464320",
+      "0",
+      "14771750699259606015",
+      "18446744073709551615",
+      "17361376563528990720",
+      "71777218572845055"
+    ],
+    "generated_unique_signatures": 143516,
+    "elapsed_seconds": 2.2720512079999935
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold2",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 124968,
+    "elapsed_seconds": 2.5612699590000148
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold2",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 122208,
+    "elapsed_seconds": 2.342414207999923
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold2",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 117072,
+    "elapsed_seconds": 2.259004541999957
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold2",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "10838359358483032470",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 4,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 121546,
+    "elapsed_seconds": 2.4901164579999886
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold2",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "0",
+      "1431655765",
+      "4026593280",
+      "3689348814741910323",
+      "9838263505978427528",
+      "17298308644996116495",
+      "17365863666439622655"
+    ],
+    "evicted_signatures": [
+      "0",
+      "1431655765",
+      "3689348814741910323",
+      "17298308644996116495",
+      "17365863666439622655",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 5,
+        "ever_causal_used": 7,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 7,
+        "evicted": 6,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "4026593280",
+      "0",
+      "17365863666439622655",
+      "18446744073709551615",
+      "9838263505978427528",
+      "3689348814741910323",
+      "1431655765",
+      "17298308644996116495"
+    ],
+    "generated_unique_signatures": 132145,
+    "elapsed_seconds": 2.596233792000021
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold4",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 125749,
+    "elapsed_seconds": 2.488384750000023
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold4",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 127115,
+    "elapsed_seconds": 2.1742846670000517
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold4",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 116059,
+    "elapsed_seconds": 1.9268432080000366
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold4",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 2,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 5,
+        "ever_causal_used": 8,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 2,
+        "ever_causal_used": 8,
+        "evicted": 6,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 123878,
+    "elapsed_seconds": 2.0247633750000205
+  },
+  {
+    "seed": 1352,
+    "task": "eval_threshold4",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "0",
+      "1085102592571150095",
+      "1085102596613472255",
+      "1229782941396946124",
+      "2459622170630968661",
+      "18229710309516177648",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "1085102592571150095",
+      "1085102596613472255",
+      "1229782941396946124",
+      "2459622170630968661",
+      "17361376567555522560",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 1,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 3,
+        "ever_causal_used": 7,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "18446744073709551615",
+      "17361376567555522560",
+      "1229782941396946124",
+      "1085102592571150095",
+      "2459622170630968661",
+      "18229710309516177648",
+      "1085102596613472255"
+    ],
+    "generated_unique_signatures": 141134,
+    "elapsed_seconds": 2.4608533749999424
+  },
+  {
+    "seed": 1352,
+    "task": "eval_equal3",
+    "condition": "no_transfer",
+    "exact": true,
+    "round": 3,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      2,
+      [
+        "lut",
+        9819010546270478865,
+        1,
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      [
+        "lut",
+        1085102596360827120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    ],
+    "primitives": 5,
+    "routing_bits": 34,
+    "depth": 3,
+    "library_signatures": [],
+    "generated_unique_signatures": 43976,
+    "elapsed_seconds": 1.0653499159999456
+  },
+  {
+    "seed": 1352,
+    "task": "eval_equal3",
+    "condition": "fixed_protected",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": true,
+    "used_signatures": [
+      "225180587719932"
+    ],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      6,
+      [
+        "lut",
+        134480385,
+        4,
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          202113795,
+          4,
+          [
+            "lut",
+            3689517697150995660,
+            6,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              4
+            ]
+          ],
+          [
+            "lut",
+            252645135,
+            1,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        9241421688455823360,
+        2,
+        [
+          "lut",
+          11551768297296887808,
+          2,
+          [
+            "lut",
+            17361429546229825536,
+            2,
+            [
+              "input",
+              2
+            ],
+            [
+              "lut",
+              225180587719932,
+              14,
+              [
+                "lut",
+                4042322160,
+                2,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                225176545447116,
+                2,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    ],
+    "primitives": 14,
+    "routing_bits": 100,
+    "depth": 6,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 82286,
+    "elapsed_seconds": 1.4342331670000021
+  },
+  {
+    "seed": 1352,
+    "task": "eval_equal3",
+    "condition": "unprotected",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": true,
+    "used_signatures": [
+      "225180587719932"
+    ],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      6,
+      [
+        "lut",
+        134480385,
+        4,
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          202113795,
+          4,
+          [
+            "lut",
+            3689517697150995660,
+            6,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              4
+            ]
+          ],
+          [
+            "lut",
+            252645135,
+            1,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        9241421688455823360,
+        2,
+        [
+          "lut",
+          11551768297296887808,
+          2,
+          [
+            "lut",
+            17361429546229825536,
+            2,
+            [
+              "input",
+              2
+            ],
+            [
+              "lut",
+              225180587719932,
+              14,
+              [
+                "lut",
+                4042322160,
+                2,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                225176545447116,
+                2,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    ],
+    "primitives": 14,
+    "routing_bits": 100,
+    "depth": 6,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 80324,
+    "elapsed_seconds": 1.4813035839999884
+  },
+  {
+    "seed": 1352,
+    "task": "eval_equal3",
+    "condition": "usage_gated",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": true,
+    "used_signatures": [
+      "225180587719932"
+    ],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      6,
+      [
+        "lut",
+        134480385,
+        4,
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          202113795,
+          4,
+          [
+            "lut",
+            3689517697150995660,
+            6,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              4
+            ]
+          ],
+          [
+            "lut",
+            252645135,
+            1,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        9241421688455823360,
+        2,
+        [
+          "lut",
+          11551768297296887808,
+          2,
+          [
+            "lut",
+            17361429546229825536,
+            2,
+            [
+              "input",
+              2
+            ],
+            [
+              "lut",
+              225180587719932,
+              14,
+              [
+                "lut",
+                4042322160,
+                2,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                225176545447116,
+                2,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    ],
+    "primitives": 14,
+    "routing_bits": 100,
+    "depth": 6,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 82286,
+    "elapsed_seconds": 1.4401317909999989
+  },
+  {
+    "seed": 1352,
+    "task": "eval_equal3",
+    "condition": "random_usage_gated",
+    "exact": true,
+    "round": 3,
+    "uses_transfer": true,
+    "used_signatures": [
+      "6172840429334713770"
+    ],
+    "causal_used_signatures": [
+      "1148435428713435120",
+      "5787213827046133840",
+      "6172840429334713770",
+      "10778685752873424277",
+      "12321661663508955135",
+      "14757395259018170319",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 7,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      8,
+      [
+        "lut",
+        9819010546270478865,
+        6,
+        [
+          "lut",
+          187282048985685,
+          1,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              0
+            ]
+          ]
+        ],
+        [
+          "lut",
+          9819122915499870276,
+          2,
+          [
+            "input",
+            1
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              0
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        11551909309831252485,
+        6,
+        [
+          "lut",
+          2857740885,
+          1,
+          [
+            "input",
+            5
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              0
+            ]
+          ]
+        ],
+        [
+          "lut",
+          11551909312352788560,
+          2,
+          [
+            "input",
+            2
+          ],
+          [
+            "lut",
+            6172840429334713770,
+            6,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              0
+            ]
+          ]
+        ]
+      ]
+    ],
+    "primitives": 11,
+    "routing_bits": 74,
+    "depth": 4,
+    "library_signatures": [
+      "0",
+      "12321661663508955135",
+      "18446744073709551615",
+      "6172840429334713770",
+      "1148435428713435120",
+      "5787213827046133840",
+      "14757395259018170319",
+      "10778685752873424277"
+    ],
+    "generated_unique_signatures": 64808,
+    "elapsed_seconds": 1.089112249999971
+  },
+  {
+    "seed": 1352,
+    "task": "eval_dual_mux_xor",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 150036,
+    "elapsed_seconds": 2.7458281250000027
+  },
+  {
+    "seed": 1352,
+    "task": "eval_dual_mux_xor",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 179761,
+    "elapsed_seconds": 2.714263458000005
+  },
+  {
+    "seed": 1352,
+    "task": "eval_dual_mux_xor",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 178538,
+    "elapsed_seconds": 2.6476907920000485
+  },
+  {
+    "seed": 1352,
+    "task": "eval_dual_mux_xor",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 1,
+        "ever_causal_used": 8,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 175167,
+    "elapsed_seconds": 2.5989400420000948
+  },
+  {
+    "seed": 1352,
+    "task": "eval_dual_mux_xor",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "0",
+      "1080880403494997760",
+      "1152914907789725455",
+      "3689348814741910323",
+      "3689517697150995660",
+      "12667693145543978956",
+      "14757226376558555955",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "1080880403494997760",
+      "1152914907789725455",
+      "3689348814741910323",
+      "12667693145543978956",
+      "18446744073709551615"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 2,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 2,
+        "ever_causal_used": 8,
+        "evicted": 6,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 2,
+        "ever_causal_used": 8,
+        "evicted": 6,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 2,
+        "ever_causal_used": 8,
+        "evicted": 6,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "1080880403494997760",
+      "18446744073709551615",
+      "3689517697150995660",
+      "1152914907789725455",
+      "12667693145543978956",
+      "3689348814741910323",
+      "14757226376558555955"
+    ],
+    "generated_unique_signatures": 158893,
+    "elapsed_seconds": 2.365448457999946
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold2",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 118810,
+    "elapsed_seconds": 2.5208277919999773
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold2",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 125256,
+    "elapsed_seconds": 2.348277125000095
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold2",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 116365,
+    "elapsed_seconds": 2.21149595899999
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold2",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "10838359358483032470",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 6,
+        "ever_causal_used": 8,
+        "evicted": 2,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 124340,
+    "elapsed_seconds": 2.391870792000077
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold2",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "71777214294589695",
+      "3689293615822209279",
+      "11936128518282651045",
+      "12297923206033637375",
+      "15948897015967042560",
+      "17216961135462248174",
+      "18398892597513158485"
+    ],
+    "evicted_signatures": [
+      "71777214294589695",
+      "11936128518282651045",
+      "12297923206033637375",
+      "17216961135462248174",
+      "18398892597513158485",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 2,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 5,
+        "ever_causal_used": 7,
+        "evicted": 3,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 2,
+        "ever_causal_used": 7,
+        "evicted": 6,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3689293615822209279",
+      "12297923206033637375",
+      "15948897015967042560",
+      "18446744073709551615",
+      "11936128518282651045",
+      "17216961135462248174",
+      "18398892597513158485",
+      "71777214294589695"
+    ],
+    "generated_unique_signatures": 121066,
+    "elapsed_seconds": 2.2380895420000115
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold4",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 117128,
+    "elapsed_seconds": 2.323819458999992
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold4",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 112991,
+    "elapsed_seconds": 1.8922909169999684
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold4",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 105983,
+    "elapsed_seconds": 1.9653871670000171
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold4",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308707663872"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 3,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 5,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 4,
+        "ever_causal_used": 8,
+        "evicted": 4,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 3,
+        "ever_causal_used": 8,
+        "evicted": 5,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 111697,
+    "elapsed_seconds": 1.8985175409999329
+  },
+  {
+    "seed": 1353,
+    "task": "eval_threshold4",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "361917210283067849",
+      "3746714511084552447",
+      "13527612320720337851",
+      "17361641481374334720",
+      "17365863666439622655",
+      "18446462598732840960",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "361917210283067849",
+      "3746714511084552447",
+      "13527612320720337851",
+      "17361641481374334720",
+      "17365863666439622655",
+      "18446462598732840960",
+      "18446744073709551615"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 1,
+        "ever_causal_used": 7,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 7,
+        "evicted": 8,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 7,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "3746714511084552447",
+      "13527612320720337851",
+      "17365863666439622655",
+      "18446744073709551615",
+      "17361641481374334720",
+      "18446462598732840960",
+      "361917210283067849"
+    ],
+    "generated_unique_signatures": 137168,
+    "elapsed_seconds": 2.2399661250000236
+  },
+  {
+    "seed": 1353,
+    "task": "eval_equal3",
+    "condition": "no_transfer",
+    "exact": true,
+    "round": 3,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      2,
+      [
+        "lut",
+        9819010546270478865,
+        1,
+        [
+          "lut",
+          6172840429334713770,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          3689517697150995660,
+          6,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      [
+        "lut",
+        1085102596360827120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    ],
+    "primitives": 5,
+    "routing_bits": 34,
+    "depth": 3,
+    "library_signatures": [],
+    "generated_unique_signatures": 45252,
+    "elapsed_seconds": 1.050613124999927
+  },
+  {
+    "seed": 1353,
+    "task": "eval_equal3",
+    "condition": "fixed_protected",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": true,
+    "used_signatures": [
+      "3746770586177582079"
+    ],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      6,
+      [
+        "lut",
+        18014467229220865,
+        8,
+        [
+          "lut",
+          17216717194204680465,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            1229782938247303441,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ],
+        [
+          "lut",
+          22518341734563845,
+          4,
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            23925738098196565,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        9223407221361082880,
+        8,
+        [
+          "lut",
+          14699806357469541375,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            3746770586177582079,
+            7,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          11529390968096688640,
+          1,
+          [
+            "lut",
+            6196766167432910335,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ]
+    ],
+    "primitives": 13,
+    "routing_bits": 90,
+    "depth": 4,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 77217,
+    "elapsed_seconds": 1.4550666659999933
+  },
+  {
+    "seed": 1353,
+    "task": "eval_equal3",
+    "condition": "unprotected",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": true,
+    "used_signatures": [
+      "3746770586177582079"
+    ],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      6,
+      [
+        "lut",
+        18014467229220865,
+        8,
+        [
+          "lut",
+          17216717194204680465,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            1229782938247303441,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ],
+        [
+          "lut",
+          22518341734563845,
+          4,
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            23925738098196565,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        9223407221361082880,
+        8,
+        [
+          "lut",
+          14699806357469541375,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            3746770586177582079,
+            7,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          11529390968096688640,
+          1,
+          [
+            "lut",
+            6196766167432910335,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ]
+    ],
+    "primitives": 13,
+    "routing_bits": 90,
+    "depth": 4,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 75359,
+    "elapsed_seconds": 1.4117994169999974
+  },
+  {
+    "seed": 1353,
+    "task": "eval_equal3",
+    "condition": "usage_gated",
+    "exact": true,
+    "round": 4,
+    "uses_transfer": true,
+    "used_signatures": [
+      "3746770586177582079"
+    ],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": true
+      }
+    ],
+    "expression": [
+      "lut",
+      9241421688590303745,
+      6,
+      [
+        "lut",
+        18014467229220865,
+        8,
+        [
+          "lut",
+          17216717194204680465,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            1229782938247303441,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ],
+        [
+          "lut",
+          22518341734563845,
+          4,
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            23925738098196565,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        9223407221361082880,
+        8,
+        [
+          "lut",
+          14699806357469541375,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "lut",
+            3746770586177582079,
+            7,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          11529390968096688640,
+          1,
+          [
+            "lut",
+            6196766167432910335,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            1085102596360827120,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ]
+    ],
+    "primitives": 13,
+    "routing_bits": 90,
+    "depth": 4,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 77217,
+    "elapsed_seconds": 1.4261812080000027
+  },
+  {
+    "seed": 1353,
+    "task": "eval_equal3",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "67555025218437360",
+      "3674993371882992384",
+      "4340410370284600380",
+      "6149102338357679445",
+      "18085043209519168250",
+      "18446518897164104499",
+      "18446744069414649855"
+    ],
+    "evicted_signatures": [
+      "0",
+      "67555025218437360",
+      "3674993371882992384",
+      "4340410370284600380",
+      "6149102338357679445",
+      "18085043209519168250",
+      "18446518897164104499",
+      "18446744069414649855"
+    ],
+    "active_round3": 7,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 7,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 7,
+        "ever_causal_used": 7,
+        "evicted": 1,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 7,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "3674993371882992384",
+      "18085043209519168250",
+      "18446744069414649855",
+      "67555025218437360",
+      "6149102338357679445",
+      "18446518897164104499",
+      "4340410370284600380"
+    ],
+    "generated_unique_signatures": 123607,
+    "elapsed_seconds": 2.6186774999999898
+  },
+  {
+    "seed": 1353,
+    "task": "eval_dual_mux_xor",
+    "condition": "no_transfer",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 0,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [],
+    "generated_unique_signatures": 148965,
+    "elapsed_seconds": 2.677904333000015
+  },
+  {
+    "seed": 1353,
+    "task": "eval_dual_mux_xor",
+    "condition": "fixed_protected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 8,
+    "final_active_protected": 8,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 163619,
+    "elapsed_seconds": 2.5444127499999922
+  },
+  {
+    "seed": 1353,
+    "task": "eval_dual_mux_xor",
+    "condition": "unprotected",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [],
+    "active_round3": 0,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 157939,
+    "elapsed_seconds": 2.3953767499999685
+  },
+  {
+    "seed": 1353,
+    "task": "eval_dual_mux_xor",
+    "condition": "usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "evicted_signatures": [
+      "65535",
+      "225180587719932",
+      "3746770586177582079",
+      "10838359358483032470",
+      "18229710308505550848",
+      "18229710308707663872",
+      "18373825497286049792",
+      "18373834293345552384"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 1,
+        "ever_causal_used": 8,
+        "evicted": 7,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "3746770586177582079",
+      "18229710308707663872",
+      "18229710308505550848",
+      "18373834293345552384",
+      "18373825497286049792",
+      "10838359358483032470",
+      "225180587719932",
+      "65535"
+    ],
+    "generated_unique_signatures": 162510,
+    "elapsed_seconds": 2.5671944590000066
+  },
+  {
+    "seed": 1353,
+    "task": "eval_dual_mux_xor",
+    "condition": "random_usage_gated",
+    "exact": false,
+    "round": null,
+    "uses_transfer": false,
+    "used_signatures": [],
+    "causal_used_signatures": [
+      "0",
+      "56294136361779",
+      "217020518514230019",
+      "1085350949055099120",
+      "3732415143318664140",
+      "6196766167432910335",
+      "18446691219841998335",
+      "18446744073709551615"
+    ],
+    "evicted_signatures": [
+      "0",
+      "56294136361779",
+      "217020518514230019",
+      "1085350949055099120",
+      "3732415143318664140",
+      "6196766167432910335",
+      "18446691219841998335",
+      "18446744073709551615"
+    ],
+    "active_round3": 8,
+    "final_active_protected": 0,
+    "history": [
+      {
+        "round": 1,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 2,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 3,
+        "active_protected": 8,
+        "ever_causal_used": 8,
+        "evicted": 0,
+        "exact": false
+      },
+      {
+        "round": 4,
+        "active_protected": 2,
+        "ever_causal_used": 8,
+        "evicted": 6,
+        "exact": false
+      },
+      {
+        "round": 5,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      },
+      {
+        "round": 6,
+        "active_protected": 0,
+        "ever_causal_used": 8,
+        "evicted": 8,
+        "exact": false
+      }
+    ],
+    "expression": null,
+    "primitives": null,
+    "routing_bits": null,
+    "depth": null,
+    "library_signatures": [
+      "0",
+      "6196766167432910335",
+      "217020518514230019",
+      "18446691219841998335",
+      "18446744073709551615",
+      "3732415143318664140",
+      "1085350949055099120",
+      "56294136361779"
+    ],
+    "generated_unique_signatures": 167024,
+    "elapsed_seconds": 2.64821900000004
+  }
+]

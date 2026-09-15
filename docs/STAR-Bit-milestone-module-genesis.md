@@ -50,6 +50,14 @@ $$
 
 一段probe utilityとsignature多様性を組み合わせても、選定後に固定した新規taskではutility-diverse 1/16、同費用random 2/16、移植なし7/16だった。Functionを固定保護すること自体がbeamを阻害した。cross-task価値の推定だけでなく、使用されないModuleを解放する形成・分解機構が必要である。[E024詳細](STAR-Bit-E024-probe-utility-diversity.md)。
 
+## E025追試
+
+局所改善childを作ったFunctionだけ保護を延長したが、8/8 Functionが判定を通り、round 3まで退役しなかった。usage-gated、fixed、unprotectedはいずれも2/16で、no transfer 5/16を下回った。初期Library投入が探索軌跡を変えるため、形成・分解には局所useではなくwith/without Moduleの反実仮想差が必要である。[E025詳細](STAR-Bit-E025-usage-gated-eviction.md)。
+
+## E026追試
+
+signature-stableなpaired probe探索で45候補をwith/without比較し、1 Functionだけを採用した。counterfactual 5/16はlegacy 2/16を上回り、no transfer・random matched各4/16と同程度だった。安全なadmission候補は得たが、randomを明確に上回らずtask横断transferは未成立である。[E026詳細](STAR-Bit-E026-counterfactual-admission.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。

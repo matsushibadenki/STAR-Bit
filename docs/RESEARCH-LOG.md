@@ -297,6 +297,29 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] primaryのutility-diverse−randomは−0.25 task/seed（不偏分散0.25、bootstrap 95% CI [−0.75, 0]、dz=−0.5、pilot exact p=1）。16-seed移行基準は不成立。
 - [Done] utility Libraryの平均probe scoreは0.513から1.173、pairwise Hamming距離はdiversity併用で26.79から29.86 bitへ改善したが、評価成功へ移らなかった。
 - [Done] 全11 exact式とsource hashを再検証。固定Library条件全体がno transferを下回り、無用な保護枠が探索を阻害する負の効果を確認した。
-- [Next] 固定保護枠をusage-gated evictionへ置き換え、実際に子回路へ使われないModuleを早期解放する。
+- [Done] E025で固定保護枠をusage-gated evictionへ置き換えたが、局所use判定が全Functionを通し、性能は回復しなかった。
 - [Next] 一段lookaheadを2〜3段rolloutまたはState付き逐次utilityへ拡張する前に、小規模診断で費用対情報量を測る。
 - [Later] cross-family transfer成立後にRouterへ統合し、load balance、固定random route、同一run内→別seed Expert交換、総費用を評価する。
+
+## E025：Usage-gated Module Eviction（2026-09-15）
+
+- [Done] E024の同じ8 Functionを固定保護、無保護、usage-gatedで比較し、usage-gated randomとno-transferを対照にした。[実行前計画](../results/E025-usage-gated-eviction/PROTOCOL.md)。
+- [Done] seed1350–1353、4 evaluation task、5条件の80探索を完了。usage-gated／fixed／unprotectedは各2/16、random gated 1/16、no transfer 5/16。[詳細](STAR-Bit-E025-usage-gated-eviction.md)。
+- [Done] primary usage−fixedは全seed差0。usage−no transferは−0.75 task/seed（不偏分散0.9167、95% CI [−1.5, 0]、dz=−0.783、pilot exact p=0.5）。mitigation基準は不成立。
+- [Done] learned Libraryの8/8 Functionが全caseで局所改善childの親になり、round 3保護数は8のまま。最終保護数は平均3.25まで減ったが、遅いevictionではbeam軌跡を回復できなかった。
+- [Done] unprotectedもfixedと同じ2/16で、悪化は保護枠だけでなく初期composition、quota、credit、乱数選択の変化に由来する可能性を示した。全12 exact式を再検証。
+- [Done] E026で候補ごとのpaired rolloutによる反実仮想admissionを実装し、45候補から1 Functionだけを採用した。
+- [Next] credit用乱数とbeam補充乱数を分離し、Library追加による乱数列のずれを対照化する。
+- [Later] 反実仮想admission成立後にState付きmulti-step utilityへ進み、その後Router統合を再検討する。
+
+## E026：Counterfactual Module Admission（2026-09-15）
+
+- [Done] shared signatureへ同じ優先順位を与える決定的tie-breakを実装し、Library追加による乱数列のずれを除いた。[実行前計画](../results/E026-counterfactual-admission/PROTOCOL.md)。
+- [Done] 45 source Functionを4 probe taskの3-round with/without探索で評価。2 task以上かつnet正の事前規則により1 Functionだけを採用した。
+- [Done] seed1360–1363、4 evaluation task、4条件の64探索を完了。counterfactual 5/16、legacy all8 2/16、no transfer 4/16、random matched 4/16。[詳細](STAR-Bit-E026-counterfactual-admission.md)。
+- [Done] primary counterfactual−legacyは+0.75 task/seed（不偏分散0.9167、bootstrap 95% CI [0, 1.5]、dz=0.783、pilot exact p=0.5）。探索阻害mitigation基準を満たした。
+- [Done] counterfactual−randomは+0.25 task/seedに留まりtransfer基準未達。追加のdual-mux XOR解1件だけが採用Functionを使用した。
+- [Done] legacy best error平均5.1875に対しcounterfactual 1.9375、no transfer 2.0625。全15 exact式とsource hashを監査した。
+- [Next] 同じadmission規則を新規16 seedで独立確認し、legacy改善とno-transfer非劣性を主要判定にする。
+- [Next] 2〜3段rolloutへ拡張する前に、診断計算量と候補選択のseed安定性を測る。
+- [Later] cross-task利益がrandom対照で確認された後にState付きFunctionとRouterへ統合する。

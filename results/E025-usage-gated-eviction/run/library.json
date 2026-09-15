@@ -1,0 +1,521 @@
+[
+  {
+    "signature": "65535",
+    "primitives": 1,
+    "routing_bits": 6,
+    "depth": 1,
+    "source_count": 1,
+    "source_tasks": [
+      "parity"
+    ],
+    "utility": 2.325581395348837,
+    "probe_gains": {
+      "probe_majority": 0,
+      "probe_exactly2": 0,
+      "probe_less3": 2,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      65535,
+      1,
+      [
+        "input",
+        4
+      ],
+      [
+        "input",
+        5
+      ]
+    ]
+  },
+  {
+    "signature": "3746770586177582079",
+    "primitives": 1,
+    "routing_bits": 6,
+    "depth": 1,
+    "source_count": 1,
+    "source_tasks": [
+      "carry"
+    ],
+    "utility": 0.0,
+    "probe_gains": {
+      "probe_majority": 0,
+      "probe_exactly2": 0,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      3746770586177582079,
+      7,
+      [
+        "input",
+        1
+      ],
+      [
+        "input",
+        3
+      ]
+    ]
+  },
+  {
+    "signature": "18229710308707663872",
+    "primitives": 3,
+    "routing_bits": 20,
+    "depth": 2,
+    "source_count": 1,
+    "source_tasks": [
+      "carry"
+    ],
+    "utility": 2.033898305084746,
+    "probe_gains": {
+      "probe_majority": 4,
+      "probe_exactly2": 0,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      18229710308707663872,
+      14,
+      [
+        "lut",
+        14757170082422194176,
+        8,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          4
+        ]
+      ],
+      [
+        "lut",
+        17361641477096079360,
+        8,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "signature": "225180587719932",
+    "primitives": 3,
+    "routing_bits": 20,
+    "depth": 2,
+    "source_count": 1,
+    "source_tasks": [
+      "comparator"
+    ],
+    "utility": 0.0,
+    "probe_gains": {
+      "probe_majority": 0,
+      "probe_exactly2": 0,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      225180587719932,
+      14,
+      [
+        "lut",
+        4042322160,
+        2,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ],
+      [
+        "lut",
+        225176545447116,
+        2,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "signature": "10838359358483032470",
+    "primitives": 5,
+    "routing_bits": 34,
+    "depth": 3,
+    "source_count": 1,
+    "source_tasks": [
+      "parity"
+    ],
+    "utility": 1.4354066985645935,
+    "probe_gains": {
+      "probe_majority": 0,
+      "probe_exactly2": 4,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      10838359358483032470,
+      9,
+      [
+        "lut",
+        1148435428713435120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          3
+        ]
+      ],
+      [
+        "lut",
+        7378697629483833753,
+        6,
+        [
+          "lut",
+          65535,
+          1,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          7378697629483820646,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "signature": "18229710308505550848",
+    "primitives": 5,
+    "routing_bits": 34,
+    "depth": 3,
+    "source_count": 1,
+    "source_tasks": [
+      "carry"
+    ],
+    "utility": 1.4354066985645935,
+    "probe_gains": {
+      "probe_majority": 4,
+      "probe_exactly2": 0,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      18229710308505550848,
+      4,
+      [
+        "lut",
+        252645135,
+        1,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ],
+      [
+        "lut",
+        18229710308707663872,
+        14,
+        [
+          "lut",
+          14757170082422194176,
+          8,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "signature": "18373834293345552384",
+    "primitives": 13,
+    "routing_bits": 90,
+    "depth": 6,
+    "source_count": 1,
+    "source_tasks": [
+      "carry"
+    ],
+    "utility": 1.1299435028248588,
+    "probe_gains": {
+      "probe_majority": 4,
+      "probe_exactly2": 0,
+      "probe_less3": 0,
+      "probe_mix": 2
+    },
+    "expression": [
+      "lut",
+      18373834293345552384,
+      11,
+      [
+        "lut",
+        18373825497118277632,
+        2,
+        [
+          "lut",
+          18373825497286049792,
+          11,
+          [
+            "lut",
+            18229710308505550848,
+            4,
+            [
+              "lut",
+              252645135,
+              1,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              18229710308707663872,
+              14,
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "lut",
+                17361641477096079360,
+                8,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            6196953084409675775,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "lut",
+              18374686483949813760,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          252645135,
+          1,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      [
+        "lut",
+        8646761748688238591,
+        13,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          3746770586177582079,
+          7,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "signature": "18373825497286049792",
+    "primitives": 8,
+    "routing_bits": 54,
+    "depth": 4,
+    "source_count": 1,
+    "source_tasks": [
+      "carry"
+    ],
+    "utility": 1.0204081632653061,
+    "probe_gains": {
+      "probe_majority": 4,
+      "probe_exactly2": 0,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "expression": [
+      "lut",
+      18373825497286049792,
+      11,
+      [
+        "lut",
+        18229710308505550848,
+        4,
+        [
+          "lut",
+          252645135,
+          1,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          18229710308707663872,
+          14,
+          [
+            "lut",
+            14757170082422194176,
+            8,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              4
+            ]
+          ],
+          [
+            "lut",
+            17361641477096079360,
+            8,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ],
+      [
+        "lut",
+        6196953084409675775,
+        7,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18374686483949813760,
+          8,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    ]
+  }
+]

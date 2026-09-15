@@ -1,5 +1,17 @@
 # STAR-Bit：研究構想
 
+> **2026-09-15 Counterfactual Admission追記**：E026では45 Functionを、決定的tie-breakを共有するprobe探索のwith/without差で選別し、1 Functionだけを採用しました。新規4 seedでlegacy 8個投入2/16に対しcounterfactualは5/16、移植なしとrandom同費用は各4/16でした。探索阻害の緩和基準は満たしましたが、randomとの差は+1件だけでtransfer基準は未達です。反実仮想admissionは安全なLibrary形成候補ですが、task横断Conceptの証拠ではありません。[E026レポート](STAR-Bit-E026-counterfactual-admission.md)。
+>
+> English: Counterfactual probe admission selected 1 of 45 Functions and improved discovery from legacy 2/16 to 5/16; no-transfer and random matched each reached 4/16. It mitigated harmful admission but did not meet the transfer criterion.
+>
+> 简体中文：反事实probe准入从45个函数中选出1个，将成功数从旧方案2/16提高到5/16；无迁移和随机匹配均为4/16。它缓解了有害准入，但未达到迁移标准。
+
+> **2026-09-15 Usage-gated Eviction追記**：E025ではE024のFunctionを、改善childの親になった場合だけ保護期限を更新する方式へ変更しました。usage-gated、固定保護、無保護はいずれも2/16、移植なしは5/16でした。全8 Functionが局所改善childを一度は作り、round 3で退役が起きなかったため、現在のusage判定には識別力がありません。初期Libraryとのcomposition自体がbeam軌跡を変えるため、次はwith/without Moduleの反実仮想差でadmissionします。[E025レポート](STAR-Bit-E025-usage-gated-eviction.md)。
+>
+> English: Usage-gated eviction did not recover search performance. Learned gated, fixed, and unprotected admission each solved 2/16 cases versus no-transfer 5/16; every Function passed the local-use test, making it non-selective.
+>
+> 简体中文：按使用情况退役未能恢复搜索性能。门控、固定保护和无保护学习库均成功2/16，而无迁移成功5/16；所有函数都通过了局部使用判定，因此该判定没有区分力。
+
 > **2026-09-14 Probe Utility追記**：E024ではsource頻度・target errorに代えて、選定用probe taskでの一段composition改善とsignature多様性からFunctionを選びました。選定後に固定した4新規task×4 seedで、utility-diverseは1/16、同費用randomは2/16、移植なしは7/16でした。事前の16-seed移行基準は未達です。一段lookaheadと静的多様性でもtask横断Module価値は捉えられず、無用な固定Library枠が探索を阻害することを確認しました。[E024レポート](STAR-Bit-E024-probe-utility-diversity.md)。
 >
 > English: One-step probe utility plus signature diversity solved 1/16 held-out cases versus random 2/16 and no-transfer 7/16. The expansion gate failed; protected slots can harm search when Modules are not useful.

@@ -1,0 +1,2074 @@
+{
+  "baselines": {
+    "probe_majority": 9,
+    "probe_exactly2": 11,
+    "probe_less3": 4,
+    "probe_mix": 0
+  },
+  "selected_signatures": [
+    "17361640514770759695"
+  ],
+  "candidates": [
+    {
+      "signature": "5787213827046133840",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        5787213827046133840,
+        4,
+        [
+          "input",
+          0
+        ],
+        [
+          "input",
+          2
+        ]
+      ]
+    },
+    {
+      "signature": "9838263505978427528",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        9838263505978427528,
+        8,
+        [
+          "input",
+          0
+        ],
+        [
+          "input",
+          1
+        ]
+      ]
+    },
+    {
+      "signature": "10838359358483032470",
+      "primitives": 5,
+      "routing_bits": 34,
+      "depth": 3,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 5,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 5,
+      "positive_tasks": 1,
+      "score": 1.1961722488038278,
+      "admitted": false,
+      "expression": [
+        "lut",
+        10838359358483032470,
+        9,
+        [
+          "lut",
+          1148435428713435120,
+          6,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          7378697629483833753,
+          6,
+          [
+            "lut",
+            65535,
+            1,
+            [
+              "input",
+              4
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            7378697629483820646,
+            6,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              1
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "1148435428713435120",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        1148435428713435120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          3
+        ]
+      ]
+    },
+    {
+      "signature": "7378697629483833753",
+      "primitives": 3,
+      "routing_bits": 20,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 2,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 2,
+      "positive_tasks": 1,
+      "score": 0.6779661016949153,
+      "admitted": false,
+      "expression": [
+        "lut",
+        7378697629483833753,
+        6,
+        [
+          "lut",
+          65535,
+          1,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          7378697629483820646,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "65535",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        65535,
+        1,
+        [
+          "input",
+          4
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "7378697629483820646",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        7378697629483820646,
+        6,
+        [
+          "input",
+          0
+        ],
+        [
+          "input",
+          1
+        ]
+      ]
+    },
+    {
+      "signature": "281474976710655",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        281474976710655,
+        7,
+        [
+          "input",
+          4
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "17298062221247451120",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 2,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 2,
+      "positive_tasks": 1,
+      "score": 0.819672131147541,
+      "admitted": false,
+      "expression": [
+        "lut",
+        17298062221247451120,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          72056494543077120,
+          6,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "72056494543077120",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        72056494543077120,
+        6,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    },
+    {
+      "signature": "11068046443366737510",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 2,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 2,
+      "positive_tasks": 1,
+      "score": 0.819672131147541,
+      "admitted": false,
+      "expression": [
+        "lut",
+        11068046443366737510,
+        6,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          7378697629483820646,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "10851025731680037270",
+      "primitives": 7,
+      "routing_bits": 46,
+      "depth": 4,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 2,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 2,
+      "positive_tasks": 1,
+      "score": 0.37243947858473,
+      "admitted": false,
+      "expression": [
+        "lut",
+        10851025731680037270,
+        9,
+        [
+          "lut",
+          6510615877802092950,
+          6,
+          [
+            "lut",
+            17361640514770759695,
+            6,
+            [
+              "input",
+              2
+            ],
+            [
+              "lut",
+              1095216660735,
+              1,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            12297829382186703257,
+            6,
+            [
+              "input",
+              0
+            ],
+            [
+              "lut",
+              858993459,
+              1,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          3689348818177884159,
+          7,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "6510615877802092950",
+      "primitives": 5,
+      "routing_bits": 32,
+      "depth": 3,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 4,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 4,
+      "positive_tasks": 1,
+      "score": 0.9661835748792269,
+      "admitted": false,
+      "expression": [
+        "lut",
+        6510615877802092950,
+        6,
+        [
+          "lut",
+          17361640514770759695,
+          6,
+          [
+            "input",
+            2
+          ],
+          [
+            "lut",
+            1095216660735,
+            1,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          12297829382186703257,
+          6,
+          [
+            "input",
+            0
+          ],
+          [
+            "lut",
+            858993459,
+            1,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "17361640514770759695",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 1,
+        "probe_exactly2": 2,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 3,
+      "positive_tasks": 2,
+      "score": 1.2295081967213115,
+      "admitted": true,
+      "expression": [
+        "lut",
+        17361640514770759695,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          1095216660735,
+          1,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "1095216660735",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        1095216660735,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    },
+    {
+      "signature": "12297829382186703257",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 1,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 1,
+      "positive_tasks": 1,
+      "score": 0.4098360655737705,
+      "admitted": false,
+      "expression": [
+        "lut",
+        12297829382186703257,
+        6,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          858993459,
+          1,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "858993459",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        858993459,
+        1,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "3689348818177884159",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        3689348818177884159,
+        7,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "72057589759737855",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        72057589759737855,
+        7,
+        [
+          "input",
+          4
+        ],
+        [
+          "input",
+          3
+        ]
+      ]
+    },
+    {
+      "signature": "18373834293345552384",
+      "primitives": 13,
+      "routing_bits": 90,
+      "depth": 6,
+      "probe_deltas": {
+        "probe_majority": -1,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": -1,
+      "positive_tasks": 0,
+      "score": -0.11299435028248588,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18373834293345552384,
+        11,
+        [
+          "lut",
+          18373825497118277632,
+          2,
+          [
+            "lut",
+            18373825497286049792,
+            11,
+            [
+              "lut",
+              18229710308505550848,
+              4,
+              [
+                "lut",
+                252645135,
+                1,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18229710308707663872,
+                14,
+                [
+                  "lut",
+                  14757170082422194176,
+                  8,
+                  [
+                    "input",
+                    1
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ],
+                [
+                  "lut",
+                  17361641477096079360,
+                  8,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196953084409675775,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                18374686483949813760,
+                8,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            252645135,
+            1,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ],
+        [
+          "lut",
+          8646761748688238591,
+          13,
+          [
+            "input",
+            0
+          ],
+          [
+            "lut",
+            3746770586177582079,
+            7,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "18373825497118277632",
+      "primitives": 10,
+      "routing_bits": 68,
+      "depth": 5,
+      "probe_deltas": {
+        "probe_majority": 1,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 1,
+      "positive_tasks": 1,
+      "score": 0.14064697609001406,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18373825497118277632,
+        2,
+        [
+          "lut",
+          18373825497286049792,
+          11,
+          [
+            "lut",
+            18229710308505550848,
+            4,
+            [
+              "lut",
+              252645135,
+              1,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              18229710308707663872,
+              14,
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "lut",
+                17361641477096079360,
+                8,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            6196953084409675775,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "lut",
+              18374686483949813760,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          252645135,
+          1,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "18373825497286049792",
+      "primitives": 8,
+      "routing_bits": 54,
+      "depth": 4,
+      "probe_deltas": {
+        "probe_majority": 1,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 1,
+      "positive_tasks": 1,
+      "score": 0.17006802721088435,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18373825497286049792,
+        11,
+        [
+          "lut",
+          18229710308505550848,
+          4,
+          [
+            "lut",
+            252645135,
+            1,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            18229710308707663872,
+            14,
+            [
+              "lut",
+              14757170082422194176,
+              8,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              17361641477096079360,
+              8,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          6196953084409675775,
+          7,
+          [
+            "input",
+            0
+          ],
+          [
+            "lut",
+            18374686483949813760,
+            8,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "18229710308505550848",
+      "primitives": 5,
+      "routing_bits": 34,
+      "depth": 3,
+      "probe_deltas": {
+        "probe_majority": 1,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 1,
+      "positive_tasks": 1,
+      "score": 0.23923444976076558,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18229710308505550848,
+        4,
+        [
+          "lut",
+          252645135,
+          1,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          18229710308707663872,
+          14,
+          [
+            "lut",
+            14757170082422194176,
+            8,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              4
+            ]
+          ],
+          [
+            "lut",
+            17361641477096079360,
+            8,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "252645135",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        252645135,
+        1,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "18229710308707663872",
+      "primitives": 3,
+      "routing_bits": 20,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 3,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 3,
+      "positive_tasks": 1,
+      "score": 1.016949152542373,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18229710308707663872,
+        14,
+        [
+          "lut",
+          14757170082422194176,
+          8,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "14757170082422194176",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        14757170082422194176,
+        8,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    },
+    {
+      "signature": "17361641477096079360",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        17361641477096079360,
+        8,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "6196953084409675775",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        6196953084409675775,
+        7,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18374686483949813760,
+          8,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "18374686483949813760",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18374686483949813760,
+        8,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    },
+    {
+      "signature": "8646761748688238591",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": -1,
+        "probe_mix": 0
+      },
+      "net": -1,
+      "positive_tasks": 0,
+      "score": -0.4098360655737705,
+      "admitted": false,
+      "expression": [
+        "lut",
+        8646761748688238591,
+        13,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          3746770586177582079,
+          7,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "3746770586177582079",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        3746770586177582079,
+        7,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          3
+        ]
+      ]
+    },
+    {
+      "signature": "38492703540444414",
+      "primitives": 11,
+      "routing_bits": 76,
+      "depth": 5,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": -2,
+        "probe_mix": 0
+      },
+      "net": -2,
+      "positive_tasks": 0,
+      "score": -0.2624671916010499,
+      "admitted": false,
+      "expression": [
+        "lut",
+        38492703540444414,
+        14,
+        [
+          "lut",
+          212072347532542,
+          2,
+          [
+            "lut",
+            225326616607998,
+            11,
+            [
+              "lut",
+              225180587719932,
+              14,
+              [
+                "lut",
+                4042322160,
+                2,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                225176545447116,
+                2,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446743343565111125,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "lut",
+                1095216660735,
+                1,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "lut",
+            1085102592318504960,
+            4,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ]
+        ],
+        [
+          "lut",
+          38281180957114504,
+          2,
+          [
+            "input",
+            0
+          ],
+          [
+            "lut",
+            18389322302273879859,
+            13,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "212072347532542",
+      "primitives": 8,
+      "routing_bits": 54,
+      "depth": 4,
+      "probe_deltas": {
+        "probe_majority": 1,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 1,
+      "positive_tasks": 1,
+      "score": 0.17006802721088435,
+      "admitted": false,
+      "expression": [
+        "lut",
+        212072347532542,
+        2,
+        [
+          "lut",
+          225326616607998,
+          11,
+          [
+            "lut",
+            225180587719932,
+            14,
+            [
+              "lut",
+              4042322160,
+              2,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              225176545447116,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446743343565111125,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "lut",
+              1095216660735,
+              1,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102592318504960,
+          4,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "225326616607998",
+      "primitives": 6,
+      "routing_bits": 40,
+      "depth": 3,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        225326616607998,
+        11,
+        [
+          "lut",
+          225180587719932,
+          14,
+          [
+            "lut",
+            4042322160,
+            2,
+            [
+              "input",
+              2
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            225176545447116,
+            2,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          18446743343565111125,
+          7,
+          [
+            "input",
+            0
+          ],
+          [
+            "lut",
+            1095216660735,
+            1,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "225180587719932",
+      "primitives": 3,
+      "routing_bits": 20,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        225180587719932,
+        14,
+        [
+          "lut",
+          4042322160,
+          2,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          225176545447116,
+          2,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "4042322160",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        4042322160,
+        2,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "225176545447116",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        225176545447116,
+        2,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    },
+    {
+      "signature": "18446743343565111125",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18446743343565111125,
+        7,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          1095216660735,
+          1,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "1085102592318504960",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        1085102592318504960,
+        4,
+        [
+          "input",
+          2
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    },
+    {
+      "signature": "38281180957114504",
+      "primitives": 2,
+      "routing_bits": 12,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        38281180957114504,
+        2,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18389322302273879859,
+          13,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "18389322302273879859",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        18389322302273879859,
+        13,
+        [
+          "input",
+          1
+        ],
+        [
+          "input",
+          3
+        ]
+      ]
+    },
+    {
+      "signature": "3689517697150995660",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        3689517697150995660,
+        6,
+        [
+          "input",
+          4
+        ],
+        [
+          "input",
+          1
+        ]
+      ]
+    },
+    {
+      "signature": "11915017571648494245",
+      "primitives": 3,
+      "routing_bits": 20,
+      "depth": 2,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 4,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 4,
+      "positive_tasks": 1,
+      "score": 1.3559322033898307,
+      "admitted": false,
+      "expression": [
+        "lut",
+        11915017571648494245,
+        6,
+        [
+          "lut",
+          11936128518282651045,
+          9,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            2
+          ]
+        ],
+        [
+          "lut",
+          71777218556133120,
+          6,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "signature": "11936128518282651045",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        11936128518282651045,
+        9,
+        [
+          "input",
+          0
+        ],
+        [
+          "input",
+          2
+        ]
+      ]
+    },
+    {
+      "signature": "71777218556133120",
+      "primitives": 1,
+      "routing_bits": 6,
+      "depth": 1,
+      "probe_deltas": {
+        "probe_majority": 0,
+        "probe_exactly2": 0,
+        "probe_less3": 0,
+        "probe_mix": 0
+      },
+      "net": 0,
+      "positive_tasks": 0,
+      "score": 0.0,
+      "admitted": false,
+      "expression": [
+        "lut",
+        71777218556133120,
+        6,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          5
+        ]
+      ]
+    }
+  ]
+}
