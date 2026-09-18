@@ -1,0 +1,608 @@
+{
+  "aggregate": {
+    "no_transfer": {
+      "exact": {
+        "mean": 0.09375,
+        "variance": 0.08770161290322581
+      },
+      "exact_by_task": {
+        "eval_dual_mux_xor": 2,
+        "eval_threshold2": 1
+      },
+      "uses_transfer": 0,
+      "best_error": {
+        "mean": 2.09375,
+        "variance": 2.410282258064516
+      },
+      "elapsed_seconds": {
+        "mean": 2.7370219816562553,
+        "variance": 0.19471959402183056
+      },
+      "primitives": {
+        "mean": 10.666666666666666,
+        "variance": 14.333333333333332
+      }
+    },
+    "admitted": {
+      "exact": {
+        "mean": 0.125,
+        "variance": 0.11290322580645161
+      },
+      "exact_by_task": {
+        "eval_dual_mux_xor": 4,
+        "eval_threshold2": 0
+      },
+      "uses_transfer": 4,
+      "best_error": {
+        "mean": 2.125,
+        "variance": 3.338709677419355
+      },
+      "elapsed_seconds": {
+        "mean": 2.7905582942187657,
+        "variance": 0.32467369462760975
+      },
+      "primitives": {
+        "mean": 9.0,
+        "variance": 0.0
+      }
+    },
+    "inert_signature": {
+      "exact": {
+        "mean": 0.09375,
+        "variance": 0.08770161290322581
+      },
+      "exact_by_task": {
+        "eval_dual_mux_xor": 2,
+        "eval_threshold2": 1
+      },
+      "uses_transfer": 0,
+      "best_error": {
+        "mean": 2.09375,
+        "variance": 2.410282258064516
+      },
+      "elapsed_seconds": {
+        "mean": 2.7389086771250213,
+        "variance": 0.18694773271460427
+      },
+      "primitives": {
+        "mean": 10.666666666666666,
+        "variance": 14.333333333333332
+      }
+    },
+    "rotate1": {
+      "exact": {
+        "mean": 0.15625,
+        "variance": 0.13608870967741934
+      },
+      "exact_by_task": {
+        "eval_dual_mux_xor": 4,
+        "eval_threshold2": 1
+      },
+      "uses_transfer": 0,
+      "best_error": {
+        "mean": 1.625,
+        "variance": 1.8548387096774193
+      },
+      "elapsed_seconds": {
+        "mean": 2.789173591125028,
+        "variance": 0.16860389681009622
+      },
+      "primitives": {
+        "mean": 15.0,
+        "variance": 0.0
+      }
+    },
+    "rotate2": {
+      "exact": {
+        "mean": 0.03125,
+        "variance": 0.03125
+      },
+      "exact_by_task": {
+        "eval_dual_mux_xor": 0,
+        "eval_threshold2": 1
+      },
+      "uses_transfer": 1,
+      "best_error": {
+        "mean": 2.5625,
+        "variance": 3.4153225806451615
+      },
+      "elapsed_seconds": {
+        "mean": 2.92702832156251,
+        "variance": 0.034026947703088346
+      },
+      "primitives": {
+        "mean": 16.0,
+        "variance": null
+      }
+    }
+  },
+  "paired": {
+    "eval_dual_mux_xor:admitted-minus-inert_signature": {
+      "mean": 0.125,
+      "variance": 0.25,
+      "ci95": [
+        -0.125,
+        0.375
+      ],
+      "cohen_dz": 0.25,
+      "exact_signflip_p": 0.625,
+      "differences": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_dual_mux_xor:admitted-minus-rotate1": {
+      "mean": 0.0,
+      "variance": 0.26666666666666666,
+      "ci95": [
+        -0.25,
+        0.25
+      ],
+      "cohen_dz": 0.0,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_dual_mux_xor:admitted-minus-rotate2": {
+      "mean": 0.25,
+      "variance": 0.2,
+      "ci95": [
+        0.0625,
+        0.5
+      ],
+      "cohen_dz": 0.5590169943749475,
+      "exact_signflip_p": 0.125,
+      "differences": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_dual_mux_xor:admitted-minus-no_transfer": {
+      "mean": 0.125,
+      "variance": 0.25,
+      "ci95": [
+        -0.125,
+        0.375
+      ],
+      "cohen_dz": 0.25,
+      "exact_signflip_p": 0.625,
+      "differences": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:admitted-minus-inert_signature": {
+      "mean": -0.0625,
+      "variance": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "cohen_dz": -0.25,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:admitted-minus-rotate1": {
+      "mean": -0.0625,
+      "variance": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "cohen_dz": -0.25,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:admitted-minus-rotate2": {
+      "mean": -0.0625,
+      "variance": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "cohen_dz": -0.25,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:admitted-minus-no_transfer": {
+      "mean": -0.0625,
+      "variance": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "cohen_dz": -0.25,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "task_tests": {
+    "eval_dual_mux_xor": [
+      {
+        "comparator": "inert_signature",
+        "admitted_only": 3,
+        "comparator_only": 1,
+        "mcnemar_p": 0.625,
+        "holm_p": 1.0
+      },
+      {
+        "comparator": "rotate1",
+        "admitted_only": 2,
+        "comparator_only": 2,
+        "mcnemar_p": 1.0,
+        "holm_p": 1.0
+      },
+      {
+        "comparator": "rotate2",
+        "admitted_only": 4,
+        "comparator_only": 0,
+        "mcnemar_p": 0.125,
+        "holm_p": 0.375
+      }
+    ],
+    "eval_threshold2": [
+      {
+        "comparator": "inert_signature",
+        "admitted_only": 0,
+        "comparator_only": 1,
+        "mcnemar_p": 1.0,
+        "holm_p": 1.0
+      },
+      {
+        "comparator": "rotate1",
+        "admitted_only": 0,
+        "comparator_only": 1,
+        "mcnemar_p": 1.0,
+        "holm_p": 1.0
+      },
+      {
+        "comparator": "rotate2",
+        "admitted_only": 0,
+        "comparator_only": 1,
+        "mcnemar_p": 1.0,
+        "holm_p": 1.0
+      }
+    ]
+  },
+  "admitted_only": {
+    "eval_dual_mux_xor": {
+      "inert_signature": [
+        {
+          "seed": 1391,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1400,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1402,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        }
+      ],
+      "rotate1": [
+        {
+          "seed": 1391,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1395,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        }
+      ],
+      "rotate2": [
+        {
+          "seed": 1391,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1395,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1400,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1402,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        }
+      ],
+      "no_transfer": [
+        {
+          "seed": 1391,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1400,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        },
+        {
+          "seed": 1402,
+          "uses_transfer": true,
+          "used_signatures": [
+            "17361640514770759695"
+          ]
+        }
+      ]
+    },
+    "eval_threshold2": {
+      "inert_signature": [],
+      "rotate1": [],
+      "rotate2": [],
+      "no_transfer": []
+    }
+  },
+  "frozen_signature": "17361640514770759695",
+  "candidate_error": {
+    "eval_dual_mux_xor": {
+      "admitted": 32,
+      "rotate1": 32,
+      "rotate2": 32
+    },
+    "eval_threshold2": {
+      "admitted": 33,
+      "rotate1": 33,
+      "rotate2": 33
+    }
+  },
+  "records_verified": 160,
+  "solutions_verified": 16,
+  "direct_composition_criterion_met": false,
+  "analysis_source_hashes": {
+    "report.py": "bc2e616658010b48974a45fae628130a600014f6f691b72ea7057e36c747369f",
+    "normalize.py": "14c447d338eb67855750026dd2f0da9e2cd3e832ca2868645fdc3af535ae8272"
+  },
+  "by_task": {
+    "eval_dual_mux_xor": {
+      "no_transfer": {
+        "exact_mean": 0.125,
+        "exact_unbiased_variance": 0.11666666666666667,
+        "best_error_mean": 3.25,
+        "solution_primitives_mean": 8.5,
+        "solution_routing_bits_mean": 57.0,
+        "solution_depth_mean": 4.0
+      },
+      "admitted": {
+        "exact_mean": 0.25,
+        "exact_unbiased_variance": 0.2,
+        "best_error_mean": 3.25,
+        "solution_primitives_mean": 9.0,
+        "solution_routing_bits_mean": 62.0,
+        "solution_depth_mean": 6.0
+      },
+      "inert_signature": {
+        "exact_mean": 0.125,
+        "exact_unbiased_variance": 0.11666666666666667,
+        "best_error_mean": 3.25,
+        "solution_primitives_mean": 8.5,
+        "solution_routing_bits_mean": 57.0,
+        "solution_depth_mean": 4.0
+      },
+      "rotate1": {
+        "exact_mean": 0.25,
+        "exact_unbiased_variance": 0.2,
+        "best_error_mean": 2.3125,
+        "solution_primitives_mean": 15.0,
+        "solution_routing_bits_mean": 102.0,
+        "solution_depth_mean": 5.0
+      },
+      "rotate2": {
+        "exact_mean": 0.0,
+        "exact_unbiased_variance": 0.0,
+        "best_error_mean": 4.1875,
+        "solution_primitives_mean": null,
+        "solution_routing_bits_mean": null,
+        "solution_depth_mean": null
+      }
+    },
+    "eval_threshold2": {
+      "no_transfer": {
+        "exact_mean": 0.0625,
+        "exact_unbiased_variance": 0.0625,
+        "best_error_mean": 0.9375,
+        "solution_primitives_mean": 15.0,
+        "solution_routing_bits_mean": 108.0,
+        "solution_depth_mean": 5.0
+      },
+      "admitted": {
+        "exact_mean": 0.0,
+        "exact_unbiased_variance": 0.0,
+        "best_error_mean": 1.0,
+        "solution_primitives_mean": null,
+        "solution_routing_bits_mean": null,
+        "solution_depth_mean": null
+      },
+      "inert_signature": {
+        "exact_mean": 0.0625,
+        "exact_unbiased_variance": 0.0625,
+        "best_error_mean": 0.9375,
+        "solution_primitives_mean": 15.0,
+        "solution_routing_bits_mean": 108.0,
+        "solution_depth_mean": 5.0
+      },
+      "rotate1": {
+        "exact_mean": 0.0625,
+        "exact_unbiased_variance": 0.0625,
+        "best_error_mean": 0.9375,
+        "solution_primitives_mean": 15.0,
+        "solution_routing_bits_mean": 108.0,
+        "solution_depth_mean": 5.0
+      },
+      "rotate2": {
+        "exact_mean": 0.0625,
+        "exact_unbiased_variance": 0.0625,
+        "best_error_mean": 0.9375,
+        "solution_primitives_mean": 16.0,
+        "solution_routing_bits_mean": 114.0,
+        "solution_depth_mean": 7.0
+      }
+    }
+  },
+  "inert_vs_no_transfer_matching_cases": {
+    "exact": 32,
+    "round": 32,
+    "best_error_history": 32,
+    "expression": 32,
+    "generated_unique_signatures": 0
+  }
+}

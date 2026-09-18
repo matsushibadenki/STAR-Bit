@@ -1,0 +1,11 @@
+# E028 preregistration: admitted Function causal ablation
+
+Date: 2026-09-17, before E028 outcomes.
+
+E027's narrow cross-task signal is dual-mux XOR (4/16 learned, 0/16 matched random), but it remains unclear whether the admitted Function itself helps composition or merely perturbs the beam. Freeze the E026 Function, E024 evaluation truth tables, E026 signature-stable search, beam 128, six rounds, max tree cost 16, and no protected slots. Do not reselect a Function or tune on these seeds.
+
+Use 16 fresh paired search seeds 1390–1405. Primary route-selection task: `eval_dual_mux_xor`. Negative-control numeric task: `eval_threshold2`. Compare five conditions: `no_transfer`, `admitted` (unchanged E026 Function), `inert_signature` (same Function in beam but prohibit any pairwise composition with that truth-table signature, including if later regenerated), `rotate1` and `rotate2` (cyclic input-index rotations by +1 and +2 of the same expression, retaining LUT codes, tree shape, primitive/routing/depth cost). The inert condition tests direct compositional use versus beam occupancy. Rotations test exact input semantics versus merely carrying a two-gate Boolean Function. No task labels enter Function construction.
+
+Primary outcome: paired exact dual-mux solutions per seed, admitted minus inert. Interpret direct compositional contribution as supported only if admitted has at least four more exact successes, the 95% paired bootstrap interval excludes zero, and at least four admitted-only exact expressions contain the frozen signature. Secondary comparisons: admitted versus no transfer, rotate1, rotate2; Holm-adjust the three exact McNemar p-values for admitted versus inert/rotations. Report each task's exact mean and unbiased variance, per-seed paired differences, 95% bootstrap CIs, Cohen dz, exact sign-flip p, best truth-table error, run time, and solution cost. The numeric task is descriptive; do not claim a type interaction unless tested.
+
+Stop after 160 searches (16 seeds × 2 tasks × 5 conditions) regardless of result. Re-evaluate every exact expression on all 64 inputs; save all records, configuration, source hashes, and report under this experiment ID. A successful result would establish a narrow Boolean-search mechanism, not gate-count compression, hardware speed, Router learning, or broad concept transfer.

@@ -1,0 +1,38 @@
+{
+  "signature": "17361640514770759695",
+  "primitives": 2,
+  "routing_bits": 12,
+  "depth": 2,
+  "probe_deltas": {
+    "probe_majority": 1,
+    "probe_exactly2": 2,
+    "probe_less3": 0,
+    "probe_mix": 0
+  },
+  "net": 3,
+  "positive_tasks": 2,
+  "score": 1.2295081967213115,
+  "admitted": true,
+  "expression": [
+    "lut",
+    17361640514770759695,
+    6,
+    [
+      "input",
+      2
+    ],
+    [
+      "lut",
+      1095216660735,
+      1,
+      [
+        "input",
+        3
+      ],
+      [
+        "input",
+        4
+      ]
+    ]
+  ]
+}

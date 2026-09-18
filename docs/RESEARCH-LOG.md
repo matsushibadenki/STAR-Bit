@@ -320,6 +320,39 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] primary counterfactual−legacyは+0.75 task/seed（不偏分散0.9167、bootstrap 95% CI [0, 1.5]、dz=0.783、pilot exact p=0.5）。探索阻害mitigation基準を満たした。
 - [Done] counterfactual−randomは+0.25 task/seedに留まりtransfer基準未達。追加のdual-mux XOR解1件だけが採用Functionを使用した。
 - [Done] legacy best error平均5.1875に対しcounterfactual 1.9375、no transfer 2.0625。全15 exact式とsource hashを監査した。
-- [Next] 同じadmission規則を新規16 seedで独立確認し、legacy改善とno-transfer非劣性を主要判定にする。
+- [Done] E027で同じ採用Functionを凍結し、新規16 seedでlegacy改善とno-transfer非劣性を独立確認した。
 - [Next] 2〜3段rolloutへ拡張する前に、診断計算量と候補選択のseed安定性を測る。
 - [Later] cross-task利益がrandom対照で確認された後にState付きFunctionとRouterへ統合する。
+
+## E027：Counterfactual Module Admission 独立確認（2026-09-16）
+
+- [Done] E026の採用Functionを再選別せず凍結し、seed1370–1385、4 held-out task、4条件の256探索を事前登録どおり完了した。[実行前計画](../results/E027-counterfactual-admission-confirmation/PROTOCOL.md)。
+- [Done] counterfactual 22/64、legacy all8 4/64、no transfer 20/64、random matched 17/64。[詳細](STAR-Bit-E027-counterfactual-admission-confirmation.md)。
+- [Done] primary counterfactual−legacyは+1.125 task/seed（不偏分散0.650、bootstrap 95% CI [0.750, 1.500]、dz=1.395、exact sign-flip p=0.000244）。no-transfer差も+0.125で、阻害緩和基準を独立確認した。
+- [Done] counterfactual−randomは+0.3125 task/seed（95% CI [0.125, 0.5625]、dz=0.653、exact p=0.0625）。dual-mux XORのcounterfactual-only 4件は全て凍結Functionを使用し、事前登録したtask-crossing transfer基準を満たした。
+- [Done] 効果は経路選択型dual-mux XOR 4/16対random 0/16に集中。精密数値型threshold2は2/16対1/16、threshold4は全条件0/16で、数値側の一般化は支持されない。equality3は主要3条件16/16で天井効果だった。
+- [Done] 256 record、source hash、凍結signature/expression、全63 exact式を64入力で再評価した。記述圧縮、gate削減、実行速度、Router学習の証拠とは扱わない。
+- [Done] E028で凍結Functionの直接composition禁止と入力置換対照を実行したが、直接再利用の事前基準は未達だった。
+- [Next] threshold4の床効果を避ける探索予算を事前校正し、精密数値と経路選択の差を再検証する。
+- [Later] transfer FunctionをRouter候補へ統合し、step 0 load-balancing、均衡固定random route、同一run内→別seed Expert交換を維持する。
+
+## E028：転移Functionの直接寄与と入力意味（2026-09-17）
+
+- [Done] E026の2-gate Functionを凍結。seed1390–1405でdual-mux XORとthreshold2を、移植なし／採用／同signatureのcomposition禁止／入力+1／入力+2の5条件で比較した。160探索、約448秒。[事前計画](../results/E028-module-causal-ablation/PROTOCOL.md)。
+- [Done] dual-mux XORのexactは採用4/16、composition禁止2/16、移植なし2/16、入力+1が4/16、入力+2が0/16。[詳細](STAR-Bit-E028-module-causal-ablation.md)。
+- [Done] primary採用−禁止は+0.125 exact/seed（差の不偏分散0.25、bootstrap 95% CI [−0.125, 0.375]、dz=0.25、exact sign-flip p=0.625）で、事前登録した直接composition基準に届かなかった。採用onlyは3 seedで全3式が凍結signatureを含んだが、禁止onlyも1 seedあった。
+- [Done] 入力+1は採用と同じ4/16だが、4解の最終式で移植signatureは0回使用。3比較のtask別McNemarはHolm補正後すべて非有意。3候補のtarget Hamming errorはどちらのtaskでも同一だったため、即時error差では説明できない。
+- [Done] threshold2は採用0/16、他条件各1/16で床効果。全16 exact式、160 record、source hash、費用一致を監査した。1成功解のみの不偏分散は未定義なので、元の非標準JSONを保存して`null`へ正規化した。
+- [Done] E029でbeam候補の生存・credit・親利用をsignature単位で追跡し、最終式にFunctionを含まない3件の予備的trajectory証人を得た。
+- [Next] 複数の経路選択task familyで意味対照を事前固定し、E027のtransfer信号の可搬性を検証する。
+- [Later] thresholdの床効果を校正後、State付きFunctionとRouterへ統合する。
+
+## E029：Libraryが変えるBeam探索軌跡（2026-09-18）
+
+- [Done] E026の採用FunctionとE028の入力+1置換を凍結し、seed1410–1425でdual-mux XOR／threshold2を移植なし・採用・入力+1の3条件で比較した。beam selectionの戻り値を変えないwrapperでsignature、credit、partner、直接子を記録した。[事前計画](../results/E029-beam-trajectory/PROTOCOL.md)。
+- [Done] 96探索・約266秒。dual-mux XOR exactは移植なし2/16、採用4/16、入力+1が3/16。数値threshold2は2/16、0/16、1/16。[詳細](STAR-Bit-E029-beam-trajectory.md)。
+- [Done] 入力+1−移植なしのdual-mux差は+0.0625 exact/seed（差の不偏分散0.3292、bootstrap 95% CI [−0.1875, 0.3125]、dz=0.109、exact sign-flip p=1）。3比較のtask別McNemarはHolm補正後すべて非有意。
+- [Done] 入力+1だけが成功した3 seedでは、最終式に置換Functionのsignatureはない。一方、3件すべてでround1の入力+1 beamにのみ残ったsignatureが最終式の祖先となり、そのsignatureは置換Functionとの直接ペアで生成可能だった。事前指定の予備的trajectory witness基準3件を満たした。
+- [Done] 最初のbeam Jaccardは入力+1対移植なしで平均0.845（dual-mux）、round3で0.465まで低下。Functionは16/16 seedでround1に生存した。全12 exact式、96 record、source hashとwrapper smokeを監査した。
+- [Next] 同一signatureの別経路再生成を識別するprovenance付き探索を実装し、Library由来の媒介と単なるsignature一致を区別する。
+- [Later] 複数の経路選択task familyと床効果のない数値taskを比較し、十分な効果確認後にRouter統合を再検討する。

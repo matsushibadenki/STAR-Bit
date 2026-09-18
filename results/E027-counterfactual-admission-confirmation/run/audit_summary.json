@@ -1,0 +1,303 @@
+{
+  "aggregate": {
+    "no_transfer": {
+      "exact": {
+        "mean": 0.3125,
+        "variance": 0.21825396825396826
+      },
+      "exact_by_task": {
+        "eval_threshold2": 3,
+        "eval_threshold4": 0,
+        "eval_equal3": 16,
+        "eval_dual_mux_xor": 1
+      },
+      "uses_transfer": 0,
+      "elapsed_seconds": {
+        "mean": 2.4128482064531553,
+        "variance": 1.1335476127233328
+      },
+      "best_error": {
+        "mean": 1.984375,
+        "variance": 2.999751984126984
+      },
+      "primitives": {
+        "mean": 6.6,
+        "variance": 13.305263157894737
+      }
+    },
+    "legacy_all8": {
+      "exact": {
+        "mean": 0.0625,
+        "variance": 0.05952380952380952
+      },
+      "exact_by_task": {
+        "eval_threshold2": 0,
+        "eval_threshold4": 0,
+        "eval_equal3": 4,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 2,
+      "elapsed_seconds": {
+        "mean": 2.46174294585942,
+        "variance": 0.1869998621182478
+      },
+      "best_error": {
+        "mean": 5.296875,
+        "variance": 21.323164682539684
+      },
+      "primitives": {
+        "mean": 13.0,
+        "variance": 5.333333333333333
+      }
+    },
+    "counterfactual": {
+      "exact": {
+        "mean": 0.34375,
+        "variance": 0.22916666666666666
+      },
+      "exact_by_task": {
+        "eval_threshold2": 2,
+        "eval_threshold4": 0,
+        "eval_equal3": 16,
+        "eval_dual_mux_xor": 4
+      },
+      "uses_transfer": 5,
+      "elapsed_seconds": {
+        "mean": 2.435045238843763,
+        "variance": 1.1939267381886423
+      },
+      "best_error": {
+        "mean": 1.953125,
+        "variance": 3.5374503968253967
+      },
+      "primitives": {
+        "mean": 6.681818181818182,
+        "variance": 10.608225108225108
+      }
+    },
+    "random_matched": {
+      "exact": {
+        "mean": 0.265625,
+        "variance": 0.19816468253968253
+      },
+      "exact_by_task": {
+        "eval_threshold2": 1,
+        "eval_threshold4": 0,
+        "eval_equal3": 16,
+        "eval_dual_mux_xor": 0
+      },
+      "uses_transfer": 0,
+      "elapsed_seconds": {
+        "mean": 2.4929591784218914,
+        "variance": 1.169590022970474
+      },
+      "best_error": {
+        "mean": 2.078125,
+        "variance": 2.8668154761904763
+      },
+      "primitives": {
+        "mean": 5.588235294117647,
+        "variance": 5.88235294117647
+      }
+    }
+  },
+  "primary": {
+    "mean": 1.125,
+    "variance": 0.65,
+    "ci95": [
+      0.75,
+      1.5
+    ],
+    "cohen_dz": 1.395390764128595,
+    "exact_p": 0.000244140625,
+    "differences": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      2.0,
+      0.0,
+      3.0,
+      2.0,
+      2.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ]
+  },
+  "vs_no_transfer": {
+    "mean": 0.125,
+    "variance": 0.38333333333333336,
+    "ci95": [
+      -0.1875,
+      0.4375
+    ],
+    "cohen_dz": 0.20189321327181206,
+    "exact_p": 0.6875,
+    "differences": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "vs_random": {
+    "mean": 0.3125,
+    "variance": 0.22916666666666666,
+    "ci95": [
+      0.125,
+      0.5625
+    ],
+    "cohen_dz": 0.6527912098338668,
+    "exact_p": 0.0625,
+    "differences": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "task_tests": [
+    {
+      "comparison": "counterfactual_vs_legacy_all8",
+      "task": "eval_threshold2",
+      "counterfactual_only": 2,
+      "comparator_only": 0,
+      "p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "comparison": "counterfactual_vs_legacy_all8",
+      "task": "eval_threshold4",
+      "counterfactual_only": 0,
+      "comparator_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "comparison": "counterfactual_vs_legacy_all8",
+      "task": "eval_equal3",
+      "counterfactual_only": 12,
+      "comparator_only": 0,
+      "p": 0.00048828125,
+      "holm_p": 0.001953125
+    },
+    {
+      "comparison": "counterfactual_vs_legacy_all8",
+      "task": "eval_dual_mux_xor",
+      "counterfactual_only": 4,
+      "comparator_only": 0,
+      "p": 0.125,
+      "holm_p": 0.375
+    },
+    {
+      "comparison": "counterfactual_vs_random_matched",
+      "task": "eval_threshold2",
+      "counterfactual_only": 1,
+      "comparator_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "comparison": "counterfactual_vs_random_matched",
+      "task": "eval_threshold4",
+      "counterfactual_only": 0,
+      "comparator_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "comparison": "counterfactual_vs_random_matched",
+      "task": "eval_equal3",
+      "counterfactual_only": 0,
+      "comparator_only": 0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "comparison": "counterfactual_vs_random_matched",
+      "task": "eval_dual_mux_xor",
+      "counterfactual_only": 4,
+      "comparator_only": 0,
+      "p": 0.125,
+      "holm_p": 0.5
+    }
+  ],
+  "learned_only_vs_random": {
+    "eval_threshold2": [
+      {
+        "seed": 1371,
+        "uses_transfer": false,
+        "used_signatures": []
+      }
+    ],
+    "eval_threshold4": [],
+    "eval_equal3": [],
+    "eval_dual_mux_xor": [
+      {
+        "seed": 1376,
+        "uses_transfer": true,
+        "used_signatures": [
+          "17361640514770759695"
+        ]
+      },
+      {
+        "seed": 1378,
+        "uses_transfer": true,
+        "used_signatures": [
+          "17361640514770759695"
+        ]
+      },
+      {
+        "seed": 1379,
+        "uses_transfer": true,
+        "used_signatures": [
+          "17361640514770759695"
+        ]
+      },
+      {
+        "seed": 1380,
+        "uses_transfer": true,
+        "used_signatures": [
+          "17361640514770759695"
+        ]
+      }
+    ]
+  },
+  "eligible_non_equality_tasks": [
+    "eval_dual_mux_xor"
+  ],
+  "solutions_verified": 63,
+  "records_verified": 256,
+  "frozen_signature": "17361640514770759695",
+  "mitigation_criterion_met": true,
+  "transfer_criterion_met": true
+}

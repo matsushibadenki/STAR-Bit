@@ -1,0 +1,9 @@
+{
+  "raw_sha256": "b5e798d0fc34374b545a5965293e6ebf945a1bfefc2faa883dd325bd9561b621",
+  "normalized_sha256": "0d8941150fa9a3d2403fe2cc028b91ce74122067b73dedc5192880c9be2f778d",
+  "normalizer_sha256": "14c447d338eb67855750026dd2f0da9e2cd3e832ca2868645fdc3af535ae8272",
+  "changed_json_pointers": [
+    "/aggregate/rotate2/primitives/variance"
+  ],
+  "reason": "n=1 exact solution, so the unbiased sample variance is undefined; represented as null."
+}

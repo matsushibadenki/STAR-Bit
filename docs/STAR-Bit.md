@@ -1,5 +1,23 @@
 # STAR-Bit：研究構想
 
+> **2026-09-18 Beam探索軌跡の追跡**：E029では新規16 seedで、採用Function・入力+1置換・移植なしのbeamとcreditを同じ探索アルゴリズムのまま記録しました。dual-mux XOR exactは順に4/16、3/16、2/16で、対応差は有意ではありません。一方、入力置換だけが成功した3件はすべて最終式に置換Functionを含まず、初回beamで置換条件だけに残った「直接子として生成可能なsignature」を最終式の祖先に持ちました。事前指定した予備的trajectory基準は満たしましたが、同一signatureの別経路生成があるため、Module由来の因果的な媒介は未証明です。[E029レポート](STAR-Bit-E029-beam-trajectory.md)。
+>
+> English: E029 found three preliminary beam-trajectory witnesses with a frozen input-rotated Function, but no significant paired exact advantage. Equivalent signatures may be regenerated, so their provenance is not yet causal proof.
+>
+> 简体中文：E029发现3个初步beam轨迹证据，但配对精确成功率没有显著优势。等价签名可能由其他路径重新生成，因此尚不能证明其因果来源。
+
+> **2026-09-17 転移機構のAblation**：E028ではE027の採用Functionを凍結し、別の16 seedで直接composition禁止と同費用の入力置換2種を比較しました。dual-mux XORで採用Functionは4/16、composition禁止は2/16でしたが、対応差+0.125（95% CI [−0.125, 0.375]、exact p=0.625）で事前基準を満たしませんでした。入力置換+1も4/16でしたが最終式で当該Functionは0回使用。E027の限定的transfer信号は残る一方、直接再利用可能なModuleが効果を生むという機構は未証明です。[E028レポート](STAR-Bit-E028-module-causal-ablation.md)。
+>
+> English: In 16 new seeds, the admitted Function solved dual-mux XOR in 4/16 versus 2/16 with composition vetoed, but the paired criterion failed (exact p=0.625). A cost-matched input rotation also solved 4/16 without appearing in final circuits. Direct Module reuse remains unproven.
+>
+> 简体中文：在16个新seed中，原函数于dual-mux XOR成功4/16，禁止组合后为2/16，但配对标准未达成（精确p=0.625）。同成本的输入旋转也成功4/16，却未出现在最终电路中。直接复用模块的因果机制仍未证实。
+
+> **2026-09-16 Counterfactual Admission独立確認**：E026で選ばれた1 Functionを再選別せず凍結し、新規16 seed・4 held-out task・4条件の256探索を実施しました。counterfactual 22/64、legacy 4/64、no-transfer 20/64、構造同費用random 17/64でした。legacyとの差は+1.125 task/seed（95% CI [0.75, 1.50]）、randomとの差は+0.3125（95% CI [0.125, 0.5625]）。dual-mux XORのlearned-only成功4件はすべて凍結Functionを実使用し、事前登録した阻害緩和とtask-crossing transferの両基準を満たしました。効果は経路選択タスクに集中し、数値thresholdでは確認できていません。[E027レポート](STAR-Bit-E027-counterfactual-admission-confirmation.md)。
+>
+> English: Freezing the single E026 Function and testing 16 new seeds yielded 22/64 exact solutions versus legacy 4/64, no-transfer 20/64, and structurally matched random 17/64. Both preregistered criteria passed; the learned-only benefit was concentrated in dual-mux XOR, not numeric thresholds.
+>
+> 简体中文：冻结E026选出的单个函数并在16个新seed上验证后，反事实准入达到22/64，旧Library为4/64，无迁移为20/64，结构匹配随机对照为17/64。两项预注册标准均达成，但收益集中在dual-mux XOR路径选择任务，数值阈值任务没有显示收益。
+
 > **2026-09-15 Counterfactual Admission追記**：E026では45 Functionを、決定的tie-breakを共有するprobe探索のwith/without差で選別し、1 Functionだけを採用しました。新規4 seedでlegacy 8個投入2/16に対しcounterfactualは5/16、移植なしとrandom同費用は各4/16でした。探索阻害の緩和基準は満たしましたが、randomとの差は+1件だけでtransfer基準は未達です。反実仮想admissionは安全なLibrary形成候補ですが、task横断Conceptの証拠ではありません。[E026レポート](STAR-Bit-E026-counterfactual-admission.md)。
 >
 > English: Counterfactual probe admission selected 1 of 45 Functions and improved discovery from legacy 2/16 to 5/16; no-transfer and random matched each reached 4/16. It mitigated harmful admission but did not meet the transfer criterion.
@@ -24,7 +42,7 @@
 >
 > 简体中文：留一任务评估消除了E022的优势。跨任务学习库与误差匹配随机库均成功27/64，成本匹配随机库成功37/64；目前不支持跨任务概念复用。
 >
-> E017〜E023の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
+> E017〜E029の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
 
 > **2026-09-13 Learned-Function Transfer追記**：E022ではE021のsource回路から出力を除く16内部Functionを固定Library化し、新規16 seedへ移植しました。同じ式木形状・primitive・routing・depthのランダムLibraryに対し、exact target平均は1.8750から2.4375、対応差+0.5625（bootstrap 95% CI [0.1875, 0.9375]、exact sign-flip p=0.03125）でした。comparatorは1/16→5/16、carryは1/16→4/16で事前pilot基準を満たしました。ただし同一task由来の部分回路を許した別seed移植であり、task横断のConcept再利用は未証明です。[E022レポート](STAR-Bit-E022-fixed-function-transfer.md)。
 >
