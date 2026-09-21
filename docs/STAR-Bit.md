@@ -1,5 +1,17 @@
 # STAR-Bit：研究構想
 
+> **2026-09-21 Task-family可搬性追記**：E031では1つのdual-mux XORへの反復を止め、事前定義した新規route 3 task・numeric 2 taskを新規8 seedで比較しました。固定Functionはrouteで2/24、同一費用randomは3/24、primary差は−0.125 task/seed（95% CI [−0.375, 0]）で、広い可搬性は支持されませんでした。数値`unsigned_sum_ge6`では固定Function 0/8に対してone-hop barrier 6/8でしたが、Holm補正後p=0.09375です。次は生成grammarとinert-slot対照で床効果と初期候補数の交絡を分離します。[E031レポート](STAR-Bit-E031-route-family-portability.md)。
+>
+> English: E031 did not reproduce the dual-mux benefit across three preregistered routing targets: the frozen Function solved 2/24 versus 3/24 for equal-cost random controls. A one-hop barrier helped one numeric target, but the contrast did not survive Holm correction.
+>
+> 简体中文：E031未在三个预注册路由目标上复现dual-mux收益：冻结函数成功2/24，同成本随机对照为3/24。一跳屏障改善了一个数值目标，但差异未通过Holm校正。
+
+> **2026-09-20 Provenance Barrier追記**：E030ではFunction由来の式をround 2以降の親に使わせないone-hop barrierを新規16 seedで比較しました。dual-mux XORは通常入力置換とbarrierがともに3/16、対応差0（95% CI [−0.25, 0.25]、exact p=1）で、伝播機構の事前基準は未達でした。通常条件だけが成功した2件ではFunction由来signatureが次roundにFunction-free式へ置換されましたが、barrierだけが成功した2件には同じlineageがありません。E029の軌跡は観測できるものの、成功に必要な共通機構ではありません。[E030レポート](STAR-Bit-E030-provenance-barrier.md)。
+>
+> English: A one-hop provenance barrier matched normal rotated-Function search at 3/16 dual-mux solutions; the paired difference was zero. Function-to-clean signature replacement appeared in two normal-only successes but not in barrier-only successes, so it is not a necessary common mechanism.
+>
+> 简体中文：一跳来源屏障与普通旋转函数搜索在dual-mux上均成功3/16，配对差为零。函数来源签名向无函数等价式的替换只出现在两个普通条件成功例中，屏障条件的成功例没有该轨迹，因此它不是必要的共同机制。
+
 > **2026-09-18 Beam探索軌跡の追跡**：E029では新規16 seedで、採用Function・入力+1置換・移植なしのbeamとcreditを同じ探索アルゴリズムのまま記録しました。dual-mux XOR exactは順に4/16、3/16、2/16で、対応差は有意ではありません。一方、入力置換だけが成功した3件はすべて最終式に置換Functionを含まず、初回beamで置換条件だけに残った「直接子として生成可能なsignature」を最終式の祖先に持ちました。事前指定した予備的trajectory基準は満たしましたが、同一signatureの別経路生成があるため、Module由来の因果的な媒介は未証明です。[E029レポート](STAR-Bit-E029-beam-trajectory.md)。
 >
 > English: E029 found three preliminary beam-trajectory witnesses with a frozen input-rotated Function, but no significant paired exact advantage. Equivalent signatures may be regenerated, so their provenance is not yet causal proof.
@@ -42,7 +54,7 @@
 >
 > 简体中文：留一任务评估消除了E022的优势。跨任务学习库与误差匹配随机库均成功27/64，成本匹配随机库成功37/64；目前不支持跨任务概念复用。
 >
-> E017〜E029の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
+> E017〜E031の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
 
 > **2026-09-13 Learned-Function Transfer追記**：E022ではE021のsource回路から出力を除く16内部Functionを固定Library化し、新規16 seedへ移植しました。同じ式木形状・primitive・routing・depthのランダムLibraryに対し、exact target平均は1.8750から2.4375、対応差+0.5625（bootstrap 95% CI [0.1875, 0.9375]、exact sign-flip p=0.03125）でした。comparatorは1/16→5/16、carryは1/16→4/16で事前pilot基準を満たしました。ただし同一task由来の部分回路を許した別seed移植であり、task横断のConcept再利用は未証明です。[E022レポート](STAR-Bit-E022-fixed-function-transfer.md)。
 >

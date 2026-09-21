@@ -354,5 +354,25 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 入力+1−移植なしのdual-mux差は+0.0625 exact/seed（差の不偏分散0.3292、bootstrap 95% CI [−0.1875, 0.3125]、dz=0.109、exact sign-flip p=1）。3比較のtask別McNemarはHolm補正後すべて非有意。
 - [Done] 入力+1だけが成功した3 seedでは、最終式に置換Functionのsignatureはない。一方、3件すべてでround1の入力+1 beamにのみ残ったsignatureが最終式の祖先となり、そのsignatureは置換Functionとの直接ペアで生成可能だった。事前指定の予備的trajectory witness基準3件を満たした。
 - [Done] 最初のbeam Jaccardは入力+1対移植なしで平均0.845（dual-mux）、round3で0.465まで低下。Functionは16/16 seedでround1に生存した。全12 exact式、96 record、source hashとwrapper smokeを監査した。
-- [Next] 同一signatureの別経路再生成を識別するprovenance付き探索を実装し、Library由来の媒介と単なるsignature一致を区別する。
+- [Done] E030で代表式のprovenanceとFunction-free置換を記録し、one-hop barrierと比較した。観測lineageは成功に必要な共通機構ではなかった。
 - [Later] 複数の経路選択task familyと床効果のない数値taskを比較し、十分な効果確認後にRouter統合を再検討する。
+
+## E030：Function由来Signatureの置換と伝播Barrier（2026-09-20）
+
+- [Done] seed1430–1445、dual-mux XOR／threshold2、移植なし／入力+1／one-hop barrierの96探索を完了。barrierはround 1の子生成を許し、round 2以降はFunctionを式木に含む候補を親利用しない。[事前計画](../results/E030-provenance-barrier/PROTOCOL.md)。
+- [Done] dual-mux XOR exactは1/16、3/16、3/16。[詳細](STAR-Bit-E030-provenance-barrier.md)。入力+1−barrierの対応差は0（差の不偏分散0.2667、bootstrap 95% CI [−0.25, 0.25]、dz=0、exact sign-flip p=1）で、伝播機構の事前基準は未達。
+- [Done] 入力+1だけがbarrierより成功した2 seedでは、Function由来だけでround1に選ばれた各2 signatureがround2でFunction-free代表式へ置換された。一方、barrierだけが移植なしより成功した2 seedにはqualified lineageがなく、この置換は成功に必要な共通機構ではない。
+- [Done] barrierは通常入力+1よりno-transferとのbeam Jaccardが高く、dual-mux round3で0.772対0.476。伝播を止めると探索軌跡の分岐は抑えられるが、aggregate exactは同じだった。
+- [Done] threshold2は移植なし1/16、入力+1 2/16、barrier 0/16で床効果が残った。全10 exact式、96 record、source hash、通常searchとのsmoke一致を監査。McNemar/Holmは全比較非有意。
+- [Next] 1つのdual-mux truth tableへの反復を止め、複数の事前生成経路選択task familyでFunction・barrier・random同費用対照を比較する。
+- [Later] 床効果のない数値taskとState付きFunctionへ拡張し、十分な機構証拠後にRouterへ統合する。
+
+## E031：固定Functionの経路選択Task Familyへの移植性（2026-09-21）
+
+- [Done] E026の採用Functionを再調整せず、新規seed1450–1457、事前定義した経路選択3 task・数値2 task、移植なし／採用Function／one-hop barrier／同一費用randomの160探索を完了した。[事前計画](../results/E031-route-family-portability/PROTOCOL.md)。
+- [Done] route exactは採用2/24、random 3/24、移植なし2/24、barrier 2/24。[詳細](STAR-Bit-E031-route-family-portability.md)。primary採用−randomは−0.125 task/seed（不偏分散0.125、bootstrap 95% CI [−0.375, 0]、dz=−0.354、exact sign-flip p=1）で、可搬性基準は未達だった。
+- [Done] 採用Functionのroute成功2件は最終式でFunctionを使ったが、randomより採用だけが成功したwitnessは1/3 task。`route_cascade_mux`は全条件0/8で、route familyの2/3 taskがほぼ床だった。
+- [Done] 数値の`unsigned_sum_ge6`は採用0/8、barrier 6/8、移植なし4/8、random 3/8。採用−barrierは−0.75 task/seed、95% CI [−1.0, −0.375]、exact p=0.03125だが、task内3比較のHolm p=0.09375で確証ではない。深いFunction伝播が探索を阻害し、一段の摂動だけが有利に働く可能性を次の仮説とする。
+- [Done] route−numericの採用−random効果差は+0.1458、95% CI [−0.0625, 0.3333]、exact p=0.25。全22 exact式、160 record、40 random Functionの費用・task分離・source hashを監査した。
+- [Next] 結果を見ずに生成するtask grammarを凍結し、pilot seedで難度だけを層別化した後、別seedで中難度層を独立評価する。Function投入による初期候補数の差を消すinert-slot対照を加える。
+- [Later] State付きFunctionの形成・分解を経てRouterへ統合し、step 0 load-balancing、均衡固定random route、同一run内から別seedへのExpert交換、精密数値対経路選択を維持する。

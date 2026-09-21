@@ -1,0 +1,1362 @@
+{
+  "admitted": {
+    "signature": "17361640514770759695",
+    "primitives": 2,
+    "routing_bits": 12,
+    "depth": 2,
+    "probe_deltas": {
+      "probe_majority": 1,
+      "probe_exactly2": 2,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "net": 3,
+    "positive_tasks": 2,
+    "score": 1.2295081967213115,
+    "admitted": true,
+    "expression": [
+      "lut",
+      17361640514770759695,
+      6,
+      [
+        "input",
+        2
+      ],
+      [
+        "lut",
+        1095216660735,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    ]
+  },
+  "random_matched": [
+    {
+      "seed": 1450,
+      "task": "route_dual_mux_xnor",
+      "signature": "18446744069431296255",
+      "expression": [
+        "lut",
+        18446744069431296255,
+        11,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          18374966859414961920,
+          10,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1450,
+      "task": "route_cross_mux_xor",
+      "signature": "18446744073709551615",
+      "expression": [
+        "lut",
+        18446744073709551615,
+        15,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          0,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1450,
+      "task": "route_cascade_mux",
+      "signature": "723390690314813440",
+      "expression": [
+        "lut",
+        723390690314813440,
+        2,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          17723342345328784885,
+          11,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1450,
+      "task": "numeric_popcount_bit1",
+      "signature": "281470681808895",
+      "expression": [
+        "lut",
+        281470681808895,
+        5,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          0,
+          0,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1450,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "14757395259826634751",
+      "expression": [
+        "lut",
+        14757395259826634751,
+        12,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          14757395259826634751,
+          13,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1451,
+      "task": "route_dual_mux_xnor",
+      "signature": "281474976710655",
+      "expression": [
+        "lut",
+        281474976710655,
+        13,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          4294967295,
+          3,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1451,
+      "task": "route_cross_mux_xor",
+      "signature": "13889326430589865164",
+      "expression": [
+        "lut",
+        13889326430589865164,
+        2,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          1085086035472220160,
+          4,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1451,
+      "task": "route_cascade_mux",
+      "signature": "12273903644374837845",
+      "expression": [
+        "lut",
+        12273903644374837845,
+        12,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          12273903644374837845,
+          9,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1451,
+      "task": "numeric_popcount_bit1",
+      "signature": "14757395258108647833",
+      "expression": [
+        "lut",
+        14757395258108647833,
+        6,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          1431655765,
+          1,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1451,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "6438275382588823897",
+      "expression": [
+        "lut",
+        6438275382588823897,
+        9,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          868082074056920076,
+          2,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    },
+    {
+      "seed": 1452,
+      "task": "route_dual_mux_xnor",
+      "signature": "71777214294589695",
+      "expression": [
+        "lut",
+        71777214294589695,
+        5,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          264913582878960,
+          2,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1452,
+      "task": "route_cross_mux_xor",
+      "signature": "1085102592571150095",
+      "expression": [
+        "lut",
+        1085102592571150095,
+        5,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          4294967295,
+          3,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1452,
+      "task": "route_cascade_mux",
+      "signature": "0",
+      "expression": [
+        "lut",
+        0,
+        12,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          0,
+          0,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1452,
+      "task": "numeric_popcount_bit1",
+      "signature": "18389322302273879859",
+      "expression": [
+        "lut",
+        18389322302273879859,
+        11,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          57421771435671756,
+          2,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1452,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "18442521884633399280",
+      "expression": [
+        "lut",
+        18442521884633399280,
+        11,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          1085102592571150095,
+          3,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1453,
+      "task": "route_dual_mux_xnor",
+      "signature": "17361641477096079360",
+      "expression": [
+        "lut",
+        17361641477096079360,
+        2,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 4
+    },
+    {
+      "seed": 1453,
+      "task": "route_cross_mux_xor",
+      "signature": "18446462603027808255",
+      "expression": [
+        "lut",
+        18446462603027808255,
+        7,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          281470681808895,
+          3,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 8
+    },
+    {
+      "seed": 1453,
+      "task": "route_cascade_mux",
+      "signature": "4294967295",
+      "expression": [
+        "lut",
+        4294967295,
+        5,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          0,
+          0,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1453,
+      "task": "numeric_popcount_bit1",
+      "signature": "14757170082422194176",
+      "expression": [
+        "lut",
+        14757170082422194176,
+        8,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          18446462603027742720,
+          12,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1453,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "18446730828030407667",
+      "expression": [
+        "lut",
+        18446730828030407667,
+        13,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          18446727516610621680,
+          14,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    },
+    {
+      "seed": 1454,
+      "task": "route_dual_mux_xnor",
+      "signature": "3689348814741910323",
+      "expression": [
+        "lut",
+        3689348814741910323,
+        13,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          0,
+          0,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1454,
+      "task": "route_cross_mux_xor",
+      "signature": "18446650250148948650",
+      "expression": [
+        "lut",
+        18446650250148948650,
+        11,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          6148914691236517205,
+          3,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1454,
+      "task": "route_cascade_mux",
+      "signature": "12297829383904690175",
+      "expression": [
+        "lut",
+        12297829383904690175,
+        7,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          6148914691236517205,
+          5,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1454,
+      "task": "numeric_popcount_bit1",
+      "signature": "11072831591845370282",
+      "expression": [
+        "lut",
+        11072831591845370282,
+        9,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          14771750701826559231,
+          11,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1454,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "18229723550950883328",
+      "expression": [
+        "lut",
+        18229723550950883328,
+        2,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          217020518514230019,
+          1,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    },
+    {
+      "seed": 1455,
+      "task": "route_dual_mux_xnor",
+      "signature": "71793642544500720",
+      "expression": [
+        "lut",
+        71793642544500720,
+        6,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          18446727516610621680,
+          14,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1455,
+      "task": "route_cross_mux_xor",
+      "signature": "18446556426588345685",
+      "expression": [
+        "lut",
+        18446556426588345685,
+        13,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18446462603027742720,
+          12,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1455,
+      "task": "route_cascade_mux",
+      "signature": "12659530246663417775",
+      "expression": [
+        "lut",
+        12659530246663417775,
+        13,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          12297829382473034410,
+          12,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1455,
+      "task": "numeric_popcount_bit1",
+      "signature": "12297735558912431445",
+      "expression": [
+        "lut",
+        12297735558912431445,
+        6,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          281470681808895,
+          3,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1455,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "1229782938247303441",
+      "expression": [
+        "lut",
+        1229782938247303441,
+        3,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          17216961135462248174,
+          14,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1456,
+      "task": "route_dual_mux_xnor",
+      "signature": "18379189048505860080",
+      "expression": [
+        "lut",
+        18379189048505860080,
+        14,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          1085102596360827120,
+          6,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    },
+    {
+      "seed": 1456,
+      "task": "route_cross_mux_xor",
+      "signature": "17361658038237331455",
+      "expression": [
+        "lut",
+        17361658038237331455,
+        14,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          281470681808895,
+          5,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1456,
+      "task": "route_cascade_mux",
+      "signature": "72056494543077120",
+      "expression": [
+        "lut",
+        72056494543077120,
+        3,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18374687579166474495,
+          9,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1456,
+      "task": "numeric_popcount_bit1",
+      "signature": "9838113388281462784",
+      "expression": [
+        "lut",
+        9838113388281462784,
+        8,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          9838263505978427528,
+          8,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1456,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "57421771435671756",
+      "expression": [
+        "lut",
+        57421771435671756,
+        2,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          18374966859414961920,
+          10,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1457,
+      "task": "route_dual_mux_xnor",
+      "signature": "6221254864074593878",
+      "expression": [
+        "lut",
+        6221254864074593878,
+        6,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18229723555195321596,
+          14,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1457,
+      "task": "route_cross_mux_xor",
+      "signature": "18398892597513158485",
+      "expression": [
+        "lut",
+        18398892597513158485,
+        14,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          6148914691236517205,
+          5,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1457,
+      "task": "route_cascade_mux",
+      "signature": "6148914691236517205",
+      "expression": [
+        "lut",
+        6148914691236517205,
+        9,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          0,
+          4,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1457,
+      "task": "numeric_popcount_bit1",
+      "signature": "14355223815585792",
+      "expression": [
+        "lut",
+        14355223815585792,
+        4,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          71776119077928960,
+          2,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    },
+    {
+      "seed": 1457,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "23925738098196565",
+      "expression": [
+        "lut",
+        23925738098196565,
+        1,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18374966859414961920,
+          12,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    }
+  ]
+}

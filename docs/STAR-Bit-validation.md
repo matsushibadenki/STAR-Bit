@@ -230,3 +230,15 @@ English: Logic-gate networks are trainable representation models, not only hand-
 English: The new pilot separates library compression, DAG sharing, and time-multiplexed PEs. Learning modules from trained circuits, adaptive routing, and continual formation/pruning remain the next research stages.
 
 简体中文：新增预实验区分了库描述压缩、DAG计算共享与PE时间复用。训练电路中的模块发现、自适应路由及持续形成／剪枝仍需后续检验。
+
+## 12. 2026-09-21追記：固定Functionのtask-family可搬性
+
+E031では、E027の肯定例が1つのdual-mux XORに偏っていたため、そのtruth tableへの反復を止めた。結果を見る前に経路選択3 taskと精密数値2 taskを定義し、E026の固定Function、移植なし、one-hop barrier、同一費用random Functionを新規8 seedで比較した。[詳細](STAR-Bit-E031-route-family-portability.md)。
+
+routeの採用Function−randomは−0.125 exact task/seed、bootstrap 95% CI [−0.375, 0]で、task-family可搬性は支持されなかった。数値の`unsigned_sum_ge6`では採用0/8に対しbarrier 6/8となり、Functionを後段まで伝播させることが探索を妨げる可能性が出た。ただしHolm補正後p=0.09375であり、3 route task中2つにも床効果があった。
+
+この結果から、次の評価ではtaskを成功率で選別しない生成grammarを先に凍結し、pilotは難度層の定義だけに使い、独立seedを確認用に分離する。さらに、Function条件だけ初期候補が1つ増える交絡を避けるため、no-transfer側にも同数・同費用だがcomposition不能なinert slotを置く。Functionの価値は「直接部品」「一段の探索摂動」「深いdescendant伝播」に分けて測る。
+
+English: E031 did not replicate the earlier dual-mux benefit across three new routing targets. The learned Function trailed equal-cost random controls, while a one-hop barrier unexpectedly helped one numeric target; this is an unconfirmed search-dynamics hypothesis after multiplicity correction.
+
+简体中文：E031未能在三个新路由目标上复现此前的dual-mux收益。学习函数落后于同成本随机对照，而一跳屏障意外改善了一个数值任务；经多重比较校正后，这仍只是关于搜索动力学的未确认假设。

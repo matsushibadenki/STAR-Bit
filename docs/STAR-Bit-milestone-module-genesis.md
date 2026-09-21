@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-09-18。E017〜E029は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-09-21。E017〜E031は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -16,11 +16,13 @@
 | 反実仮想admission | E026–E027 | 凍結1 Functionで22/64、legacy 4/64、random 17/64 | 阻害緩和と限定的task-crossing transferを支持 |
 | 直接利用と入力意味の分離 | E028 | 採用4/16、直接composition禁止2/16、入力+1置換4/16 | 直接利用の事前基準は未達 |
 | beam探索軌跡の追跡 | E029 | 入力+1だけが成功した3解はFunctionを最終式に含まず、初回beam固有signatureを祖先に持つ | 予備的trajectory証人、provenance未同定 |
+| provenanceと伝播barrier | E030 | 通常／one-hop barrierともdual-mux 3/16、対応差0 | 観測lineageは必要機構でない |
+| task-family可搬性 | E031 | routeは採用2/24、random 3/24。numeric sumは採用0/8、barrier 6/8 | 広い可搬性を支持せず、深い伝播の阻害仮説 |
 
-現在支持される主張は次である。
+現在支持される限定的な主張は次である。
 
 $$
-\boxed{\text{因果的probeで選別した部分Functionは、別taskの経路選択探索を助けうる}}
+\boxed{\text{因果的probeで選別した部分Functionは、特定の別task・seedで探索を助けうる}}
 $$
 
 現在も支持されない主張は次である。
@@ -39,7 +41,7 @@ E024–E026では、Library全体を入れること自体が探索を壊す問�
 
 経路選択taskのmuxはE022・E023の全主要条件で16/16に達し、Library差を検出できない。parityは中間affine構造や一部Libraryで改善するが、cross-task条件では不安定だった。comparatorとcarryは同一task transferで改善した一方、leave-one-task-outでは改善しなかった。
 
-E027では経路選択型dual-mux XORだけがcounterfactual 4/16、random 0/16、no-transfer 1/16へ改善した。精密数値型threshold2はcounterfactual 2/16、random 1/16、no-transfer 3/16で優位性がなく、threshold4は全条件0/16だった。今回の構造自由度の肯定例は経路選択に集中し、E022の同一task結果とは異なる。必要なのは任意の構造追加ではなく、taskに合う部分Functionの選別である。
+E027では経路選択型dual-mux XORだけがcounterfactual 4/16、random 0/16、no-transfer 1/16へ改善した。精密数値型threshold2はcounterfactual 2/16、random 1/16、no-transfer 3/16で優位性がなく、threshold4は全条件0/16だった。E031の新規route 3 taskでは採用2/24、random 3/24となり、この肯定例はtask familyへ移らなかった。数値`unsigned_sum_ge6`では採用0/8、barrier 6/8であり、構造追加の有無より伝播範囲が探索を左右する兆候が出た。必要なのはtaskに合うFunctionの選別と、作用範囲の制御である。
 
 ## 次の研究仮説
 
@@ -76,6 +78,14 @@ E026の1 Functionを凍結し、新規16 seed・256探索で確認した。count
 
 新規16 seedで採用Function、入力+1置換、移植なしを同じ探索コードで比較し、各roundのbeam・credit・直接子候補を観測した。dual-mux XOR exactは4/16、3/16、2/16で、対応差は有意でない。入力+1だけが成功した3 seedは、最終式で置換Functionを使わないが、初回beamで入力+1条件だけに存在し、Functionとの直接ペア出力として生成可能な中間signatureを祖先に持った。事前指定した3件の予備的trajectory基準を満たす一方、同じsignatureを別経路から再生成できるため、Library由来の因果的な媒介とまでは言えない。[E029詳細](STAR-Bit-E029-beam-trajectory.md)。
 
+## E030 provenance barrier
+
+Function由来の代表式とFunction-freeな同一signatureをroundごとに区別し、round 2以降のFunction由来候補を親利用できないbarrierを追加した。新規16 seedのdual-mux XORは通常入力+1とbarrierがともに3/16、対応差0、95% CI [−0.25, 0.25]だった。通常だけが成功した2件ではround1のFunction由来signatureがround2でFunction-free式へ置換されたが、barrierだけが成功した例には同じlineageがない。E029の軌跡は実在するものの、成功に必要な共通機構という事前仮説は棄却された。[E030詳細](STAR-Bit-E030-provenance-barrier.md)。
+
+## E031 task-family portability
+
+E026のFunctionを固定したまま、結果を見る前にroute 3 taskとnumeric 2 taskを新規定義し、移植なし・通常Function・one-hop barrier・同一費用randomを8 seedで比較した。routeの通常Function−randomは−0.125 task/seed、95% CI [−0.375, 0]で可搬性基準を満たさなかった。`numeric_unsigned_sum_ge6`は通常0/8、barrier 6/8で、深いdescendant伝播が探索を妨げる仮説が生じたが、task内Holm p=0.09375である。route taskの2/3はほぼ床だったため、次は生成grammarを凍結して難度を層別化し、別seedで確認する。[E031詳細](STAR-Bit-E031-route-family-portability.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -86,13 +96,15 @@ E026の1 Functionを凍結し、新規16 seed・256探索で確認した。count
 - [Done] E027の独立16 seedで反実仮想admissionの阻害緩和と、dual-mux XORへの限定的task-crossing transferを確認した。
 - [Done] E028で直接composition禁止と入力置換を比較し、直接再利用の事前基準未達と、最終式で未使用のFunctionが探索を変える可能性を示した。
 - [Done] E029でsignature別のbeam生存・credit・親利用を計測し、3件の予備的な探索軌跡証人を記録した。
-- [Next] provenance付き探索で同一signatureの別経路再生成を追跡し、Library由来と独立生成を区別する。
-- [Next] 数値thresholdの床効果を避ける予算を校正し、経路選択との差を再検証する。
+- [Done] E030で代表式provenanceとFunction-free置換を追跡し、one-hop barrierとの性能差0を確認した。
+- [Done] E031で単一truth tableへの反復を止め、事前定義した新規5 taskでFunction・barrier・random対照を比較し、広い可搬性が未確認であることを示した。
+- [Next] task生成grammarとpilot難度層を凍結し、独立seedで中難度層を評価する。no-transferにも同数のinert slotを置いて初期候補数を揃える。
+- [Next] 床効果の少ない数値taskで通常Functionとbarrierの差を独立確認し、深い伝播による阻害仮説を検証する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。
 
-English: E027 found a narrow cross-task search signal, but E028 did not confirm direct-composition causality. E029 found three preliminary trajectory witnesses: rotated-Function-only solutions omitted that Function while retaining intermediate signatures unique to its early beam. Paired exact performance remained non-significant, and signature provenance is unresolved.
+English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced the resulting beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets and raised an exploratory hypothesis that deep Function propagation can impede search.
 
-简体中文：E027观察到范围有限的跨任务搜索信号，但E028未证实直接组合的因果机制。E029发现3个初步轨迹证据：仅旋转函数条件成功的电路未包含该函数，却保留其早期beam特有的中间签名。配对精确成功率仍不显著，签名来源尚未厘清。
+简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标，并提出“函数深层传播可能阻碍搜索”的探索性假设。
 
-[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [研究ログ](RESEARCH-LOG.md)
+[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [研究ログ](RESEARCH-LOG.md)

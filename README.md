@@ -33,6 +33,8 @@
 - [E027：Counterfactual Module Admission 独立確認](docs/STAR-Bit-E027-counterfactual-admission-confirmation.md)
 - [E028：転移Functionの直接寄与と入力意味のAblation](docs/STAR-Bit-E028-module-causal-ablation.md)
 - [E029：Libraryが変えるBeam探索軌跡](docs/STAR-Bit-E029-beam-trajectory.md)
+- [E030：Function由来Signatureの置換と伝播Barrier](docs/STAR-Bit-E030-provenance-barrier.md)
+- [E031：固定Functionの経路選択Task Familyへの移植性](docs/STAR-Bit-E031-route-family-portability.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

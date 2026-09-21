@@ -1,0 +1,928 @@
+{
+  "aggregate": {
+    "no_transfer": {
+      "exact_by_task": {
+        "eval_dual_mux_xor": 1,
+        "eval_threshold2": 1
+      },
+      "exact": {
+        "mean": 0.0625,
+        "variance": 0.06048387096774194
+      },
+      "best_error": {
+        "mean": 2.34375,
+        "variance": 2.555443548387097
+      },
+      "elapsed_seconds": {
+        "mean": 2.8964583554063097,
+        "variance": 0.13672016158680225
+      },
+      "uses_transfer": 0
+    },
+    "rotate1": {
+      "exact_by_task": {
+        "eval_dual_mux_xor": 3,
+        "eval_threshold2": 2
+      },
+      "exact": {
+        "mean": 0.15625,
+        "variance": 0.13608870967741934
+      },
+      "best_error": {
+        "mean": 1.84375,
+        "variance": 2.587701612903226
+      },
+      "elapsed_seconds": {
+        "mean": 2.897222132843666,
+        "variance": 0.1620674847897958
+      },
+      "uses_transfer": 0
+    },
+    "one_hop_barrier": {
+      "exact_by_task": {
+        "eval_dual_mux_xor": 3,
+        "eval_threshold2": 0
+      },
+      "exact": {
+        "mean": 0.09375,
+        "variance": 0.08770161290322581
+      },
+      "best_error": {
+        "mean": 2.125,
+        "variance": 2.564516129032258
+      },
+      "elapsed_seconds": {
+        "mean": 2.774337341093684,
+        "variance": 0.24372554986997094
+      },
+      "uses_transfer": 0
+    }
+  },
+  "by_task": {
+    "eval_dual_mux_xor": {
+      "no_transfer": {
+        "exact": {
+          "mean": 0.0625,
+          "unbiased_variance": 0.0625,
+          "n": 16
+        },
+        "best_error": {
+          "mean": 3.75,
+          "unbiased_variance": 1.0,
+          "n": 16
+        },
+        "elapsed_seconds": {
+          "mean": 2.979926903562557,
+          "unbiased_variance": 0.19975691017032696,
+          "n": 16
+        },
+        "solution_primitives": {
+          "mean": 8.0,
+          "unbiased_variance": null,
+          "n": 1
+        },
+        "solution_routing_bits": {
+          "mean": 54.0,
+          "unbiased_variance": null,
+          "n": 1
+        },
+        "solution_depth": {
+          "mean": 4.0,
+          "unbiased_variance": null,
+          "n": 1
+        },
+        "uses_transfer": 0
+      },
+      "rotate1": {
+        "exact": {
+          "mean": 0.1875,
+          "unbiased_variance": 0.1625,
+          "n": 16
+        },
+        "best_error": {
+          "mean": 2.8125,
+          "unbiased_variance": 3.2291666666666665,
+          "n": 16
+        },
+        "elapsed_seconds": {
+          "mean": 2.874071268187379,
+          "unbiased_variance": 0.2799210126074871,
+          "n": 16
+        },
+        "solution_primitives": {
+          "mean": 12.333333333333334,
+          "unbiased_variance": 21.333333333333332,
+          "n": 3
+        },
+        "solution_routing_bits": {
+          "mean": 84.0,
+          "unbiased_variance": 972.0,
+          "n": 3
+        },
+        "solution_depth": {
+          "mean": 4.666666666666667,
+          "unbiased_variance": 0.33333333333333337,
+          "n": 3
+        },
+        "uses_transfer": 0
+      },
+      "one_hop_barrier": {
+        "exact": {
+          "mean": 0.1875,
+          "unbiased_variance": 0.1625,
+          "n": 16
+        },
+        "best_error": {
+          "mean": 3.25,
+          "unbiased_variance": 2.6,
+          "n": 16
+        },
+        "elapsed_seconds": {
+          "mean": 2.701666140562395,
+          "unbiased_variance": 0.4769352443099522,
+          "n": 16
+        },
+        "solution_primitives": {
+          "mean": 7.666666666666667,
+          "unbiased_variance": 0.33333333333333337,
+          "n": 3
+        },
+        "solution_routing_bits": {
+          "mean": 52.0,
+          "unbiased_variance": 12.0,
+          "n": 3
+        },
+        "solution_depth": {
+          "mean": 4.0,
+          "unbiased_variance": 0.0,
+          "n": 3
+        },
+        "uses_transfer": 0
+      }
+    },
+    "eval_threshold2": {
+      "no_transfer": {
+        "exact": {
+          "mean": 0.0625,
+          "unbiased_variance": 0.0625,
+          "n": 16
+        },
+        "best_error": {
+          "mean": 0.9375,
+          "unbiased_variance": 0.0625,
+          "n": 16
+        },
+        "elapsed_seconds": {
+          "mean": 2.8129898072500623,
+          "unbiased_variance": 0.06793516024226585,
+          "n": 16
+        },
+        "solution_primitives": {
+          "mean": 15.0,
+          "unbiased_variance": null,
+          "n": 1
+        },
+        "solution_routing_bits": {
+          "mean": 108.0,
+          "unbiased_variance": null,
+          "n": 1
+        },
+        "solution_depth": {
+          "mean": 5.0,
+          "unbiased_variance": null,
+          "n": 1
+        },
+        "uses_transfer": 0
+      },
+      "rotate1": {
+        "exact": {
+          "mean": 0.125,
+          "unbiased_variance": 0.11666666666666667,
+          "n": 16
+        },
+        "best_error": {
+          "mean": 0.875,
+          "unbiased_variance": 0.11666666666666667,
+          "n": 16
+        },
+        "elapsed_seconds": {
+          "mean": 2.9203729974999533,
+          "unbiased_variance": 0.05387506921817907,
+          "n": 16
+        },
+        "solution_primitives": {
+          "mean": 16.0,
+          "unbiased_variance": 0.0,
+          "n": 2
+        },
+        "solution_routing_bits": {
+          "mean": 114.0,
+          "unbiased_variance": 0.0,
+          "n": 2
+        },
+        "solution_depth": {
+          "mean": 6.0,
+          "unbiased_variance": 0.0,
+          "n": 2
+        },
+        "uses_transfer": 0
+      },
+      "one_hop_barrier": {
+        "exact": {
+          "mean": 0.0,
+          "unbiased_variance": 0.0,
+          "n": 16
+        },
+        "best_error": {
+          "mean": 1.0,
+          "unbiased_variance": 0.0,
+          "n": 16
+        },
+        "elapsed_seconds": {
+          "mean": 2.847008541624973,
+          "unbiased_variance": 0.015497871529782178,
+          "n": 16
+        },
+        "solution_primitives": {
+          "mean": null,
+          "unbiased_variance": null,
+          "n": 0
+        },
+        "solution_routing_bits": {
+          "mean": null,
+          "unbiased_variance": null,
+          "n": 0
+        },
+        "solution_depth": {
+          "mean": null,
+          "unbiased_variance": null,
+          "n": 0
+        },
+        "uses_transfer": 0
+      }
+    }
+  },
+  "paired": {
+    "eval_dual_mux_xor:rotate1-minus-one_hop_barrier": {
+      "mean": 0.0,
+      "unbiased_variance": 0.26666666666666666,
+      "ci95": [
+        -0.25,
+        0.25
+      ],
+      "cohen_dz": 0.0,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_dual_mux_xor:rotate1-minus-no_transfer": {
+      "mean": 0.125,
+      "unbiased_variance": 0.25,
+      "ci95": [
+        -0.125,
+        0.375
+      ],
+      "cohen_dz": 0.25,
+      "exact_signflip_p": 0.625,
+      "differences": [
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "eval_dual_mux_xor:one_hop_barrier-minus-no_transfer": {
+      "mean": 0.125,
+      "unbiased_variance": 0.11666666666666667,
+      "ci95": [
+        0.0,
+        0.3125
+      ],
+      "cohen_dz": 0.36596252735569995,
+      "exact_signflip_p": 0.5,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:rotate1-minus-one_hop_barrier": {
+      "mean": 0.125,
+      "unbiased_variance": 0.11666666666666667,
+      "ci95": [
+        0.0,
+        0.3125
+      ],
+      "cohen_dz": 0.36596252735569995,
+      "exact_signflip_p": 0.5,
+      "differences": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:rotate1-minus-no_transfer": {
+      "mean": 0.0625,
+      "unbiased_variance": 0.19583333333333333,
+      "ci95": [
+        -0.125,
+        0.25
+      ],
+      "cohen_dz": 0.141233170716508,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "eval_threshold2:one_hop_barrier-minus-no_transfer": {
+      "mean": -0.0625,
+      "unbiased_variance": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "cohen_dz": -0.25,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "mcnemar": {
+    "eval_dual_mux_xor": [
+      {
+        "left": "rotate1",
+        "right": "one_hop_barrier",
+        "left_only": 2,
+        "right_only": 2,
+        "p": 1.0,
+        "holm_p": 1.0
+      },
+      {
+        "left": "rotate1",
+        "right": "no_transfer",
+        "left_only": 3,
+        "right_only": 1,
+        "p": 0.625,
+        "holm_p": 1.0
+      },
+      {
+        "left": "one_hop_barrier",
+        "right": "no_transfer",
+        "left_only": 2,
+        "right_only": 0,
+        "p": 0.5,
+        "holm_p": 1.0
+      }
+    ],
+    "eval_threshold2": [
+      {
+        "left": "rotate1",
+        "right": "one_hop_barrier",
+        "left_only": 2,
+        "right_only": 0,
+        "p": 0.5,
+        "holm_p": 1.0
+      },
+      {
+        "left": "rotate1",
+        "right": "no_transfer",
+        "left_only": 2,
+        "right_only": 1,
+        "p": 1.0,
+        "holm_p": 1.0
+      },
+      {
+        "left": "one_hop_barrier",
+        "right": "no_transfer",
+        "left_only": 0,
+        "right_only": 1,
+        "p": 1.0,
+        "holm_p": 1.0
+      }
+    ]
+  },
+  "lineage": {
+    "eval_dual_mux_xor": {
+      "rotate1_only_vs_barrier_count": 2,
+      "qualified_lineage_count": 2,
+      "witnesses": [
+        {
+          "seed": 1432,
+          "baseline_exact": false,
+          "lineages": [
+            {
+              "signature": "18374966859414896640",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            },
+            {
+              "signature": "18374966859414962175",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            }
+          ]
+        },
+        {
+          "seed": 1440,
+          "baseline_exact": false,
+          "lineages": [
+            {
+              "signature": "71777214294589440",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            },
+            {
+              "signature": "71777214294654975",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            }
+          ]
+        }
+      ],
+      "versus_no_transfer": {
+        "rotate1": {
+          "condition_only_count": 3,
+          "qualified_lineage_count": 2,
+          "witnesses": [
+            {
+              "seed": 1432,
+              "lineages": [
+                {
+                  "signature": "18374966859414896640",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                },
+                {
+                  "signature": "18374966859414962175",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                }
+              ]
+            },
+            {
+              "seed": 1440,
+              "lineages": [
+                {
+                  "signature": "71777214294589440",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                },
+                {
+                  "signature": "71777214294654975",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                }
+              ]
+            },
+            {
+              "seed": 1444,
+              "lineages": []
+            }
+          ]
+        },
+        "one_hop_barrier": {
+          "condition_only_count": 2,
+          "qualified_lineage_count": 0,
+          "witnesses": [
+            {
+              "seed": 1438,
+              "lineages": []
+            },
+            {
+              "seed": 1444,
+              "lineages": []
+            }
+          ]
+        }
+      }
+    },
+    "eval_threshold2": {
+      "rotate1_only_vs_barrier_count": 2,
+      "qualified_lineage_count": 2,
+      "witnesses": [
+        {
+          "seed": 1430,
+          "baseline_exact": false,
+          "lineages": [
+            {
+              "signature": "71777214294654975",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            },
+            {
+              "signature": "18446462594437807848",
+              "first_round": 4,
+              "first_cost": [
+                15,
+                104,
+                6
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 5
+            },
+            {
+              "signature": "18446744073709551360",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            }
+          ]
+        },
+        {
+          "seed": 1443,
+          "baseline_exact": false,
+          "lineages": [
+            {
+              "signature": "71777214294654975",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            },
+            {
+              "signature": "18446744073709551360",
+              "first_round": 1,
+              "first_cost": [
+                3,
+                20,
+                3
+              ],
+              "first_credit": 0,
+              "first_partner_count": 0,
+              "first_clean_round": 2
+            }
+          ]
+        }
+      ],
+      "versus_no_transfer": {
+        "rotate1": {
+          "condition_only_count": 2,
+          "qualified_lineage_count": 2,
+          "witnesses": [
+            {
+              "seed": 1430,
+              "lineages": [
+                {
+                  "signature": "71777214294654975",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                },
+                {
+                  "signature": "18446462594437807848",
+                  "first_round": 4,
+                  "first_cost": [
+                    15,
+                    104,
+                    6
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 5
+                },
+                {
+                  "signature": "18446744073709551360",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                }
+              ]
+            },
+            {
+              "seed": 1443,
+              "lineages": [
+                {
+                  "signature": "71777214294654975",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                },
+                {
+                  "signature": "18446744073709551360",
+                  "first_round": 1,
+                  "first_cost": [
+                    3,
+                    20,
+                    3
+                  ],
+                  "first_credit": 0,
+                  "first_partner_count": 0,
+                  "first_clean_round": 2
+                }
+              ]
+            }
+          ]
+        },
+        "one_hop_barrier": {
+          "condition_only_count": 0,
+          "qualified_lineage_count": 0,
+          "witnesses": []
+        }
+      }
+    }
+  },
+  "beam_jaccard": {
+    "eval_dual_mux_xor:rotate1:round1": {
+      "mean": 0.8435140234735415,
+      "unbiased_variance": 0.00025454141272807904,
+      "n": 16
+    },
+    "eval_dual_mux_xor:rotate1:round2": {
+      "mean": 0.6262887825093492,
+      "unbiased_variance": 0.005055340807810902,
+      "n": 16
+    },
+    "eval_dual_mux_xor:rotate1:round3": {
+      "mean": 0.4762621463528467,
+      "unbiased_variance": 0.02908164459450742,
+      "n": 16
+    },
+    "eval_dual_mux_xor:rotate1:round4": {
+      "mean": 0.490874629567727,
+      "unbiased_variance": 0.029852015745932124,
+      "n": 14
+    },
+    "eval_dual_mux_xor:rotate1:round5": {
+      "mean": 0.47472105411587967,
+      "unbiased_variance": 0.03183675147576396,
+      "n": 12
+    },
+    "eval_dual_mux_xor:rotate1:round6": {
+      "mean": 0.4627806580033958,
+      "unbiased_variance": 0.03486088922988194,
+      "n": 12
+    },
+    "eval_dual_mux_xor:one_hop_barrier:round1": {
+      "mean": 0.8435140234735415,
+      "unbiased_variance": 0.00025454141272807904,
+      "n": 16
+    },
+    "eval_dual_mux_xor:one_hop_barrier:round2": {
+      "mean": 0.8045249049815842,
+      "unbiased_variance": 0.0017862532546427561,
+      "n": 16
+    },
+    "eval_dual_mux_xor:one_hop_barrier:round3": {
+      "mean": 0.7722710927058987,
+      "unbiased_variance": 0.002713647415787476,
+      "n": 16
+    },
+    "eval_dual_mux_xor:one_hop_barrier:round4": {
+      "mean": 0.7463824216656498,
+      "unbiased_variance": 0.005750643822779024,
+      "n": 13
+    },
+    "eval_dual_mux_xor:one_hop_barrier:round5": {
+      "mean": 0.6990549678408586,
+      "unbiased_variance": 0.011174979188258424,
+      "n": 13
+    },
+    "eval_dual_mux_xor:one_hop_barrier:round6": {
+      "mean": 0.6948256011433533,
+      "unbiased_variance": 0.011358313955800933,
+      "n": 13
+    },
+    "eval_threshold2:rotate1:round1": {
+      "mean": 0.6102860405785158,
+      "unbiased_variance": 0.0003837612851882039,
+      "n": 16
+    },
+    "eval_threshold2:rotate1:round2": {
+      "mean": 0.44235672616437544,
+      "unbiased_variance": 0.000159100193975149,
+      "n": 16
+    },
+    "eval_threshold2:rotate1:round3": {
+      "mean": 0.36928786123876417,
+      "unbiased_variance": 0.00044457393786780395,
+      "n": 16
+    },
+    "eval_threshold2:rotate1:round4": {
+      "mean": 0.37270092237412156,
+      "unbiased_variance": 0.0007404843165521327,
+      "n": 16
+    },
+    "eval_threshold2:rotate1:round5": {
+      "mean": 0.4065812320320364,
+      "unbiased_variance": 0.0007617552831455212,
+      "n": 15
+    },
+    "eval_threshold2:rotate1:round6": {
+      "mean": 0.42137000632514204,
+      "unbiased_variance": 0.000557317979906488,
+      "n": 13
+    },
+    "eval_threshold2:one_hop_barrier:round1": {
+      "mean": 0.6102860405785158,
+      "unbiased_variance": 0.0003837612851882039,
+      "n": 16
+    },
+    "eval_threshold2:one_hop_barrier:round2": {
+      "mean": 0.651192081924272,
+      "unbiased_variance": 0.0004323207465803559,
+      "n": 16
+    },
+    "eval_threshold2:one_hop_barrier:round3": {
+      "mean": 0.5677245628742437,
+      "unbiased_variance": 0.0012889193464559155,
+      "n": 16
+    },
+    "eval_threshold2:one_hop_barrier:round4": {
+      "mean": 0.5606339291438256,
+      "unbiased_variance": 0.003265485250958562,
+      "n": 16
+    },
+    "eval_threshold2:one_hop_barrier:round5": {
+      "mean": 0.5073859732064271,
+      "unbiased_variance": 0.0034447142022142946,
+      "n": 15
+    },
+    "eval_threshold2:one_hop_barrier:round6": {
+      "mean": 0.5196251528194409,
+      "unbiased_variance": 0.003028327796682106,
+      "n": 15
+    }
+  },
+  "solutions_verified": 10,
+  "records_verified": 96,
+  "analysis_source_hash": "7b3750cee99db771d8929641024d1cfee411e6933013a9ee537be376ca44023a",
+  "propagated_descendant_criterion_met": false
+}

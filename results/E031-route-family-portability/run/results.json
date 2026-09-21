@@ -1,0 +1,7241 @@
+{
+  "records": [
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 138839,
+      "elapsed_seconds": 2.9277655000005325,
+      "seed": 1450,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 6,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        6,
+        6
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 157550,
+      "elapsed_seconds": 3.139367917000527,
+      "seed": 1450,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 148513,
+      "elapsed_seconds": 2.914601333000064,
+      "seed": 1450,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146918,
+      "elapsed_seconds": 2.9656634169996323,
+      "seed": 1450,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18446744069431296255"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141276,
+      "elapsed_seconds": 2.9715571670003555,
+      "seed": 1450,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 5,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        5,
+        5
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146502,
+      "elapsed_seconds": 3.0731342499993843,
+      "seed": 1450,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 144511,
+      "elapsed_seconds": 2.8864272500004517,
+      "seed": 1450,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141276,
+      "elapsed_seconds": 2.987861542000246,
+      "seed": 1450,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18446744073709551615"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 130024,
+      "elapsed_seconds": 2.909786166000231,
+      "seed": 1450,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 156842,
+      "elapsed_seconds": 3.0672096660000534,
+      "seed": 1450,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 154130,
+      "elapsed_seconds": 2.936056584000653,
+      "seed": 1450,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 142110,
+      "elapsed_seconds": 2.959596292000242,
+      "seed": 1450,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "723390690314813440"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 164566,
+      "elapsed_seconds": 3.143020124999566,
+      "seed": 1450,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        12,
+        10,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 154350,
+      "elapsed_seconds": 3.0567536250000558,
+      "seed": 1450,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 153187,
+      "elapsed_seconds": 3.164119000000028,
+      "seed": 1450,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 164566,
+      "elapsed_seconds": 3.7272251670001424,
+      "seed": 1450,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "281470681808895"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        11,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            14,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              12249977906276641280,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073625334000,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                12297641735351828480,
+                8,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073658236144,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14699973487531969536,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 91250,
+      "elapsed_seconds": 1.9098150419995363,
+      "seed": 1450,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 139724,
+      "elapsed_seconds": 2.9562240420000307,
+      "seed": 1450,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        11,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073625334000,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                12297641735351828480,
+                8,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073658236144,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14699973487531969536,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 109618,
+      "elapsed_seconds": 1.7921512919992892,
+      "seed": 1450,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        11,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073625334000,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                12297641735351828480,
+                8,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073658236144,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                3746770586177582079,
+                7,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 104032,
+      "elapsed_seconds": 2.004422207999596,
+      "seed": 1450,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "14757395259826634751"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 137230,
+      "elapsed_seconds": 2.8938233340004444,
+      "seed": 1451,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 150222,
+      "elapsed_seconds": 3.0473254580001594,
+      "seed": 1451,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 147335,
+      "elapsed_seconds": 2.9117650839998532,
+      "seed": 1451,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        20,
+        15,
+        7,
+        0
+      ],
+      "uses_transfer": true,
+      "used_signatures": [
+        "281474976710655"
+      ],
+      "expression": [
+        "lut",
+        15625282719454799655,
+        8,
+        [
+          "lut",
+          15625520214620765991,
+          14,
+          [
+            "lut",
+            15625477330043348775,
+            9,
+            [
+              "lut",
+              15987178194065302050,
+              6,
+              [
+                "input",
+                5
+              ],
+              [
+                "lut",
+                2459565876494606882,
+                2,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18085043209519168250,
+              14,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            280379743338240,
+            8,
+            [
+              "lut",
+              281474976710655,
+              7,
+              [
+                "input",
+                4
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          15625282886972680191,
+          11,
+          [
+            "lut",
+            15625281959257188135,
+            9,
+            [
+              "lut",
+              15986971785381618210,
+              6,
+              [
+                "input",
+                4
+              ],
+              [
+                "lut",
+                2459565876494606882,
+                2,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18085043209519168250,
+              14,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446742978476179200,
+            13,
+            [
+              "lut",
+              281474976710655,
+              7,
+              [
+                "input",
+                4
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 102,
+      "depth": 5,
+      "generated_unique_signatures": 118856,
+      "elapsed_seconds": 2.06634720799957,
+      "seed": 1451,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "281474976710655"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136977,
+      "elapsed_seconds": 2.9272570829998585,
+      "seed": 1451,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 5,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        5,
+        5
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 161784,
+      "elapsed_seconds": 3.3797467499998675,
+      "seed": 1451,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146074,
+      "elapsed_seconds": 2.868879417000244,
+      "seed": 1451,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        15,
+        7,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 149805,
+      "elapsed_seconds": 3.0320551659997363,
+      "seed": 1451,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "13889326430589865164"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 131318,
+      "elapsed_seconds": 3.008109874999718,
+      "seed": 1451,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 148490,
+      "elapsed_seconds": 3.079600541000218,
+      "seed": 1451,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 152585,
+      "elapsed_seconds": 3.0499213339999187,
+      "seed": 1451,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 161858,
+      "elapsed_seconds": 3.2155369580004844,
+      "seed": 1451,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "12273903644374837845"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 151504,
+      "elapsed_seconds": 3.045355959000517,
+      "seed": 1451,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146218,
+      "elapsed_seconds": 2.935522458000378,
+      "seed": 1451,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 164709,
+      "elapsed_seconds": 2.9921406249995925,
+      "seed": 1451,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        11,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 147476,
+      "elapsed_seconds": 2.9511929580003198,
+      "seed": 1451,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "14757395258108647833"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        5,
+        2,
+        2,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 104938,
+      "elapsed_seconds": 2.7222767499997644,
+      "seed": 1451,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 131938,
+      "elapsed_seconds": 2.849708124999779,
+      "seed": 1451,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                3689573991287357439,
+                7,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073624681200,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6196766167432910335,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 109803,
+      "elapsed_seconds": 1.8426330000002054,
+      "seed": 1451,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        5,
+        2,
+        2,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 144010,
+      "elapsed_seconds": 3.0294433330000174,
+      "seed": 1451,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "6438275382588823897"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 143388,
+      "elapsed_seconds": 3.0478448339999886,
+      "seed": 1452,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        6,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 152449,
+      "elapsed_seconds": 3.121110874999431,
+      "seed": 1452,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 153500,
+      "elapsed_seconds": 3.0196509159995912,
+      "seed": 1452,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 143388,
+      "elapsed_seconds": 3.0261876670001584,
+      "seed": 1452,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "71777214294589695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136514,
+      "elapsed_seconds": 2.946120874999906,
+      "seed": 1452,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 6,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        6,
+        6
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 155490,
+      "elapsed_seconds": 3.1683086670000193,
+      "seed": 1452,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 142072,
+      "elapsed_seconds": 2.877006167000218,
+      "seed": 1452,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136514,
+      "elapsed_seconds": 2.9554791670007035,
+      "seed": 1452,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "1085102592571150095"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 123404,
+      "elapsed_seconds": 2.9266041660002884,
+      "seed": 1452,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 158372,
+      "elapsed_seconds": 3.123233375000382,
+      "seed": 1452,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 145196,
+      "elapsed_seconds": 2.9130417919996034,
+      "seed": 1452,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 123404,
+      "elapsed_seconds": 2.9047346249999464,
+      "seed": 1452,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "0"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 10,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        10,
+        10
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 159022,
+      "elapsed_seconds": 3.123932167000021,
+      "seed": 1452,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        12,
+        10,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 145173,
+      "elapsed_seconds": 2.8556582919991342,
+      "seed": 1452,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 10,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        10,
+        10
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 161378,
+      "elapsed_seconds": 3.1026445409997905,
+      "seed": 1452,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 12,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        13,
+        13,
+        12
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 148708,
+      "elapsed_seconds": 3.0274312499996086,
+      "seed": 1452,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18389322302273879859"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            14,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              12249977906276641280,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073624681200,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6196766167432910335,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073659019504,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 88938,
+      "elapsed_seconds": 1.9244461670004966,
+      "seed": 1452,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136523,
+      "elapsed_seconds": 2.965501624999888,
+      "seed": 1452,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073624681200,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6196766167432910335,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073659019504,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                3689573991287357439,
+                7,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 110439,
+      "elapsed_seconds": 1.8389519579995977,
+      "seed": 1452,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 130133,
+      "elapsed_seconds": 2.940236375000495,
+      "seed": 1452,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18442521884633399280"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        10,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 135537,
+      "elapsed_seconds": 2.956985374999931,
+      "seed": 1453,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 163225,
+      "elapsed_seconds": 3.2192286250001416,
+      "seed": 1453,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 145255,
+      "elapsed_seconds": 2.876096874999348,
+      "seed": 1453,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        15,
+        10,
+        10,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 140005,
+      "elapsed_seconds": 2.973498667000058,
+      "seed": 1453,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "17361641477096079360"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        10,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 135193,
+      "elapsed_seconds": 2.998814833999859,
+      "seed": 1453,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 6,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        6,
+        6
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 158446,
+      "elapsed_seconds": 3.2390735830003905,
+      "seed": 1453,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        10,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 149675,
+      "elapsed_seconds": 3.0337202500004423,
+      "seed": 1453,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        15,
+        9,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146428,
+      "elapsed_seconds": 3.08126883299974,
+      "seed": 1453,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18446462603027808255"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141530,
+      "elapsed_seconds": 3.1273456670005544,
+      "seed": 1453,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 154062,
+      "elapsed_seconds": 3.156931292000081,
+      "seed": 1453,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146802,
+      "elapsed_seconds": 2.9269207500001357,
+      "seed": 1453,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 139570,
+      "elapsed_seconds": 3.0506871249999676,
+      "seed": 1453,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "4294967295"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 151524,
+      "elapsed_seconds": 3.034241917000145,
+      "seed": 1453,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        11,
+        11,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 153852,
+      "elapsed_seconds": 2.9572819999993953,
+      "seed": 1453,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 161950,
+      "elapsed_seconds": 2.9282364589998906,
+      "seed": 1453,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 156113,
+      "elapsed_seconds": 3.054493249999723,
+      "seed": 1453,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "14757170082422194176"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        11,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073625334000,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6149102338357723135,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073658236144,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14699973487531969536,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 93292,
+      "elapsed_seconds": 1.956082959000014,
+      "seed": 1453,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 133631,
+      "elapsed_seconds": 2.9015070000004926,
+      "seed": 1453,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        5,
+        2,
+        2,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 144957,
+      "elapsed_seconds": 2.81338283399964,
+      "seed": 1453,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 125284,
+      "elapsed_seconds": 2.8605713750002906,
+      "seed": 1453,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18446730828030407667"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146588,
+      "elapsed_seconds": 3.101458750000347,
+      "seed": 1454,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        0
+      ],
+      "uses_transfer": true,
+      "used_signatures": [
+        "17361640514770759695"
+      ],
+      "expression": [
+        "lut",
+        15625282719454799655,
+        9,
+        [
+          "lut",
+          8608480567731124087,
+          7,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            1
+          ]
+        ],
+        [
+          "lut",
+          5787318280657022895,
+          9,
+          [
+            "lut",
+            17361394091007348495,
+            6,
+            [
+              "lut",
+              17361394091022094320,
+              9,
+              [
+                "input",
+                4
+              ],
+              [
+                "lut",
+                17361640514770759695,
+                6,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "lut",
+                  1095216660735,
+                  1,
+                  [
+                    "input",
+                    3
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              16711935,
+              1,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ],
+          [
+            "lut",
+            6872316419617283935,
+            7,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ]
+        ]
+      ],
+      "primitives": 9,
+      "routing_bits": 62,
+      "depth": 6,
+      "generated_unique_signatures": 92914,
+      "elapsed_seconds": 1.420061457999509,
+      "seed": 1454,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 147045,
+      "elapsed_seconds": 3.018236375000015,
+      "seed": 1454,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 144214,
+      "elapsed_seconds": 3.1033381249999366,
+      "seed": 1454,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "3689348814741910323"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 135557,
+      "elapsed_seconds": 2.951487291000376,
+      "seed": 1454,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 5,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        6,
+        5
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 156034,
+      "elapsed_seconds": 3.2385395829996924,
+      "seed": 1454,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 140172,
+      "elapsed_seconds": 2.8893475409995517,
+      "seed": 1454,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        0
+      ],
+      "uses_transfer": true,
+      "used_signatures": [
+        "18446650250148948650"
+      ],
+      "expression": [
+        "lut",
+        736724935627087980,
+        8,
+        [
+          "lut",
+          18391011396947672940,
+          14,
+          [
+            "lut",
+            4123446145906732140,
+            6,
+            [
+              "lut",
+              3689405108878272102,
+              6,
+              [
+                "input",
+                1
+              ],
+              [
+                "lut",
+                18446650250148948650,
+                11,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "lut",
+                  6148914691236517205,
+                  3,
+                  [
+                    "input",
+                    3
+                  ],
+                  [
+                    "input",
+                    0
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "input",
+            3
+          ]
+        ],
+        [
+          "lut",
+          792457612388966655,
+          11,
+          [
+            "lut",
+            723495555899433120,
+            6,
+            [
+              "lut",
+              93827855526570,
+              6,
+              [
+                "input",
+                5
+              ],
+              [
+                "lut",
+                18446650250148948650,
+                11,
+                [
+                  "input",
+                  4
+                ],
+                [
+                  "lut",
+                  6148914691236517205,
+                  3,
+                  [
+                    "input",
+                    3
+                  ],
+                  [
+                    "input",
+                    0
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "primitives": 13,
+      "routing_bits": 94,
+      "depth": 6,
+      "generated_unique_signatures": 89442,
+      "elapsed_seconds": 1.4034745409999232,
+      "seed": 1454,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18446650250148948650"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141222,
+      "elapsed_seconds": 3.093901208000716,
+      "seed": 1454,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 137138,
+      "elapsed_seconds": 3.001142833999438,
+      "seed": 1454,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141623,
+      "elapsed_seconds": 2.9149327499999345,
+      "seed": 1454,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        16,
+        12,
+        8,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 135687,
+      "elapsed_seconds": 3.0071342500004903,
+      "seed": 1454,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "12297829383904690175"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 153912,
+      "elapsed_seconds": 3.084669916999701,
+      "seed": 1454,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        11,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 145700,
+      "elapsed_seconds": 2.9245970410001974,
+      "seed": 1454,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 157333,
+      "elapsed_seconds": 2.9101779169996007,
+      "seed": 1454,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        15,
+        12,
+        11,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 162508,
+      "elapsed_seconds": 3.156525416000477,
+      "seed": 1454,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "11072831591845370282"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        5,
+        2,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 112032,
+      "elapsed_seconds": 2.8408150830000523,
+      "seed": 1454,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 128292,
+      "elapsed_seconds": 2.897682374999931,
+      "seed": 1454,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073708564720,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                72057589759737855,
+                7,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073591650552,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                8608480567731124087,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 112675,
+      "elapsed_seconds": 2.26216120799927,
+      "seed": 1454,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        5,
+        3,
+        2,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 127904,
+      "elapsed_seconds": 3.022586707999835,
+      "seed": 1454,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18229723550950883328"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        15625282719454799655,
+        6,
+        [
+          "lut",
+          15575460888367802151,
+          6,
+          [
+            "lut",
+            9833478431373232264,
+            6,
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ],
+            [
+              "lut",
+              71776119077928960,
+              4,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            5787318688672690095,
+            6,
+            [
+              "input",
+              4
+            ],
+            [
+              "lut",
+              12659530246663417775,
+              11,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          71777214277877760,
+          4,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 8,
+      "routing_bits": 54,
+      "depth": 4,
+      "generated_unique_signatures": 83124,
+      "elapsed_seconds": 1.8973456660005468,
+      "seed": 1455,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        6,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 153785,
+      "elapsed_seconds": 3.4427172920004523,
+      "seed": 1455,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        15625282719454799655,
+        6,
+        [
+          "lut",
+          15575460888367802151,
+          6,
+          [
+            "lut",
+            9833478431373232264,
+            6,
+            [
+              "lut",
+              9838263505978427528,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                1
+              ]
+            ],
+            [
+              "lut",
+              71776119077928960,
+              4,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            5787318688672690095,
+            6,
+            [
+              "input",
+              4
+            ],
+            [
+              "lut",
+              12659530246663417775,
+              11,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          71777214277877760,
+          4,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 8,
+      "routing_bits": 54,
+      "depth": 4,
+      "generated_unique_signatures": 86049,
+      "elapsed_seconds": 1.8181454999994457,
+      "seed": 1455,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        15,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 155969,
+      "elapsed_seconds": 3.46203237500049,
+      "seed": 1455,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "71793642544500720"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 133000,
+      "elapsed_seconds": 2.9875452920005046,
+      "seed": 1455,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 143430,
+      "elapsed_seconds": 3.0363316660004784,
+      "seed": 1455,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141986,
+      "elapsed_seconds": 2.9307967909999206,
+      "seed": 1455,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 6,
+      "best_error_history": [
+        24,
+        20,
+        16,
+        8,
+        6,
+        6
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 147310,
+      "elapsed_seconds": 3.2951207079995584,
+      "seed": 1455,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18446556426588345685"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 129030,
+      "elapsed_seconds": 3.1636957090004216,
+      "seed": 1455,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 150810,
+      "elapsed_seconds": 3.351047749999452,
+      "seed": 1455,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 142226,
+      "elapsed_seconds": 3.1188970409994,
+      "seed": 1455,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 139994,
+      "elapsed_seconds": 3.8409289579994947,
+      "seed": 1455,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "12659530246663417775"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        10,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 168530,
+      "elapsed_seconds": 3.6407160419994398,
+      "seed": 1455,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        11,
+        11,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 165274,
+      "elapsed_seconds": 3.901124291999622,
+      "seed": 1455,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 178954,
+      "elapsed_seconds": 3.2277010420002625,
+      "seed": 1455,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 10,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        10
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 184092,
+      "elapsed_seconds": 3.6052460420005445,
+      "seed": 1455,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "12297735558912431445"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        5,
+        2,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 109744,
+      "elapsed_seconds": 2.8590781660004723,
+      "seed": 1455,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136320,
+      "elapsed_seconds": 3.4878036670006622,
+      "seed": 1455,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        11,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073658236144,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                3746770586177582079,
+                7,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073625334000,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6149102338357723135,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 108171,
+      "elapsed_seconds": 2.184804041999996,
+      "seed": 1455,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        5,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 127464,
+      "elapsed_seconds": 2.973464208999758,
+      "seed": 1455,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "1229782938247303441"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        10,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 148548,
+      "elapsed_seconds": 3.3639892089995556,
+      "seed": 1456,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 160334,
+      "elapsed_seconds": 3.360350124999968,
+      "seed": 1456,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 158496,
+      "elapsed_seconds": 3.0518641660000867,
+      "seed": 1456,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 10,
+      "best_error_history": [
+        24,
+        20,
+        12,
+        10,
+        10,
+        10
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 138385,
+      "elapsed_seconds": 2.8026082500000484,
+      "seed": 1456,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18379189048505860080"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 135214,
+      "elapsed_seconds": 2.8706213330005994,
+      "seed": 1456,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 155826,
+      "elapsed_seconds": 3.0200157919998674,
+      "seed": 1456,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 147434,
+      "elapsed_seconds": 2.91734708399963,
+      "seed": 1456,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        20,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 137613,
+      "elapsed_seconds": 3.004935750000186,
+      "seed": 1456,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "17361658038237331455"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        9,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 134194,
+      "elapsed_seconds": 2.9859995830001935,
+      "seed": 1456,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146124,
+      "elapsed_seconds": 3.027016542000638,
+      "seed": 1456,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        9,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 145443,
+      "elapsed_seconds": 2.937919625000177,
+      "seed": 1456,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 154988,
+      "elapsed_seconds": 3.132791332999659,
+      "seed": 1456,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "72056494543077120"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 160372,
+      "elapsed_seconds": 3.061662666000302,
+      "seed": 1456,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136897,
+      "elapsed_seconds": 2.7320903340005316,
+      "seed": 1456,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 173389,
+      "elapsed_seconds": 3.0095334160005223,
+      "seed": 1456,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        20,
+        16,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 150342,
+      "elapsed_seconds": 2.9304210420004893,
+      "seed": 1456,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "9838113388281462784"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            14,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              12249977906276641280,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591648496,
+            8,
+            [
+              "lut",
+              18446744073625334000,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6149102338357723135,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073659022588,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "input",
+                1
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 14,
+      "routing_bits": 100,
+      "depth": 5,
+      "generated_unique_signatures": 85056,
+      "elapsed_seconds": 1.9745763749997423,
+      "seed": 1456,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 133189,
+      "elapsed_seconds": 2.9555335410004773,
+      "seed": 1456,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            14,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              12249977906276641280,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073708564720,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                72057589759737855,
+                7,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073591650552,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                8608480567731124087,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 110167,
+      "elapsed_seconds": 1.926095875000101,
+      "seed": 1456,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            14,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              12249977906276641280,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073708564720,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                72057589759737855,
+                7,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073591650552,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                8608480567731124087,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 105876,
+      "elapsed_seconds": 2.0489631660002487,
+      "seed": 1456,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "57421771435671756"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 126933,
+      "elapsed_seconds": 2.8204301249998025,
+      "seed": 1457,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        16,
+        12,
+        0
+      ],
+      "uses_transfer": true,
+      "used_signatures": [
+        "17361640514770759695"
+      ],
+      "expression": [
+        "lut",
+        15625282719454799655,
+        9,
+        [
+          "lut",
+          15987178197214944733,
+          13,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            1
+          ]
+        ],
+        [
+          "lut",
+          18084773829154243845,
+          6,
+          [
+            "lut",
+            17361394091007348495,
+            9,
+            [
+              "lut",
+              17361394091022094320,
+              9,
+              [
+                "input",
+                4
+              ],
+              [
+                "lut",
+                17361640514770759695,
+                6,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "lut",
+                  1095216660735,
+                  1,
+                  [
+                    "input",
+                    3
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073692839680,
+              14,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ],
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ]
+        ]
+      ],
+      "primitives": 9,
+      "routing_bits": 62,
+      "depth": 6,
+      "generated_unique_signatures": 89276,
+      "elapsed_seconds": 1.4182703750002474,
+      "seed": 1457,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 133797,
+      "elapsed_seconds": 2.8796859160001986,
+      "seed": 1457,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        20,
+        15,
+        8,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        15625282719454799655,
+        14,
+        [
+          "lut",
+          9838152455297377059,
+          8,
+          [
+            "lut",
+            14757227033678525235,
+            6,
+            [
+              "lut",
+              14714160705111798579,
+              9,
+              [
+                "input",
+                1
+              ],
+              [
+                "lut",
+                18374686483949813760,
+                8,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              71777214277877760,
+              4,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ],
+          [
+            "lut",
+            12370169555311111083,
+            14,
+            [
+              "input",
+              0
+            ],
+            [
+              "lut",
+              217020518514230019,
+              1,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          5787133562692503303,
+          2,
+          [
+            "lut",
+            17361394091007348495,
+            6,
+            [
+              "lut",
+              17298061254879809295,
+              9,
+              [
+                "input",
+                2
+              ],
+              [
+                "lut",
+                18374686483949813760,
+                8,
+                [
+                  "input",
+                  3
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              71777214277877760,
+              4,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ],
+          [
+            "lut",
+            12153149036796881064,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "lut",
+              217020518514230019,
+              1,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 102,
+      "depth": 5,
+      "generated_unique_signatures": 116483,
+      "elapsed_seconds": 2.1702592920000825,
+      "seed": 1457,
+      "task": "route_dual_mux_xnor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "6221254864074593878"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        736724935627087980,
+        9,
+        [
+          "lut",
+          17670259534540136300,
+          6,
+          [
+            "lut",
+            722159580888801360,
+            8,
+            [
+              "lut",
+              12273903644374837845,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              1085350949055099120,
+              6,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18391855615719571260,
+            14,
+            [
+              "lut",
+              4340410370284600380,
+              6,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          72057594037862655,
+          11,
+          [
+            "lut",
+            281474976645120,
+            6,
+            [
+              "input",
+              4
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "primitives": 9,
+      "routing_bits": 60,
+      "depth": 4,
+      "generated_unique_signatures": 86028,
+      "elapsed_seconds": 1.3934560419993431,
+      "seed": 1457,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 146961,
+      "elapsed_seconds": 3.0749854170007893,
+      "seed": 1457,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        736724935627087980,
+        6,
+        [
+          "lut",
+          722088116575641680,
+          6,
+          [
+            "lut",
+            722159580888801360,
+            8,
+            [
+              "lut",
+              12273903644374837845,
+              9,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              1085350949055099120,
+              6,
+              [
+                "input",
+                2
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            280379743272960,
+            8,
+            [
+              "lut",
+              281474976645120,
+              6,
+              [
+                "input",
+                4
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "input",
+              3
+            ]
+          ]
+        ],
+        [
+          "lut",
+          16888756304609340,
+          2,
+          [
+            "lut",
+            4340410370284600380,
+            6,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "primitives": 9,
+      "routing_bits": 60,
+      "depth": 4,
+      "generated_unique_signatures": 86579,
+      "elapsed_seconds": 1.2734762500003853,
+      "seed": 1457,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 4,
+      "best_error_history": [
+        24,
+        24,
+        16,
+        8,
+        4,
+        4
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 141209,
+      "elapsed_seconds": 3.110112957999263,
+      "seed": 1457,
+      "task": "route_cross_mux_xor",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "18398892597513158485"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 133384,
+      "elapsed_seconds": 3.0472673750000467,
+      "seed": 1457,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 155824,
+      "elapsed_seconds": 3.247104125000078,
+      "seed": 1457,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 151828,
+      "elapsed_seconds": 3.010934332999568,
+      "seed": 1457,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        16,
+        12,
+        10,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 133384,
+      "elapsed_seconds": 3.075804082999639,
+      "seed": 1457,
+      "task": "route_cascade_mux",
+      "family": "route",
+      "condition": "random_matched",
+      "library_signatures": [
+        "6148914691236517205"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 11,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        11
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 164658,
+      "elapsed_seconds": 3.2104107499999373,
+      "seed": 1457,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        14,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 160854,
+      "elapsed_seconds": 3.0951599999998507,
+      "seed": 1457,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 10,
+      "best_error_history": [
+        24,
+        22,
+        16,
+        12,
+        11,
+        10
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 162201,
+      "elapsed_seconds": 2.959238583000115,
+      "seed": 1457,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 9,
+      "best_error_history": [
+        24,
+        20,
+        16,
+        12,
+        9,
+        9
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 156562,
+      "elapsed_seconds": 3.0496662089999518,
+      "seed": 1457,
+      "task": "numeric_popcount_bit1",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "14355223815585792"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        4,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 98564,
+      "elapsed_seconds": 2.6310968340003456,
+      "seed": 1457,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        2,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 134003,
+      "elapsed_seconds": 2.9127995830003783,
+      "seed": 1457,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "admitted",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        7,
+        7,
+        4,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 136339,
+      "elapsed_seconds": 2.9873671250006737,
+      "seed": 1457,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961194590400,
+        14,
+        [
+          "lut",
+          18446725162850115776,
+          8,
+          [
+            "lut",
+            18446725162883672768,
+            11,
+            [
+              "lut",
+              18446687779320545472,
+              8,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073591124208,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                3689573991287357439,
+                7,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073624681200,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                6196766167432910335,
+                7,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          17361641477096079360,
+          8,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 5,
+      "generated_unique_signatures": 103842,
+      "elapsed_seconds": 2.0635410000004413,
+      "seed": 1457,
+      "task": "numeric_unsigned_sum_ge6",
+      "family": "numeric",
+      "condition": "random_matched",
+      "library_signatures": [
+        "23925738098196565"
+      ]
+    }
+  ],
+  "aggregate": {
+    "no_transfer": {
+      "exact": {
+        "mean": 0.15,
+        "unbiased_variance": 0.13076923076923075,
+        "n": 40
+      },
+      "exact_by_task": {
+        "route_dual_mux_xnor": 1,
+        "route_cross_mux_xor": 1,
+        "route_cascade_mux": 0,
+        "numeric_popcount_bit1": 0,
+        "numeric_unsigned_sum_ge6": 4
+      },
+      "exact_by_family": {
+        "route": {
+          "mean": 0.08333333333333333,
+          "unbiased_variance": 0.07971014492753623,
+          "n": 24
+        },
+        "numeric": {
+          "mean": 0.25,
+          "unbiased_variance": 0.2,
+          "n": 16
+        }
+      },
+      "best_error": {
+        "mean": 3.875,
+        "unbiased_variance": 11.445512820512821,
+        "n": 40
+      },
+      "elapsed_seconds": {
+        "mean": 2.8370352344501044,
+        "unbiased_variance": 0.2122074573708677,
+        "n": 40
+      },
+      "uses_transfer": 0
+    },
+    "admitted": {
+      "exact": {
+        "mean": 0.05,
+        "unbiased_variance": 0.04871794871794872,
+        "n": 40
+      },
+      "exact_by_task": {
+        "route_dual_mux_xnor": 2,
+        "route_cross_mux_xor": 0,
+        "route_cascade_mux": 0,
+        "numeric_popcount_bit1": 0,
+        "numeric_unsigned_sum_ge6": 0
+      },
+      "exact_by_family": {
+        "route": {
+          "mean": 0.08333333333333333,
+          "unbiased_variance": 0.07971014492753623,
+          "n": 24
+        },
+        "numeric": {
+          "mean": 0.0,
+          "unbiased_variance": 0.0,
+          "n": 16
+        }
+      },
+      "best_error": {
+        "mean": 4.3,
+        "unbiased_variance": 9.24102564102564,
+        "n": 40
+      },
+      "elapsed_seconds": {
+        "mean": 3.020920048950052,
+        "unbiased_variance": 0.18327606211551634,
+        "n": 40
+      },
+      "uses_transfer": 2
+    },
+    "one_hop_barrier": {
+      "exact": {
+        "mean": 0.2,
+        "unbiased_variance": 0.16410256410256416,
+        "n": 40
+      },
+      "exact_by_task": {
+        "route_dual_mux_xnor": 1,
+        "route_cross_mux_xor": 1,
+        "route_cascade_mux": 0,
+        "numeric_popcount_bit1": 0,
+        "numeric_unsigned_sum_ge6": 6
+      },
+      "exact_by_family": {
+        "route": {
+          "mean": 0.08333333333333333,
+          "unbiased_variance": 0.07971014492753623,
+          "n": 24
+        },
+        "numeric": {
+          "mean": 0.375,
+          "unbiased_variance": 0.25,
+          "n": 16
+        }
+      },
+      "best_error": {
+        "mean": 3.75,
+        "unbiased_variance": 10.807692307692308,
+        "n": 40
+      },
+      "elapsed_seconds": {
+        "mean": 2.7479252510249355,
+        "unbiased_variance": 0.2217268764825929,
+        "n": 40
+      },
+      "uses_transfer": 0
+    },
+    "random_matched": {
+      "exact": {
+        "mean": 0.15,
+        "unbiased_variance": 0.13076923076923075,
+        "n": 40
+      },
+      "exact_by_task": {
+        "route_dual_mux_xnor": 2,
+        "route_cross_mux_xor": 1,
+        "route_cascade_mux": 0,
+        "numeric_popcount_bit1": 0,
+        "numeric_unsigned_sum_ge6": 3
+      },
+      "exact_by_family": {
+        "route": {
+          "mean": 0.125,
+          "unbiased_variance": 0.11413043478260869,
+          "n": 24
+        },
+        "numeric": {
+          "mean": 0.1875,
+          "unbiased_variance": 0.1625,
+          "n": 16
+        }
+      },
+      "best_error": {
+        "mean": 4.125,
+        "unbiased_variance": 13.445512820512821,
+        "n": 40
+      },
+      "elapsed_seconds": {
+        "mean": 2.92682217495003,
+        "unbiased_variance": 0.2254018782192547,
+        "n": 40
+      },
+      "uses_transfer": 2
+    }
+  },
+  "settings": {
+    "seeds": [
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1455,
+      1456,
+      1457
+    ],
+    "tasks": [
+      "route_dual_mux_xnor",
+      "route_cross_mux_xor",
+      "route_cascade_mux",
+      "numeric_popcount_bit1",
+      "numeric_unsigned_sum_ge6"
+    ],
+    "conditions": [
+      "no_transfer",
+      "admitted",
+      "one_hop_barrier",
+      "random_matched"
+    ],
+    "beam": 128,
+    "rounds": 6,
+    "max_cost": 16
+  },
+  "elapsed_seconds": 461.946458292,
+  "sources": {
+    "results/E031-route-family-portability/main.py": "e1c608a93a8209d3821c205b1476b0e87b8367f240a96c5c1d9ccd36c7a6a0a3",
+    "results/E031-route-family-portability/PROTOCOL.md": "619a4410fe765e3faa73254f10a847f6e41ff1e38995fd466509de4129eabca2",
+    "results/E030-provenance-barrier/main.py": "e55aaa988298f3e949a37c3f38f438cd650d50114ae2a3d9bb953c1d6c6c0232",
+    "results/E028-module-causal-ablation/main.py": "18b38f3d196df27e58c884cf467ff2bf6f20ea40ff224f61e8f7895c40d166b0",
+    "results/E026-counterfactual-admission/main.py": "6d8d32d81b8138b50a1825b0bbc2c7bf2f955671f2641aca77d57981a2d716ce",
+    "results/E026-counterfactual-admission/run/admission.json": "3e5e9d293de3bce3e803cfdcb81b021900894c1a96eea00d52ee843bbcc5c6e0",
+    "results/E024-probe-utility-diversity/main.py": "370ebd01789fbf7932ee750840aeb15857bee01116da687a7f7fff9fde6424bf",
+    "results/E023-leave-one-task-out-transfer/main.py": "eaed1accd737918819ee764aa2aba92974436ba0f953954ed4ff3eb4bf962952",
+    "results/E019-function-space-genesis/search.py": "03b7be2a8676bb1450bf42796f119b63d02fd43b985eca044051324069e59f4d",
+    "results/E019-function-space-genesis/search_v2.py": "73d4c18c6dd63ae095ba97727b0dbf19ba3aa4fb33b09ea36de71c323d182144"
+  }
+}
