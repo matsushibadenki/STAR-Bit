@@ -1,0 +1,26 @@
+{
+  "no_transfer": {
+    "seed": 19000,
+    "rounds": 2,
+    "matched_keys": [
+      "exact",
+      "round",
+      "best_error_history",
+      "generated_unique_signatures",
+      "expression",
+      "uses_transfer"
+    ]
+  },
+  "early_learned": {
+    "seed": 19000,
+    "rounds": 2,
+    "matched_keys": [
+      "exact",
+      "round",
+      "best_error_history",
+      "generated_unique_signatures",
+      "expression",
+      "uses_transfer"
+    ]
+  }
+}
