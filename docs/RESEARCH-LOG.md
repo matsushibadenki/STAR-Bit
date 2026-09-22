@@ -411,3 +411,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] asymmetric−symmetricの閾値別exact差は3比較とも0（不偏分散0、95% CI [0,0]、dz未定義、exact p=1、Holm p=1）。成功式が0件なので全入力再評価の対象はなく、36 unique record、progress一致、strict JSON、Function不使用、source hashを監査した。
 - [Next] 近接例`numeric_symmetric_ge5`のbeam幅をbaseline-onlyで事前校正し、Functionを見ずに中難度を作れるか調べる。E034の`route_cross_and@4`は固定したまま維持する。
 - [Later] 両familyに中難度が揃ったら独立seedでFunction／barrier／同費用random／inertを比較し、State付き形成・分解とRouter統合へ進む。
+
+## E036：数値タスクの移植なしBeam幅校正（2026-09-22）
+
+- [Done] E035で移植なしbest error 1/64だった`numeric_symmetric_ge5`を固定し、新規seed1510–1515、beam64/128/192/256、6 round、tree cost16、Functionなしを事前登録した。24探索、約208秒で完了した。[事前計画](../results/E036-beam-calibration/PROTOCOL.md)。
+- [Done] exactはbeam64/128/192が各0/6、beam256が2/6。[詳細](STAR-Bit-E036-beam-calibration.md)。事前の中難度2–4/6規則を満たした最小幅256を数値側のpilot候補として凍結し、E034のroute`cross_and@4`候補も維持した。双方のtask内予算は異なるため、将来のfamily交互作用には計算量の交絡を明示する。
+- [Done] beam256−192のexact差は+0.3333（不偏分散0.2667、95% CI [0, 0.6667]、dz=0.645、exact p=0.5、3比較Holm p=1）。best errorのbeam128−64は−1.6667（exact p=0.0625、Holm p=0.1875）。幅増加の優位性を確証したのではなく、独立確認用の難度設定を得た。
+- [Done] exact式2件を全64入力で再評価し、24 unique record、progress一致、strict JSON、source hash、Function不使用を監査した。幅間の結果は単調性を仮定していない。
+- [Next] E034とE036で凍結したroute・numeric候補を新規独立seedで、移植なし／通常Function／一段barrier／同費用random／inertの各task内同予算対照として比較する。数値beam256の計算費用に合わせ、予め決めたseed単位の分割実行を検討する。
+- [Later] 再利用の因果効果が確認できた場合に費用付きadmission、State形成・分解、負荷分散付きRouterへ統合する。

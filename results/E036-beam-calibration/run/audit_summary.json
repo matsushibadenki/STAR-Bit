@@ -1,0 +1,296 @@
+{
+  "by_width": {
+    "64": {
+      "exact": {
+        "mean": 0.0,
+        "unbiased_variance": 0.0,
+        "n": 6
+      },
+      "best_error": {
+        "mean": 2.6666666666666665,
+        "unbiased_variance": 0.6666666666666666,
+        "n": 6
+      },
+      "generated_unique_signatures": {
+        "mean": 41224.666666666664,
+        "unbiased_variance": 5755492.266666668,
+        "n": 6
+      },
+      "elapsed_seconds": {
+        "mean": 1.5123221668351714,
+        "unbiased_variance": 3.281511705310409,
+        "n": 6
+      },
+      "solution_primitives": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      },
+      "solution_routing_bits": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      },
+      "solution_depth": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      }
+    },
+    "128": {
+      "exact": {
+        "mean": 0.0,
+        "unbiased_variance": 0.0,
+        "n": 6
+      },
+      "best_error": {
+        "mean": 1.0,
+        "unbiased_variance": 0.0,
+        "n": 6
+      },
+      "generated_unique_signatures": {
+        "mean": 110442.33333333333,
+        "unbiased_variance": 27827442.26666667,
+        "n": 6
+      },
+      "elapsed_seconds": {
+        "mean": 5.000447770835308,
+        "unbiased_variance": 21.900607249589417,
+        "n": 6
+      },
+      "solution_primitives": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      },
+      "solution_routing_bits": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      },
+      "solution_depth": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      }
+    },
+    "192": {
+      "exact": {
+        "mean": 0.0,
+        "unbiased_variance": 0.0,
+        "n": 6
+      },
+      "best_error": {
+        "mean": 1.0,
+        "unbiased_variance": 0.0,
+        "n": 6
+      },
+      "generated_unique_signatures": {
+        "mean": 217632.66666666666,
+        "unbiased_variance": 20013039.46666667,
+        "n": 6
+      },
+      "elapsed_seconds": {
+        "mean": 9.771233388833934,
+        "unbiased_variance": 88.85107732971447,
+        "n": 6
+      },
+      "solution_primitives": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      },
+      "solution_routing_bits": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      },
+      "solution_depth": {
+        "mean": null,
+        "unbiased_variance": null,
+        "n": 0
+      }
+    },
+    "256": {
+      "exact": {
+        "mean": 0.3333333333333333,
+        "unbiased_variance": 0.2666666666666667,
+        "n": 6
+      },
+      "best_error": {
+        "mean": 0.6666666666666666,
+        "unbiased_variance": 0.2666666666666667,
+        "n": 6
+      },
+      "generated_unique_signatures": {
+        "mean": 345359.0,
+        "unbiased_variance": 51939318.0,
+        "n": 6
+      },
+      "elapsed_seconds": {
+        "mean": 18.33565778483656,
+        "unbiased_variance": 223.7949100671138,
+        "n": 6
+      },
+      "solution_primitives": {
+        "mean": 15.0,
+        "unbiased_variance": 0.0,
+        "n": 2
+      },
+      "solution_routing_bits": {
+        "mean": 106.0,
+        "unbiased_variance": 0.0,
+        "n": 2
+      },
+      "solution_depth": {
+        "mean": 6.0,
+        "unbiased_variance": 0.0,
+        "n": 2
+      }
+    }
+  },
+  "paired_exact": {
+    "128-minus-64": {
+      "mean": 0.0,
+      "unbiased_variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cohen_dz": null,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "192-minus-128": {
+      "mean": 0.0,
+      "unbiased_variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cohen_dz": null,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "256-minus-192": {
+      "mean": 0.3333333333333333,
+      "unbiased_variance": 0.2666666666666667,
+      "ci95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "cohen_dz": 0.6454972243679027,
+      "exact_signflip_p": 0.5,
+      "differences": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "paired_error": {
+    "128-minus-64": {
+      "mean": -1.6666666666666667,
+      "unbiased_variance": 0.6666666666666667,
+      "ci95": [
+        -2.0,
+        -1.0
+      ],
+      "cohen_dz": -2.041241452319315,
+      "exact_signflip_p": 0.0625,
+      "differences": [
+        0.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0
+      ]
+    },
+    "192-minus-128": {
+      "mean": 0.0,
+      "unbiased_variance": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cohen_dz": null,
+      "exact_signflip_p": 1.0,
+      "differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "256-minus-192": {
+      "mean": -0.3333333333333333,
+      "unbiased_variance": 0.2666666666666667,
+      "ci95": [
+        -0.6666666666666666,
+        0.0
+      ],
+      "cohen_dz": -0.6454972243679027,
+      "exact_signflip_p": 0.5,
+      "differences": [
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "holm_exact": {
+    "128-minus-64": 1.0,
+    "192-minus-128": 1.0,
+    "256-minus-192": 1.0
+  },
+  "holm_error": {
+    "128-minus-64": 0.1875,
+    "192-minus-128": 1.0,
+    "256-minus-192": 1.0
+  },
+  "difficulty": {
+    "64": {
+      "exact_count": 0,
+      "stratum": "floor"
+    },
+    "128": {
+      "exact_count": 0,
+      "stratum": "floor"
+    },
+    "192": {
+      "exact_count": 0,
+      "stratum": "floor"
+    },
+    "256": {
+      "exact_count": 2,
+      "stratum": "middle"
+    }
+  },
+  "selected_numeric_width": 256,
+  "records_verified": 24,
+  "solutions_verified": 2,
+  "analysis_source_hash": "3b39b5bc7334894c03f4144cb2c5baea5f80854bf200db4d247254b49e4ade07"
+}

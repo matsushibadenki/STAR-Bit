@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "seeds": [
+      1510,
+      1511,
+      1512,
+      1513,
+      1514,
+      1515
+    ],
+    "task": "numeric_symmetric_ge5",
+    "target_signature": "18446742961262223552",
+    "beam_widths": [
+      64,
+      128,
+      192,
+      256
+    ],
+    "rounds": 6,
+    "max_cost": 16,
+    "initial_library": []
+  },
+  "frozen_route_candidate": [
+    {
+      "task": "route_cross_and",
+      "family": "route",
+      "round_budget": 4
+    }
+  ]
+}

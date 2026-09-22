@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-22 Beam幅校正追記**：E036ではE035の近接数値タスクを移植なしで再評価し、beam256だけが新規6 seed中2件でexactになりました。E034のroute候補と合わせて両familyの中難度pilot設定が揃いましたが、幅の対応差はHolm補正後有意ではありません。次は独立seedと各task内同予算対照でFunction効果を検証します。[E036レポート](STAR-Bit-E036-beam-calibration.md)。
+>
+> English: Beam 256 put one numeric task in the pilot middle band at 2/6 exact, alongside E034's routing candidate. Function efficacy still requires independent, equal-budget within-task controls.
+>
+> 简体中文：beam 256使一个数值任务以2/6精确成功进入预实验中等难度区间，另有E034的路由候选。函数效应仍须用独立种子和任务内同预算对照验证。
+
 > **2026-09-22 数値Grammar校正追記**：E035では新しい重み付き和の6タスクを、移植なし・新規6 seedで評価しました。すべてexact 0/6となり、数値の中難度候補はまだありません。最も近い`numeric_symmetric_ge5`は全seedで誤り1/64でした。次はこのtaskのbeam幅をbaselineのみで校正します。[E035レポート](STAR-Bit-E035-numeric-grammar.md)。
 >
 > English: Six new weighted-sum targets remained at 0/6 exact; the closest target had one error in 64 inputs on every seed. No Function efficacy was evaluated.

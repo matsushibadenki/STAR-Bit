@@ -1,0 +1,13 @@
+{
+  "rule": "baseline-only exact 0-1/6 floor, 2-4/6 middle, 5-6/6 ceiling; choose lowest middle beam width",
+  "selected_task": "numeric_symmetric_ge5",
+  "selected_numeric_width": 256,
+  "frozen_route_candidate": [
+    {
+      "task": "route_cross_and",
+      "family": "route",
+      "round_budget": 4
+    }
+  ],
+  "independent_function_evaluation_performed": false
+}

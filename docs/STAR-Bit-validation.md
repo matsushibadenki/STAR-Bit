@@ -282,3 +282,13 @@ E035では探索予算を固定し、入力の重みを2通り、閾値を3通�
 English: All six newly weighted numeric tasks stayed at 0/6 exact under the frozen baseline budget. One task consistently reached one error in 64 inputs; a preregistered beam-width calibration is the next step.
 
 简体中文：六个新加权数值任务在固定基线预算下均为0/6精确成功。一个任务在全部种子上接近到64输入中仅错1个；下一步将预先固定beam宽度校准。
+
+## 17. 2026-09-22追記：数値taskのBeam幅校正
+
+E036はE035で誤り1/64に達した`numeric_symmetric_ge5`を固定し、移植なし・新規6 seedでbeam64/128/192/256を比較した。[詳細](STAR-Bit-E036-beam-calibration.md)。exactは0/6・0/6・0/6・2/6で、事前定義した中難度の数値候補`beam256`を得た。E034のroute`cross_and@4`と合わせ、両familyにpilot候補が揃った。
+
+ただしbeam256−192の対応exact差は+0.3333、exact p=0.5、Holm p=1であり、幅256の一般的優位を示すものではない。数値候補はroute候補と異なるbeam・round予算で選ばれたため、後続のFunction比較は各task内で同じ予算の対照を使い、family差を計算量から独立した効果と即断しない。FunctionそのものはE036で一切評価していない。
+
+English: Beam 256 yielded 2/6 exact numeric solutions, the preregistered middle band; widths 64–192 yielded none. This fixes a pilot setting for independent Function evaluation, not a confirmed beam advantage.
+
+简体中文：beam 256在数值任务上达到2/6精确成功，符合预先规定的中等难度；宽度64–192均未成功。这只是独立函数评估的预实验设置，并非已证实的beam优势。
