@@ -242,3 +242,13 @@ routeの採用Function−randomは−0.125 exact task/seed、bootstrap 95% CI [�
 English: E031 did not replicate the earlier dual-mux benefit across three new routing targets. The learned Function trailed equal-cost random controls, while a one-hop barrier unexpectedly helped one numeric target; this is an unconfirmed search-dynamics hypothesis after multiplicity correction.
 
 简体中文：E031未能在三个新路由目标上复现此前的dual-mux收益。学习函数落后于同成本随机对照，而一跳屏障意外改善了一个数值任务；经多重比较校正后，这仍只是关于搜索动力学的未确认假设。
+
+## 13. 2026-09-22追記：Function伝播の独立確認
+
+E031で探索的に選ばれた数値`unsigned_sum_ge6`を固定し、新規16 seedでE026 Functionの通常伝播、一段だけの伝播、composition不能なinert slot、移植なし、同一費用randomを比較した。[E032詳細](STAR-Bit-E032-one-hop-replication.md)。通常Function 2/16に対してbarrierは12/16で、対応差+0.625（95% CI [0.375, 0.875]、exact p=0.001953）。この差は事前登録の再現基準を満たした。
+
+一方、barrier対inertは12/16対8/16、exact p=0.2891で、一段のFunction組み合わせが有益という追加基準は満たさなかった。inertと移植なしは16 seedすべてでexact・best errorが一致した。したがって現在の結論は、**この数値taskで無制限のFunction伝播がbeam探索を妨げる**という範囲に限る。経路選択XNORでは通常Function 4/16、barrier 2/16と方向が逆で、task種別による作用の違いを次に広い生成task familyで調べる。
+
+English: E032 replicated the harmful effect of unrestricted Function propagation on one numeric task using fresh seeds. The one-hop barrier beat unrestricted use, but did not significantly beat an inert slot; a positive one-hop mechanism remains unproven.
+
+简体中文：E032用新种子复现了无限制函数传播在一个数值任务上的不利影响。一跳屏障优于无限制使用，但未显著优于惰性槽；尚不能证明一跳机制本身有益。

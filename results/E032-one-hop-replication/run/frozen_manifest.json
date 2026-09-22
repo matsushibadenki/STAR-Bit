@@ -1,0 +1,1102 @@
+{
+  "admitted": {
+    "signature": "17361640514770759695",
+    "primitives": 2,
+    "routing_bits": 12,
+    "depth": 2,
+    "probe_deltas": {
+      "probe_majority": 1,
+      "probe_exactly2": 2,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "net": 3,
+    "positive_tasks": 2,
+    "score": 1.2295081967213115,
+    "admitted": true,
+    "expression": [
+      "lut",
+      17361640514770759695,
+      6,
+      [
+        "input",
+        2
+      ],
+      [
+        "lut",
+        1095216660735,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    ]
+  },
+  "tasks": {
+    "numeric_unsigned_sum_ge6": "18446742961194590400",
+    "route_dual_mux_xnor": "15625282719454799655"
+  },
+  "random_matched": [
+    {
+      "seed": 1460,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "0",
+      "expression": [
+        "lut",
+        0,
+        8,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          0,
+          4,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1460,
+      "task": "route_dual_mux_xnor",
+      "signature": "12273904009447058090",
+      "expression": [
+        "lut",
+        12273904009447058090,
+        9,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          18374967954631622655,
+          13,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1461,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "3689517697150995660",
+      "expression": [
+        "lut",
+        3689517697150995660,
+        9,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          281470681808895,
+          1,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1461,
+      "task": "route_dual_mux_xnor",
+      "signature": "12297641735351828480",
+      "expression": [
+        "lut",
+        12297641735351828480,
+        8,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          12297829382473034410,
+          14,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1462,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "17361376567555522560",
+      "expression": [
+        "lut",
+        17361376567555522560,
+        2,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          281470681808895,
+          3,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1462,
+      "task": "route_dual_mux_xnor",
+      "signature": "14771750701826559231",
+      "expression": [
+        "lut",
+        14771750701826559231,
+        12,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          14771750701826559231,
+          13,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1463,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "65535",
+      "expression": [
+        "lut",
+        65535,
+        4,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          18446462598732906495,
+          9,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1463,
+      "task": "route_dual_mux_xnor",
+      "signature": "18432388630850633676",
+      "expression": [
+        "lut",
+        18432388630850633676,
+        14,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          18432388630850633676,
+          14,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1464,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "2459565875921944576",
+      "expression": [
+        "lut",
+        2459565875921944576,
+        4,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          12297829379609722880,
+          8,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1464,
+      "task": "route_dual_mux_xnor",
+      "signature": "18446744073709551615",
+      "expression": [
+        "lut",
+        18446744073709551615,
+        15,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          14974415777481871311,
+          11,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1465,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "4294967295",
+      "expression": [
+        "lut",
+        4294967295,
+        13,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          4042322160,
+          4,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1465,
+      "task": "route_dual_mux_xnor",
+      "signature": "17361429550272098352",
+      "expression": [
+        "lut",
+        17361429550272098352,
+        8,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          18446518897164104499,
+          11,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1466,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "18446744072277895850",
+      "expression": [
+        "lut",
+        18446744072277895850,
+        11,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          12297829383904690175,
+          11,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1466,
+      "task": "route_dual_mux_xnor",
+      "signature": "12659530248010858495",
+      "expression": [
+        "lut",
+        12659530248010858495,
+        13,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          12659530246663417775,
+          11,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 5
+    },
+    {
+      "seed": 1467,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "12321755120571230975",
+      "expression": [
+        "lut",
+        12321755120571230975,
+        7,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          6124988953138320640,
+          2,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1467,
+      "task": "route_dual_mux_xnor",
+      "signature": "252645135",
+      "expression": [
+        "lut",
+        252645135,
+        1,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          18446744069414584320,
+          12,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1468,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "1229782938247303441",
+      "expression": [
+        "lut",
+        1229782938247303441,
+        12,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          1229782938247303441,
+          1,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1468,
+      "task": "route_dual_mux_xnor",
+      "signature": "281470681808895",
+      "expression": [
+        "lut",
+        281470681808895,
+        5,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          18374966855153418495,
+          9,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1469,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "3689348814741910323",
+      "expression": [
+        "lut",
+        3689348814741910323,
+        5,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          18446744069414584320,
+          10,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1469,
+      "task": "route_dual_mux_xnor",
+      "signature": "18446518897164104499",
+      "expression": [
+        "lut",
+        18446518897164104499,
+        7,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          281470681808895,
+          3,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1470,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "11068046444225730969",
+      "expression": [
+        "lut",
+        11068046444225730969,
+        9,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          12297829382473034410,
+          10,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1470,
+      "task": "route_dual_mux_xnor",
+      "signature": "4503595333451775",
+      "expression": [
+        "lut",
+        4503595333451775,
+        13,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          4222189076152335,
+          1,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1471,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "72056494543077120",
+      "expression": [
+        "lut",
+        72056494543077120,
+        9,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          281470681808895,
+          5,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 4
+    },
+    {
+      "seed": 1471,
+      "task": "route_dual_mux_xnor",
+      "signature": "3689348818177884159",
+      "expression": [
+        "lut",
+        3689348818177884159,
+        13,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          3689348818177884159,
+          7,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1472,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "18446687998616521983",
+      "expression": [
+        "lut",
+        18446687998616521983,
+        14,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          14771750701826559231,
+          13,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1472,
+      "task": "route_dual_mux_xnor",
+      "signature": "17361588498421825728",
+      "expression": [
+        "lut",
+        17361588498421825728,
+        2,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          56294136361779,
+          1,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1473,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "14974415774803832880",
+      "expression": [
+        "lut",
+        14974415774803832880,
+        9,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          14974415777481871311,
+          11,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 4
+    },
+    {
+      "seed": 1473,
+      "task": "route_dual_mux_xnor",
+      "signature": "9838263505978427528",
+      "expression": [
+        "lut",
+        9838263505978427528,
+        2,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          3689348814741910323,
+          1,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 5
+    },
+    {
+      "seed": 1474,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "4278190080",
+      "expression": [
+        "lut",
+        4278190080,
+        2,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          18446744069414649855,
+          11,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1474,
+      "task": "route_dual_mux_xnor",
+      "signature": "18446556426588345685",
+      "expression": [
+        "lut",
+        18446556426588345685,
+        7,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          6149008514797120170,
+          6,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    },
+    {
+      "seed": 1475,
+      "task": "numeric_unsigned_sum_ge6",
+      "signature": "14757227033688552396",
+      "expression": [
+        "lut",
+        14757227033688552396,
+        9,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          18446463698244403455,
+          11,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1475,
+      "task": "route_dual_mux_xnor",
+      "signature": "71777214278860815",
+      "expression": [
+        "lut",
+        71777214278860815,
+        4,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          18446744069667229455,
+          13,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    }
+  ]
+}

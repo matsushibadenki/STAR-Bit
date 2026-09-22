@@ -376,3 +376,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] route−numericの採用−random効果差は+0.1458、95% CI [−0.0625, 0.3333]、exact p=0.25。全22 exact式、160 record、40 random Functionの費用・task分離・source hashを監査した。
 - [Next] 結果を見ずに生成するtask grammarを凍結し、pilot seedで難度だけを層別化した後、別seedで中難度層を独立評価する。Function投入による初期候補数の差を消すinert-slot対照を加える。
 - [Later] State付きFunctionの形成・分解を経てRouterへ統合し、step 0 load-balancing、均衡固定random route、同一run内から別seedへのExpert交換、精密数値対経路選択を維持する。
+
+## E032：one-hop伝播の独立seed確認とinert-slot対照（2026-09-22）
+
+- [Done] E031で探索的に見つけた`numeric_unsigned_sum_ge6`のbarrier差を、E026 Functionとtaskを凍結して新規seed1460–1475で条件付き独立確認した。route XNORを比較軸に置き、移植なし／通常Function／one-hop barrier／inert slot／同一費用randomの160探索を完了した。[事前計画](../results/E032-one-hop-replication/PROTOCOL.md)。
+- [Done] 数値exactは通常Function 2/16、barrier 12/16、inert 8/16、移植なし8/16、random 7/16。[詳細](STAR-Bit-E032-one-hop-replication.md)。primary barrier−通常は+0.625 exact/seed（不偏分散0.25、bootstrap 95% CI [0.375, 0.875]、dz=1.25、exact sign-flip p=0.001953）で事前の再現基準を達成した。
+- [Done] barrier−inertは+0.25（95% CI [−0.0625, 0.5625]、exact p=0.2891）でone-hop固有機構基準は未達。inertと移植なしは全seedでexact・best errorが一致。観測結果は無制限のFunction伝播による探索阻害を支持するが、一段のFunction利用が有益という証拠にはならない。
+- [Done] route XNORは通常4/16、barrier2/16、inert／移植なし／random各1/16で数値と逆方向。ただし単一route taskの記述比較である。全46 exact式、32 random Functionの費用・signature、160 record、source hashを監査した。
+- [Next] task生成grammarを結果を見る前に固定し、pilotで難度を層別化して独立seedを確保する。Functionのstage/round別使用制限と費用付きadmissionを、同一予算で比較する。
+- [Later] State付きFunctionの形成・分解とRouter統合へ進み、初回負荷分散、固定random経路、同一run内から別seedへのExpert交換、精密数値対経路選択を維持する。

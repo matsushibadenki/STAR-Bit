@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-09-21。E017〜E031は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-09-22。E017〜E032は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -18,6 +18,7 @@
 | beam探索軌跡の追跡 | E029 | 入力+1だけが成功した3解はFunctionを最終式に含まず、初回beam固有signatureを祖先に持つ | 予備的trajectory証人、provenance未同定 |
 | provenanceと伝播barrier | E030 | 通常／one-hop barrierともdual-mux 3/16、対応差0 | 観測lineageは必要機構でない |
 | task-family可搬性 | E031 | routeは採用2/24、random 3/24。numeric sumは採用0/8、barrier 6/8 | 広い可搬性を支持せず、深い伝播の阻害仮説 |
+| 伝播barrierの独立確認 | E032 | numeric sumは通常2/16、barrier12/16、inert8/16。route XNORは通常4/16、barrier2/16 | 無制限伝播の阻害は再現。一段固有の利益は未証明 |
 
 現在支持される限定的な主張は次である。
 
@@ -86,6 +87,10 @@ Function由来の代表式とFunction-freeな同一signatureをroundごとに区
 
 E026のFunctionを固定したまま、結果を見る前にroute 3 taskとnumeric 2 taskを新規定義し、移植なし・通常Function・one-hop barrier・同一費用randomを8 seedで比較した。routeの通常Function−randomは−0.125 task/seed、95% CI [−0.375, 0]で可搬性基準を満たさなかった。`numeric_unsigned_sum_ge6`は通常0/8、barrier 6/8で、深いdescendant伝播が探索を妨げる仮説が生じたが、task内Holm p=0.09375である。route taskの2/3はほぼ床だったため、次は生成grammarを凍結して難度を層別化し、別seedで確認する。[E031詳細](STAR-Bit-E031-route-family-portability.md)。
 
+## E032 one-hop replication
+
+E031の数値taskを固定し、新規16 seedで無制限Function、一段barrier、composition不能なinert slot、移植なし、同一費用randomを比較した。barrier−通常は+0.625 exact/seed、95% CI [0.375, 0.875]、exact p=0.001953で事前再現基準を満たした。barrier−inertは+0.25、95% CI [−0.0625, 0.5625]、exact p=0.2891で一段固有の利益は未確認。inertと移植なしは全16 seedでexact・best errorが一致した。route XNORでは通常4/16、barrier2/16と作用方向が逆である。この段階の因果解釈は「特定の数値taskでは無制限伝播が探索を妨げる」に留める。[E032詳細](STAR-Bit-E032-one-hop-replication.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -98,13 +103,13 @@ E026のFunctionを固定したまま、結果を見る前にroute 3 taskとnumer
 - [Done] E029でsignature別のbeam生存・credit・親利用を計測し、3件の予備的な探索軌跡証人を記録した。
 - [Done] E030で代表式provenanceとFunction-free置換を追跡し、one-hop barrierとの性能差0を確認した。
 - [Done] E031で単一truth tableへの反復を止め、事前定義した新規5 taskでFunction・barrier・random対照を比較し、広い可搬性が未確認であることを示した。
-- [Next] task生成grammarとpilot難度層を凍結し、独立seedで中難度層を評価する。no-transferにも同数のinert slotを置いて初期候補数を揃える。
-- [Next] 床効果の少ない数値taskで通常Functionとbarrierの差を独立確認し、深い伝播による阻害仮説を検証する。
+- [Done] E032でE031の数値taskのbarrier差を独立16 seedで再現し、inert slot対照で一段固有の利益が未証明であることを分けた。
+- [Next] task生成grammarとpilot難度層を凍結し、独立seedで中難度層を評価する。Functionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。
 
-English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced the resulting beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets and raised an exploratory hypothesis that deep Function propagation can impede search.
+English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 independently replicated harm from unrestricted Function propagation on one numeric task, but did not show that one-hop use itself helps.
 
-简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标，并提出“函数深层传播可能阻碍搜索”的探索性假设。
+简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上独立复现了无限制函数传播的不利影响，但未证明一跳使用本身有益。
 
-[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [研究ログ](RESEARCH-LOG.md)
+[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [研究ログ](RESEARCH-LOG.md)

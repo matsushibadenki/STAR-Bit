@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-22 Function伝播の独立確認**：E032でE031の数値`unsigned_sum_ge6`の結果を新規16 seedで確認しました。通常Functionは2/16、one-hop barrierは12/16で、対応差+0.625（95% CI [0.375, 0.875]、exact p=0.001953）です。一方、barrier対inert slotは12/16対8/16で有意ではなく、一段のFunction使用が必要とは示されません。route XNORでは通常4/16、barrier 2/16と方向が逆です。[E032レポート](STAR-Bit-E032-one-hop-replication.md)。
+>
+> English: E032 independently replicated harm from unrestricted Function propagation on one numeric task, but did not establish a benefit over an inert slot. The route comparator moved in the opposite direction.
+>
+> 简体中文：E032在一个数值任务上独立复现了无限制函数传播的不利影响，但未证明一跳屏障优于惰性槽。路由对照任务呈相反方向。
+
 > **2026-09-21 Task-family可搬性追記**：E031では1つのdual-mux XORへの反復を止め、事前定義した新規route 3 task・numeric 2 taskを新規8 seedで比較しました。固定Functionはrouteで2/24、同一費用randomは3/24、primary差は−0.125 task/seed（95% CI [−0.375, 0]）で、広い可搬性は支持されませんでした。数値`unsigned_sum_ge6`では固定Function 0/8に対してone-hop barrier 6/8でしたが、Holm補正後p=0.09375です。次は生成grammarとinert-slot対照で床効果と初期候補数の交絡を分離します。[E031レポート](STAR-Bit-E031-route-family-portability.md)。
 >
 > English: E031 did not reproduce the dual-mux benefit across three preregistered routing targets: the frozen Function solved 2/24 versus 3/24 for equal-cost random controls. A one-hop barrier helped one numeric target, but the contrast did not survive Holm correction.
@@ -54,7 +60,7 @@
 >
 > 简体中文：留一任务评估消除了E022的优势。跨任务学习库与误差匹配随机库均成功27/64，成本匹配随机库成功37/64；目前不支持跨任务概念复用。
 >
-> E017〜E031の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
+> E017〜E032の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
 
 > **2026-09-13 Learned-Function Transfer追記**：E022ではE021のsource回路から出力を除く16内部Functionを固定Library化し、新規16 seedへ移植しました。同じ式木形状・primitive・routing・depthのランダムLibraryに対し、exact target平均は1.8750から2.4375、対応差+0.5625（bootstrap 95% CI [0.1875, 0.9375]、exact sign-flip p=0.03125）でした。comparatorは1/16→5/16、carryは1/16→4/16で事前pilot基準を満たしました。ただし同一task由来の部分回路を許した別seed移植であり、task横断のConcept再利用は未証明です。[E022レポート](STAR-Bit-E022-fixed-function-transfer.md)。
 >
