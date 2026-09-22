@@ -37,6 +37,7 @@
 - [E031：固定Functionの経路選択Task Familyへの移植性](docs/STAR-Bit-E031-route-family-portability.md)
 - [E032：one-hop伝播の独立seed確認とinert-slot対照](docs/STAR-Bit-E032-one-hop-replication.md)
 - [E033：数値・経路選択Grammarの難度Pilot](docs/STAR-Bit-E033-grammar-pilot.md)
+- [E034：移植なし条件の探索Round予算校正](docs/STAR-Bit-E034-budget-calibration.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

@@ -262,3 +262,13 @@ E033では、数値加算threshold 4/5/7とcross-mux AND/OR/XNORの6タスクを
 English: E033's prospective six-task grammar yielded no mid-difficulty tasks under the baseline-only rule. The numeric–route interaction did not meet its pilot threshold; no confirmatory target was selected from Function outcomes.
 
 简体中文：E033预先固定的六任务规则，在仅根据基线分类时没有产生中等难度任务。数值与路由的交互作用未达到预实验标准；没有依据函数条件的结果挑选确认任务。
+
+## 15. 2026-09-22追記：探索深さだけで難度を調整できるか
+
+E034ではE033のtaskを変えず、Functionなしのround上限だけ4/6/8へ変更した。[詳細](STAR-Bit-E034-budget-calibration.md)。`route_cross_and`は3/6→6/6→6/6となり、round 4で中難度を作れた。一方、数値は`sum_ge4`が常に6/6、`sum_ge5`が常に0/6、`sum_ge7`が0/6→1/6→1/6で、両familyに中難度を揃える基準は満たせなかった。round 6から8で数値のexactは増えず、深さだけの追加ではこの床効果を解決していない。
+
+次は新しい数値grammarかbeam幅のbaseline-only校正を事前固定する。確認対象と予算は移植なし成績だけで決め、Function条件は独立seedまで実行しない。
+
+English: Raising the round cap from four to eight made one routing task mid-difficulty at four rounds, but produced no mid-difficulty numeric task. Function efficacy remains untested at these calibrated budgets.
+
+简体中文：将搜索轮数上限从四轮提高到八轮，使一个路由任务在四轮时达到中等难度，但数值任务仍没有中等难度候选。这些校准预算尚未用于评估函数效果。

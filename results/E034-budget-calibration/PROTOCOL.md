@@ -1,0 +1,11 @@
+# E034 preregistration: baseline-only round-budget calibration
+
+Date: 2026-09-22, before E034 outcomes. E033's frozen six-task grammar produced only floor or ceiling targets at beam 128 / six rounds. A task can be easy or hard because of the search budget rather than its truth table alone. Change **only** the maximum search rounds while keeping the task grammar, selector, beam, tree-cost cap, and initial library fixed; evaluate no-transfer only. This is difficulty calibration, not a test of learned Function value.
+
+Freeze E033's six target signatures (`numeric_sum_ge4/ge5/ge7`, `route_cross_and/or/xnor`) and fresh seeds 1490–1495. For every seed/target run budgets 4, 6, and 8 rounds: 108 searches, beam 128, E026 signature-stable selection, tree cost ≤16, initial library empty, CPU one thread. Run all 108 regardless of results; persist each row immediately. Budget 6 is the E033 control; budgets 4 and 8 are paired lower/higher compute controls. Do not tune beam, tree cost, seeds, or tasks after inspecting outcomes.
+
+Primary feasibility metric is whether each family has at least one task–budget pair whose no-transfer exact count is 2–4 of six seeds (middle difficulty). Classify 0–1=floor, 2–4=middle, 5–6=ceiling. If several budgets for one task are middle, choose the **lowest round count** for later work. Freeze every selected task–budget pair from this rule, using no Function outcomes; if either family has none, do not force a confirmation from this pilot. This rule is a feasibility filter, not evidence of Function efficacy.
+
+For each task and budget report exact mean/unbiased variance, best-error mean/unbiased variance, generation count, elapsed time, and exact-solution primitive/routing/depth cost. For each family, report paired exact-rate differences for 6−4 and 8−6 across seeds: mean, unbiased variance, Cohen dz, 20,000-resample bootstrap 95% CI, exact sign-flip p, and Holm correction across the four family comparisons. Record total runtime and the selected middle stratum, including an empty selection.
+
+Re-evaluate every exact expression over all 64 inputs; verify 108 unique records, strict JSON, source hashes, frozen targets, and progress-log equality. This experiment does not use a learned Module or Router, and cannot support claims about transfer, compression, physical gates, or speedup.

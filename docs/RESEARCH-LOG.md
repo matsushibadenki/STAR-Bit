@@ -394,3 +394,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] route AND/ORは移植なし各8/8に対し採用7/8・5/8、barrier7/8・5/8で、Function投入が容易なtaskを害する可能性を観測した。family副次8比較はHolm補正後すべて非有意。全96 exact式、48 random Function、192 record、source hashを監査した。
 - [Next] 事前に新しいgrammarとpilot予算を固定し、移植なしで中難度になるタスクを探す。Function条件での成功・失敗をタスク選択に使わず、選定後の独立seedを確保する。
 - [Later] 中難度の両familyが揃ってからstage/round別Function制限と費用付きadmissionを比較し、State付き形成・分解、Router統合へ進む。
+
+## E034：移植なし条件の探索Round予算校正（2026-09-22）
+
+- [Done] E033の6 taskを凍結したまま、新規seed1490–1495、移植なし・beam128・tree cost16でround上限4/6/8を比較した。108探索、事前計画どおり停止した。[事前計画](../results/E034-budget-calibration/PROTOCOL.md)。
+- [Done] baseline exactは数値`sum_ge4`が全予算6/6、`sum_ge5`が全予算0/6、`sum_ge7`が0/6→1/6→1/6。[詳細](STAR-Bit-E034-budget-calibration.md)。round 6から8へ延ばしても数値のexactは増えず、数値中難度候補は0件だった。
+- [Done] route`cross_and`はround 4で3/6の中難度、round 6/8で6/6の天井に移った。事前の最小round規則で`route_cross_and@4`を凍結したが、両familyに候補があるfeasibility基準は未達なのでFunction比較には進まない。
+- [Done] family exact率のround 6−4はnumeric +0.0556（不偏分散0.0185、95% CI [0, 0.1667]、exact p=1）、route +0.1667（不偏分散0.0333、95% CI [0.0556, 0.2778]、exact p=0.25）。4比較Holm補正後はすべて非有意。全53 exact式、108 record、budget間prefix・単調性、source hashを監査した。
+- [Next] 数値側の難度を作る新しい入力重み・閾値grammar、またはbeam幅を変えるbaseline-only pilotを実行前に固定する。既存Function条件の成績で選ばず、両familyにmiddleが揃ってから独立seedで効果を確認する。
+- [Later] stage/round制限と費用付きFunction admission、State付き形成・分解、初回負荷分散付きRouterへの統合を検証する。

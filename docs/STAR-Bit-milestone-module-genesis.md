@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-09-22。E017〜E033は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-09-22。E017〜E034は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -20,6 +20,7 @@
 | task-family可搬性 | E031 | routeは採用2/24、random 3/24。numeric sumは採用0/8、barrier 6/8 | 広い可搬性を支持せず、深い伝播の阻害仮説 |
 | 伝播barrierの独立確認 | E032 | numeric sumは通常2/16、barrier12/16、inert8/16。route XNORは通常4/16、barrier2/16 | 無制限伝播の阻害は再現。一段固有の利益は未証明 |
 | 生成Grammarの難度pilot | E033 | baselineの数値8/8・0/8・0/8、route 8/8・8/8・1/8 | 中難度0/6、family交互作用のpilot基準未達 |
+| 固定Grammarの探索予算校正 | E034 | 6 task×3 round予算×6 seedのbaseline 108探索 | 中難度はroute `cross_and`の4 roundで3/6のみ。数値familyに候補なし |
 
 現在支持される限定的な主張は次である。
 
@@ -96,6 +97,10 @@ E031の数値taskを固定し、新規16 seedで無制限Function、一段barrie
 
 数値の加算threshold 4/5/7と経路選択のcross-mux AND/OR/XNORを事前固定し、新規8 seed・4条件で192探索した。no-transferのみで難度を分類すると、全6 taskが床または天井で、中難度は0件だった。barrier−通常Functionの数値−経路family差は+0.125、95% CI [−0.0417, 0.2917]、exact p=0.375でpilot基準に届かなかった。個別に有利な数値`sum_ge7`を事後的に選ぶことはせず、新しいgrammarを事前固定して難度校正をやり直す。[E033詳細](STAR-Bit-E033-grammar-pilot.md)。
 
+## E034 baseline探索予算校正
+
+E033の6 taskを固定し、Functionを投入せず、round予算4・6・8を新規6 seedで比較した。中難度の事前定義はexact 2〜4/6。経路選択の`cross_and`のみ4 roundで3/6となり、数値3 taskはいずれの予算でも床または天井だった。両familyに中難度taskを確保する事前条件を満たさないため、Function効果の確認実験には進まない。予算変更だけでは難度を十分に校正できないことが分かり、数値grammarの閾値・演算子構成またはbeam幅をbaselineのみで次に検討する。[E034詳細](STAR-Bit-E034-budget-calibration.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -110,13 +115,14 @@ E031の数値taskを固定し、新規16 seedで無制限Function、一段barrie
 - [Done] E031で単一truth tableへの反復を止め、事前定義した新規5 taskでFunction・barrier・random対照を比較し、広い可搬性が未確認であることを示した。
 - [Done] E032でE031の数値taskのbarrier差を独立16 seedで再現し、inert slot対照で一段固有の利益が未証明であることを分けた。
 - [Done] E033で生成grammarを結果より前に固定し、pilotと確認を分離した。no-transfer基準では中難度0/6で、確認対象は選ばなかった。
-- [Next] 新しいgrammarとpilot予算を事前固定して中難度層を探し、確認用seedを独立に確保する。
+- [Done] E034で固定Grammarのround予算をbaselineのみで校正し、routeには中難度1件が生じたが数値には生じないことを確認した。
+- [Next] 数値grammarかbeam幅のbaseline-only pilotを事前固定し、両familyの中難度taskを独立の確認seedより前に選ぶ。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。
 
-English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 replicated harm from unrestricted propagation on one numeric task without proving one-hop benefit. E033's prospective task grammar yielded no mid-difficulty baseline targets.
+English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 replicated harm from unrestricted propagation on one numeric task without proving one-hop benefit. E033's prospective grammar yielded no mid-difficulty baseline targets. E034 found one routing target at four rounds, but no numeric target, so the two-family confirmation gate remains unmet.
 
-简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033预先固定的任务规则没有产生中等难度的基线目标。
+简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033预先固定的任务规则没有产生中等难度的基线目标。E034在四轮时找到一个中等难度的路由任务，但数值任务仍无候选，双任务族确认门槛未达到。
 
-[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [研究ログ](RESEARCH-LOG.md)
+[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [E034：探索予算校正](STAR-Bit-E034-budget-calibration.md) / [研究ログ](RESEARCH-LOG.md)

@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-22 探索予算校正追記**：E034ではFunctionを使わず、E033の6タスクのround上限だけ4/6/8に変えました。経路選択`cross_and`はround 4で3/6の中難度になりましたが、数値側は中難度0件で、両familyの確認実験へ進む基準を満たしませんでした。数値の`sum_ge5`は全予算0/6、`sum_ge7`は最大1/6で、roundを増やすだけでは床効果を解消できません。[E034レポート](STAR-Bit-E034-budget-calibration.md)。
+>
+> English: A baseline-only round-budget sweep produced one mid-difficulty routing task and no mid-difficulty numeric task. Function-policy confirmation remains pending.
+>
+> 简体中文：仅用基线进行的搜索轮数校准得到一个中等难度路由任务，却没有中等难度数值任务；函数策略的确认实验仍待进行。
+
 > **2026-09-22 生成Grammar Pilot追記**：E033では結果を見る前に数値3・経路選択3タスクを固定し、8 seed・4条件の192探索を完了しました。移植なしの成功率で定義した中難度taskは0/6で、family interactionも+0.125（95% CI [−0.0417, 0.2917]、p=0.375）とpilot基準未達です。Function条件を見て都合のよい確認対象を選ばず、新しいgrammarを先に定義します。[E033レポート](STAR-Bit-E033-grammar-pilot.md)。
 >
 > English: E033's frozen six-task grammar produced no mid-difficulty target under the baseline-only rule. The exploratory family interaction failed its pilot gate; the next grammar will be fixed before testing.
@@ -66,7 +72,7 @@
 >
 > 简体中文：留一任务评估消除了E022的优势。跨任务学习库与误差匹配随机库均成功27/64，成本匹配随机库成功37/64；目前不支持跨任务概念复用。
 >
-> E017〜E033の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
+> E017〜E034の統合評価は[Module Genesis Milestone 3](STAR-Bit-milestone-module-genesis.md)にまとめています。
 
 > **2026-09-13 Learned-Function Transfer追記**：E022ではE021のsource回路から出力を除く16内部Functionを固定Library化し、新規16 seedへ移植しました。同じ式木形状・primitive・routing・depthのランダムLibraryに対し、exact target平均は1.8750から2.4375、対応差+0.5625（bootstrap 95% CI [0.1875, 0.9375]、exact sign-flip p=0.03125）でした。comparatorは1/16→5/16、carryは1/16→4/16で事前pilot基準を満たしました。ただし同一task由来の部分回路を許した別seed移植であり、task横断のConcept再利用は未証明です。[E022レポート](STAR-Bit-E022-fixed-function-transfer.md)。
 >
