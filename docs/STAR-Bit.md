@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-22 数値Grammar校正追記**：E035では新しい重み付き和の6タスクを、移植なし・新規6 seedで評価しました。すべてexact 0/6となり、数値の中難度候補はまだありません。最も近い`numeric_symmetric_ge5`は全seedで誤り1/64でした。次はこのtaskのbeam幅をbaselineのみで校正します。[E035レポート](STAR-Bit-E035-numeric-grammar.md)。
+>
+> English: Six new weighted-sum targets remained at 0/6 exact; the closest target had one error in 64 inputs on every seed. No Function efficacy was evaluated.
+>
+> 简体中文：六个新的加权求和目标均为0/6精确成功；最接近的目标在每个种子上只错64个输入中的1个。本实验未评价学习函数。
+
 > **2026-09-22 探索予算校正追記**：E034ではFunctionを使わず、E033の6タスクのround上限だけ4/6/8に変えました。経路選択`cross_and`はround 4で3/6の中難度になりましたが、数値側は中難度0件で、両familyの確認実験へ進む基準を満たしませんでした。数値の`sum_ge5`は全予算0/6、`sum_ge7`は最大1/6で、roundを増やすだけでは床効果を解消できません。[E034レポート](STAR-Bit-E034-budget-calibration.md)。
 >
 > English: A baseline-only round-budget sweep produced one mid-difficulty routing task and no mid-difficulty numeric task. Function-policy confirmation remains pending.

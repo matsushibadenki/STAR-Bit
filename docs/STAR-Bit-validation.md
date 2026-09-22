@@ -272,3 +272,13 @@ E034ではE033のtaskを変えず、Functionなしのround上限だけ4/6/8へ�
 English: Raising the round cap from four to eight made one routing task mid-difficulty at four rounds, but produced no mid-difficulty numeric task. Function efficacy remains untested at these calibrated budgets.
 
 简体中文：将搜索轮数上限从四轮提高到八轮，使一个路由任务在四轮时达到中等难度，但数值任务仍没有中等难度候选。这些校准预算尚未用于评估函数效果。
+
+## 16. 2026-09-22追記：数値Grammarを変えた難度校正
+
+E035では探索予算を固定し、入力の重みを2通り、閾値を3通りに変えた6つの新規数値truth tableを、Functionなしで各6 seed評価した。[詳細](STAR-Bit-E035-numeric-grammar.md)。36探索すべてexactに達せず、中難度候補は0件だった。正例数は27〜47/64に分布するが、正例割合を変えるだけでは探索しやすい式を保証しない。最も近い`numeric_symmetric_ge5`は全seedでbest error 1/64であり、次はこのtaskのbeam幅を事前固定して調べる。
+
+この結果は「数値問題が解けない」一般論ではない。E031–E032の`numeric_unsigned_sum_ge6`では移植なしで中程度の成功率だった。新しいtruth table群と固定探索設定の組合せに限った床効果であり、Functionの効果や物理ゲート削減は評価していない。
+
+English: All six newly weighted numeric tasks stayed at 0/6 exact under the frozen baseline budget. One task consistently reached one error in 64 inputs; a preregistered beam-width calibration is the next step.
+
+简体中文：六个新加权数值任务在固定基线预算下均为0/6精确成功。一个任务在全部种子上接近到64输入中仅错1个；下一步将预先固定beam宽度校准。

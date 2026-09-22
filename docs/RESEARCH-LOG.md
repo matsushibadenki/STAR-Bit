@@ -403,3 +403,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] family exact率のround 6−4はnumeric +0.0556（不偏分散0.0185、95% CI [0, 0.1667]、exact p=1）、route +0.1667（不偏分散0.0333、95% CI [0.0556, 0.2778]、exact p=0.25）。4比較Holm補正後はすべて非有意。全53 exact式、108 record、budget間prefix・単調性、source hashを監査した。
 - [Next] 数値側の難度を作る新しい入力重み・閾値grammar、またはbeam幅を変えるbaseline-only pilotを実行前に固定する。既存Function条件の成績で選ばず、両familyにmiddleが揃ってから独立seedで効果を確認する。
 - [Later] stage/round制限と費用付きFunction admission、State付き形成・分解、初回負荷分散付きRouterへの統合を検証する。
+
+## E035：重み付き数値Grammarの難度校正（2026-09-22）
+
+- [Done] 結果より前に重み`(1,2,3,1,2,3)`／`(1,2,4,1,2,3)`と閾値5/6/7の6 task、新規seed1500–1505、移植なし・beam128・6 round・tree cost16を固定した。36探索、約178秒で事前停止条件どおり完了した。[事前計画](../results/E035-numeric-grammar/PROTOCOL.md)。
+- [Done] 全6 taskがexact 0/6で、中難度候補は0件だった。[詳細](STAR-Bit-E035-numeric-grammar.md)。重み・閾値を変えるだけではE034の数値床効果を解消できない。`numeric_symmetric_ge5`は6/6 seedでbest error 1/64まで到達したが、exactの証拠ではない。
+- [Done] asymmetric−symmetricの閾値別exact差は3比較とも0（不偏分散0、95% CI [0,0]、dz未定義、exact p=1、Holm p=1）。成功式が0件なので全入力再評価の対象はなく、36 unique record、progress一致、strict JSON、Function不使用、source hashを監査した。
+- [Next] 近接例`numeric_symmetric_ge5`のbeam幅をbaseline-onlyで事前校正し、Functionを見ずに中難度を作れるか調べる。E034の`route_cross_and@4`は固定したまま維持する。
+- [Later] 両familyに中難度が揃ったら独立seedでFunction／barrier／同費用random／inertを比較し、State付き形成・分解とRouter統合へ進む。
