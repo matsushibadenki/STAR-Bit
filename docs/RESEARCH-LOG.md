@@ -385,3 +385,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] route XNORは通常4/16、barrier2/16、inert／移植なし／random各1/16で数値と逆方向。ただし単一route taskの記述比較である。全46 exact式、32 random Functionの費用・signature、160 record、source hashを監査した。
 - [Next] task生成grammarを結果を見る前に固定し、pilotで難度を層別化して独立seedを確保する。Functionのstage/round別使用制限と費用付きadmissionを、同一予算で比較する。
 - [Later] State付きFunctionの形成・分解とRouter統合へ進み、初回負荷分散、固定random経路、同一run内から別seedへのExpert交換、精密数値対経路選択を維持する。
+
+## E033：事前固定Grammarの難度Pilot（2026-09-22）
+
+- [Done] 結果を見る前に数値加算threshold 4/5/7とcross-mux AND/OR/XNORの6 truth tableを固定し、新規seed1480–1487、移植なし／採用Function／one-hop barrier／同一費用randomの192探索を完了した。[事前計画](../results/E033-grammar-pilot/PROTOCOL.md)。
+- [Done] no-transferのexactは数値8/8・0/8・0/8、経路8/8・8/8・1/8。[詳細](STAR-Bit-E033-grammar-pilot.md)。事前難度規則でmiddleは0/6となり、E033から独立確認用タスクを選ばない。
+- [Done] barrier−採用の数値−経路family interactionは+0.125（差の不偏分散0.0615、bootstrap 95% CI [−0.0417, 0.2917]、dz=0.504、exact sign-flip p=0.375）でpilot gate未達。数値`sum_ge7`はbarrier 4/8対採用0/8だがno-transfer 0/8の床に属し、事後的に確認対象へ昇格させない。
+- [Done] route AND/ORは移植なし各8/8に対し採用7/8・5/8、barrier7/8・5/8で、Function投入が容易なtaskを害する可能性を観測した。family副次8比較はHolm補正後すべて非有意。全96 exact式、48 random Function、192 record、source hashを監査した。
+- [Next] 事前に新しいgrammarとpilot予算を固定し、移植なしで中難度になるタスクを探す。Function条件での成功・失敗をタスク選択に使わず、選定後の独立seedを確保する。
+- [Later] 中難度の両familyが揃ってからstage/round別Function制限と費用付きadmissionを比較し、State付き形成・分解、Router統合へ進む。

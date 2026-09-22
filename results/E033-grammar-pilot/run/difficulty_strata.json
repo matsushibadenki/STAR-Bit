@@ -1,0 +1,31 @@
+{
+  "rule": "no_transfer exact 0-1=floor; 2-6=middle; 7-8=ceiling",
+  "tasks": {
+    "numeric_sum_ge4": {
+      "no_transfer_exact": 8,
+      "stratum": "ceiling"
+    },
+    "numeric_sum_ge5": {
+      "no_transfer_exact": 0,
+      "stratum": "floor"
+    },
+    "numeric_sum_ge7": {
+      "no_transfer_exact": 0,
+      "stratum": "floor"
+    },
+    "route_cross_and": {
+      "no_transfer_exact": 8,
+      "stratum": "ceiling"
+    },
+    "route_cross_or": {
+      "no_transfer_exact": 8,
+      "stratum": "ceiling"
+    },
+    "route_cross_xnor": {
+      "no_transfer_exact": 1,
+      "stratum": "floor"
+    }
+  },
+  "future_middle_tasks": [],
+  "independent_evaluation_performed": false
+}

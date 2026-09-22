@@ -252,3 +252,13 @@ E031で探索的に選ばれた数値`unsigned_sum_ge6`を固定し、新規16 s
 English: E032 replicated the harmful effect of unrestricted Function propagation on one numeric task using fresh seeds. The one-hop barrier beat unrestricted use, but did not significantly beat an inert slot; a positive one-hop mechanism remains unproven.
 
 简体中文：E032用新种子复现了无限制函数传播在一个数值任务上的不利影响。一跳屏障优于无限制使用，但未显著优于惰性槽；尚不能证明一跳机制本身有益。
+
+## 14. 2026-09-22追記：生成Grammarの床・天井問題
+
+E033では、数値加算threshold 4/5/7とcross-mux AND/OR/XNORの6タスクを結果を見る前に固定し、8 seed・4条件の192探索を実施した。[詳細](STAR-Bit-E033-grammar-pilot.md)。移植なしの成功は順に8/8・0/8・0/8と8/8・8/8・1/8で、事前定義した中難度（2–6/8）に入るtaskは0件だった。Function条件の成績を見て次の確認対象を選ばない。
+
+数値−経路のbarrier−通常Function効果差は+0.125、95% CI [−0.0417, 0.2917]、exact p=0.375で、pilotの交互作用基準に届かなかった。個別には数値`sum_ge7`のbarrier 4/8対通常0/8という兆候があるが、移植なし0/8という床効果と8 seedのpilotであり、確認結果とは扱わない。次は新しいgrammarを実行前に固定して中難度領域を探す。
+
+English: E033's prospective six-task grammar yielded no mid-difficulty tasks under the baseline-only rule. The numeric–route interaction did not meet its pilot threshold; no confirmatory target was selected from Function outcomes.
+
+简体中文：E033预先固定的六任务规则，在仅根据基线分类时没有产生中等难度任务。数值与路由的交互作用未达到预实验标准；没有依据函数条件的结果挑选确认任务。
