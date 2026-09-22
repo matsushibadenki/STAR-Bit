@@ -1,0 +1,494 @@
+{
+  "settings": {
+    "seeds": [
+      1520,
+      1521,
+      1522,
+      1523,
+      1524,
+      1525
+    ],
+    "tasks": [
+      "numeric_symmetric_ge5",
+      "route_cross_and"
+    ],
+    "conditions": [
+      "no_transfer",
+      "admitted",
+      "one_hop_barrier",
+      "inert_slot",
+      "random_matched"
+    ],
+    "budgets": {
+      "numeric_symmetric_ge5": {
+        "beam": 256,
+        "rounds": 6
+      },
+      "route_cross_and": {
+        "beam": 128,
+        "rounds": 4
+      }
+    },
+    "max_cost": 16
+  },
+  "targets": {
+    "numeric_symmetric_ge5": "18446742961262223552",
+    "route_cross_and": "17709456106356736128"
+  },
+  "admitted": {
+    "signature": "17361640514770759695",
+    "primitives": 2,
+    "routing_bits": 12,
+    "depth": 2,
+    "probe_deltas": {
+      "probe_majority": 1,
+      "probe_exactly2": 2,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "net": 3,
+    "positive_tasks": 2,
+    "score": 1.2295081967213115,
+    "admitted": true,
+    "expression": [
+      "lut",
+      17361640514770759695,
+      6,
+      [
+        "input",
+        2
+      ],
+      [
+        "lut",
+        1095216660735,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    ]
+  },
+  "random_matched": [
+    {
+      "seed": 1520,
+      "task": "numeric_symmetric_ge5",
+      "signature": "3722304989",
+      "expression": [
+        "lut",
+        3722304989,
+        1,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          2459565876494606882,
+          4,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1520,
+      "task": "route_cross_and",
+      "signature": "5813954357861765295",
+      "expression": [
+        "lut",
+        5813954357861765295,
+        6,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          12659530246663417775,
+          11,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1521,
+      "task": "numeric_symmetric_ge5",
+      "signature": "18446744069987246626",
+      "expression": [
+        "lut",
+        18446744069987246626,
+        14,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          2459565876494606882,
+          4,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1521,
+      "task": "route_cross_and",
+      "signature": "71777214294589695",
+      "expression": [
+        "lut",
+        71777214294589695,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          1080880403494997760,
+          4,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1522,
+      "task": "numeric_symmetric_ge5",
+      "signature": "17298326168462688255",
+      "expression": [
+        "lut",
+        17298326168462688255,
+        7,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          1148435428713435120,
+          6,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1522,
+      "task": "route_cross_and",
+      "signature": "4294967295",
+      "expression": [
+        "lut",
+        4294967295,
+        13,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          0,
+          0,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1523,
+      "task": "numeric_symmetric_ge5",
+      "signature": "360293467831665920",
+      "expression": [
+        "lut",
+        360293467831665920,
+        8,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          361700864190383365,
+          1,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1523,
+      "task": "route_cross_and",
+      "signature": "18446744073709551615",
+      "expression": [
+        "lut",
+        18446744073709551615,
+        14,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          18446744069667229455,
+          11,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1524,
+      "task": "numeric_symmetric_ge5",
+      "signature": "131352984844151",
+      "expression": [
+        "lut",
+        131352984844151,
+        1,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          9838263505978427528,
+          8,
+          [
+            "input",
+            1
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1524,
+      "task": "route_cross_and",
+      "signature": "0",
+      "expression": [
+        "lut",
+        0,
+        0,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          9838263505978427528,
+          8,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1525,
+      "task": "numeric_symmetric_ge5",
+      "signature": "6196766167432910335",
+      "expression": [
+        "lut",
+        6196766167432910335,
+        12,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          6196766167432910335,
+          7,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            3
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 5
+    },
+    {
+      "seed": 1525,
+      "task": "route_cross_and",
+      "signature": "1152921500580315135",
+      "expression": [
+        "lut",
+        1152921500580315135,
+        7,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          18374686483949813760,
+          8,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 3
+    }
+  ],
+  "route_selection": [
+    {
+      "task": "route_cross_and",
+      "family": "route",
+      "round_budget": 4
+    }
+  ],
+  "numeric_selection": {
+    "rule": "baseline-only exact 0-1/6 floor, 2-4/6 middle, 5-6/6 ceiling; choose lowest middle beam width",
+    "selected_task": "numeric_symmetric_ge5",
+    "selected_numeric_width": 256,
+    "frozen_route_candidate": [
+      {
+        "task": "route_cross_and",
+        "family": "route",
+        "round_budget": 4
+      }
+    ],
+    "independent_function_evaluation_performed": false
+  }
+}

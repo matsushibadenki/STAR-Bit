@@ -420,3 +420,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] exact式2件を全64入力で再評価し、24 unique record、progress一致、strict JSON、source hash、Function不使用を監査した。幅間の結果は単調性を仮定していない。
 - [Next] E034とE036で凍結したroute・numeric候補を新規独立seedで、移植なし／通常Function／一段barrier／同費用random／inertの各task内同予算対照として比較する。数値beam256の計算費用に合わせ、予め決めたseed単位の分割実行を検討する。
 - [Later] 再利用の因果効果が確認できた場合に費用付きadmission、State形成・分解、負荷分散付きRouterへ統合する。
+
+## E037：凍結候補の独立シードFunction比較（2026-09-22）
+
+- [Done] E034のroute`cross_and@beam128/4round`とE036のnumeric`symmetric_ge5@beam256/6round`を凍結し、E026採用Functionも再学習せず、新規seed1520–1525で移植なし／通常Function／one-hop barrier／inert slot／同一費用randomを比較した。60探索、約370秒。[事前計画](../results/E037-family-confirmation/PROTOCOL.md)。
+- [Done] 数値exactは移植なし2/6、通常0/6、barrier2/6、inert2/6、random1/6。経路exactは順に3/6、3/6、4/6、3/6、3/6。[詳細](STAR-Bit-E037-family-confirmation.md)。pilotで選んだ移植なしの中難度は独立seedでも双方維持されたが、task種別ごとにbeam・round予算が異なる。
+- [Done] 事前主指標`(barrier−通常)_numeric−(barrier−通常)_route`は+0.1667 exact/seed（不偏分散0.5667、95% CI [−0.3333, 0.6667]、dz=0.221、exact p=1）で、方向性確認基準未達。数値barrier−inertは0、Holm p=1で、一段利用固有の利益も未確認。
+- [Done] 数値ではbarrier／inert／移植なしのexactとbest errorが各6/6 seedで一致。学習Functionを含む成功式は0件で、通常Functionの成績低下は直接再利用利益では説明できない。全23 exact式を64入力で再評価し、12 random Functionの費用・signature、60 record、progress、strict JSON、source hashを監査した。
+- [Next] Functionが最終式に使われなくてもbeamを変え得るため、無制限admissionの害を抑える費用・反実仮想ゲートを、既存taskのtest結果で調整せず新しいtask群で事前評価する。探索時間・signature数も含む。
+- [Later] 複数taskで正の再利用が確認できてからState付き形成・分解とLogic/Ternary Router統合へ進む。初回負荷分散、固定random経路、同一run内→別seed Expert交換を維持する。

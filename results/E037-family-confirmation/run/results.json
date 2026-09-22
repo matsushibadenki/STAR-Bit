@@ -1,0 +1,4294 @@
+{
+  "records": [
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 348492,
+      "elapsed_seconds": 9.228461124992464,
+      "seed": 1520,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 328156,
+      "elapsed_seconds": 8.780878082994604,
+      "seed": 1520,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "admitted",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 346370,
+      "elapsed_seconds": 8.863949708000291,
+      "seed": 1520,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 348492,
+      "elapsed_seconds": 9.931008500003372,
+      "seed": 1520,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "inert_slot",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 304489,
+      "elapsed_seconds": 9.23210762499366,
+      "seed": 1520,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "random_matched",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "3722304989"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            2,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          4,
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 69864,
+      "elapsed_seconds": 1.468596874998184,
+      "seed": 1520,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "no_transfer",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": []
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            2,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          4,
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 86398,
+      "elapsed_seconds": 1.8517314580094535,
+      "seed": 1520,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "admitted",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            2,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          4,
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 77952,
+      "elapsed_seconds": 2.696412125005736,
+      "seed": 1520,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            2,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          4,
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 69865,
+      "elapsed_seconds": 1.7896934999880614,
+      "seed": 1520,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "inert_slot",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            2,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          4,
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 86294,
+      "elapsed_seconds": 1.6518152499920689,
+      "seed": 1520,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "random_matched",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "5813954357861765295"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 351826,
+      "elapsed_seconds": 10.83583266599453,
+      "seed": 1521,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 334936,
+      "elapsed_seconds": 12.684097708988702,
+      "seed": 1521,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "admitted",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 353258,
+      "elapsed_seconds": 12.359195541997906,
+      "seed": 1521,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 351826,
+      "elapsed_seconds": 9.844169916003011,
+      "seed": 1521,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "inert_slot",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 306376,
+      "elapsed_seconds": 8.710361582998303,
+      "seed": 1521,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "random_matched",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "18446744069987246626"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          11565420314712080512,
+          8,
+          [
+            "lut",
+            18432388630850633676,
+            14,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            11574427651407872160,
+            8,
+            [
+              "lut",
+              11574427654092267680,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              18446744069431296255,
+              13,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          6144035791644655616,
+          8,
+          [
+            "lut",
+            18432388630850633676,
+            14,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            6148820866249850880,
+            8,
+            [
+              "lut",
+              6148820867675914240,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              18446744069431296255,
+              13,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 74834,
+      "elapsed_seconds": 1.5089884160115616,
+      "seed": 1521,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "no_transfer",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 91108,
+      "elapsed_seconds": 2.042512291998719,
+      "seed": 1521,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "admitted",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            18374873396648345600,
+            2,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            723401728380766730,
+            2,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            55169937261723844,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              723401728380766730,
+              2,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446650250148948650,
+            14,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 86386,
+      "elapsed_seconds": 1.2901526670029853,
+      "seed": 1521,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          11565420314712080512,
+          8,
+          [
+            "lut",
+            18446744069431296255,
+            13,
+            [
+              "input",
+              3
+            ],
+            [
+              "input",
+              5
+            ]
+          ],
+          [
+            "lut",
+            11565420317396476032,
+            8,
+            [
+              "lut",
+              11574427654092267680,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              18432388630850633676,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          6144035791644655616,
+          8,
+          [
+            "lut",
+            18432388630850633676,
+            14,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            6148820866249850880,
+            8,
+            [
+              "lut",
+              6148820867675914240,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              18446744069431296255,
+              13,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 74741,
+      "elapsed_seconds": 1.325844374994631,
+      "seed": 1521,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "inert_slot",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          11565420314712080512,
+          8,
+          [
+            "lut",
+            18432388630850633676,
+            14,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            11574427651407872160,
+            8,
+            [
+              "lut",
+              11574427654092267680,
+              8,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ],
+            [
+              "lut",
+              18446744069431296255,
+              13,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          6144035791644655616,
+          8,
+          [
+            "lut",
+            18432388630850633676,
+            14,
+            [
+              "input",
+              1
+            ],
+            [
+              "input",
+              3
+            ]
+          ],
+          [
+            "lut",
+            6148820866249850880,
+            8,
+            [
+              "lut",
+              6148820867675914240,
+              4,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              18446744069431296255,
+              13,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 74114,
+      "elapsed_seconds": 1.4859296250069747,
+      "seed": 1521,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "random_matched",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "71777214294589695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 338622,
+      "elapsed_seconds": 9.746551375006675,
+      "seed": 1522,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 333758,
+      "elapsed_seconds": 11.644550583005184,
+      "seed": 1522,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "admitted",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 336781,
+      "elapsed_seconds": 11.24739808299637,
+      "seed": 1522,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 338622,
+      "elapsed_seconds": 11.01636008299829,
+      "seed": 1522,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "inert_slot",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        0
+      ],
+      "uses_transfer": true,
+      "used_signatures": [
+        "17298326168462688255"
+      ],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        13,
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725162968542924,
+            11,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073658757360,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073709222650,
+              11,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                5766108722820896085,
+                4,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "lut",
+                  17298326168462688255,
+                  7,
+                  [
+                    "input",
+                    4
+                  ],
+                  [
+                    "lut",
+                    1148435428713435120,
+                    6,
+                    [
+                      "input",
+                      2
+                    ],
+                    [
+                      "input",
+                      3
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 108,
+      "depth": 7,
+      "generated_unique_signatures": 273815,
+      "elapsed_seconds": 7.87552683299873,
+      "seed": 1522,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "random_matched",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17298326168462688255"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 78928,
+      "elapsed_seconds": 2.2317038330074865,
+      "seed": 1522,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "no_transfer",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": []
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 91538,
+      "elapsed_seconds": 1.7745597080065636,
+      "seed": 1522,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "admitted",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ],
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 86161,
+      "elapsed_seconds": 1.3417954580072546,
+      "seed": 1522,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 77959,
+      "elapsed_seconds": 1.9783092500001658,
+      "seed": 1522,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "inert_slot",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 77980,
+      "elapsed_seconds": 1.9774298330012243,
+      "seed": 1522,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "random_matched",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "4294967295"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 6,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        13,
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725308997431022,
+            14,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "input",
+              0
+            ]
+          ],
+          [
+            "lut",
+            18446743854615425216,
+            8,
+            [
+              "lut",
+              18446743854666219468,
+              14,
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              18446744073658757360,
+              8,
+              [
+                "lut",
+                18446744073659019504,
+                14,
+                [
+                  "lut",
+                  18446744073456906480,
+                  14,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ],
+                [
+                  "lut",
+                  14757170082422194176,
+                  8,
+                  [
+                    "input",
+                    1
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                18446744073709223930,
+                14,
+                [
+                  "lut",
+                  18446744073456906480,
+                  14,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ],
+                [
+                  "lut",
+                  18422818335611355050,
+                  14,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "input",
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 106,
+      "depth": 6,
+      "generated_unique_signatures": 346774,
+      "elapsed_seconds": 8.089000917010708,
+      "seed": 1523,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 331154,
+      "elapsed_seconds": 9.355269416002557,
+      "seed": 1523,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "admitted",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        13,
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725162968542924,
+            11,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073658757360,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073709223930,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18422818335611355050,
+                14,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 13,
+      "routing_bits": 94,
+      "depth": 5,
+      "generated_unique_signatures": 299200,
+      "elapsed_seconds": 7.672592124989023,
+      "seed": 1523,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 6,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        13,
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ],
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725308997431022,
+            14,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "input",
+              0
+            ]
+          ],
+          [
+            "lut",
+            18446743854615425216,
+            8,
+            [
+              "lut",
+              18446743854666219468,
+              14,
+              [
+                "lut",
+                18446687779573189836,
+                14,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              18446744073658757360,
+              8,
+              [
+                "lut",
+                18446744073659019504,
+                14,
+                [
+                  "lut",
+                  18446744073456906480,
+                  14,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ],
+                [
+                  "lut",
+                  14757170082422194176,
+                  8,
+                  [
+                    "input",
+                    1
+                  ],
+                  [
+                    "input",
+                    4
+                  ]
+                ]
+              ],
+              [
+                "lut",
+                18446744073709223930,
+                14,
+                [
+                  "lut",
+                  18446744073456906480,
+                  14,
+                  [
+                    "input",
+                    2
+                  ],
+                  [
+                    "input",
+                    5
+                  ]
+                ],
+                [
+                  "lut",
+                  18422818335611355050,
+                  14,
+                  [
+                    "input",
+                    0
+                  ],
+                  [
+                    "input",
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 15,
+      "routing_bits": 106,
+      "depth": 6,
+      "generated_unique_signatures": 346774,
+      "elapsed_seconds": 12.710703000004287,
+      "seed": 1523,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "inert_slot",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 291220,
+      "elapsed_seconds": 10.178542875000858,
+      "seed": 1523,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "random_matched",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "360293467831665920"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 74470,
+      "elapsed_seconds": 2.034319875005167,
+      "seed": 1523,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "no_transfer",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": []
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 92808,
+      "elapsed_seconds": 1.9942675000056624,
+      "seed": 1523,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "admitted",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 84604,
+      "elapsed_seconds": 1.4741265409975313,
+      "seed": 1523,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 74179,
+      "elapsed_seconds": 1.50672466600372,
+      "seed": 1523,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "inert_slot",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 4,
+      "best_error": 0,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        17709456106356736128,
+        6,
+        [
+          "lut",
+          17654286461152788480,
+          2,
+          [
+            "lut",
+            17654379919641149440,
+            8,
+            [
+              "lut",
+              18374966855136706560,
+              8,
+              [
+                "input",
+                3
+              ],
+              [
+                "input",
+                5
+              ]
+            ],
+            [
+              "lut",
+              17723342345328784885,
+              13,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                2
+              ]
+            ]
+          ],
+          [
+            "lut",
+            93823560602965,
+            1,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              4
+            ]
+          ]
+        ],
+        [
+          "lut",
+          55169645203947648,
+          8,
+          [
+            "lut",
+            17723342345328784885,
+            13,
+            [
+              "input",
+              0
+            ],
+            [
+              "input",
+              2
+            ]
+          ],
+          [
+            "lut",
+            57421479377895560,
+            2,
+            [
+              "lut",
+              57421771435671756,
+              2,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                3
+              ]
+            ],
+            [
+              "lut",
+              93823560602965,
+              1,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "primitives": 11,
+      "routing_bits": 78,
+      "depth": 4,
+      "generated_unique_signatures": 70676,
+      "elapsed_seconds": 1.5378949580044718,
+      "seed": 1523,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "random_matched",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "18446744073709551615"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 356332,
+      "elapsed_seconds": 14.63685391699255,
+      "seed": 1524,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 334548,
+      "elapsed_seconds": 12.685564708997845,
+      "seed": 1524,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "admitted",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 353638,
+      "elapsed_seconds": 14.11399875000643,
+      "seed": 1524,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 356332,
+      "elapsed_seconds": 11.367933375004213,
+      "seed": 1524,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "inert_slot",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 318050,
+      "elapsed_seconds": 10.076360042003216,
+      "seed": 1524,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "random_matched",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "131352984844151"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 79698,
+      "elapsed_seconds": 2.1559490829968126,
+      "seed": 1524,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "no_transfer",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 90222,
+      "elapsed_seconds": 2.1210528329975205,
+      "seed": 1524,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "admitted",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 87441,
+      "elapsed_seconds": 1.8881303339876467,
+      "seed": 1524,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 79633,
+      "elapsed_seconds": 2.1579504999972414,
+      "seed": 1524,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "inert_slot",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 79698,
+      "elapsed_seconds": 2.0891252500005066,
+      "seed": 1524,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "random_matched",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "0"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        11,
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725162968542924,
+            11,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073658757360,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073709223930,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18422818335611355050,
+                14,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 13,
+      "routing_bits": 94,
+      "depth": 5,
+      "generated_unique_signatures": 296888,
+      "elapsed_seconds": 7.627271584002301,
+      "seed": 1525,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "no_transfer",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 319804,
+      "elapsed_seconds": 9.81231445800222,
+      "seed": 1525,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "admitted",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        11,
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725162968542924,
+            11,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073658757360,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073709223930,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18422818335611355050,
+                14,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 13,
+      "routing_bits": 94,
+      "depth": 5,
+      "generated_unique_signatures": 299230,
+      "elapsed_seconds": 9.735772750005708,
+      "seed": 1525,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "one_hop_barrier",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": true,
+      "round": 5,
+      "best_error": 0,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        0
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": [
+        "lut",
+        18446742961262223552,
+        11,
+        [
+          "lut",
+          18446725162917748928,
+          8,
+          [
+            "lut",
+            18446725162968542924,
+            11,
+            [
+              "lut",
+              18446687779573189836,
+              14,
+              [
+                "input",
+                1
+              ],
+              [
+                "input",
+                4
+              ]
+            ],
+            [
+              "lut",
+              6196766167432910335,
+              7,
+              [
+                "input",
+                0
+              ],
+              [
+                "input",
+                3
+              ]
+            ]
+          ],
+          [
+            "lut",
+            18446744073658757360,
+            8,
+            [
+              "lut",
+              18446744073659019504,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                14757170082422194176,
+                8,
+                [
+                  "input",
+                  1
+                ],
+                [
+                  "input",
+                  4
+                ]
+              ]
+            ],
+            [
+              "lut",
+              18446744073709223930,
+              14,
+              [
+                "lut",
+                18446744073456906480,
+                14,
+                [
+                  "input",
+                  2
+                ],
+                [
+                  "input",
+                  5
+                ]
+              ],
+              [
+                "lut",
+                18422818335611355050,
+                14,
+                [
+                  "input",
+                  0
+                ],
+                [
+                  "input",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "lut",
+          1085102596613472255,
+          7,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            5
+          ]
+        ]
+      ],
+      "primitives": 13,
+      "routing_bits": 94,
+      "depth": 5,
+      "generated_unique_signatures": 296888,
+      "elapsed_seconds": 8.31901445800031,
+      "seed": 1525,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "inert_slot",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 1,
+      "best_error_history": [
+        9,
+        7,
+        3,
+        1,
+        1,
+        1
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 298044,
+      "elapsed_seconds": 12.258763374993578,
+      "seed": 1525,
+      "task": "numeric_symmetric_ge5",
+      "family": "numeric",
+      "condition": "random_matched",
+      "beam": 256,
+      "round_budget": 6,
+      "library_signatures": [
+        "6196766167432910335"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 73886,
+      "elapsed_seconds": 2.626557250012411,
+      "seed": 1525,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "no_transfer",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": []
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 86442,
+      "elapsed_seconds": 2.760041417001048,
+      "seed": 1525,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "admitted",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 81373,
+      "elapsed_seconds": 2.4156088330055354,
+      "seed": 1525,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "one_hop_barrier",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        14,
+        10,
+        7,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 73959,
+      "elapsed_seconds": 2.666092833998846,
+      "seed": 1525,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "inert_slot",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "17361640514770759695"
+      ]
+    },
+    {
+      "exact": false,
+      "round": null,
+      "best_error": 2,
+      "best_error_history": [
+        12,
+        10,
+        6,
+        2
+      ],
+      "uses_transfer": false,
+      "used_signatures": [],
+      "expression": null,
+      "primitives": null,
+      "routing_bits": null,
+      "depth": null,
+      "generated_unique_signatures": 79066,
+      "elapsed_seconds": 2.649396416003583,
+      "seed": 1525,
+      "task": "route_cross_and",
+      "family": "route",
+      "condition": "random_matched",
+      "beam": 128,
+      "round_budget": 4,
+      "library_signatures": [
+        "1152921500580315135"
+      ]
+    }
+  ],
+  "settings": {
+    "seeds": [
+      1520,
+      1521,
+      1522,
+      1523,
+      1524,
+      1525
+    ],
+    "tasks": [
+      "numeric_symmetric_ge5",
+      "route_cross_and"
+    ],
+    "conditions": [
+      "no_transfer",
+      "admitted",
+      "one_hop_barrier",
+      "inert_slot",
+      "random_matched"
+    ],
+    "budgets": {
+      "numeric_symmetric_ge5": {
+        "beam": 256,
+        "rounds": 6
+      },
+      "route_cross_and": {
+        "beam": 128,
+        "rounds": 4
+      }
+    },
+    "max_cost": 16
+  },
+  "elapsed_seconds": 369.6950347499951,
+  "sources": {
+    "results/E037-family-confirmation/main.py": "b952285877c5018c6eefb6a55de29461f6e7a19b2559dbbc99b993be4d2bfd60",
+    "results/E037-family-confirmation/PROTOCOL.md": "ae754ca160f6f005975125ee755e8d0b2811e77f2e207b4ea093059323efdf05",
+    "results/E036-beam-calibration/run/selected_numeric_width.json": "f9d19792d0ab8dc28ae2a9d5ca78e02e6509df9d5dd857a9d465f4eaf4aad9c4",
+    "results/E035-numeric-grammar/main.py": "8ba8c2381bc7c3aae1b94a02f1d32e00425f1a37d8c19e0de276b5eaf5867545",
+    "results/E035-numeric-grammar/run/frozen_tasks.json": "855ce67c8869a68ffafbcfa7d13ff23c84e885a87cef86ee49ade268e2d84935",
+    "results/E034-budget-calibration/run/selected_task_budgets.json": "85a42569e5425620f73108f4275c15f71d40741ea3444f81d67217b9bdb41a77",
+    "results/E033-grammar-pilot/main.py": "0d25c96cd4fdc82cf964e303e32601b8c2a571d546f7d5d300487e0d127e3903",
+    "results/E031-route-family-portability/main.py": "e1c608a93a8209d3821c205b1476b0e87b8367f240a96c5c1d9ccd36c7a6a0a3",
+    "results/E030-provenance-barrier/main.py": "e55aaa988298f3e949a37c3f38f438cd650d50114ae2a3d9bb953c1d6c6c0232",
+    "results/E028-module-causal-ablation/main.py": "18b38f3d196df27e58c884cf467ff2bf6f20ea40ff224f61e8f7895c40d166b0",
+    "results/E026-counterfactual-admission/main.py": "6d8d32d81b8138b50a1825b0bbc2c7bf2f955671f2641aca77d57981a2d716ce",
+    "results/E026-counterfactual-admission/run/admission.json": "3e5e9d293de3bce3e803cfdcb81b021900894c1a96eea00d52ee843bbcc5c6e0",
+    "results/E024-probe-utility-diversity/main.py": "370ebd01789fbf7932ee750840aeb15857bee01116da687a7f7fff9fde6424bf",
+    "results/E023-leave-one-task-out-transfer/main.py": "eaed1accd737918819ee764aa2aba92974436ba0f953954ed4ff3eb4bf962952",
+    "results/E019-function-space-genesis/search.py": "03b7be2a8676bb1450bf42796f119b63d02fd43b985eca044051324069e59f4d",
+    "results/E019-function-space-genesis/search_v2.py": "73d4c18c6dd63ae095ba97727b0dbf19ba3aa4fb33b09ea36de71c323d182144"
+  }
+}

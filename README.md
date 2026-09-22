@@ -40,6 +40,7 @@
 - [E034：移植なし条件の探索Round予算校正](docs/STAR-Bit-E034-budget-calibration.md)
 - [E035：重み付き数値Grammarの難度校正](docs/STAR-Bit-E035-numeric-grammar.md)
 - [E036：数値タスクの移植なしBeam幅校正](docs/STAR-Bit-E036-beam-calibration.md)
+- [E037：凍結した数値・経路候補の独立シード比較](docs/STAR-Bit-E037-family-confirmation.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

@@ -292,3 +292,13 @@ E036はE035で誤り1/64に達した`numeric_symmetric_ge5`を固定し、移植
 English: Beam 256 yielded 2/6 exact numeric solutions, the preregistered middle band; widths 64–192 yielded none. This fixes a pilot setting for independent Function evaluation, not a confirmed beam advantage.
 
 简体中文：beam 256在数值任务上达到2/6精确成功，符合预先规定的中等难度；宽度64–192均未成功。这只是独立函数评估的预实验设置，并非已证实的beam优势。
+
+## 18. 2026-09-22追記：中難度に揃えた独立Function比較
+
+E037では事前のbaseline-only pilotで選んだ経路選択・数値taskを固定し、新規6 seedで移植なし、通常Function、一段barrier、inert slot、同一費用randomを比較した。[詳細](STAR-Bit-E037-family-confirmation.md)。数値のexactは2/6・0/6・2/6・2/6・1/6、経路は3/6・3/6・4/6・3/6・3/6だった。数値で通常Functionが劣る傾向はE032の方向と整合するが、barrier−通常のexact p=0.5、Holm p=1で独立の効果確認には至らない。
+
+事前主仮説のfamily差は+0.1667（95% CI [−0.3333, 0.6667]、exact p=1）で基準未達。数値barrierとinert、inertと移植なしは、全6 seedでexact・best errorが一致した。学習Functionを最終成功式に含む例はなく、構造部品の直接利用も示されない。数値と経路ではbeam・round予算が異なるため、family差をtask種別だけの効果と解釈しない。次は探索の害を抑える費用付きadmissionを新しいtask群で検証する。
+
+English: E037 did not confirm the preregistered numeric-versus-routing interaction or a one-hop-specific benefit. On the numeric target, barrier, inert slot, and no transfer matched on every seed; no successful expression used the learned Function.
+
+简体中文：E037未证实预注册的数值与路由交互作用，也未证实一跳使用的特有收益。数值任务上，屏障、惰性槽和不迁移在每个种子上结果相同；成功表达式均未使用学习函数。

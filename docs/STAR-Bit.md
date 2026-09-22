@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-22 独立Function比較追記**：E037ではpilotで凍結した数値・経路選択taskを新規6 seed・各5条件で比較しました。数値の通常Functionは0/6、barrier・inert・移植なしは各2/6で、事前のfamily交互作用は+0.1667（95% CI [−0.3333, 0.6667]、exact p=1）と未達です。学習Functionを最終成功式に含む例もありません。構造的自由度の一般的な精度補償は引き続き未証明です。[E037レポート](STAR-Bit-E037-family-confirmation.md)。
+>
+> English: Independent E037 seeds did not confirm the task-family interaction or direct reuse of the learned Function. Numeric barrier, inert slot, and no transfer all solved 2/6.
+>
+> 简体中文：E037的独立种子未证实任务族交互作用或学习函数的直接复用。数值任务的屏障、惰性槽和不迁移均成功2/6。
+
 > **2026-09-22 Beam幅校正追記**：E036ではE035の近接数値タスクを移植なしで再評価し、beam256だけが新規6 seed中2件でexactになりました。E034のroute候補と合わせて両familyの中難度pilot設定が揃いましたが、幅の対応差はHolm補正後有意ではありません。次は独立seedと各task内同予算対照でFunction効果を検証します。[E036レポート](STAR-Bit-E036-beam-calibration.md)。
 >
 > English: Beam 256 put one numeric task in the pilot middle band at 2/6 exact, alongside E034's routing candidate. Function efficacy still requires independent, equal-budget within-task controls.
