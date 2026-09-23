@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-09-22。E017〜E037は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-09-22。E017〜E038は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -24,6 +24,7 @@
 | 重み付き数値Grammarの難度校正 | E035 | 6 task×6 seedのbaseline 36探索 | 全task exact 0/6。数値familyの中難度候補なし |
 | 数値Beam幅の難度校正 | E036 | 1 task×4 beam幅×6 seedのbaseline 24探索 | beam256で2/6。routeとnumericの中難度pilot候補が揃った |
 | 凍結候補の独立Function比較 | E037 | 2 task×5条件×新規6 seedの60探索 | family交互作用の事前基準未達。数値barrier・inert・移植なしは各2/6 |
+| Function投入時刻 | E038 | 2 task×5条件×新規6 seedの60探索 | 遅延learnedはinert/randomと同値。Function使用成功0件 |
 
 現在支持される限定的な主張は次である。
 
@@ -116,6 +117,10 @@ E035の近接数値taskを固定し、Functionを入れずにbeam幅64/128/192/2
 
 凍結した数値・経路候補で新規6 seed、5条件を比較した。数値exactは移植なし2/6、通常Function0/6、one-hop barrier2/6、inert2/6、random1/6。routeは順に3/6、3/6、4/6、3/6、3/6だった。事前の数値−経路barrier効果差は+0.1667、95% CI [−0.3333, 0.6667]、exact p=1で基準未達。数値barrierとinertは全seedでexact・best error一致し、学習Functionを含む成功式は0件。無制限admissionが特定taskの探索を妨げうる兆候は残るが、一段利用の利益や低ビット補償の証拠にはならない。[E037詳細](STAR-Bit-E037-family-confirmation.md)。
 
+## E038 Function投入時刻
+
+初回投入とround 1後の投入を同時刻inert・random対照と比較した。遅延learnedは初回learnedより両task平均+0.25 exact/seedだったがexact p=0.5。遅延learned・inert・randomの成功数は完全に一致し、成功式はFunctionを使わなかった。初期Library投入の害を避ける兆候はあるが、学習Function固有ではなくbeam時刻・枠置換の摂動である。[E038詳細](STAR-Bit-E038-timed-admission.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -134,13 +139,14 @@ E035の近接数値taskを固定し、Functionを入れずにbeam幅64/128/192/2
 - [Done] E035で新しい重み付き数値Grammarを試したが、6 taskすべてがexact 0/6で中難度候補を得られなかった。
 - [Done] E036でbeam幅256の数値中難度候補をbaselineだけから選定し、route・numeric双方のpilot設定を凍結した。
 - [Done] E037で独立seed・同task内同予算比較を完了し、family交互作用とone-hop固有利益が事前基準未達であることを確認した。
-- [Next] Functionの未使用時にも生じるbeam摂動と費用を含むadmission gateを、新task群で事前固定して評価する。
+- [Done] E038で投入時刻を分離し、遅延learnedの結果が同時刻inert/randomと一致してFunction固有でないことを示した。
+- [Next] 新task群で容量追加と同一幅置換を分け、beam摂動と費用を含むadmission gateを事前固定して評価する。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。
 
-English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 replicated harm from unrestricted propagation on one numeric task without proving one-hop benefit. E033–E036 calibrated task difficulty. E037's independent seeds failed the preregistered task-family interaction and one-hop-specific gates; no successful expression used the learned Function.
+English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 replicated harm from unrestricted propagation on one numeric task without proving one-hop benefit. E033–E036 calibrated task difficulty. E037's independent seeds failed the preregistered task-family interaction and one-hop-specific gates. E038 found that delaying insertion matched delayed inert and random controls exactly; no successful expression used the learned Function.
 
-简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033–E036校准了任务难度。E037的独立种子未达到预注册的任务族交互作用和一跳特有收益门槛；成功表达式均未使用学习函数。
+简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033–E036校准了任务难度。E037的独立种子未达到预注册的任务族交互作用和一跳特有收益门槛。E038发现延迟插入与延迟惰性和随机对照完全一致；成功表达式均未使用学习函数。
 
-[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [E034：探索予算校正](STAR-Bit-E034-budget-calibration.md) / [E035：数値Grammar校正](STAR-Bit-E035-numeric-grammar.md) / [E036：Beam幅校正](STAR-Bit-E036-beam-calibration.md) / [E037：独立Function比較](STAR-Bit-E037-family-confirmation.md) / [研究ログ](RESEARCH-LOG.md)
+[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [E034：探索予算校正](STAR-Bit-E034-budget-calibration.md) / [E035：数値Grammar校正](STAR-Bit-E035-numeric-grammar.md) / [E036：Beam幅校正](STAR-Bit-E036-beam-calibration.md) / [E037：独立Function比較](STAR-Bit-E037-family-confirmation.md) / [E038：投入時刻Pilot](STAR-Bit-E038-timed-admission.md) / [研究ログ](RESEARCH-LOG.md)

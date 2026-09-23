@@ -429,3 +429,13 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 数値ではbarrier／inert／移植なしのexactとbest errorが各6/6 seedで一致。学習Functionを含む成功式は0件で、通常Functionの成績低下は直接再利用利益では説明できない。全23 exact式を64入力で再評価し、12 random Functionの費用・signature、60 record、progress、strict JSON、source hashを監査した。
 - [Next] Functionが最終式に使われなくてもbeamを変え得るため、無制限admissionの害を抑える費用・反実仮想ゲートを、既存taskのtest結果で調整せず新しいtask群で事前評価する。探索時間・signature数も含む。
 - [Later] 複数taskで正の再利用が確認できてからState付き形成・分解とLogic/Ternary Router統合へ進む。初回負荷分散、固定random経路、同一run内→別seed Expert交換を維持する。
+
+
+## E038：Function投入時刻の機構Pilot（2026-09-22〜2026-09-23）
+
+- [Done] E037で検査済みのnumeric/route 2 taskとtask内予算、E026 Functionを凍結し、新規seed1530–1535で移植なし／初回Function／round 1後のFunction・inert・同費用randomを比較した。60探索。54件後のsession中断から設定を変えず残り6件を再開し、探索時間合計約516秒。[事前計画](../results/E038-timed-admission/PROTOCOL.md)。
+- [Done] 数値exactは移植なし2/6、初回0/6、遅延learned/inert/random各2/6。routeは順に4/6、3/6、4/6、4/6、4/6。[詳細](STAR-Bit-E038-timed-admission.md)。両task平均の遅延−初回差は+0.25（不偏分散0.175、95% CI [0, 0.5833]、dz=0.598、exact p=0.5）で、方向性pilot基準未達。
+- [Done] 遅延learned−遅延inertと遅延learned−遅延randomはともに差0、Holm p=1。early/late learnedの成功式でFunction使用は0件。初回投入の害を遅延で避ける兆候は、同時刻に任意の1枠を置換するinert/randomでも完全に再現され、学習された意味の効果ではない。
+- [Done] 遅延36条件のround 1 beam・best errorを移植なしと照合し、27 exact式を全64入力で再評価した。60 unique record、12 random Function、source hash、strict JSON、別seed smokeを監査した。
+- [Next] 「初回からLibraryを置く」ことによる探索摂動を構造自由度の利益と分離する。新taskを事前固定し、遅延learned／遅延inert／遅延randomに加え、置換なしの容量追加と同一幅置換を分ける。
+- [Later] Function固有の正効果が複数taskで確認された後に費用付き形成・分解、State、Logic/Ternary Routerへ統合する。初回負荷分散、固定random経路、Expert交換を維持する。

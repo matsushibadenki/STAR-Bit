@@ -149,7 +149,7 @@ def delta(seed, task, left, right):
     return int(by[seed, task, left]["exact"]) - int(by[seed, task, right]["exact"])
 
 summary["primary"] = paired([sum(delta(seed, task, "late_learned", "early_learned") for task in tasks) / len(tasks) for seed in seeds], rng)
-summary["timing_gate_passed"] = summary["primary"]["mean"] >= .25 and summary["primary"]["exact_signflip_p"] <= .05
+summary["timing_gate_passed"] = bool(summary["primary"]["mean"] >= .25 and summary["primary"]["exact_signflip_p"] <= .05)
 contrast_values = {
     "numeric:late-minus-early": [delta(seed, numeric, "late_learned", "early_learned") for seed in seeds],
     "route:late-minus-early": [delta(seed, route, "late_learned", "early_learned") for seed in seeds],
@@ -162,7 +162,7 @@ summary["holm_secondary"] = {key: value for key, value in zip(contrast_values, h
 specific = "pooled:late-learned-minus-inert"
 learned_uses = sum(summary["by_task_condition"][task][condition]["exact_uses_transfer"] for task in tasks for condition in ("early_learned", "late_learned"))
 summary["learned_success_uses"] = learned_uses
-summary["function_specific_gate_passed"] = summary["secondary"][specific]["mean"] > 0 and summary["holm_secondary"][specific] <= .05 and learned_uses > 0
+summary["function_specific_gate_passed"] = bool(summary["secondary"][specific]["mean"] > 0 and summary["holm_secondary"][specific] <= .05 and learned_uses > 0)
 (OUT / "audit_summary.json").write_text(json.dumps(summary, indent=2, allow_nan=False))
 
 lines = ["# E038：Functionの投入時刻を変える機構Pilot", "", "実行日：2026-09-22。E037で結果を見た2 taskをそのまま用いる探索的な機構実験。新規6 seedで移植なし／初回学習Function／初回探索後の学習Function・inert・同費用randomを比較した。各task内のbeamとround上限は固定し、遅延投入では選択済みbeamの最後の1枠を置換した。計60探索。新taskでの独立確認ではない。", "", "| task | 条件 | exact/6 | exact平均 / 不偏分散 | best error平均 / 不偏分散 | Function使用成功/成功数 | 秒/探索平均 | 成功式 primitive / routing bits / depth平均 |", "| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |"]
@@ -183,7 +183,7 @@ for task in tasks:
     for condition in conditions:
         item = summary["by_task_condition"][task][condition]["generated_unique_signatures"]
         lines.append(f"- {task} / {condition}: {item['mean']:.1f} / {item['unbiased_variance']:.1f}。")
-lines += ["", f"全{verified}件のexact式を64入力で再評価した。60 unique record、progress一致、strict JSON、source hash、12 random Functionの費用・signature、別seed smokeを監査した。探索時間やsignature数は推論の実測速度や物理ゲート数ではない。", "", "## Roadmap", "", "- [Done] 投入時刻を変え、同時刻inert・randomとの違いを新シードで探索的に測った。", "- [Next] timing効果の有無と最終式のFunction使用を分け、新しいtaskを事前固定して移植性を確認する。", "- [Later] 費用付きLibrary形成・分解とState、負荷分散Router、固定random経路、Expert交換へ進む。", "", "English: E038 is an exploratory timing study on two previously inspected tasks. A timing change alone does not establish transferable learned-Function benefit; the matched inert and random controls and final-expression usage separate those mechanisms.", "", "简体中文：E038是在两个先前已检视任务上的探索性投入时序实验。仅改变时序不能证明学习函数的可迁移收益；同时间的惰性和随机对照及最终表达式使用情况用于区分机制。", "", "[事前計画](../results/E038-timed-admission/PROTOCOL.md) / [生データ](../results/E038-timed-admission/run/results.json) / [凍結設定](../results/E038-timed-admission/run/frozen_manifest.json) / [監査](../results/E038-timed-admission/run/audit_summary.json)"]
+lines += ["", f"全{verified}件のexact式を64入力で再評価した。60 unique record、progress一致、strict JSON、source hash、12 random Functionの費用・signature、別seed smokeを監査した。54件後の実行session中断から凍結設定を変えず残り6件を再開し、探索ごとのCPU時間合計は{result['elapsed_seconds']:.1f}秒だった。探索時間やsignature数は推論の実測速度や物理ゲート数ではない。", "", "## Roadmap", "", "- [Done] 投入時刻を変え、同時刻inert・randomとの違いを新シードで探索的に測った。", "- [Next] timing効果の有無と最終式のFunction使用を分け、新しいtaskを事前固定して移植性を確認する。", "- [Later] 費用付きLibrary形成・分解とState、負荷分散Router、固定random経路、Expert交換へ進む。", "", "English: E038 is an exploratory timing study on two previously inspected tasks. A timing change alone does not establish transferable learned-Function benefit; the matched inert and random controls and final-expression usage separate those mechanisms.", "", "简体中文：E038是在两个先前已检视任务上的探索性投入时序实验。仅改变时序不能证明学习函数的可迁移收益；同时间的惰性和随机对照及最终表达式使用情况用于区分机制。", "", "[事前計画](../results/E038-timed-admission/PROTOCOL.md) / [生データ](../results/E038-timed-admission/run/results.json) / [凍結設定](../results/E038-timed-admission/run/frozen_manifest.json) / [監査](../results/E038-timed-admission/run/audit_summary.json)"]
 report = "\n".join(lines) + "\n"
 (ROOT / "docs/STAR-Bit-E038-timed-admission.md").write_text(report)
 (HERE / "REPORT.md").write_text(report.replace("(../results/E038-timed-admission/", "("))

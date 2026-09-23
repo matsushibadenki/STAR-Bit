@@ -302,3 +302,14 @@ E037では事前のbaseline-only pilotで選んだ経路選択・数値taskを�
 English: E037 did not confirm the preregistered numeric-versus-routing interaction or a one-hop-specific benefit. On the numeric target, barrier, inert slot, and no transfer matched on every seed; no successful expression used the learned Function.
 
 简体中文：E037未证实预注册的数值与路由交互作用，也未证实一跳使用的特有收益。数值任务上，屏障、惰性槽和不迁移在每个种子上结果相同；成功表达式均未使用学习函数。
+
+
+## 19. 2026-09-23追記：Function投入時刻とBeam摂動
+
+E038ではE037と同じ2 taskを用い、Functionを初回beamに入れる条件とround 1後に入れる条件を、新規6 seedで探索的に比較した。[詳細](STAR-Bit-E038-timed-admission.md)。数値のexactは初回0/6から遅延2/6、routeは3/6から4/6へ増えたが、両task平均差のexact pは0.5で事前pilot基準に届かなかった。
+
+さらに遅延learned、遅延inert、遅延randomは両taskで完全に同じ成功数となり、対応差も0だった。成功式は学習Functionを一度も使用していない。したがって観測された差は、学習された抽象の意味より「初期beamへ候補を入れる時刻」と1枠置換による探索摂動で説明できる。新taskで、容量追加と同一幅置換を分離する必要がある。
+
+English: Delaying Function insertion recovered the baseline success counts, but matched delayed inert and random controls exactly. No successful expression used the learned Function, so the result points to beam perturbation rather than transferable abstraction.
+
+简体中文：延迟插入函数恢复了基线成功数，但与延迟惰性和随机对照完全一致。成功表达式均未使用学习函数，因此结果更支持beam扰动，而非可迁移抽象。

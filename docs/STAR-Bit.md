@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-23 Function投入時刻追記**：E038では初回投入とround 1後の投入を比較しました。遅延learnedは初回learnedより成功数が増えましたが、遅延inert・randomと完全に一致し、Functionを使用した成功式は0件でした。現段階では学習抽象の効果よりbeam摂動と判断します。[E038レポート](STAR-Bit-E038-timed-admission.md)。
+>
+> English: Delayed insertion matched delayed inert and random controls, with no learned-Function use in successful expressions. The current evidence supports a beam-timing perturbation.
+>
+> 简体中文：延迟插入与延迟惰性和随机对照完全一致，成功表达式未使用学习函数。目前证据支持beam时序扰动。
+
 > **2026-09-22 独立Function比較追記**：E037ではpilotで凍結した数値・経路選択taskを新規6 seed・各5条件で比較しました。数値の通常Functionは0/6、barrier・inert・移植なしは各2/6で、事前のfamily交互作用は+0.1667（95% CI [−0.3333, 0.6667]、exact p=1）と未達です。学習Functionを最終成功式に含む例もありません。構造的自由度の一般的な精度補償は引き続き未証明です。[E037レポート](STAR-Bit-E037-family-confirmation.md)。
 >
 > English: Independent E037 seeds did not confirm the task-family interaction or direct reuse of the learned Function. Numeric barrier, inert slot, and no transfer all solved 2/6.
