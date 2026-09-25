@@ -439,3 +439,13 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 遅延36条件のround 1 beam・best errorを移植なしと照合し、27 exact式を全64入力で再評価した。60 unique record、12 random Function、source hash、strict JSON、別seed smokeを監査した。
 - [Next] 「初回からLibraryを置く」ことによる探索摂動を構造自由度の利益と分離する。新taskを事前固定し、遅延learned／遅延inert／遅延randomに加え、置換なしの容量追加と同一幅置換を分ける。
 - [Later] Function固有の正効果が複数taskで確認された後に費用付き形成・分解、State、Logic/Ternary Routerへ統合する。初回負荷分散、固定random経路、Expert交換を維持する。
+
+
+## E039：遅延投入の容量追加と同一幅置換（2026-09-25）
+
+- [Done] 結果を見る前に新規の重み付き数値taskとcross-mux implication、seed1540–1545、移植なし／learned・inert・同一費用randomのreplace・addを固定した。round 1まで同じbeamを作り、replaceは最終1枠を置換、addはround 2だけ実効幅を1増やした。84探索、探索CPU時間約248秒。[事前計画](../results/E039-capacity-admission/PROTOCOL.md)。
+- [Done] 事前主指標の全task・Module種平均add−replace exact差は0（不偏分散0、95% CI [0,0]、exact p=1）で基準未達。[詳細](STAR-Bit-E039-capacity-admission.md)。移植なしexactはnumeric 0/6、route 5/6で、床・天井によりexactの容量差を判別できなかった。
+- [Done] 事前判定を置き換えない探索的best-error解析では、全task・Module種平均add−replaceが−0.4167（不偏分散0.0083、95% CI [−0.4722, −0.3611]、dz=−4.564、exact sign-flip p=0.03125、6比較Holm p=0.1875）。numericのlearnedとinertは各6/6 seedでreplace error=2、add error=1となり、意味に依存せず枠置換が探索容量を失わせる機構を支持した。randomには16件のsignature衝突があり解釈を弱める。
+- [Done] 35 exact式を64入力で再評価し、初回beam 72/72組、衝突なしpost-injection幅56件、12 random Function、E038互換smoke、84 unique record、progress、strict JSON、source hashを監査した。numericの実効round 2幅は設定上限192に対してreplace 164／非衝突add 165であり、protocol deviationとして明記した。成功式による学習Function使用は0件で、学習意味固有基準は未達。
+- [Next] random衝突を生成時に除外し、実効beam幅を厳密に揃える。baseline exactが床・天井にならない新規taskをbaseline-only pilotで固定し、置換による容量損失を独立seedで確認する。
+- [Later] Function固有の再利用が複数taskで確認されてからState形成・分解とLogic/Ternary Routerへ統合する。初回負荷分散、均衡固定random経路、同一run内から別seedへのExpert交換、精密数値対経路選択を維持する。

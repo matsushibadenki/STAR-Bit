@@ -42,6 +42,7 @@
 - [E036：数値タスクの移植なしBeam幅校正](docs/STAR-Bit-E036-beam-calibration.md)
 - [E037：凍結した数値・経路候補の独立シード比較](docs/STAR-Bit-E037-family-confirmation.md)
 - [E038：Function投入時刻の機構Pilot](docs/STAR-Bit-E038-timed-admission.md)
+- [E039：遅延投入の容量追加と同一幅置換](docs/STAR-Bit-E039-capacity-admission.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

@@ -1,0 +1,480 @@
+{
+  "settings": {
+    "seeds": [
+      1540,
+      1541,
+      1542,
+      1543,
+      1544,
+      1545
+    ],
+    "tasks": [
+      "numeric_rotated_weight_ge6",
+      "route_cross_implies"
+    ],
+    "conditions": [
+      "no_transfer",
+      "learned_replace",
+      "learned_add",
+      "inert_replace",
+      "inert_add",
+      "random_replace",
+      "random_add"
+    ],
+    "budgets": {
+      "numeric_rotated_weight_ge6": {
+        "beam": 192,
+        "rounds": 6
+      },
+      "route_cross_implies": {
+        "beam": 128,
+        "rounds": 4
+      }
+    },
+    "max_cost": 16
+  },
+  "targets": {
+    "numeric_rotated_weight_ge6": "18446439135241216128",
+    "route_cross_implies": "18432951658298105823"
+  },
+  "positive_class_counts": {
+    "numeric_rotated_weight_ge6": 37,
+    "route_cross_implies": 48
+  },
+  "admitted": {
+    "signature": "17361640514770759695",
+    "primitives": 2,
+    "routing_bits": 12,
+    "depth": 2,
+    "probe_deltas": {
+      "probe_majority": 1,
+      "probe_exactly2": 2,
+      "probe_less3": 0,
+      "probe_mix": 0
+    },
+    "net": 3,
+    "positive_tasks": 2,
+    "score": 1.2295081967213115,
+    "admitted": true,
+    "expression": [
+      "lut",
+      17361640514770759695,
+      6,
+      [
+        "input",
+        2
+      ],
+      [
+        "lut",
+        1095216660735,
+        1,
+        [
+          "input",
+          3
+        ],
+        [
+          "input",
+          4
+        ]
+      ]
+    ]
+  },
+  "random_matched": [
+    {
+      "seed": 1540,
+      "task": "numeric_rotated_weight_ge6",
+      "signature": "0",
+      "expression": [
+        "lut",
+        0,
+        0,
+        [
+          "input",
+          4
+        ],
+        [
+          "lut",
+          3689348818177884159,
+          7,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1540,
+      "task": "route_cross_implies",
+      "signature": "18446744069667229455",
+      "expression": [
+        "lut",
+        18446744069667229455,
+        11,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          17361641481138401520,
+          10,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            0
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1541,
+      "task": "numeric_rotated_weight_ge6",
+      "signature": "1085102592571150095",
+      "expression": [
+        "lut",
+        1085102592571150095,
+        5,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          281470681808895,
+          3,
+          [
+            "input",
+            4
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1541,
+      "task": "route_cross_implies",
+      "signature": "17365863670214553855",
+      "expression": [
+        "lut",
+        17365863670214553855,
+        7,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          1085102592571150095,
+          3,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1542,
+      "task": "numeric_rotated_weight_ge6",
+      "signature": "18374967954631622655",
+      "expression": [
+        "lut",
+        18374967954631622655,
+        14,
+        [
+          "input",
+          3
+        ],
+        [
+          "lut",
+          281470681808895,
+          3,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1542,
+      "task": "route_cross_implies",
+      "signature": "723401732507303935",
+      "expression": [
+        "lut",
+        723401732507303935,
+        13,
+        [
+          "input",
+          5
+        ],
+        [
+          "lut",
+          723401728380766730,
+          2,
+          [
+            "input",
+            0
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1543,
+      "task": "numeric_rotated_weight_ge6",
+      "signature": "1085102593329085500",
+      "expression": [
+        "lut",
+        1085102593329085500,
+        6,
+        [
+          "input",
+          2
+        ],
+        [
+          "lut",
+          18446744072850558156,
+          14,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1543,
+      "task": "route_cross_implies",
+      "signature": "18446744073709551615",
+      "expression": [
+        "lut",
+        18446744073709551615,
+        11,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          0,
+          0,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            4
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1544,
+      "task": "numeric_rotated_weight_ge6",
+      "signature": "14757395255733783564",
+      "expression": [
+        "lut",
+        14757395255733783564,
+        2,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          4042322160,
+          4,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1544,
+      "task": "route_cross_implies",
+      "signature": "17578661999652631539",
+      "expression": [
+        "lut",
+        17578661999652631539,
+        3,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          868082074056920076,
+          4,
+          [
+            "input",
+            2
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 2
+    },
+    {
+      "seed": 1545,
+      "task": "numeric_rotated_weight_ge6",
+      "signature": "4554053137537908531",
+      "expression": [
+        "lut",
+        4554053137537908531,
+        7,
+        [
+          "input",
+          1
+        ],
+        [
+          "lut",
+          17365863670214553855,
+          13,
+          [
+            "input",
+            3
+          ],
+          [
+            "input",
+            2
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    },
+    {
+      "seed": 1545,
+      "task": "route_cross_implies",
+      "signature": "17216961135462248174",
+      "expression": [
+        "lut",
+        17216961135462248174,
+        14,
+        [
+          "input",
+          0
+        ],
+        [
+          "lut",
+          14757395258967641292,
+          12,
+          [
+            "input",
+            5
+          ],
+          [
+            "input",
+            1
+          ]
+        ]
+      ],
+      "cost": [
+        2,
+        12,
+        2
+      ],
+      "draws": 1
+    }
+  ]
+}

@@ -313,3 +313,14 @@ E038ではE037と同じ2 taskを用い、Functionを初回beamに入れる条件
 English: Delaying Function insertion recovered the baseline success counts, but matched delayed inert and random controls exactly. No successful expression used the learned Function, so the result points to beam perturbation rather than transferable abstraction.
 
 简体中文：延迟插入函数恢复了基线成功数，但与延迟惰性和随机对照完全一致。成功表达式均未使用学习函数，因此结果更支持beam扰动，而非可迁移抽象。
+
+
+## 20. 2026-09-25追記：遅延投入の容量追加と同一幅置換
+
+E039ではE038のbeam摂動仮説を、新規2 task・6 seedで前向きに検証した。[詳細](STAR-Bit-E039-capacity-admission.md)。learned、composition不能なinert、同一費用randomをround 1後に投入し、同一幅で1枠を置換する条件と、round 2だけ幅を1増やす条件を比較した。
+
+事前登録したexactのadd−replace差は全比較で0だった。移植なしexactが数値0/6、経路5/6で床・天井となり、主指標には容量差を捉える余地がなかった。事前判定を置き換えない探索的best errorでは、数値のlearned／inert置換が全seedでerrorを1悪化させ、addは移植なしのerror=1を維持した。全task・Module種平均は−0.4167、95% CI [−0.4722, −0.3611]、未補正p=0.03125だが、6比較Holm p=0.1875である。学習Functionを使う成功式は0件だった。numericの実効幅は設定上限192ではなくreplace 164／非衝突add 165であり、事前文面からの逸脱として記録する。ただし比較した実効差は意図どおり0対+1である。したがって現在の証拠は、学習された抽象の意味ではなく「候補を入れるために有用なbeam枠を奪う」容量損失を支持する。random対照のsignature衝突は次回除外する。
+
+English: E039 prospectively separated one-slot replacement from temporary +1 capacity. The preregistered exact contrast was zero under a numeric floor and route ceiling. Exploratory best error consistently worsened after learned or inert replacement on the numeric task, while addition preserved baseline. This supports capacity loss rather than learned semantics; no successful circuit used the learned Function.
+
+简体中文：E039以前瞻方式区分单槽替换与临时增加一个容量。预注册的exact差在数值触底、路径接近天花板时为零。探索性best error显示，数值任务中的学习或惰性替换都稳定恶化，而增加容量保持基线。这支持容量损失解释，而非学习语义；成功电路均未使用学习函数。

@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-25 遅延投入の容量追記**：E039では新規2 task・6 seedで、round 1後のlearned／inert／random投入を、同一幅置換と一時的な容量追加に分けました。事前主指標のexact差は0で、numericは0/6、routeは移植なし5/6という床・天井のため判別力が不足しました。探索的best errorではnumericのlearned／inert置換が全seedで1悪化し、容量追加はbaselineを維持しました。学習Function固有の効果や直接利用はありません。[E039レポート](STAR-Bit-E039-capacity-admission.md)。
+>
+> English: E039's preregistered exact endpoint was uninformative under numeric floor and route ceiling. Exploratory error shows that fixed-width learned and inert replacement harmed numeric search, while temporary capacity addition preserved baseline; no semantic reuse appeared.
+>
+> 简体中文：E039的预注册exact指标受数值任务触底和路径任务接近天花板影响，判别力不足。探索性误差显示，固定宽度的学习与惰性替换都会损害数值搜索，而临时增加容量保持基线；未发现语义复用。
+
 > **2026-09-23 Function投入時刻追記**：E038では初回投入とround 1後の投入を比較しました。遅延learnedは初回learnedより成功数が増えましたが、遅延inert・randomと完全に一致し、Functionを使用した成功式は0件でした。現段階では学習抽象の効果よりbeam摂動と判断します。[E038レポート](STAR-Bit-E038-timed-admission.md)。
 >
 > English: Delayed insertion matched delayed inert and random controls, with no learned-Function use in successful expressions. The current evidence supports a beam-timing perturbation.
