@@ -449,3 +449,13 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 35 exact式を64入力で再評価し、初回beam 72/72組、衝突なしpost-injection幅56件、12 random Function、E038互換smoke、84 unique record、progress、strict JSON、source hashを監査した。numericの実効round 2幅は設定上限192に対してreplace 164／非衝突add 165であり、protocol deviationとして明記した。成功式による学習Function使用は0件で、学習意味固有基準は未達。
 - [Next] random衝突を生成時に除外し、実効beam幅を厳密に揃える。baseline exactが床・天井にならない新規taskをbaseline-only pilotで固定し、置換による容量損失を独立seedで確認する。
 - [Later] Function固有の再利用が複数taskで確認されてからState形成・分解とLogic/Ternary Routerへ統合する。初回負荷分散、均衡固定random経路、同一run内から別seedへのExpert交換、精密数値対経路選択を維持する。
+
+
+## E040：実効幅128での新規Task難度校正（2026-09-26）
+
+- [Done] 結果を見る前に2-bit整数演算3 taskと新規routing 3 task、seed1550–1555、beam128、最大5 round、tree cost16、Libraryなしを固定した。各task/seedを一度実行し、決定論的prefixから3/4/5 roundの108行を導出した。36探索、探索CPU時間約44秒。[事前計画](../results/E040-full-width-calibration/PROTOCOL.md)。
+- [Done] 全numeric taskはround 3で6/6の天井、routeはrotated cross XORがround 4/5で1/6、他は0/6だった。[詳細](STAR-Bit-E040-full-width-calibration.md)。事前の中難度2–4/6を満たす候補は両familyとも0件で、feasibility gateは未達。E040からFunction比較対象を選ばない。
+- [Done] round 5−3 exact差はroute rotated cross XORのみ+0.1667（不偏分散0.1667、95% CI [0,0.5]、dz=0.408、exact p=1、6比較Holm p=1）、他5 taskは差0。全19 exact式を64入力で再評価した。
+- [Done] 36/36 runでround 2実効幅128を確認し、E039の設定上限未充足を解消した。36 unique run、108 derived row、progress、strict JSON、source hash、target非衝突、Library不使用を監査した。
+- [Next] 数値側を4〜5入力へ難化し、route側を1段浅くした隣接grammarを事前固定してbaseline-only校正する。候補選択規則と独立確認seedを維持する。
+- [Later] 両familyの中難度設定が得られてから、衝突なしrandom対照で固定幅replace/addを独立確認し、Function固有効果成立後にState形成・分解とRouterへ進む。

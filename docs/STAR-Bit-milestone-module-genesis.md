@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-09-25。E017〜E039は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-09-26。E017〜E040は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -26,6 +26,7 @@
 | 凍結候補の独立Function比較 | E037 | 2 task×5条件×新規6 seedの60探索 | family交互作用の事前基準未達。数値barrier・inert・移植なしは各2/6 |
 | Function投入時刻 | E038 | 2 task×5条件×新規6 seedの60探索 | 遅延learnedはinert/randomと同値。Function使用成功0件 |
 | 遅延admission容量 | E039 | 新規2 task×7条件×6 seedの84探索 | exact差0。探索的に同一幅置換がnumeric errorを悪化、addはbaseline維持 |
+| 実効幅128の難度校正 | E040 | 新規6 task×6 seed、3予算prefixの36探索 | numeric全天井・route最大1/6。中難度候補0件 |
 
 現在支持される限定的な主張は次である。
 
@@ -127,6 +128,11 @@ E035の近接数値taskを固定し、Functionを入れずにbeam幅64/128/192/2
 
 新規の数値・経路選択taskを6 seedで固定し、learned／inert／randomの1枠置換と一時的+1容量を比較した。事前exact差は0で、numeric 0/6、route 5/6という床・天井のため主指標は判別不能だった。探索的best errorではnumericのlearned／inert置換が全seedで1悪化し、addはbaselineを維持した。全task・Module種平均add−replaceは−0.4167、95% CI [−0.4722, −0.3611]、未補正p=0.03125、Holm p=0.1875。成功式のFunction使用は0件であり、学習意味よりbeam容量損失を支持する。numericの実効幅は設定上限192ではなくreplace 164／非衝突add 165だったため、protocol deviationとして残した。[E039詳細](STAR-Bit-E039-capacity-admission.md)。
 
+
+## E040 実効幅128の難度校正
+
+新規6 taskをLibraryなし・新規6 seedで校正し、全36 runの実効round 2幅を128に揃えた。数値3 taskはround 3で各6/6、route 3 taskは最大1/6で、事前の中難度2–4/6を満たす設定は0件だった。E039の幅不足は解消したが、task難度の床・天井は残ったため、Function比較へ進まず隣接grammarを再設計する。[E040詳細](STAR-Bit-E040-full-width-calibration.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -147,13 +153,14 @@ E035の近接数値taskを固定し、Functionを入れずにbeam幅64/128/192/2
 - [Done] E037で独立seed・同task内同予算比較を完了し、family交互作用とone-hop固有利益が事前基準未達であることを確認した。
 - [Done] E038で投入時刻を分離し、遅延learnedの結果が同時刻inert/randomと一致してFunction固有でないことを示した。
 - [Done] E039で容量追加と同一幅置換を分離し、exactの床・天井を記録した上で、numericの置換が意味非依存にbest errorを悪化させる探索的機構証拠を得た。
-- [Next] 衝突なし・baseline中難度の新taskで、同一実効幅と独立seedを使い容量損失を確認する。
+- [Done] E040で実効幅128を全runに揃えたが、numeric全天井・route最大1/6で中難度候補が得られないことを確認した。
+- [Next] 4〜5入力numericと浅いrouteの隣接grammarをbaseline-onlyで事前校正し、独立確認候補を作る。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。
 
-English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 replicated harm from unrestricted propagation on one numeric task without proving one-hop benefit. E033–E036 calibrated task difficulty. E037's independent seeds failed the preregistered task-family interaction and one-hop-specific gates. E038 found that delaying insertion matched delayed inert and random controls exactly; no successful expression used the learned Function. E039's exact endpoint was limited by floor/ceiling, while exploratory error showed that fixed-width learned and inert replacement harmed numeric search and temporary capacity preserved baseline.
+English: E027 found a narrow cross-task search signal, while E028 did not confirm direct-composition causality. E029–E030 traced beam paths but found no necessary common lineage. E031 failed to transfer the benefit to three new routing targets. E032 replicated harm from unrestricted propagation on one numeric task without proving one-hop benefit. E033–E036 calibrated task difficulty. E037's independent seeds failed the preregistered task-family interaction and one-hop-specific gates. E038 found that delaying insertion matched delayed inert and random controls exactly; no successful expression used the learned Function. E039's exact endpoint was limited by floor/ceiling, while exploratory error showed that fixed-width learned and inert replacement harmed numeric search and temporary capacity preserved baseline. E040 restored full beam width but found only numeric ceilings and routing floors, so it selected no Function comparison.
 
-简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033–E036校准了任务难度。E037的独立种子未达到预注册的任务族交互作用和一跳特有收益门槛。E038发现延迟插入与延迟惰性和随机对照完全一致；成功表达式均未使用学习函数。E039的exact指标受触底/天花板限制，但探索性误差显示，固定宽度的学习和惰性替换会损害数值搜索，临时增加容量则保持基线。
+简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033–E036校准了任务难度。E037的独立种子未达到预注册的任务族交互作用和一跳特有收益门槛。E038发现延迟插入与延迟惰性和随机对照完全一致；成功表达式均未使用学习函数。E039的exact指标受触底/天花板限制，但探索性误差显示，固定宽度的学习和惰性替换会损害数值搜索，临时增加容量则保持基线。E040恢复了完整beam宽度，但只得到数值天花板和路由地板，因此未选择函数比较。
 
-[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [E034：探索予算校正](STAR-Bit-E034-budget-calibration.md) / [E035：数値Grammar校正](STAR-Bit-E035-numeric-grammar.md) / [E036：Beam幅校正](STAR-Bit-E036-beam-calibration.md) / [E037：独立Function比較](STAR-Bit-E037-family-confirmation.md) / [E038：投入時刻Pilot](STAR-Bit-E038-timed-admission.md) / [E039：容量追加](STAR-Bit-E039-capacity-admission.md) / [研究ログ](RESEARCH-LOG.md)
+[E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [E034：探索予算校正](STAR-Bit-E034-budget-calibration.md) / [E035：数値Grammar校正](STAR-Bit-E035-numeric-grammar.md) / [E036：Beam幅校正](STAR-Bit-E036-beam-calibration.md) / [E037：独立Function比較](STAR-Bit-E037-family-confirmation.md) / [E038：投入時刻Pilot](STAR-Bit-E038-timed-admission.md) / [E039：容量追加](STAR-Bit-E039-capacity-admission.md) / [E040：実効幅校正](STAR-Bit-E040-full-width-calibration.md) / [研究ログ](RESEARCH-LOG.md)

@@ -324,3 +324,14 @@ E039ではE038のbeam摂動仮説を、新規2 task・6 seedで前向きに検�
 English: E039 prospectively separated one-slot replacement from temporary +1 capacity. The preregistered exact contrast was zero under a numeric floor and route ceiling. Exploratory best error consistently worsened after learned or inert replacement on the numeric task, while addition preserved baseline. This supports capacity loss rather than learned semantics; no successful circuit used the learned Function.
 
 简体中文：E039以前瞻方式区分单槽替换与临时增加一个容量。预注册的exact差在数值触底、路径接近天花板时为零。探索性best error显示，数值任务中的学习或惰性替换都稳定恶化，而增加容量保持基线。这支持容量损失解释，而非学习语义；成功电路均未使用学习函数。
+
+
+## 21. 2026-09-26追記：実効幅128でのBaseline-only難度校正
+
+E040ではE039の床・天井と実効幅不足を同時に避けるため、Function条件を使わず、新規の精密数値3 taskと経路選択3 taskを新規6 seedで校正した。[詳細](STAR-Bit-E040-full-width-calibration.md)。beam128の5 round探索を各seed/taskで一度だけ実行し、決定論的prefixからround 3/4/5を評価した。全36 runでround 2の実効幅128を確認した。
+
+しかし数値3 taskはすべてround 3で6/6に達し、routeは最大でもrotated cross XORの1/6だった。事前の中難度2–4/6を満たす設定は両familyともなく、Function比較対象は選ばなかった。round 5−3の増分はcross XORの+1/6だけで、exact p=1、6比較Holm p=1。E039の幅交絡は解消できたが、2-bit演算から多段routingへの難度ギャップが大きい。次は結果の良かった個別seedを利用せず、数値を4〜5入力へ難化し、routeを1段浅くする隣接grammarを事前固定する。
+
+English: E040 used baseline-only searches and verified a realized beam width of 128 in every run. All three exact-numeric tasks saturated at 6/6 by round 3, whereas routing reached at most 1/6, so neither family yielded a preregistered middle-difficulty setting and no Function comparison was selected.
+
+简体中文：E040仅使用基线搜索，并在每次运行中确认实际beam宽度为128。三个精确数值任务在第3轮均达到6/6，而路由任务最高仅1/6，因此两个任务族都没有得到预注册的中等难度设置，也未选择任何函数比较。

@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "seeds": [
+      1550,
+      1551,
+      1552,
+      1553,
+      1554,
+      1555
+    ],
+    "tasks": [
+      "numeric_2bit_sum_ge3",
+      "numeric_2bit_absdiff_ge2",
+      "numeric_2bit_product_ge3",
+      "route_rotated_cross_xor",
+      "route_rotated_cross_xnor",
+      "route_nested_mux"
+    ],
+    "round_budgets": [
+      3,
+      4,
+      5
+    ],
+    "beam": 128,
+    "max_rounds": 5,
+    "max_cost": 16,
+    "condition": "no_transfer"
+  },
+  "targets": {
+    "numeric_2bit_sum_ge3": "18359204020197326536",
+    "numeric_2bit_absdiff_ge2": "3570283082794414476",
+    "numeric_2bit_product_ge3": "17041881028437798016",
+    "route_rotated_cross_xor": "911514875867785920",
+    "route_rotated_cross_xnor": "17535229197841765695",
+    "route_nested_mux": "18084678936078950572"
+  },
+  "positive_class_counts": {
+    "numeric_2bit_sum_ge3": 40,
+    "numeric_2bit_absdiff_ge2": 24,
+    "numeric_2bit_product_ge3": 24,
+    "route_rotated_cross_xor": 32,
+    "route_rotated_cross_xnor": 32,
+    "route_nested_mux": 40
+  }
+}

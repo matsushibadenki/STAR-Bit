@@ -1,0 +1,8 @@
+{
+  "selection_rule": "fewest rounds, then preregistered task order",
+  "selected_settings": {
+    "numeric": null,
+    "route": null
+  },
+  "feasibility_gate_passed": false
+}

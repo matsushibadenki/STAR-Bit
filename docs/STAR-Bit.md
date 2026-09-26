@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-26 実効幅128の難度校正追記**：E040ではFunctionを使わず、新規の精密数値3 task・経路選択3 taskを6 seed、round 3/4/5で校正しました。全runで実効beam幅128を確認しましたが、数値はround 3で全て6/6、routeは最大1/6となり、中難度候補は両familyとも0件でした。都合のよいFunction比較には進みません。[E040レポート](STAR-Bit-E040-full-width-calibration.md)。
+>
+> English: E040 verified a full 128-entry beam but found no middle-difficulty setting: all numeric tasks were 6/6 by round 3 and routing reached at most 1/6. No Function comparison was performed.
+>
+> 简体中文：E040确认了完整的128项beam，但没有中等难度设置：数值任务在第3轮全部达到6/6，路由任务最高仅1/6，因此未进行函数比较。
+
 > **2026-09-25 遅延投入の容量追記**：E039では新規2 task・6 seedで、round 1後のlearned／inert／random投入を、同一幅置換と一時的な容量追加に分けました。事前主指標のexact差は0で、numericは0/6、routeは移植なし5/6という床・天井のため判別力が不足しました。探索的best errorではnumericのlearned／inert置換が全seedで1悪化し、容量追加はbaselineを維持しました。学習Function固有の効果や直接利用はありません。[E039レポート](STAR-Bit-E039-capacity-admission.md)。
 >
 > English: E039's preregistered exact endpoint was uninformative under numeric floor and route ceiling. Exploratory error shows that fixed-width learned and inert replacement harmed numeric search, while temporary capacity addition preserved baseline; no semantic reuse appeared.
