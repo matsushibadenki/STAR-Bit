@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-27 隣接Grammar校正追記**：E041ではE040の天井／床から複雑度を一段だけ動かした新規6 taskを、Functionなし・6 seedで校正しました。しかし各taskは全seedで0/6か6/6に分かれ、中難度は再び0件でした。単一truth tableのseed成功率を追い続けず、凍結したeasy/hard taskを混ぜたdifficulty suite全体を次の評価単位にします。[E041レポート](STAR-Bit-E041-adjacent-grammar-calibration.md)。
+>
+> English: E041 moved complexity one adjacent step, yet every task remained 0/6 or 6/6 across seeds. The next design freezes a mixed easy/hard task suite as the evaluation unit instead of tuning one truth table repeatedly.
+>
+> 简体中文：E041将复杂度只移动一个相邻层级，但每个任务仍在所有种子上表现为0/6或6/6。下一步将冻结混合难度任务组作为评估单位，不再反复调节单个真值表。
+
 > **2026-09-26 実効幅128の難度校正追記**：E040ではFunctionを使わず、新規の精密数値3 task・経路選択3 taskを6 seed、round 3/4/5で校正しました。全runで実効beam幅128を確認しましたが、数値はround 3で全て6/6、routeは最大1/6となり、中難度候補は両familyとも0件でした。都合のよいFunction比較には進みません。[E040レポート](STAR-Bit-E040-full-width-calibration.md)。
 >
 > English: E040 verified a full 128-entry beam but found no middle-difficulty setting: all numeric tasks were 6/6 by round 3 and routing reached at most 1/6. No Function comparison was performed.

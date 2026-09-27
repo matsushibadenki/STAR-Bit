@@ -459,3 +459,13 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 36/36 runでround 2実効幅128を確認し、E039の設定上限未充足を解消した。36 unique run、108 derived row、progress、strict JSON、source hash、target非衝突、Library不使用を監査した。
 - [Next] 数値側を4〜5入力へ難化し、route側を1段浅くした隣接grammarを事前固定してbaseline-only校正する。候補選択規則と独立確認seedを維持する。
 - [Later] 両familyの中難度設定が得られてから、衝突なしrandom対照で固定幅replace/addを独立確認し、Function固有効果成立後にState形成・分解とRouterへ進む。
+
+
+## E041：隣接Grammarの難度校正（2026-09-27）
+
+- [Done] E040の結果から事前に定めた方向へだけ複雑度を動かし、4/5-input weighted numeric 3 taskと浅いmux routing 3 task、seed1560–1565、beam128、最大4 round、Libraryなしを固定した。36探索・108 prefix行、探索CPU時間約26.5秒。[事前計画](../results/E041-adjacent-grammar-calibration/PROTOCOL.md)。
+- [Done] numericは5-input threshold 4がround 4で6/6、threshold 5が0/6、4-input thresholdがround 3で6/6。route 3 taskは全てround 3で6/6。[詳細](STAR-Bit-E041-adjacent-grammar-calibration.md)。各taskはseed間で0/6か6/6に分かれ、中難度2–4/6は0件。Function比較対象を選ばなかった。
+- [Done] round 4−2 exact差はthreshold 5を除く5 taskで+1.0（各不偏分散0、95% CI [1,1]、exact p=0.03125、6比較Holm p=0.1875）。seed分散がなく、round境界で成功が一斉に切り替わることを確認した。
+- [Done] 全30 exact式を64入力で再評価し、36/36 runの実効幅128、36 unique run、108 derived row、progress、strict JSON、source hash、target非衝突、Library不使用を監査した。
+- [Next] 単一taskを中難度へ調整し続けず、E040のhard taskとE041のeasy taskをそのまま凍結したfamily別difficulty suiteを事前登録する。suite平均exact/errorを主要指標とし、独立seedで分散を測る。
+- [Later] suite-level感度を確認後、衝突なしrandom対照で固定幅replace/addを比較し、Function固有効果成立後にState形成・分解と負荷分散Routerへ進む。

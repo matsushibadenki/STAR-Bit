@@ -335,3 +335,16 @@ E040ではE039の床・天井と実効幅不足を同時に避けるため、Fun
 English: E040 used baseline-only searches and verified a realized beam width of 128 in every run. All three exact-numeric tasks saturated at 6/6 by round 3, whereas routing reached at most 1/6, so neither family yielded a preregistered middle-difficulty setting and no Function comparison was selected.
 
 简体中文：E040仅使用基线搜索，并在每次运行中确认实际beam宽度为128。三个精确数值任务在第3轮均达到6/6，而路由任务最高仅1/6，因此两个任务族都没有得到预注册的中等难度设置，也未选择任何函数比较。
+
+
+## 22. 2026-09-27追記：隣接Grammarでも残る難度の段差
+
+E041はE040の失敗を受け、数値を2-bit演算から4/5-input weighted thresholdへ、routeをdual-muxからsingle-mux後段へ一段だけ動かしたbaseline-only校正である。[詳細](STAR-Bit-E041-adjacent-grammar-calibration.md)。新規6 seed、実効beam幅128、round 2/3/4を事前固定した。
+
+結果は各taskでseed間分散0となり、0/6または6/6に分かれた。5-input threshold 4はround 3の0/6からround 4の6/6へ、浅いroute 3 taskはround 2の0/6からround 3の6/6へ一斉に切り替わった。round 4−2差は5 taskで+1だが、6比較Holm p=0.1875である。中難度候補を得る基準は未達で、Function条件は評価していない。
+
+新しい改善案は、単一truth tableのseed不安定性を検出力の源にしないことである。E040で固定されたhard taskとE041のeasy taskを混ぜたfamily別suiteを先に固定し、task平均exactとbest errorを主要指標にする。これにより結果を見て境界taskを探し続ける選択バイアスを止め、精密数値対経路選択の差もtask分布上で評価できる。
+
+English: E041's adjacent task grammar still produced zero seed variance: every task was either 0/6 or 6/6, often switching at a single round boundary. The next method freezes mixed easy/hard suites and evaluates task-average exact and error, avoiding repeated selection of a single boundary truth table.
+
+简体中文：E041的相邻任务规则仍产生零种子方差：每个任务不是0/6就是6/6，并常在一个轮次边界整体切换。下一种方法将冻结混合难度任务组，以任务平均exact和误差为指标，避免反复选择单个边界真值表。

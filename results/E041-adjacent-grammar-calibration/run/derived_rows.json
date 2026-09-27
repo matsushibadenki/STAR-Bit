@@ -1,0 +1,974 @@
+[
+  {
+    "seed": 1560,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 12,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 8,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 6,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": false,
+    "best_error": 2,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1560,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 12,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 8,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 6,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": false,
+    "best_error": 2,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1561,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 12,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 8,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 6,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": false,
+    "best_error": 2,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1562,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 12,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 8,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 6,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": false,
+    "best_error": 2,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1563,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 12,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 8,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 6,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": false,
+    "best_error": 2,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1564,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 12,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 8,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_5bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 6,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_5bit_weighted_ge5",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": false,
+    "best_error": 2,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 4,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "numeric_4bit_weighted_ge4",
+    "family": "numeric",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_xor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_xnor_bit",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 2,
+    "exact": false,
+    "best_error": 16,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 3,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  },
+  {
+    "seed": 1565,
+    "task": "route_mux_conditional_flip",
+    "family": "route",
+    "round_budget": 4,
+    "exact": true,
+    "best_error": 0,
+    "round_two_input_width": 128
+  }
+]
