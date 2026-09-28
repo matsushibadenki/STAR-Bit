@@ -1,0 +1,18 @@
+{
+  "suite_gate_passed": true,
+  "frozen_tasks": {
+    "numeric": [
+      "numeric_2bit_sum_ge3",
+      "numeric_4bit_weighted_ge4",
+      "numeric_rotated_weight_ge6",
+      "numeric_5bit_weighted_ge5"
+    ],
+    "route": [
+      "route_mux_xor_bit",
+      "route_mux_conditional_flip",
+      "route_rotated_cross_xnor",
+      "route_nested_mux"
+    ]
+  },
+  "next_step": "freeze full suite; do not select individual E042 tasks"
+}

@@ -45,6 +45,7 @@
 - [E039：遅延投入の容量追加と同一幅置換](docs/STAR-Bit-E039-capacity-admission.md)
 - [E040：実効幅128での新規Task難度校正](docs/STAR-Bit-E040-full-width-calibration.md)
 - [E041：隣接Grammarの難度校正](docs/STAR-Bit-E041-adjacent-grammar-calibration.md)
+- [E042：凍結Difficulty Suiteの独立Seed校正](docs/STAR-Bit-E042-difficulty-suite-calibration.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

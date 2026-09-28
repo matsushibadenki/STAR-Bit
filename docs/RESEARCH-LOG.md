@@ -469,3 +469,13 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 全30 exact式を64入力で再評価し、36/36 runの実効幅128、36 unique run、108 derived row、progress、strict JSON、source hash、target非衝突、Library不使用を監査した。
 - [Next] 単一taskを中難度へ調整し続けず、E040のhard taskとE041のeasy taskをそのまま凍結したfamily別difficulty suiteを事前登録する。suite平均exact/errorを主要指標とし、独立seedで分散を測る。
 - [Later] suite-level感度を確認後、衝突なしrandom対照で固定幅replace/addを比較し、Function固有効果成立後にState形成・分解と負荷分散Routerへ進む。
+
+
+## E042：凍結Difficulty Suiteの独立Seed校正（2026-09-28）
+
+- [Done] E040–E041の結果からeasy/hard各2 taskをfamilyごとに凍結し、単一truth tableを選び直さないmixed difficulty suiteを事前登録した。新規seed1570–1581、Libraryなし、beam128、4 round、tree cost16の96探索、探索CPU時間約98.9秒。[事前計画](../results/E042-difficulty-suite-calibration/PROTOCOL.md)。
+- [Done] suite exact平均はnumeric 0.5000（不偏分散0、bootstrap 95% CI [0.5,0.5]）、route 0.5208（不偏分散0.0052、95% CI [0.5,0.5625]）。[詳細](STAR-Bit-E042-difficulty-suite-calibration.md)。numericは全seedで2/4 task、routeは11 seedで2/4・1 seedで3/4となり、両familyの事前feasibility gateを達成した。
+- [Done] numeric−route差は−0.0208（不偏分散0.0052、95% CI [−0.0625,0]、dz=−0.289、exact p=1）。easy 4 taskのround 4−2差は各+1、exact p=0.000488、8比較Holm p=0.003906。これはFunction効果ではなくround感度と評価headroomの確認である。
+- [Done] 全49 exact式を64入力で再評価し、96 unique record、24 suite row、96/96実効幅128、progress、strict JSON、source hash、suite membership、Library不使用を監査した。
+- [Next] 全8 taskを固定したまま、新規seedでlearned／composition不能inert／同費用randomのreplace/addを比較する。random signatureは全seed/taskのround 1 beamと事前照合して衝突を除く。
+- [Later] Function固有の正効果と最終式使用が確認されてからState形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。

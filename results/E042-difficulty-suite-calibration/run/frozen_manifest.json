@@ -1,0 +1,74 @@
+{
+  "settings": {
+    "seeds": [
+      1570,
+      1571,
+      1572,
+      1573,
+      1574,
+      1575,
+      1576,
+      1577,
+      1578,
+      1579,
+      1580,
+      1581
+    ],
+    "tasks": [
+      "numeric_2bit_sum_ge3",
+      "numeric_4bit_weighted_ge4",
+      "numeric_rotated_weight_ge6",
+      "numeric_5bit_weighted_ge5",
+      "route_mux_xor_bit",
+      "route_mux_conditional_flip",
+      "route_rotated_cross_xnor",
+      "route_nested_mux"
+    ],
+    "beam": 128,
+    "rounds": 4,
+    "max_cost": 16,
+    "condition": "no_transfer",
+    "strata": {
+      "numeric": {
+        "easy": [
+          "numeric_2bit_sum_ge3",
+          "numeric_4bit_weighted_ge4"
+        ],
+        "hard": [
+          "numeric_rotated_weight_ge6",
+          "numeric_5bit_weighted_ge5"
+        ]
+      },
+      "route": {
+        "easy": [
+          "route_mux_xor_bit",
+          "route_mux_conditional_flip"
+        ],
+        "hard": [
+          "route_rotated_cross_xnor",
+          "route_nested_mux"
+        ]
+      }
+    }
+  },
+  "targets": {
+    "numeric_2bit_sum_ge3": "18359204020197326536",
+    "numeric_4bit_weighted_ge4": "18356952186023378624",
+    "numeric_rotated_weight_ge6": "18446439135241216128",
+    "numeric_5bit_weighted_ge5": "17041840896263374848",
+    "route_mux_xor_bit": "2871088571783587800",
+    "route_mux_conditional_flip": "2821462117433530584",
+    "route_rotated_cross_xnor": "17535229197841765695",
+    "route_nested_mux": "18084678936078950572"
+  },
+  "positive_class_counts": {
+    "numeric_2bit_sum_ge3": 40,
+    "numeric_4bit_weighted_ge4": 36,
+    "numeric_rotated_weight_ge6": 37,
+    "numeric_5bit_weighted_ge5": 18,
+    "route_mux_xor_bit": 32,
+    "route_mux_conditional_flip": 32,
+    "route_rotated_cross_xnor": 32,
+    "route_nested_mux": 40
+  }
+}

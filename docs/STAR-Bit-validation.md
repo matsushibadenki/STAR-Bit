@@ -348,3 +348,16 @@ E041はE040の失敗を受け、数値を2-bit演算から4/5-input weighted thr
 English: E041's adjacent task grammar still produced zero seed variance: every task was either 0/6 or 6/6, often switching at a single round boundary. The next method freezes mixed easy/hard suites and evaluates task-average exact and error, avoiding repeated selection of a single boundary truth table.
 
 简体中文：E041的相邻任务规则仍产生零种子方差：每个任务不是0/6就是6/6，并常在一个轮次边界整体切换。下一种方法将冻结混合难度任务组，以任务平均exact和误差为指标，避免反复选择单个边界真值表。
+
+
+## 23. 2026-09-28追記：混合難度Suiteによる評価Headroom
+
+E042では、単一truth tableのseed成功率を中間へ調整する方針を止め、E040–E041で凍結されたeasy/hard各2 taskをfamily別suiteとして固定した。[詳細](STAR-Bit-E042-difficulty-suite-calibration.md)。新規12 seed、Libraryなし、実効beam幅128、4 roundで独立校正した。
+
+数値suite exactは平均0.5000、不偏分散0、95% CI [0.5,0.5]。routeは0.5208、不偏分散0.0052、95% CI [0.5,0.5625]だった。全seedで各familyに1〜3個の成功taskがあり、床と天井をsuite集約で同時に回避する事前基準を満たした。numeric−route差は−0.0208、95% CI [−0.0625,0]、exact p=1である。これは構造自由度やFunction transferの証拠ではなく、それらの介入を検出するための評価設計が成立したという結果である。
+
+次はtaskを一切選び直さず全8 taskを用い、learned／inert／同費用randomの遅延replace/addを新規seedで比較する。E039の交絡を避けるため、random候補は評価結果ではなくround 1 beamとのsignature衝突だけで事前除外し、全条件の実効幅を監査する。
+
+English: E042 replaced unstable single-task boundary tuning with frozen mixed-difficulty suites. On 12 independent seeds, numeric averaged 0.50 exact and routing 0.521; every seed retained solved and unsolved tasks. This establishes measurement headroom for the next intervention, not evidence of transfer.
+
+简体中文：E042用冻结的混合难度任务组取代不稳定的单任务边界调节。在12个独立种子上，数值exact平均0.50，路由0.521；每个种子都同时包含成功和失败任务。这为下一次干预建立了测量空间，并不代表迁移证据。

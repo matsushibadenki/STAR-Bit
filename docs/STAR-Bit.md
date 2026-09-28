@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-28 Difficulty Suite校正追記**：E042では単一taskの中難度探索を止め、E040–E041のeasy/hard各2 taskをfamily別suiteとして凍結し、新規12 seedで確認しました。suite exactはnumeric 0.500、route 0.521で、全seedに成功taskと未成功taskが共存し、事前feasibility gateを達成しました。これはFunction効果ではなく、独立介入を測れる評価headroomの確立です。[E042レポート](STAR-Bit-E042-difficulty-suite-calibration.md)。
+>
+> English: E042 froze mixed easy/hard suites and validated them on 12 independent seeds. Numeric averaged 0.50 exact and routing 0.521, giving both families intervention headroom; this is evaluation feasibility, not a Function effect.
+>
+> 简体中文：E042冻结了混合难度任务组，并在12个独立种子上验证。数值exact平均0.50，路由为0.521，两个任务族都保留了干预空间；这只是评估可行性，并非函数效应。
+
 > **2026-09-27 隣接Grammar校正追記**：E041ではE040の天井／床から複雑度を一段だけ動かした新規6 taskを、Functionなし・6 seedで校正しました。しかし各taskは全seedで0/6か6/6に分かれ、中難度は再び0件でした。単一truth tableのseed成功率を追い続けず、凍結したeasy/hard taskを混ぜたdifficulty suite全体を次の評価単位にします。[E041レポート](STAR-Bit-E041-adjacent-grammar-calibration.md)。
 >
 > English: E041 moved complexity one adjacent step, yet every task remained 0/6 or 6/6 across seeds. The next design freezes a mixed easy/hard task suite as the evaluation unit instead of tuning one truth table repeatedly.
