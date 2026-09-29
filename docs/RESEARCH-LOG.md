@@ -479,3 +479,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 全49 exact式を64入力で再評価し、96 unique record、24 suite row、96/96実効幅128、progress、strict JSON、source hash、suite membership、Library不使用を監査した。
 - [Next] 全8 taskを固定したまま、新規seedでlearned／composition不能inert／同費用randomのreplace/addを比較する。random signatureは全seed/taskのround 1 beamと事前照合して衝突を除く。
 - [Later] Function固有の正効果と最終式使用が確認されてからState形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。
+
+## E043：凍結Suiteでの衝突なし遅延Admission介入（2026-09-29）
+
+- [Done] E042の全8 taskを選び直さず、新規seed1590–1595、移植なし／learned・inert・同一費用randomのround 1後replace/addを固定した。48 random Functionは各seed/taskのround 1 beam全体とのsignature衝突を事前除外し、336探索、探索CPU時間約369.0秒を完了した。[事前計画](../results/E043-suite-capacity-intervention/PROTOCOL.md)。
+- [Done] numeric・routeとも全7条件でexact 12/24（平均0.500、不偏分散0）。事前主指標の全task・Module種平均add−replace差は0（不偏分散0、bootstrap 95% CI [0,0]、exact p=1）で容量基準未達。[詳細](STAR-Bit-E043-suite-capacity-intervention.md)。
+- [Done] learned-add−inert-add、learned-add−random-addも各0（Holm p=1）で、learned Functionを使った成功式は0件。集約suiteに成功・失敗が共存することと、同一taskの局所介入に反応することは別であり、E042のheadroomはeasy天井とhard床の混合だった。
+- [Done] 全168 exact式を64入力で再評価し、336 unique record、48 random Function、288 first-round照合、288 post-injection幅、衝突0、progress、strict JSON、source hashを監査した。負の結果を含め事前停止条件どおり保存した。
+- [Next] 独立calibration seedでinert/random摂動への局所応答またはnear-miss best errorを事前基準化し、その後に別の確認seedでlearned意味の効果を検証する。
+- [Later] learned固有効果と直接使用が成立後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。

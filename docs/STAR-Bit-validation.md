@@ -361,3 +361,15 @@ E042では、単一truth tableのseed成功率を中間へ調整する方針を�
 English: E042 replaced unstable single-task boundary tuning with frozen mixed-difficulty suites. On 12 independent seeds, numeric averaged 0.50 exact and routing 0.521; every seed retained solved and unsolved tasks. This establishes measurement headroom for the next intervention, not evidence of transfer.
 
 简体中文：E042用冻结的混合难度任务组取代不稳定的单任务边界调节。在12个独立种子上，数值exact平均0.50，路由0.521；每个种子都同时包含成功和失败任务。这为下一次干预建立了测量空间，并不代表迁移证据。
+
+## 24. 2026-09-29追記：集約Headroomと局所介入感度の分離
+
+E043ではE042の凍結8 taskをそのまま使い、新規6 seedでlearned／composition不能inert／同一費用randomをround 1後に投入した。[詳細](STAR-Bit-E043-suite-capacity-intervention.md)。各Moduleについて同一幅replaceと一時的+1幅addを比較し、random signatureは全48 seed/taskのround 1 beamとの衝突を生成時に除外した。
+
+numeric・routeとも全条件で12/24 exactとなった。事前主指標add−replaceは平均差0、不偏分散0、95% CI [0,0]、exact p=1。learned-add−inert-addとlearned-add−random-addも差0、Holm p=1で、成功式によるlearned Function使用は0件だった。全168 exact式の再評価、288 first-round一致、288 post-injection幅、衝突0を監査した。
+
+E042のsuite平均0.5は、各seedでeasy 2 taskが必ず成功しhard 2 taskが必ず失敗する構成だった。そのため評価範囲にはheadroomがあっても、各taskは局所的には天井または床であり、1枠のreplace/addに反応しなかった。次はcalibration seedだけで意味を持たないinert/random perturbationへの応答、またはbest errorの近接性を確認して局所感度基準を凍結し、別seedでlearned意味を確認する。
+
+English: E043 found identical 0.50 exact rates for every frozen-suite condition. Replacement versus addition and learned versus inert/random contrasts were all zero, and no successful circuit used the learned Function. Mixed-suite headroom therefore did not imply within-task sensitivity to the intervention.
+
+简体中文：E043中冻结任务组的所有条件exact率都为0.50。替换与扩容、学习函数与惰性/随机对照之间的差异均为零，成功电路也未使用学习函数。因此，混合任务组的聚合空间不代表单个任务对该干预具有局部敏感性。

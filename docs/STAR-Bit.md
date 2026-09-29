@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-29 凍結Suite介入追記**：E043ではE042の全8 taskを選び直さず、新規6 seedでlearned／inert／同費用randomの遅延replace/addを比較しました。全family・全条件のexact率は0.500で、add−replace差、learned−対照差とも0、学習Functionを使った成功式も0件でした。E042のheadroomはeasyの天井とhardの床を混ぜた集約値であり、局所介入感度を保証しないことが分かりました。[E043レポート](STAR-Bit-E043-suite-capacity-intervention.md)。
+>
+> English: E043 kept all eight frozen tasks and compared delayed learned, inert, and equal-cost random replacement/addition on six fresh seeds. Every family and condition remained at 0.50 exact, with zero capacity or semantic contrast and no successful use of the learned Function. Aggregate suite headroom did not imply local intervention sensitivity.
+>
+> 简体中文：E043保留全部八个冻结任务，并在六个新种子上比较延迟加入的学习、惰性和同成本随机函数的替换与扩容。所有任务族和条件的exact率均为0.50，容量差和语义差都为零，成功表达式也没有使用学习函数。聚合层面的任务组空间并不保证对局部干预敏感。
+
 > **2026-09-28 Difficulty Suite校正追記**：E042では単一taskの中難度探索を止め、E040–E041のeasy/hard各2 taskをfamily別suiteとして凍結し、新規12 seedで確認しました。suite exactはnumeric 0.500、route 0.521で、全seedに成功taskと未成功taskが共存し、事前feasibility gateを達成しました。これはFunction効果ではなく、独立介入を測れる評価headroomの確立です。[E042レポート](STAR-Bit-E042-difficulty-suite-calibration.md)。
 >
 > English: E042 froze mixed easy/hard suites and validated them on 12 independent seeds. Numeric averaged 0.50 exact and routing 0.521, giving both families intervention headroom; this is evaluation feasibility, not a Function effect.
