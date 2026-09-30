@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-09-30 容量Dose–Response追記**：E044では凍結8 taskをLibraryなし、新規6 seed、要求beam幅64/96/128/160/192で評価しました。事前主指標の要求幅192−64 exact差は+0.2708（95% CI [0.1875, 0.3542]、dz=2.204、exact p=0.03125）で容量感度gateを達成しました。ただしnumeric exactは全幅12/24のまま、routeだけ8/24から21/24へ増えました。要求幅192のround 1/2実効幅はpool上限164でした。[E044レポート](STAR-Bit-E044-capacity-dose-response.md)。
+>
+> English: E044 passed the overall capacity-sensitivity gate, but the response was concentrated in routing: exact rose from 8/24 to 21/24, while numeric stayed at 12/24. Requested width 192 was capped at 164 in rounds one and two.
+>
+> 简体中文：E044达到整体容量敏感性标准，但响应集中在路由任务：exact从8/24升至21/24，数值任务仍为12/24。请求宽度192在前两轮受pool限制，实际为164。
+
 > **2026-09-29 凍結Suite介入追記**：E043ではE042の全8 taskを選び直さず、新規6 seedでlearned／inert／同費用randomの遅延replace/addを比較しました。全family・全条件のexact率は0.500で、add−replace差、learned−対照差とも0、学習Functionを使った成功式も0件でした。E042のheadroomはeasyの天井とhardの床を混ぜた集約値であり、局所介入感度を保証しないことが分かりました。[E043レポート](STAR-Bit-E043-suite-capacity-intervention.md)。
 >
 > English: E043 kept all eight frozen tasks and compared delayed learned, inert, and equal-cost random replacement/addition on six fresh seeds. Every family and condition remained at 0.50 exact, with zero capacity or semantic contrast and no successful use of the learned Function. Aggregate suite headroom did not imply local intervention sensitivity.

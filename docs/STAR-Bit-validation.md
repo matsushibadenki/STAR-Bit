@@ -373,3 +373,15 @@ E042のsuite平均0.5は、各seedでeasy 2 taskが必ず成功しhard 2 taskが
 English: E043 found identical 0.50 exact rates for every frozen-suite condition. Replacement versus addition and learned versus inert/random contrasts were all zero, and no successful circuit used the learned Function. Mixed-suite headroom therefore did not imply within-task sensitivity to the intervention.
 
 简体中文：E043中冻结任务组的所有条件exact率都为0.50。替换与扩容、学习函数与惰性/随机对照之间的差异均为零，成功电路也未使用学习函数。因此，混合任务组的聚合空间不代表单个任务对该干预具有局部敏感性。
+
+## 25. 2026-09-30追記：局所介入のScale校正
+
+E044はE043の1候補介入が応答閾値より小さい可能性を、学習Functionを使わない容量doseで検証した。[詳細](STAR-Bit-E044-capacity-dose-response.md)。凍結8 task、新規6 seed、要求幅64/96/128/160/192を一度ずつ実行し、全240探索を事前停止条件どおり完了した。
+
+要求幅192−64の全task平均exact差は+0.2708、不偏分散0.0151、95% CI [0.1875, 0.3542]、dz=2.204、exact p=0.03125で、事前の全体容量感度gateを達成した。一方、要求幅160−96差は+0.0625、p=0.5。numeric exactは全幅12/24で、routeだけ8/24から21/24へ増えた。family別Holm pは最小0.0625であり、6 seedで補正後有意とはしない。
+
+要求幅192条件は初回poolが164 signatureしかなく、round 1/2実効幅が164となった。この逸脱を隠さず、次の独立確認では164対128を明記する。結果は「容量が大きければ構造自由度が有効」という一般論ではなく、経路選択taskが数十候補規模の探索容量へ強く反応し、精密数値taskのexactは反応しないというtask種別差を示す。確認後は同じ候補数のlearned、inert、random cohortを比較し、容量効果と学習意味を分離する。
+
+English: E044 found an overall capacity response, with requested width 192 versus 64 improving exact by 0.271. The effect was concentrated in routing; numeric exact did not change. The first two rounds of the 192 condition realized width 164 because the initial pool contained only 164 signatures.
+
+简体中文：E044观察到整体容量响应，请求宽度192相对64的exact提高0.271。效应集中在路由任务，数值exact没有变化。由于初始pool只有164个签名，192条件的前两轮实际宽度为164。

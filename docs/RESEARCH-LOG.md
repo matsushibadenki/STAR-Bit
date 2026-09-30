@@ -488,3 +488,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 全168 exact式を64入力で再評価し、336 unique record、48 random Function、288 first-round照合、288 post-injection幅、衝突0、progress、strict JSON、source hashを監査した。負の結果を含め事前停止条件どおり保存した。
 - [Next] 独立calibration seedでinert/random摂動への局所応答またはnear-miss best errorを事前基準化し、その後に別の確認seedでlearned意味の効果を検証する。
 - [Later] learned固有効果と直接使用が成立後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。
+
+## E044：凍結Suiteの容量Dose–Response校正（2026-09-30）
+
+- [Done] E043の±1候補介入が小さすぎた可能性を調べるため、E042の全8 task、新規seed1600–1605、Libraryなし、要求beam幅64/96/128/160/192、4 roundを結果より前に固定した。240探索、探索CPU時間約274.9秒。[事前計画](../results/E044-capacity-dose-response/PROTOCOL.md)。
+- [Done] 事前主指標の全8 task平均・要求幅192−64 exact差は+0.2708（不偏分散0.0151、bootstrap 95% CI [0.1875, 0.3542]、dz=2.204、exact p=0.03125）で容量感度gateを達成した。[詳細](STAR-Bit-E044-capacity-dose-response.md)。要求幅160−96差は+0.0625、p=0.5で局所感度は未確認。
+- [Done] numeric exactは全幅12/24のまま、`numeric_rotated_weight_ge6`のerrorのみ3→2。route exactは8/24→21/24、errorは平均4.833→0.500。family 2比較のHolm pはexact route、error両familyとも0.0625で、family別有意差の主張には届かない。
+- [Done] 要求幅192のround 1/2実効幅が初回pool上限164だったprotocol deviationを保存した。他の幅は要求値どおり。全124 exact式、240 record、240実効幅、192 prefix、Library不使用、progress、strict JSON、source hashを監査した。
+- [Next] 実効幅164対128とnumeric best-error応答を新規独立seedで固定確認し、意味実験の候補cohort数を結果から再調整せず凍結する。
+- [Later] 同数のlearned／composition不能inert／同一費用random cohortのadd/replaceを比較し、成立後にState形成・分解、負荷分散Router、固定random経路、Expert交換へ進む。
