@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-09-30。E017〜E044は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-10-01。E017〜E045は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -155,6 +155,10 @@ E042の全taskを固定し、learned／inert／衝突なしrandomの遅延replac
 
 学習Functionを使わず、凍結suiteの要求beam幅を64から192まで変えた。要求幅192−64 exact差は+0.2708、95% CI [0.1875, 0.3542]、p=0.03125で全体gateを達成したが、numeric exactは不変でrouteだけ8/24から21/24へ増えた。要求幅192のround 1/2はpool上限で実効164だった。構造的自由度の効果をtask種別と介入scaleから分離する必要がある。[E044詳細](STAR-Bit-E044-capacity-dose-response.md)。
 
+## E045 全Round幅の独立確認
+
+全round上限164対128のroute exact差は+0.1667、p=0.125で事前gate未達。同じ初回幅164でも後続上限192は164より成功数が増えた。初回幅を全探索容量へ読み替えず、次はround別容量ablationで作用段階を校正する。[詳細](STAR-Bit-E045-realized-capacity-confirmation.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -180,7 +184,8 @@ E042の全taskを固定し、learned／inert／衝突なしrandomの遅延replac
 - [Done] E042でmixed difficulty suiteを独立12 seedへ移し、両familyの評価headroomを事前基準どおり確認した。
 - [Done] E043で凍結8 taskの衝突なしreplace/add介入を完了し、全条件0.500、learned使用0件を確認した。
 - [Done] E044でsemantic-freeな容量doseを校正し、全体exact感度を確認した一方、numeric exact不変とroute強応答を分離した。
-- [Next] 実効幅164対128とnumeric best-error応答を独立seedで確認し、候補cohort数を凍結する。
+- [Done] E045で全round幅164の独立確認を完了し、主gate未達と後続容量による差を記録した。
+- [Next] round別容量ablationを事前固定し、初回保持と後続幅の作用を分離する。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。

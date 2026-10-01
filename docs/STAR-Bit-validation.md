@@ -385,3 +385,11 @@ E044はE043の1候補介入が応答閾値より小さい可能性を、学習Fu
 English: E044 found an overall capacity response, with requested width 192 versus 64 improving exact by 0.271. The effect was concentrated in routing; numeric exact did not change. The first two rounds of the 192 condition realized width 164 because the initial pool contained only 164 signatures.
 
 简体中文：E044观察到整体容量响应，请求宽度192相对64的exact提高0.271。效应集中在路由任务，数值exact没有变化。由于初始pool只有164个签名，192条件的前两轮实际宽度为164。
+
+## 26. 2026-10-01追記：初回幅と後続容量の区別
+
+E045はE044の初回実効幅164を全roundで固定する条件を、128と192上限条件へ独立6 seedで比較した。route164−128は+0.1667（95% CI [0.0833,0.2500]、dz=1.291、p=0.125）で事前gate未達。numeric error改善は+0.25、Holm p=0.0625。192と164は初回beamが全48組で一致したが、route exactは20/24対17/24へ変わった。初回幅だけを容量の代表値にする解釈を修正し、round別容量ablationで作用段階を校正する。[E045詳細](STAR-Bit-E045-realized-capacity-confirmation.md)。
+
+English: E045 did not pass the fixed-width164 confirmation gate (routing exact difference +0.167, p=0.125). Caps164 and192 shared identical initial beams yet differed later; initial width alone does not characterize search capacity.
+
+简体中文：E045未达到固定宽度164的确认标准（路由exact差+0.167，p=0.125）。上限164与192的初始beam完全相同，但后续结果不同；初始宽度不能代表整个搜索容量。

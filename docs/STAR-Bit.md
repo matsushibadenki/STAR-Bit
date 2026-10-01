@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-10-01 E045独立確認**：全round幅164対128のroute exact差は+0.1667、p=0.125で事前gate未達でした。同じ初回幅164でも後続上限192で結果が変わり、round別容量の分離が必要です。[詳細](STAR-Bit-E045-realized-capacity-confirmation.md)。
+>
+> English: Fixed width164 did not pass independent confirmation; later-round caps changed outcomes despite identical initial beams.
+>
+> 简体中文：固定宽度164未通过独立确认；初始beam相同，但后续宽度上限改变了结果。
+
 > **2026-09-30 容量Dose–Response追記**：E044では凍結8 taskをLibraryなし、新規6 seed、要求beam幅64/96/128/160/192で評価しました。事前主指標の要求幅192−64 exact差は+0.2708（95% CI [0.1875, 0.3542]、dz=2.204、exact p=0.03125）で容量感度gateを達成しました。ただしnumeric exactは全幅12/24のまま、routeだけ8/24から21/24へ増えました。要求幅192のround 1/2実効幅はpool上限164でした。[E044レポート](STAR-Bit-E044-capacity-dose-response.md)。
 >
 > English: E044 passed the overall capacity-sensitivity gate, but the response was concentrated in routing: exact rose from 8/24 to 21/24, while numeric stayed at 12/24. Requested width 192 was capped at 164 in rounds one and two.

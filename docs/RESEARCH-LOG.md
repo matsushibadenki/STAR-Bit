@@ -497,3 +497,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 要求幅192のround 1/2実効幅が初回pool上限164だったprotocol deviationを保存した。他の幅は要求値どおり。全124 exact式、240 record、240実効幅、192 prefix、Library不使用、progress、strict JSON、source hashを監査した。
 - [Next] 実効幅164対128とnumeric best-error応答を新規独立seedで固定確認し、意味実験の候補cohort数を結果から再調整せず凍結する。
 - [Later] 同数のlearned／composition不能inert／同一費用random cohortのadd/replaceを比較し、成立後にState形成・分解、負荷分散Router、固定random経路、Expert交換へ進む。
+
+## E045：全Round実効幅の独立確認（2026-10-01）
+
+- [Done] 凍結8 task、新規seed1610–1615、Libraryなし、全round幅上限128/164/192、4 roundを事前固定し、144探索・約214.1秒で完了した。初回の幅164と後続の上限192を区別する対照を追加した。
+- [Done] 主指標route exact164−128は+0.1667、不偏分散0.0167、95% CI [0.0833,0.2500]、dz=1.291、exact p=0.125で事前gate未達。route成功は13/24→17/24→20/24。numericは全幅12/24で、error改善+0.25、Holm p=0.0625。[詳細](STAR-Bit-E045-realized-capacity-confirmation.md)。
+- [Done] 同じ初回幅164でも上限192は164よりroute exact+0.125（p=0.25、Holm p=0.25）。初回実効幅だけで全探索容量を代表する解釈を修正した。全86 exact式、144 record、96 prefix、実効初回幅、progress、strict JSON、source hashを監査した。
+- [Next] round別容量ablationを新規calibration seedで事前登録し、初回候補保持と後続探索幅を分離する。seed追加による今回gateの救済は行わない。
+- [Later] 容量policy固定後、learned／inert／同費用random cohortを比較し、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換へ進む。

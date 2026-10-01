@@ -1,0 +1,5 @@
+# E045 preregistration: realized-capacity confirmation
+
+2026-10-01, before outcomes. Freeze all eight E042 tasks and seeds 1610–1615, widths 128/164/192, four rounds, cost16, no Library. Complete 144 searches or stop after 900 summed search seconds, preserving partial state; never add seeds or choose tasks from outcomes.
+
+Hypothesis: the E044 routing benefit persists when the width cap is 164 throughout search. Primary: per-seed routing-task mean exact(164)-exact(128); gate mean >=0.10 and two-sided exact sign-flip p<=0.05. Secondary: numeric mean error(128)-error(164), and routing exact(192)-exact(164), Holm corrected over two comparisons. The latter diagnoses whether E044's later-round width192, rather than its initial width164, caused the gain. Report means, unbiased variances, paired bootstrap CI and dz, costs, runtime and generated signatures. Width192 starts at164 because round-one pool contains only164 signatures; do not rename that policy width164. Audit expressions over64 inputs, prefix nesting, progress, hashes, no Library and all realized initial widths. This independently confirms search-capacity response, not learned reuse or physical speed.
