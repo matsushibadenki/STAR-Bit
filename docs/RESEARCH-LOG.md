@@ -505,3 +505,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 同じ初回幅164でも上限192は164よりroute exact+0.125（p=0.25、Holm p=0.25）。初回実効幅だけで全探索容量を代表する解釈を修正した。全86 exact式、144 record、96 prefix、実効初回幅、progress、strict JSON、source hashを監査した。
 - [Next] round別容量ablationを新規calibration seedで事前登録し、初回候補保持と後続探索幅を分離する。seed追加による今回gateの救済は行わない。
 - [Later] 容量policy固定後、learned／inert／同費用random cohortを比較し、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換へ進む。
+
+## E046：Round別容量の2×2校正（2026-10-02）
+
+- [Done] E042の全8 task、新規seed1620–1625、初回選択幅128/164×後続選択幅128/192、4 round、Libraryなしを事前登録した。192探索、約278.8秒。別seed1699の16互換smoke後に実行した。
+- [Done] routeの後続だけ拡張LH−初回だけ拡張HLは+0.2917（不偏分散0.0104、bootstrap 95% CI [0.2500,0.3750]、dz=2.858、exact p=0.03125）で主gate達成。LL/HLは12/24、LH/HHは19/24だった。[詳細](STAR-Bit-E046-round-capacity-factorial.md)。
+- [Done] numeric exactは全条件12/24、後続拡張でのみbest error平均1.25→1.00。12副次比較のHolm pは最小0.375で全て非有意。主指標の達成を汎用的なtask種別差や学習意味の証明へ拡張しない。
+- [Done] 全110 exact式、192 unique record、144初回beam照合、16smoke、各round実効入力幅、progress、strict JSON、source hashを監査した。
+- [Next] 初回128・後続192のLH scheduleを固定し、別seedでLH対LLのroute exact差を確認する。良いseed追加やtask選び直しをせず、確認後にcohort対照を進める。
+- [Later] learned／inert／同費用random cohort、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と総物理費用を検証する。

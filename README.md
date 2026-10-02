@@ -49,6 +49,7 @@
 - [E043：凍結Suiteでの衝突なし遅延Admission介入](docs/STAR-Bit-E043-suite-capacity-intervention.md)
 - [E044：凍結Suiteの容量Dose–Response校正](docs/STAR-Bit-E044-capacity-dose-response.md)
 - [E045：全Round実効幅の独立確認](docs/STAR-Bit-E045-realized-capacity-confirmation.md)
+- [E046：Round別容量の2×2校正](docs/STAR-Bit-E046-round-capacity-factorial.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

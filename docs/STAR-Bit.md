@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-10-02 E046容量因子分離**：初回だけ拡張より後続だけ拡張がroute exactを+0.2917改善し、主gateを達成しました（p=0.03125）。numeric exactは不変、12副次比較は補正後非有意です。次はscheduleを固定して独立確認します。[詳細](STAR-Bit-E046-round-capacity-factorial.md)。
+>
+> English: Later-only expansion passed the primary routing gate; numeric exact remained unchanged and secondary tests were nonsignificant after correction.
+>
+> 简体中文：仅后续扩容通过路由主要标准；数值exact不变，次要比较校正后不显著。
+
 > **2026-10-01 E045独立確認**：全round幅164対128のroute exact差は+0.1667、p=0.125で事前gate未達でした。同じ初回幅164でも後続上限192で結果が変わり、round別容量の分離が必要です。[詳細](STAR-Bit-E045-realized-capacity-confirmation.md)。
 >
 > English: Fixed width164 did not pass independent confirmation; later-round caps changed outcomes despite identical initial beams.

@@ -1,0 +1,82 @@
+[
+  {
+    "task": "numeric_2bit_sum_ge3",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "numeric_2bit_sum_ge3",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "numeric_4bit_weighted_ge4",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "numeric_4bit_weighted_ge4",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "numeric_rotated_weight_ge6",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "numeric_rotated_weight_ge6",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "numeric_5bit_weighted_ge5",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "numeric_5bit_weighted_ge5",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "route_mux_xor_bit",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "route_mux_xor_bit",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "route_mux_conditional_flip",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "route_mux_conditional_flip",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "route_rotated_cross_xnor",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "route_rotated_cross_xnor",
+    "condition": "HH",
+    "passed": true
+  },
+  {
+    "task": "route_nested_mux",
+    "condition": "LL",
+    "passed": true
+  },
+  {
+    "task": "route_nested_mux",
+    "condition": "HH",
+    "passed": true
+  }
+]

@@ -393,3 +393,11 @@ E045はE044の初回実効幅164を全roundで固定する条件を、128と192�
 English: E045 did not pass the fixed-width164 confirmation gate (routing exact difference +0.167, p=0.125). Caps164 and192 shared identical initial beams yet differed later; initial width alone does not characterize search capacity.
 
 简体中文：E045未达到固定宽度164的确认标准（路由exact差+0.167，p=0.125）。上限164与192的初始beam完全相同，但后续结果不同；初始宽度不能代表整个搜索容量。
+
+## 27. 2026-10-02追記：初回保持と後続探索幅の因子分離
+
+E046で初回幅128/164と後続幅128/192を交差した。routeはLL/HL各12/24、LH/HH各19/24で、事前主指標LH−HLは+0.2917、95% CI [0.25,0.375]、p=0.03125とgate達成。numeric exactは全条件12/24で、後続拡張のみerror平均1.25→1.00。12副次比較はHolm補正後非有意（最小0.375）。これにより初回候補保持より後続探索幅を優先する確認仮説を固定する。[詳細](STAR-Bit-E046-round-capacity-factorial.md)。
+
+English: E046's primary gate passed, with later expansion improving routing exact by0.292 over initial-only expansion. All12 secondary contrasts were nonsignificant after Holm correction; learned reuse remains untested.
+
+简体中文：E046主要标准达成，后续扩容相对仅初始扩容使路由exact提高0.292。12项次要比较经Holm校正后均不显著；尚未评估学习复用。
