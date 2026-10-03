@@ -514,3 +514,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 全110 exact式、192 unique record、144初回beam照合、16smoke、各round実効入力幅、progress、strict JSON、source hashを監査した。
 - [Next] 初回128・後続192のLH scheduleを固定し、別seedでLH対LLのroute exact差を確認する。良いseed追加やtask選び直しをせず、確認後にcohort対照を進める。
 - [Later] learned／inert／同費用random cohort、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と総物理費用を検証する。
+
+## E047：後続容量Scheduleの独立確認（2026-10-03）
+
+- [Done] 凍結全8 task、独立seed1630–1641、初回128を共有し後続128対192、4 round、Libraryなしを事前登録した。192探索、約688.4秒。
+- [Done] route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334, 0.3125]、dz=1.371、exact p=0.003906で事前gate達成。route成功は25/48→36/48。 numeric exactは全条件24/48、error改善+0.2292（Holm p=0.001953）。後続幅の因果効果を確認する実験であり、学習抽象の再利用は未検証。[詳細](STAR-Bit-E047-later-capacity-confirmation.md)。
+- [Done] 全109 exact式を64入力で再評価し、192 record、96初回beam一致、8baseline smoke、round入力幅、progress、strict JSON、source hashを監査した。追加生成候補・探索時間を追加成功あたりの費用として保存した。
+- [Next] 容量policyを固定したlearned／inert／同費用random cohort比較を事前登録する。
+- [Later] 意味固有効果成立後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。

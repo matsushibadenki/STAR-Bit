@@ -1,0 +1,5 @@
+# E047 preregistration: independent later-capacity confirmation
+
+2026-10-03 before outcomes. Confirm E046 schedule with independent seeds1630–1641, all8 frozen E042 tasks, LL=(128,128) and LH=(128,192), four rounds, cost16, no Library.192 searches or900 summed search seconds; preserve partial results and never add seeds or reselect tasks.
+
+Primary per-seed routing-task mean exact(LH)-exact(LL), gate mean>=0.10 and two-sided exact sign-flip p<=0.05. Secondary numeric exact difference, numeric error(LL)-error(LH), routing error(LL)-error(LH), Holm across3. Report unbiased variance, paired bootstrap95%CI, Cohen dz, runtime/generated counts and solution costs. New improvement: report marginal extra generated signatures and seconds per extra routing solution; this is search overhead, not physical inference speed. Audit expressions64 inputs, record uniqueness, progress, sources, identical first-round beams, input widths and baseline smoke. Independent confirmation of a frozen capacity schedule is separate from learned reuse; no Module/Router training.

@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-10-02。E017〜E046は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-10-03。E017〜E047は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -163,6 +163,10 @@ E042の全taskを固定し、learned／inert／衝突なしrandomの遅延replac
 
 routeは後続拡張19/24対初回だけ拡張12/24、主差+0.2917、p=0.03125。numeric exactは不変で12副次比較は補正後非有意。学習意味実験の前にLH scheduleを独立確認する。[詳細](STAR-Bit-E046-round-capacity-factorial.md)。
 
+## E047 後続容量の独立確認
+
+route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334, 0.3125]、dz=1.371、exact p=0.003906で事前gate達成。route成功は25/48→36/48。 numeric exactは全条件24/48、error改善+0.2292（Holm p=0.001953）。後続幅の因果効果を確認する実験であり、学習抽象の再利用は未検証。 [詳細](STAR-Bit-E047-later-capacity-confirmation.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -190,7 +194,8 @@ routeは後続拡張19/24対初回だけ拡張12/24、主差+0.2917、p=0.03125�
 - [Done] E044でsemantic-freeな容量doseを校正し、全体exact感度を確認した一方、numeric exact不変とroute強応答を分離した。
 - [Done] E045で全round幅164の独立確認を完了し、主gate未達と後続容量による差を記録した。
 - [Done] E046で初回保持と後続幅を分離し、主gate達成・副次補正後非有意を記録した。
-- [Next] 初回128・後続192 scheduleを固定し、独立seedで確認する。
+- [Done] E047でLH scheduleの独立12 seed確認を完了した。
+- [Next] 容量policyを固定したlearned／inert／同費用random cohort比較を事前登録する。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。

@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "seeds": [
+      1630,
+      1631,
+      1632,
+      1633,
+      1634,
+      1635,
+      1636,
+      1637,
+      1638,
+      1639,
+      1640,
+      1641
+    ],
+    "policies": {
+      "LL": [
+        128,
+        128
+      ],
+      "LH": [
+        128,
+        192
+      ]
+    },
+    "rounds": 4,
+    "max_cost": 16,
+    "tasks": [
+      "numeric_2bit_sum_ge3",
+      "numeric_4bit_weighted_ge4",
+      "numeric_rotated_weight_ge6",
+      "numeric_5bit_weighted_ge5",
+      "route_mux_xor_bit",
+      "route_mux_conditional_flip",
+      "route_rotated_cross_xnor",
+      "route_nested_mux"
+    ]
+  },
+  "targets": {
+    "numeric_2bit_sum_ge3": "18359204020197326536",
+    "numeric_4bit_weighted_ge4": "18356952186023378624",
+    "numeric_rotated_weight_ge6": "18446439135241216128",
+    "numeric_5bit_weighted_ge5": "17041840896263374848",
+    "route_mux_xor_bit": "2871088571783587800",
+    "route_mux_conditional_flip": "2821462117433530584",
+    "route_rotated_cross_xnor": "17535229197841765695",
+    "route_nested_mux": "18084678936078950572"
+  }
+}

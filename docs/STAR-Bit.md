@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-10-03 E047独立確認**：route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334, 0.3125]、dz=1.371、exact p=0.003906で事前gate達成。route成功は25/48→36/48。 numeric exactは不変。[詳細](STAR-Bit-E047-later-capacity-confirmation.md)。
+>
+> English: Independent routing confirmation: difference +0.2292, p=0.003906, gate=True.
+>
+> 简体中文：独立路由确认：差+0.2292，p=0.003906，标准=True。
+
 > **2026-10-02 E046容量因子分離**：初回だけ拡張より後続だけ拡張がroute exactを+0.2917改善し、主gateを達成しました（p=0.03125）。numeric exactは不変、12副次比較は補正後非有意です。次はscheduleを固定して独立確認します。[詳細](STAR-Bit-E046-round-capacity-factorial.md)。
 >
 > English: Later-only expansion passed the primary routing gate; numeric exact remained unchanged and secondary tests were nonsignificant after correction.

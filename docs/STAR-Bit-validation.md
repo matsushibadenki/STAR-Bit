@@ -401,3 +401,11 @@ E046で初回幅128/164と後続幅128/192を交差した。routeはLL/HL各12/2
 English: E046's primary gate passed, with later expansion improving routing exact by0.292 over initial-only expansion. All12 secondary contrasts were nonsignificant after Holm correction; learned reuse remains untested.
 
 简体中文：E046主要标准达成，后续扩容相对仅初始扩容使路由exact提高0.292。12项次要比较经Holm校正后均不显著；尚未评估学习复用。
+
+## 28. 2026-10-03追記：後続容量Scheduleの独立確認
+
+route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334, 0.3125]、dz=1.371、exact p=0.003906で事前gate達成。route成功は25/48→36/48。 numeric exactは全条件24/48、error改善+0.2292（Holm p=0.001953）。後続幅の因果効果を確認する実験であり、学習抽象の再利用は未検証。 容量policyを固定したlearned／inert／同費用random cohort比較を事前登録する。 [詳細](STAR-Bit-E047-later-capacity-confirmation.md)。
+
+English: Independent12 seeds yielded routing exact difference +0.2292, p=0.003906; preregistered gate=True. Numeric exact stayed unchanged. Search cost and learned semantic reuse remain distinct.
+
+简体中文：独立12种子的路由exact差为+0.2292，p=0.003906，预注册标准=True。数值exact不变；搜索成本与学习语义复用仍分阶段验证。
