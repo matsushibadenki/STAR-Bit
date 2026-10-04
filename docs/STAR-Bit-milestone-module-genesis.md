@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-10-03。E017〜E047は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-10-04。E017〜E048は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -167,6 +167,10 @@ routeは後続拡張19/24対初回だけ拡張12/24、主差+0.2917、p=0.03125�
 
 route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334, 0.3125]、dz=1.371、exact p=0.003906で事前gate達成。route成功は25/48→36/48。 numeric exactは全条件24/48、error改善+0.2292（Holm p=0.001953）。後続幅の因果効果を確認する実験であり、学習抽象の再利用は未検証。 [詳細](STAR-Bit-E047-later-capacity-confirmation.md)。
 
+## E048 Cohort事前監査
+
+source-frozen8 Functionを全48 calibration beamに照合し、全件非衝突。384同費用random式を再評価した。admission feasibility成立、意味の利益は未評価。[詳細](STAR-Bit-E048-cohort-admission-preflight.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -195,7 +199,8 @@ route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334
 - [Done] E045で全round幅164の独立確認を完了し、主gate未達と後続容量による差を記録した。
 - [Done] E046で初回保持と後続幅を分離し、主gate達成・副次補正後非有意を記録した。
 - [Done] E047でLH scheduleの独立12 seed確認を完了した。
-- [Next] 容量policyを固定したlearned／inert／同費用random cohort比較を事前登録する。
+- [Done] E048でsource8件と384 random式のadmission監査を完了した。
+- [Next] source cohortを固定した別seedでlearned／inert／random比較を実行する。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。

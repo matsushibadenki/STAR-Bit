@@ -51,6 +51,7 @@
 - [E045：全Round実効幅の独立確認](docs/STAR-Bit-E045-realized-capacity-confirmation.md)
 - [E046：Round別容量の2×2校正](docs/STAR-Bit-E046-round-capacity-factorial.md)
 - [E047：後続容量Scheduleの独立確認](docs/STAR-Bit-E047-later-capacity-confirmation.md)
+- [E048：固定CohortのAdmission事前監査](docs/STAR-Bit-E048-cohort-admission-preflight.md)
 - [Module Genesis Milestone 3](docs/STAR-Bit-milestone-module-genesis.md)
 - [Logic Routing Milestone 1](docs/STAR-Bit-milestone-logic-routing.md)
 - [Logic Routing Milestone 2](docs/STAR-Bit-milestone-joint-routing.md)

@@ -1,0 +1,26 @@
+{
+  "gate": true,
+  "admitted": 8,
+  "availability_mean": 8.0,
+  "availability_variance": 0.0,
+  "availability_ci95": [
+    8.0,
+    8.0
+  ],
+  "availability_seed_means": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+  ],
+  "loss_mean": 0.0,
+  "loss_variance": 0.0,
+  "loss_dz": null,
+  "loss_p": 1.0,
+  "records": 48,
+  "random_verified": 384,
+  "source_verified": 8,
+  "analysis_hash": "75c577f6f6368e9f299ec68fca022d0262ed53c08671020a2fe2a2af5b4dedef"
+}

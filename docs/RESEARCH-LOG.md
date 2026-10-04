@@ -522,3 +522,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 全109 exact式を64入力で再評価し、192 record、96初回beam一致、8baseline smoke、round入力幅、progress、strict JSON、source hashを監査した。追加生成候補・探索時間を追加成功あたりの費用として保存した。
 - [Next] 容量policyを固定したlearned／inert／同費用random cohort比較を事前登録する。
 - [Later] 意味固有効果成立後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。
+
+## E048：固定CohortのAdmission事前監査（2026-10-04）
+
+- [Done] E022既存learned Libraryのprimitive>=4の全8 Functionをsourceから固定し、凍結8 task・seed1650–1655・初回128/後続192のround2 beamを48組で照合した。全探索は約40.9秒。
+- [Done] 全8 Functionが全calibration beam/taskと非衝突で、事前feasibility gateを達成した。利用可能数は平均8、不偏分散0、95% CI [8,8]、損失0、exact p=1。48組×8の384 unique同費用random式を生成し、64入力signatureとprimitive/routing/depthを再評価した。[詳細](STAR-Bit-E048-cohort-admission-preflight.md)。
+- [Done] source8式、random384式、48 unique record、全round2幅192、progress、source hashを監査した。これはadmission feasibilityであり、学習意味の効果・精度向上は評価していない。
+- [Next] source8件を固定し、新規seedのround2後にlearned／composition不能inert／同費用randomの同数cohortを投入してbaselineと比較する。新seedの衝突は事前照合し、test成功を候補選択に使わない。
+- [Later] 意味固有効果成立後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。

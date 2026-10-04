@@ -409,3 +409,11 @@ route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334
 English: Independent12 seeds yielded routing exact difference +0.2292, p=0.003906; preregistered gate=True. Numeric exact stayed unchanged. Search cost and learned semantic reuse remain distinct.
 
 简体中文：独立12种子的路由exact差为+0.2292，p=0.003906，预注册标准=True。数值exact不变；搜索成本与学习语义复用仍分阶段验证。
+
+## 29. 2026-10-04追記：意味比較前のCohort監査
+
+E048はsourceから固定した8 Functionのround2後投入を機械的に監査した。6 calibration seed×凍結8 taskの全beamと非衝突で8/8採用、同費用random384式も費用・signature再評価を通過した。候補選別にはaccuracyを使わず、admission feasibilityだけを確認した。source cohortを固定したまま別seedでlearned／inert／randomの意味比較へ進む。[詳細](STAR-Bit-E048-cohort-admission-preflight.md)。
+
+English: E048 verified collision-free admission for all8 source-frozen Functions and384 cost-matched random controls, without testing semantic benefit.
+
+简体中文：E048验证全部8个冻结source函数与384个同成本随机对照的无冲突加入，没有检验语义收益。

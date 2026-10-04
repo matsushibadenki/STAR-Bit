@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-10-04 E048事前監査**：sourceから固定した8 Functionは全48 calibration beamと非衝突で、384同費用random式も検証しました。意味比較の準備が整いましたが、学習された意味の利益はまだ評価していません。[詳細](STAR-Bit-E048-cohort-admission-preflight.md)。
+>
+> English: Eight source-frozen Functions and384 random controls passed admission audits; semantic efficacy remains untested.
+>
+> 简体中文：8个冻结source函数和384个随机对照通过加入审计；语义效能仍待检验。
+
 > **2026-10-03 E047独立確認**：route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334, 0.3125]、dz=1.371、exact p=0.003906で事前gate達成。route成功は25/48→36/48。 numeric exactは不変。[詳細](STAR-Bit-E047-later-capacity-confirmation.md)。
 >
 > English: Independent routing confirmation: difference +0.2292, p=0.003906, gate=True.
