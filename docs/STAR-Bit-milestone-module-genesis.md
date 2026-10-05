@@ -1,6 +1,6 @@
 # STAR-Bit Milestone 3：Module GenesisとTransferの境界
 
-実行期間：2026-09-12〜2026-10-04。E017〜E048は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
+実行期間：2026-09-12〜2026-10-05。E017〜E049は、primitive論理演算から中間Functionを形成し、Libraryへ昇格・選別・移植できるかを段階的に検証した。
 
 ## 到達した結論
 
@@ -171,6 +171,10 @@ route LH−LL平均差+0.2292、不偏分散0.0279、95% CI [0.14583333333333334
 
 source-frozen8 Functionを全48 calibration beamに照合し、全件非衝突。384同費用random式を再評価した。admission feasibility成立、意味の利益は未評価。[詳細](STAR-Bit-E048-cohort-admission-preflight.md)。
 
+## E049 Cohort意味比較
+
+全条件numeric12/24・route20/24、learned−inert/random差0、Holm p=1、cohort使用成功0。意味の追加利益は未確認。[詳細](STAR-Bit-E049-frozen-cohort-semantics.md)。
+
 ## Roadmap
 
 - [Done] hard circuit形成、Function-space統合、learned promotion、retirementを段階分離した。
@@ -200,7 +204,8 @@ source-frozen8 Functionを全48 calibration beamに照合し、全件非衝突�
 - [Done] E046で初回保持と後続幅を分離し、主gate達成・副次補正後非有意を記録した。
 - [Done] E047でLH scheduleの独立12 seed確認を完了した。
 - [Done] E048でsource8件と384 random式のadmission監査を完了した。
-- [Next] source cohortを固定した別seedでlearned／inert／random比較を実行する。
+- [Done] E049で同時刻・同容量のcohort比較を完了し、意味差0と使用成功0を保存した。
+- [Next] 同cohortのprimitive予算内到達性と残りround数を機構診断する。
 - [Later] 中難度taskでFunctionのstage/round別使用制限と費用付きadmissionを比較する。
 - [Later] cross-task再利用成立後、Ternary ExpertとLogic ModuleをRouterへ統合する。step 0からのload-balancing損失、均衡固定random Router、同一run内から別seedへのExpert交換を維持する。
 - [Later] Library記述bit、物理primitive、active演算、Router、register、State、latencyを含む総費用で低ビット補償を再判定する。

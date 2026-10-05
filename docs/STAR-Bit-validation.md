@@ -417,3 +417,11 @@ E048はsourceから固定した8 Functionのround2後投入を機械的に監査
 English: E048 verified collision-free admission for all8 source-frozen Functions and384 cost-matched random controls, without testing semantic benefit.
 
 简体中文：E048验证全部8个冻结source函数与384个同成本随机对照的无冲突加入，没有检验语义收益。
+
+## 30. 2026-10-05追記：容量Schedule固定後の学習意味比較
+
+E049ではsource8件を固定し、round2後のlearned／inert／同費用random追加とbaselineを6新規seedで比較した。全条件numeric12/24、route20/24。learned−両対照exact差0、Holm p=1、成功式のcohort使用0で意味gate未達。容量の利益と学習意味の利益は別である。次は候補選び直しではなく、primitive費用制約と残りround数による再利用機会を同cohortで診断する。[詳細](STAR-Bit-E049-frozen-cohort-semantics.md)。
+
+English: E049 found no learned-cohort benefit beyond inert/random controls, with zero successful cohort use. Diagnose composition-budget feasibility before changing source selection.
+
+简体中文：E049未发现学习cohort超越惰性/随机对照的收益，成功使用为0。改变source选择前先诊断组合预算可行性。

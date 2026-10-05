@@ -530,3 +530,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] source8式、random384式、48 unique record、全round2幅192、progress、source hashを監査した。これはadmission feasibilityであり、学習意味の効果・精度向上は評価していない。
 - [Next] source8件を固定し、新規seedのround2後にlearned／composition不能inert／同費用randomの同数cohortを投入してbaselineと比較する。新seedの衝突は事前照合し、test成功を候補選択に使わない。
 - [Later] 意味固有効果成立後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換、総物理費用へ進む。
+
+## E049：固定Cohortの学習意味比較（2026-10-05）
+
+- [Done] E048のsource8 Functionを固定し、凍結8 task、新規seed1660–1665、初回128/後続192、round2後の8件追加でlearned／composition不能inert／同費用random／baselineを事前比較した。192探索、約495.6秒。preflightで全source非衝突、random384件を先に固定した。
+- [Done] 全条件numeric12/24・route20/24で、learned−inertとlearned−randomの主exact差は各0（不偏分散0、95% CI [0,0]、Holm p=1）。learned signatureを含む成功式0件、事前意味gate未達。[詳細](STAR-Bit-E049-frozen-cohort-semantics.md)。
+- [Done] 全128 exact式とsource8/random384式のsignature・費用、共通round1/2 beam、round3幅baseline192/cohort200、192 record、progress、source hashを監査した。後続容量の利益は再現しても、この8件cohortの学習意味の追加利益は確認できなかった。
+- [Next] 同じcohortのprimitive予算内composition到達性と残りround数を機構診断として事前固定する。負結果をseed追加や候補の事後選択で救済しない。
+- [Later] 意味固有効果の独立確認後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と総物理費用へ進む。

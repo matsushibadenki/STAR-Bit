@@ -1,5 +1,11 @@
 # STAR-Bit：研究構想
 
+> **2026-10-05 E049学習意味比較**：固定8 Functionを追加してもlearned／inert／random／baselineの成功数は一致し、主差0、Holm p=1、学習cohort使用成功0でした。容量利益はあっても、このcohortの意味利益は未確認です。[詳細](STAR-Bit-E049-frozen-cohort-semantics.md)。
+>
+> English: Frozen-cohort semantic gains were zero, with no successful cohort use; capacity benefits do not establish learned reuse.
+>
+> 简体中文：冻结cohort的语义收益为0，成功使用为0；容量收益不能证明学习复用。
+
 > **2026-10-04 E048事前監査**：sourceから固定した8 Functionは全48 calibration beamと非衝突で、384同費用random式も検証しました。意味比較の準備が整いましたが、学習された意味の利益はまだ評価していません。[詳細](STAR-Bit-E048-cohort-admission-preflight.md)。
 >
 > English: Eight source-frozen Functions and384 random controls passed admission audits; semantic efficacy remains untested.
