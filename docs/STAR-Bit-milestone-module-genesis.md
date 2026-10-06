@@ -215,3 +215,15 @@ English: E027 found a narrow cross-task search signal, while E028 did not confir
 简体中文：E027观察到有限的跨任务搜索信号，E028未证实直接组合因果性；E029–E030追踪了beam路径，但没有发现成功所必需的共同轨迹。E031未能将收益迁移到三个新路由目标；E032在一个数值任务上复现了无限制传播的不利影响，但未证明一跳使用本身有益。E033–E036校准了任务难度。E037的独立种子未达到预注册的任务族交互作用和一跳特有收益门槛。E038发现延迟插入与延迟惰性和随机对照完全一致；成功表达式均未使用学习函数。E039的exact指标受触底/天花板限制，但探索性误差显示，固定宽度的学习和惰性替换会损害数值搜索，临时增加容量则保持基线。E040恢复了完整beam宽度，但只得到数值天花板和路由地板，因此未选择函数比较。E041将复杂度移动一个相邻层级后，每个任务仍为0/6或6/6。E042验证了冻结的混合难度任务组，数值exact为0.50、路由为0.521。E043中所有干预条件均为0.50，成功表达式也未使用学习函数。E044随后发现更大容量的响应集中在路由任务，而数值exact保持不变。
 
 [E022：同一task・別seed移植](STAR-Bit-E022-fixed-function-transfer.md) / [E023：leave-one-task-out](STAR-Bit-E023-leave-one-task-out-transfer.md) / [E027：独立確認](STAR-Bit-E027-counterfactual-admission-confirmation.md) / [E028：機構Ablation](STAR-Bit-E028-module-causal-ablation.md) / [E029：軌跡トレース](STAR-Bit-E029-beam-trajectory.md) / [E030：provenance barrier](STAR-Bit-E030-provenance-barrier.md) / [E031：task-family可搬性](STAR-Bit-E031-route-family-portability.md) / [E032：one-hop独立確認](STAR-Bit-E032-one-hop-replication.md) / [E033：生成Grammar pilot](STAR-Bit-E033-grammar-pilot.md) / [E034：探索予算校正](STAR-Bit-E034-budget-calibration.md) / [E035：数値Grammar校正](STAR-Bit-E035-numeric-grammar.md) / [E036：Beam幅校正](STAR-Bit-E036-beam-calibration.md) / [E037：独立Function比較](STAR-Bit-E037-family-confirmation.md) / [E038：投入時刻Pilot](STAR-Bit-E038-timed-admission.md) / [E039：容量追加](STAR-Bit-E039-capacity-admission.md) / [E040：実効幅校正](STAR-Bit-E040-full-width-calibration.md) / [E041：隣接Grammar](STAR-Bit-E041-adjacent-grammar-calibration.md) / [E042：Difficulty Suite](STAR-Bit-E042-difficulty-suite-calibration.md) / [E043：凍結Suite介入](STAR-Bit-E043-suite-capacity-intervention.md) / [E044：容量Dose–Response](STAR-Bit-E044-capacity-dose-response.md) / [研究ログ](RESEARCH-LOG.md)
+
+## 2026-10-06：E050 合成予算の機構診断
+
+全48beamで固定cohortの一段合成pairは全てcost16内だった。learned exact child0/48、random1/48。learnedはnumericで有用child0/24、route12/24。best-child errorのlearned−random差はnumeric+2.625、route+4.6667、両Holm p=0.0625。この回顧的結果は投入直後の予算制約を原因として支持せず、次にround3枝刈りと残り一段を分離して診断する。二段到達性・独立意味効果・物理計算削減は未証明。[詳細](STAR-Bit-E050-composition-budget-diagnostic.md)。
+
+English: All one-step cohort–beam pairs fit cost16; learned exact children0/48 versus random1/48. This retrospective diagnosis redirects the next test to pruning and the remaining round, not budget expansion.
+
+简体中文：全部单步cohort–beam组合符合cost16；学习exact子项0/48，随机1/48。回顾性诊断将下一步转向剪枝与剩余轮次，而非扩大预算。
+
+- [Done] 固定cohort一段合成予算診断。
+- [Next] round3枝刈りと残り一段の利用機会。
+- [Later] 独立意味確認後にState/Router/Expert交換。

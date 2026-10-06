@@ -425,3 +425,15 @@ E049ではsource8件を固定し、round2後のlearned／inert／同費用random
 English: E049 found no learned-cohort benefit beyond inert/random controls, with zero successful cohort use. Diagnose composition-budget feasibility before changing source selection.
 
 简体中文：E049未发现学习cohort超越惰性/随机对照的收益，成功使用为0。改变source选择前先诊断组合预算可行性。
+
+## 2026-10-06：E050 合成予算の機構診断
+
+全48beamで固定cohortの一段合成pairは全てcost16内だった。learned exact child0/48、random1/48。learnedはnumericで有用child0/24、route12/24。best-child errorのlearned−random差はnumeric+2.625、route+4.6667、両Holm p=0.0625。この回顧的結果は投入直後の予算制約を原因として支持せず、次にround3枝刈りと残り一段を分離して診断する。二段到達性・独立意味効果・物理計算削減は未証明。[詳細](STAR-Bit-E050-composition-budget-diagnostic.md)。
+
+English: All one-step cohort–beam pairs fit cost16; learned exact children0/48 versus random1/48. This retrospective diagnosis redirects the next test to pruning and the remaining round, not budget expansion.
+
+简体中文：全部单步cohort–beam组合符合cost16；学习exact子项0/48，随机1/48。回顾性诊断将下一步转向剪枝与剩余轮次，而非扩大预算。
+
+- [Done] 固定cohort一段合成予算診断。
+- [Next] round3枝刈りと残り一段の利用機会。
+- [Later] 独立意味確認後にState/Router/Expert交換。

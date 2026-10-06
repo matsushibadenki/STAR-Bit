@@ -1136,3 +1136,15 @@ $$
 そこで有意差が出てからDLGNへ進むのが最も低コストです。
 
 なお、スパースルーティングそのものが自動的に能力向上を保証するわけではありません。負荷の偏りやルーティング不安定性は既知の問題なので、Expert utilizationとPath diversityは必須指標にします。([jmlr.org](https://www.jmlr.org/beta/papers/v23/21-0998.html?utm_source=chatgpt.com))
+
+## 2026-10-06：E050 合成予算の機構診断
+
+全48beamで固定cohortの一段合成pairは全てcost16内だった。learned exact child0/48、random1/48。learnedはnumericで有用child0/24、route12/24。best-child errorのlearned−random差はnumeric+2.625、route+4.6667、両Holm p=0.0625。この回顧的結果は投入直後の予算制約を原因として支持せず、次にround3枝刈りと残り一段を分離して診断する。二段到達性・独立意味効果・物理計算削減は未証明。[詳細](STAR-Bit-E050-composition-budget-diagnostic.md)。
+
+English: All one-step cohort–beam pairs fit cost16; learned exact children0/48 versus random1/48. This retrospective diagnosis redirects the next test to pruning and the remaining round, not budget expansion.
+
+简体中文：全部单步cohort–beam组合符合cost16；学习exact子项0/48，随机1/48。回顾性诊断将下一步转向剪枝与剩余轮次，而非扩大预算。
+
+- [Done] 固定cohort一段合成予算診断。
+- [Next] round3枝刈りと残り一段の利用機会。
+- [Later] 独立意味確認後にState/Router/Expert交換。

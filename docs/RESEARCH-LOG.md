@@ -538,3 +538,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] 全128 exact式とsource8/random384式のsignature・費用、共通round1/2 beam、round3幅baseline192/cohort200、192 record、progress、source hashを監査した。後続容量の利益は再現しても、この8件cohortの学習意味の追加利益は確認できなかった。
 - [Next] 同じcohortのprimitive予算内composition到達性と残りround数を機構診断として事前固定する。負結果をseed追加や候補の事後選択で救済しない。
 - [Later] 意味固有効果の独立確認後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と総物理費用へ進む。
+
+## E050：投入直後の合成予算診断（2026-10-06）
+
+- [Done] E049の全48beam・同じ6seed・source8/random8を固定した回顧的機構診断を事前登録した。round2候補を費用込みで再現し、96条件を約21.2秒で列挙した。独立確認ではない。
+- [Done] 全cohort×beam pairがcost16内であり、一段合成で予算が障害という説明は支持されなかった。learned exact child0/48、random1/48。有用childはlearned numeric0/24・route12/24。[詳細](STAR-Bit-E050-composition-budget-diagnostic.md)。
+- [Done] learned−random best-child errorはnumeric+2.625（分散0.41875、95% CI [2.2083,3.125]）、route+4.6667（分散2.99167、CI [3.6667,6.125]）。両Holm p=0.0625。既存候補との重複を含むため固有の利用利益とは呼ばない。
+- [Next] 同一cohortの有用childがround3選択で失われるかと、残る一段の利用機会を事前固定して診断する。予算拡張やsource選び直しを先行しない。
+- [Later] 意味効果の新seed独立確認後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と総物理費用へ進む。
