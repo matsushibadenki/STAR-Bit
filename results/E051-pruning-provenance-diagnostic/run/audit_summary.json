@@ -1,0 +1,306 @@
+{
+  "groups": {
+    "numeric:learned": {
+      "terminal": 12,
+      "eligible": 12,
+      "useful_beams": 0,
+      "useful": 0,
+      "pool_provenance": 0,
+      "retained": 0,
+      "retained_provenance": 0,
+      "selected_all_provenance": 4,
+      "round4_exact": 0,
+      "success_use": 0,
+      "rates": {
+        "selected_useful_signatures": null,
+        "selected_useful_provenance": null
+      },
+      "seed_count_stats": {
+        "useful_signatures": {
+          "mean": 0.0,
+          "variance": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "selected_useful_signatures": {
+          "mean": 0.0,
+          "variance": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "selected_useful_provenance": {
+          "mean": 0.0,
+          "variance": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "numeric:random": {
+      "terminal": 12,
+      "eligible": 12,
+      "useful_beams": 3,
+      "useful": 4,
+      "pool_provenance": 3,
+      "retained": 4,
+      "retained_provenance": 3,
+      "selected_all_provenance": 18,
+      "round4_exact": 0,
+      "success_use": 0,
+      "rates": {
+        "selected_useful_signatures": null,
+        "selected_useful_provenance": null
+      },
+      "seed_count_stats": {
+        "useful_signatures": {
+          "mean": 0.6666666666666666,
+          "variance": 1.4666666666666668,
+          "ci95": [
+            0.0,
+            1.6666666666666667
+          ],
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            1,
+            0
+          ]
+        },
+        "selected_useful_signatures": {
+          "mean": 0.6666666666666666,
+          "variance": 1.4666666666666668,
+          "ci95": [
+            0.0,
+            1.6666666666666667
+          ],
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            1,
+            0
+          ]
+        },
+        "selected_useful_provenance": {
+          "mean": 0.5,
+          "variance": 0.7,
+          "ci95": [
+            0.0,
+            1.1666666666666667
+          ],
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    "route:learned": {
+      "terminal": 13,
+      "eligible": 11,
+      "useful_beams": 5,
+      "useful": 170,
+      "pool_provenance": 170,
+      "retained": 0,
+      "retained_provenance": 0,
+      "selected_all_provenance": 0,
+      "round4_exact": 7,
+      "success_use": 0,
+      "rates": {
+        "selected_useful_signatures": null,
+        "selected_useful_provenance": null
+      },
+      "seed_count_stats": {
+        "useful_signatures": {
+          "mean": 28.333333333333332,
+          "variance": 212.66666666666666,
+          "ci95": [
+            16.166666666666668,
+            36.666666666666664
+          ],
+          "values": [
+            38,
+            0,
+            39,
+            35,
+            27,
+            31
+          ]
+        },
+        "selected_useful_signatures": {
+          "mean": 0.0,
+          "variance": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "selected_useful_provenance": {
+          "mean": 0.0,
+          "variance": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "route:random": {
+      "terminal": 13,
+      "eligible": 11,
+      "useful_beams": 11,
+      "useful": 847,
+      "pool_provenance": 771,
+      "retained": 23,
+      "retained_provenance": 16,
+      "selected_all_provenance": 22,
+      "round4_exact": 7,
+      "success_use": 0,
+      "rates": {
+        "selected_useful_signatures": {
+          "mean": 0.1455130571927401,
+          "variance": 0.014934561541442246,
+          "ci95": [
+            0.062368102236901986,
+            0.23950461769373455
+          ],
+          "values": [
+            0.08647798742138364,
+            0.25,
+            0.33717948717948715,
+            0.07418546365914787,
+            0.014124293785310734,
+            0.1111111111111111
+          ]
+        },
+        "selected_useful_provenance": {
+          "mean": 0.08063709632621317,
+          "variance": 0.003966098201547249,
+          "ci95": [
+            0.03499214137037509,
+            0.12692307692307692
+          ],
+          "values": [
+            0.08333333333333333,
+            0.125,
+            0.17051282051282052,
+            0.007518796992481203,
+            0.014124293785310734,
+            0.08333333333333333
+          ]
+        }
+      },
+      "seed_count_stats": {
+        "useful_signatures": {
+          "mean": 141.16666666666666,
+          "variance": 4280.566666666667,
+          "ci95": [
+            87.33333333333333,
+            179.33333333333334
+          ],
+          "values": [
+            171,
+            16,
+            133,
+            148,
+            184,
+            195
+          ]
+        },
+        "selected_useful_signatures": {
+          "mean": 3.8333333333333335,
+          "variance": 0.5666666666666667,
+          "ci95": [
+            3.3333333333333335,
+            4.333333333333333
+          ],
+          "values": [
+            3,
+            4,
+            3,
+            4,
+            5,
+            4
+          ]
+        },
+        "selected_useful_provenance": {
+          "mean": 2.6666666666666665,
+          "variance": 1.4666666666666668,
+          "ci95": [
+            2.0,
+            3.6666666666666665
+          ],
+          "values": [
+            2,
+            2,
+            2,
+            2,
+            5,
+            3
+          ]
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "numeric": null,
+    "route": null
+  },
+  "records": 96,
+  "verified_selected": 8832,
+  "seconds": 261.6667292500001,
+  "analysis_hash": "6487d44e0c3e8e569fc2eee9dfebc5c98255e42075f0aa30bad1fa86d423a0cf"
+}

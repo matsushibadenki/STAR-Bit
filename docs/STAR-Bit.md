@@ -1148,3 +1148,15 @@ English: All one-step cohort–beam pairs fit cost16; learned exact children0/48
 - [Done] 固定cohort一段合成予算診断。
 - [Next] round3枝刈りと残り一段の利用機会。
 - [Later] 独立意味確認後にState/Router/Expert交換。
+
+## 2026-10-07：E051 枝刈りでの消失を特定
+
+E049の96learned/random探索を再現した。非terminal routeの有用learned child170signatureはpoolで全てcohort式を保持したが、選択後0。安価な同一関数式への置換より枝刈りが直接の消失箇所だった。ただし通常候補より有用とは示さず、保護による精度向上は未検証。numeric非terminal12条件で有用learned child0。random routeは847中23signature保持、cohort式16。learnedの保持率は一部seedに分母がなく推定/対照検定しない。個数の平均・分散・CIと生データを保存した。[詳細](STAR-Bit-E051-pruning-provenance-diagnostic.md)。
+
+English: All170 useful learned routing child signatures survived in canonical pool syntax, but none survived selection. This retrospective diagnosis locates pruning loss, not accuracy benefit; missing seed denominators preclude paired retention tests.
+
+简体中文：170个有用学习路由子signature在规范pool中全部保留，但选择后为0。回顾性诊断定位剪枝损失，不证明准确率收益；种子分母缺失，未进行成对保持率检验。
+
+- [Done] round3 pool/selectionとcanonical式を分離して診断。
+- [Next] 総beam192固定・一段保持枠を新規calibration seedで事前比較する案を準備。
+- [Later] 独立意味確認後のState/Router/Expert交換と物理費用。

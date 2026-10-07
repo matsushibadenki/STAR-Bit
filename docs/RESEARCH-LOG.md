@@ -546,3 +546,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] learned−random best-child errorはnumeric+2.625（分散0.41875、95% CI [2.2083,3.125]）、route+4.6667（分散2.99167、CI [3.6667,6.125]）。両Holm p=0.0625。既存候補との重複を含むため固有の利用利益とは呼ばない。
 - [Next] 同一cohortの有用childがround3選択で失われるかと、残る一段の利用機会を事前固定して診断する。予算拡張やsource選び直しを先行しない。
 - [Later] 意味効果の新seed独立確認後、State形成・分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と総物理費用へ進む。
+
+## E051：枝刈りとCanonical式の保持診断（2026-10-07）
+
+- [Done] E049固定条件のlearned/randomを全96探索で変更なしに再現し、round3 pool/選択beamを記録した（約261.7秒）。全outcome・式・費用・round1/2 beam・入力幅一致、8832選択式再評価とhash/progressを監査した。回顧的機構診断であり独立確認ではない。[詳細](STAR-Bit-E051-pruning-provenance-diagnostic.md)。
+- [Done] 非terminal routeでlearned有用child170signatureは全てpoolにcohort構文を保持したが、選択後は0。直接の消失箇所は枝刈りだった。numeric非terminal12条件のlearned有用child0。random routeは847中23signature保持、うちcohort式16。全条件の成功でcohort使用0。
+- [Done] terminalと有用childなしの分母を区別した。learnedの全6seed保持率は分母欠損で推定せず、対照差検定も実施しない。全seedの個数平均・不偏分散・bootstrap CIを保存し、欠損保持率を0で補わない。
+- [Next] 総beam192を固定した一段の新規cohort子候補保持枠を、target非依存の候補選択・新規calibration seedで検証する案を事前登録する。baseline/learned/inert/randomと、保持枠による通常候補の減少費用を比較する。独立確認seedを別にする。
+- [Later] 意味利益の独立確認後にState形成/分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と物理費用を検証する。

@@ -86,3 +86,5 @@ python3 experiments/report_logic_modules.py
 16シード×2問題族×3抽出方式。全11入力の真理値表で等価性を検査し、16/32/64 PEによる時分割実行も照合する。これは与えられた回路ソースからのライブラリ発見であり、入出力例からのDLGN学習ではない。標準出力先results/logic_modulesは再実行で上書きされる。
 
 - [E050：合成予算の機構診断](docs/STAR-Bit-E050-composition-budget-diagnostic.md)
+
+- [E051：枝刈りと式保持の診断](docs/STAR-Bit-E051-pruning-provenance-diagnostic.md)
