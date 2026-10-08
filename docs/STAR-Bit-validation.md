@@ -449,3 +449,16 @@ English: All170 useful learned routing child signatures survived in canonical po
 - [Done] round3 pool/selectionとcanonical式を分離して診断。
 - [Next] 総beam192固定・一段保持枠を新規calibration seedで事前比較する案を準備。
 - [Later] 独立意味確認後のState/Router/Expert交換と物理費用。
+
+## 2026-10-08：E052 一段保持枠の校正は未完
+
+総beam192を固定し、round3のみ新規cohort子候補に最大16枠をtarget非依存で割り当てた。全8task・新規6seed・5条件の事前240探索中233を時間上限900.075秒で停止、残り7条件を固定保存した。主比較・CI・検定・gateは全条件完了まで保留する。保持枠に伴う通常候補の排除と費用を含めて評価する。[詳細](STAR-Bit-E052-one-round-reserve-calibration.md)。
+
+English: The fixed-width one-round reserve calibration stopped at its time cap after233/240 searches. Seven fixed conditions remain; effect estimation and decisions are deferred until completion.
+
+简体中文：固定宽度的单轮保留槽校准在时间上限停止，完成233/240项。保留7个固定条件，全部完成前不估计效果或作选择。
+
+- [Done] 保持枠実装、事前登録、233条件監査と未完状態保存。
+- [Next] 別chunkで残り7条件だけを実施し全240条件統合。
+- [Later] 独立確認後にState/Router/Expert交換。
+- [Pending] 実デバイスの物理PE/GPU性能検証。

@@ -1,0 +1,48 @@
+{
+  "complete": false,
+  "records": 233,
+  "planned": 240,
+  "missing": [
+    {
+      "seed": 1675,
+      "task": "route_nested_mux",
+      "condition": "baseline"
+    },
+    {
+      "seed": 1675,
+      "task": "route_nested_mux",
+      "condition": "inert_reserve"
+    },
+    {
+      "seed": 1675,
+      "task": "route_nested_mux",
+      "condition": "learned_reserve"
+    },
+    {
+      "seed": 1675,
+      "task": "route_nested_mux",
+      "condition": "learned_standard"
+    },
+    {
+      "seed": 1675,
+      "task": "route_nested_mux",
+      "condition": "random_reserve"
+    },
+    {
+      "seed": 1675,
+      "task": "route_rotated_cross_xnor",
+      "condition": "inert_reserve"
+    },
+    {
+      "seed": 1675,
+      "task": "route_rotated_cross_xnor",
+      "condition": "random_reserve"
+    }
+  ],
+  "solutions_verified": 158,
+  "selected_verified": 12864,
+  "random_verified": 384,
+  "search_seconds": 900.0748122480009,
+  "primary_status": "pending: preregistered suite incomplete; no effect tests or gate",
+  "analysis_hash": "83afac6158a389a2945d7fcaa2aec7e71e0f90deba34dfe222d054172c338186"
+}

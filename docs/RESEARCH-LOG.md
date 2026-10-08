@@ -554,3 +554,11 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Done] terminalと有用childなしの分母を区別した。learnedの全6seed保持率は分母欠損で推定せず、対照差検定も実施しない。全seedの個数平均・不偏分散・bootstrap CIを保存し、欠損保持率を0で補わない。
 - [Next] 総beam192を固定した一段の新規cohort子候補保持枠を、target非依存の候補選択・新規calibration seedで検証する案を事前登録する。baseline/learned/inert/randomと、保持枠による通常候補の減少費用を比較する。独立確認seedを別にする。
 - [Later] 意味利益の独立確認後にState形成/分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換と物理費用を検証する。
+
+## E052：固定容量の一段保持枠校正・時間停止（2026-10-08）
+
+- [Done] 新規校正seed1670–1675、全8task、source8、最大16保持枠、総beam192固定、baseline/learned standard/learned reserve/inert reserve/random reserveの240探索を事前登録した。予約候補はtarget非依存の費用/hash順で、通常候補の排除費用も記録する。
+- [Done] 233/240探索を900.075秒で停止した。時間上限は探索間で確認するため最後の1探索分の小さな超過がある。preflightは別計測。source非衝突、random384式を先に固定し、158成功式・12864選択式、共通beam/幅・progress/hashを監査した。[詳細](STAR-Bit-E052-one-round-reserve-calibration.md)。
+- [Next] 残り7固定条件のみを別の時間制限付きchunkとして事前登録し実行する。今回の900秒停止を延長せず、既存結果を上書きしない。全240統合後に平均・分散・CI・効果量・Holm検定を報告する。部分結果でpolicy/seed/task/sourceを変更しない。
+- [Later] 校正完了後に必要な独立確認を固定し、State形成/分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換へ進む。
+- [Pending] 物理PE/GPU・実デバイスによる総実行費用の確認は、このCPU記号探索環境では未検証。

@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 1675,
+    "task": "route_nested_mux",
+    "condition": "baseline"
+  },
+  {
+    "seed": 1675,
+    "task": "route_nested_mux",
+    "condition": "inert_reserve"
+  },
+  {
+    "seed": 1675,
+    "task": "route_nested_mux",
+    "condition": "learned_reserve"
+  },
+  {
+    "seed": 1675,
+    "task": "route_nested_mux",
+    "condition": "learned_standard"
+  },
+  {
+    "seed": 1675,
+    "task": "route_nested_mux",
+    "condition": "random_reserve"
+  },
+  {
+    "seed": 1675,
+    "task": "route_rotated_cross_xnor",
+    "condition": "inert_reserve"
+  },
+  {
+    "seed": 1675,
+    "task": "route_rotated_cross_xnor",
+    "condition": "random_reserve"
+  }
+]
