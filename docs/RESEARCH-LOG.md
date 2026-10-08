@@ -562,3 +562,12 @@ English: Continue research through bounded hypothesis–experiment–verificatio
 - [Next] 残り7固定条件のみを別の時間制限付きchunkとして事前登録し実行する。今回の900秒停止を延長せず、既存結果を上書きしない。全240統合後に平均・分散・CI・効果量・Holm検定を報告する。部分結果でpolicy/seed/task/sourceを変更しない。
 - [Later] 校正完了後に必要な独立確認を固定し、State形成/分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換へ進む。
 - [Pending] 物理PE/GPU・実デバイスによる総実行費用の確認は、このCPU記号探索環境では未検証。
+
+## E053：E052保持枠校正の固定全条件完了（2026-10-09）
+
+- 🟢 [Done] E052の233条件・時間停止を変更せず、事前保存の残り7条件を別chunkで実行した（15.7秒）。source/seed/task/policy/random固定、全240unique recordを統合した。165成功式・13824選択式・source8/random384式、幅、progress/source hashを監査した。[詳細](STAR-Bit-E053-reserve-calibration-completion.md)。
+- 🟢 [Done] 全5条件numeric12/24・route21/24。learned reserve−standard/inert/randomの主3差は各平均0、不偏分散0、95% CI [0,0]、p=1、Holm p=1、dz未定義。副次6差も全て0、learned reserve成功使用0、校正gate未達。best errorも全条件で同じ。
+- 🟢 [Done] learned reserveで保護384枠、通常候補の排除384件が実際に発生したが、精度利益を確認できなかった。枝刈りによる消失の診断と保持による改善は別であり、この費用/hash順policyの負結果を保存する。
+- 🟠 [Next] 同じ固定cohortの保護候補が残り一段で解へ合成できるかを診断し、費用優先rankが必要な合成情報を落としているかを調べる。保持枠数の事後探索やseed追加でgateを救済しない。
+- 🔴 [Later] 新policyの独立確認後にState形成/分解、初回負荷分散Router、固定random経路、同一run内→別seed Expert交換。
+- ⭕️ [Pending] 物理PE/GPU・実デバイスの実行性能はCPU記号探索では未検証。

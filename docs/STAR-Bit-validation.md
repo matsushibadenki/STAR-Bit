@@ -462,3 +462,16 @@ English: The fixed-width one-round reserve calibration stopped at its time cap a
 - [Next] 別chunkで残り7条件だけを実施し全240条件統合。
 - [Later] 独立確認後にState/Router/Expert交換。
 - [Pending] 実デバイスの物理PE/GPU性能検証。
+
+## 2026-10-09：E053 固定容量の保持だけでは改善せず
+
+E052の停止済み233条件は保持し、残り7固定条件を別chunkで完了した。全240探索で5条件全てnumeric12/24・route21/24。主3比較・副次6比較は差0、Holm p=1、learned reserve成功使用0、校正gate未達。保護384枠・通常候補排除384件が発生しても精度利益はなかった。費用/hash優先のtarget非依存保持policyに限定した負結果であり、全ての保持手法が無効とは結論しない。[詳細](STAR-Bit-E053-reserve-calibration-completion.md)。
+
+English: Completing the frozen suite gave zero exact benefit for the reserve (all primary Holm p=1), despite384 protected learned slots. Pruning loss does not imply that protection improves accuracy.
+
+简体中文：冻结校准全部完成后，保留槽exact收益为0（主要比较Holm p=1），尽管保护384个学习候选。剪枝损失不代表保护会提高准确率。
+
+- 🟢 [Done] 全240固定条件の統合監査と負結果保存。
+- 🟠 [Next] 保護候補の残り一段合成情報と費用優先rankの機構診断。
+- 🔴 [Later] 独立意味確認後のState/Router/Expert交換。
+- ⭕️ [Pending] 物理PE/GPU・実デバイス性能検証。

@@ -90,3 +90,5 @@ python3 experiments/report_logic_modules.py
 - [E051：枝刈りと式保持の診断](docs/STAR-Bit-E051-pruning-provenance-diagnostic.md)
 
 - [E052：一段保持枠の校正（233/240、時間停止）](docs/STAR-Bit-E052-one-round-reserve-calibration.md)
+
+- [E053：保持枠校正240条件完了・利益未確認](docs/STAR-Bit-E053-reserve-calibration-completion.md)
